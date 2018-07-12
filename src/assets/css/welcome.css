@@ -1,0 +1,96 @@
+.mhacks-top-nav {
+  list-style: none;
+  text-decoration: none;
+}
+
+.mhacks-tn-left-logo {
+  list-style-type: none;
+  float: left;
+  padding: 15px 15px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+  color: #272727;
+}
+
+.mhacks-tn-left-logo a {
+  float: left;
+  padding: 20px 15px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #272727;
+}
+
+.mhacks-tn-right-item {
+  list-style-type: none;
+  float: right;
+  padding: 20px 20px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.mhacks-tn-right-item a {
+  float: right;
+  padding: 20px 20px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #272727;
+  cursor: pointer;
+}
+
+.mhacks-tn-right-item a:hover {
+  float: right;
+  padding: 20px 20px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  text-decoration: none;
+  cursor: pointer;
+  color: #272727;
+}
+
+.mhacks-top-bg {
+  background-image: url('../images/topBg.svg');
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position-x: 100%;
+  height: 1300px;
+}
+
+.mhacks-top-header {
+  font-family: 'Muli', sans-serif;
+  font-weight: 200;
+  font-size: 4em;
+  margin-top: 19%;
+  margin-left: 7%;
+}
+
+.mhacks-top-para {
+  font-family: 'Muli', sans-serif;
+  font-weight: 200;
+  font-size: 2em;
+  margin-top: 4%;
+  margin-left: 11%;
+}
+
+.mhacks-top-btn {
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-top: 4%;
+  margin-left: 7%;
+  background-color: #272727;
+  width: 200px;
+  height: 60px;
+  border-radius: .375rem;
+  padding: 12px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
