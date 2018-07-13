@@ -10,7 +10,7 @@
   font-family: 'Muli', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
-  color: #272727;
+  color: #283149;
 }
 
 .mhacks-tn-left-logo a {
@@ -20,7 +20,7 @@
   font-weight: 500;
   font-size: 1.3em;
   text-decoration: none;
-  color: #272727;
+  color: #283149;
 }
 
 .mhacks-tn-right-item {
@@ -40,7 +40,7 @@
   font-weight: 300;
   font-size: 1.3em;
   text-decoration: none;
-  color: #272727;
+  color: #283149;
   cursor: pointer;
 }
 
@@ -52,7 +52,7 @@
   font-size: 1.3em;
   text-decoration: none;
   cursor: pointer;
-  color: #272727;
+  color: #283149;
 }
 
 .mhacks-top-bg {
@@ -60,12 +60,12 @@
   background-repeat: no-repeat;
   width: 100%;
   background-position-x: 100%;
-  height: 1300px;
+  height: 1000px;
 }
 
 .mhacks-top-header {
   font-family: 'Muli', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 4em;
   margin-top: 19%;
   margin-left: 7%;
@@ -85,7 +85,7 @@
   font-size: 1.5em;
   margin-top: 4%;
   margin-left: 7%;
-  background-color: #272727;
+  background-color: #283149;
   width: 200px;
   height: 60px;
   border-radius: .375rem;
@@ -93,4 +93,296 @@
   text-align: center;
   color: #fff;
   cursor: pointer;
+}
+
+.mhacks-mid-bg {
+  background-image: url('../images/serviceshadow.svg');
+  background-repeat: no-repeat;
+  background-position-x: 5%;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 1%;
+}
+
+.mhacks-mid-header {
+  font-family: 'Muli', sans-serif;
+  font-size: 4em;
+  font-weight: 300;
+  padding-top: 5%;
+  text-align: left;
+  padding-left: 20%;
+}
+
+.mhacks-mid-pic {
+  width: 100%;
+  height: 200px;
+  cursor: pointer;
+  padding: 35px;
+}
+
+.mhacks-mid-container {
+  margin-left: 25%;
+}
+
+.mhacks-mid-pic-text {
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #283149;
+  cursor: pointer;
+  margin-top: -20%;
+}
+
+.mhacks-mid-content {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
+  font-weight: 200;
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-bottom: 5%;
+  line-height: 3em;
+}
+
+.mhacks-mid-content-pic {
+  width: 100%;
+  height: 300px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.mhacks-mid-ft {
+  background-image: url('../images/computer.svg');
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.mhacks-mid-ft-content {
+  background-image: url('../images/ftvec.svg');
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.mhacks-mid-ft-text {
+  font-family: 'Muli', sans-serif;
+  font-size: 4em;
+  font-weight: 300;
+  margin-top: 30%;
+  text-align: right;
+  padding-top: 10%;
+  padding-right: 28%;
+}
+
+.mhacks-mid-ft-list {
+  width: 100%;
+  height: 50px;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+.mhacks-mid-ft-list-name {
+  font-family: 'Muli';
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 5%;
+  cursor: pointer;
+  color: #f73589;
+}
+
+.mhacks-mid-ft-list-para {
+  font-family: 'Muli';
+  font-size: 1.5em;
+  font-weight: 200;
+  text-align: left;
+  padding-left: 20%;
+  line-height: 1.7em;
+  color: #283149;
+}
+
+.mhacks-mid-ft-list-two-para {
+  font-family: 'Muli';
+  font-size: 1.5em;
+  font-weight: 200;
+  text-align: left;
+  padding-left: 30%;
+  line-height: 1.7em;
+  color: #283149;
+  margin-bottom: 5%;
+}
+
+.mhacks-mid-mission-bg {
+  background-image: url('../images/missionvec.svg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+}
+
+.mhacks-mid-mission-text {
+  font-family: 'Muli', sans-serif;
+  font-size: 4em;
+  font-weight: 300;
+  padding-left: 20%;
+  padding-top: 7%;
+}
+
+.mhacks-mid-mission-content {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
+  font-weight: 200;
+  color: #283149;
+  text-align: justify;
+  margin-top: 3%;
+}
+
+.mhacks-mid-mission-sec-bg {
+  background-image: url('../images/mission.svg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+}
+
+.mhacks-mid-team-header {
+  font-family: 'Muli', sans-serif;
+  font-size: 4em;
+  font-weight: 300;
+  text-align: center;
+  margin-top: -15%;
+}
+
+.mhacks-mid-team-card {
+  background-color: #fff;
+  width: 100%;
+  height: 500px;
+  margin-top: -17%;
+  margin-bottom: 5%;
+}
+
+.mhacks-mid-team-card-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 5%;
+}
+
+.mhacks-mid-team-card-pic-name {
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.mhacks-mid-team-card-pic-position {
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+.mhacks-mid-team-card-pic-quote {
+  font-family: 'Muli', sans-serif;
+  margin-top: 2%;
+  font-weight: 300;
+  font-size: 1.7em;
+  margin-bottom: 4%;
+}
+
+.mhacks-mid-team-card-other-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 6%;
+  cursor: pointer;
+}
+
+.mhacks-mid-team-container {
+  margin-left: 32%;
+}
+
+.mhacks-last-contact-bg {
+  background-image: url('../images/svect.svg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 150px;
+  background-position-x: 65%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.mhacks-last-contact-header {
+  font-family: 'Muli', sans-serif;
+  font-size: 4em;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.mhacks-last-contact-input {
+  border: 1px solid #283149;
+  width: 80%;
+  padding: 12px;
+  color: #283149;
+  font-family: 'Muli', sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  border-radius: .375rem;
+  margin-bottom: 5%;
+}
+
+.mhacks-last-contact-textarea {
+  border: 1px solid #283149;
+  width: 80%;
+  padding: 12px;
+  color: #8e8e8e;
+  font-family: 'Muli', sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  border-radius: .375rem;
+  margin-bottom: 5%;
+  resize: none;
+}
+
+.mhacks-last-contact-btn {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  border-radius: .375rem;
+  margin-bottom: 5%;
+  background-color: #283149;
+  color: #fff;
+  width: 80%;
+  height: 50px;
+  text-align: center;
+  padding: 12px;
+}
+
+.mhacks-last-contact-input-header {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  color: #283149;
+  margin-bottom: 2%;
+}
+
+.mhacks-last-contact-input-bg {
+  background-image: url('../images/mailvect.svg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  background-position-x: 100%;
+}
+
+.mhacks-last-footer-bg {
+  margin-top: 5%;
+  background-image: url('../images/btmvect.svg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
 }
