@@ -75,10 +75,18 @@
         <!-- Content Section -->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="mhacks-mid-content">
+            <span class="mhacks-mid-content-list-item">
             Attractive real-world projects to be done.<br>
+            </span>
+            <span class="mhacks-mid-content-list-item">
             Learn Industry Practices.<br>
+            </span>
+            <span class="mhacks-mid-content-list-item">
             Enhance skills doing real-world projects.<br>
+            </span>
+            <span class="mhacks-mid-content-list-item">
             Earn rewards based on work done.<br>
+            </span>
           </div>
         </div>
         <!-- End -->
@@ -175,7 +183,7 @@
       </div>
     </div>
     <!-- End -->
-    <!-- Features Images Tiltle Section -->
+    <!-- Features Images Title Section -->
     <div class="container mhacks-mid-container">
       <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -208,7 +216,7 @@
     </div>
     <!-- End -->
     <!-- Mission Section -->
-    <div class="row">
+    <div class="row" style="margin-top:5%;">
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
         <!-- Mission Title -->
         <div class="row">
