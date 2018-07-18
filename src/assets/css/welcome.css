@@ -56,11 +56,13 @@
 }
 
 .mhacks-top-bg {
+  position: relative;
   background-image: url('../images/topBg.svg');
   background-repeat: no-repeat;
   width: 100%;
   background-position-x: 100%;
   height: 1000px;
+  z-index: -1;
 }
 
 .mhacks-top-header {
@@ -93,6 +95,18 @@
   text-align: center;
   color: #fff;
   cursor: pointer;
+}
+
+.mhacks-top-btn:hover{
+  transition: all 0.4s ease-in-out;
+  background-color: transparent;
+  border: 1.2px solid #283149;
+  color: #283149;
+  box-shadow: 0 0 11px #ccc;
+}
+
+.mhacks-top-btn:active{
+  transform: translateY(6px);
 }
 
 .mhacks-mid-bg {
@@ -385,4 +399,163 @@
   background-repeat: no-repeat;
   width: 100%;
   height: 200px;
+}
+
+/* Media Queries */
+/* Laptop screens(upto 1366 px) */
+@media only screen and (max-width: 1366px){
+  .mhacks-tn-left-logo {
+    padding: 10px 5px;
+  }
+  
+  .mhacks-tn-left-logo a {
+    padding: 15px 5px;
+  }
+  
+  .mhacks-tn-right-item {
+    padding: 15px 10px;
+    margin-left: -16vw;
+    margin-right: 16vw;
+  }
+  
+  .mhacks-tn-right-item a {
+    padding: 15px 10px;
+  }
+  
+  .mhacks-tn-right-item a:hover {
+    padding: 15px 10px;
+  }
+
+  .mhacks-top-bg{
+    height: 700px;
+  }
+
+  .mhacks-top-header{
+    font-size: 3.4em;
+    margin-top: 14%;
+  }
+
+  .mhacks-top-para{
+    font-size: 1.7em;
+  }
+
+  .mhacks-mid-bg{
+    height: 160px;
+  }
+
+  .mhacks-mid-header{
+    font-size: 3.2em;
+  }
+
+  .mhacks-mid-ft{
+    height: 520px;
+  }
+
+  .mhacks-mid-ft-content{
+    height: 180px;
+  }
+
+  .mhacks-mid-ft-text{
+    font-size: 3.4em;
+    padding-left: -26%;
+  }
+  
+  .mhacks-mid-container{
+    margin-left: 6%;
+  }
+
+  .mhacks-mid-mission-text{
+    font-size: 3.4em;
+  }
+
+  .mhacks-mid-mission-bg{
+    height: 160px;
+  }
+
+  .mhacks-mid-mission-content{
+    margin-top: 10%;
+    font-size: 1.4em;
+    line-height: 1.67em;
+  }
+
+  .mhacks-last-contact-bg{
+    height: 120px;
+  }
+
+  .mhacks-last-contact-header{
+    font-size: 3.4em;
+  }
+
+  .mhacks-last-contact-input, .mhacks-last-contact-textarea{
+    font-size: 1em;
+    padding: 8px;
+  }
+
+  .mhacks-last-contact-btn{
+    height: 40px;
+    font-size: 1.1em;
+    padding: 8px;
+    font-weight: bold;
+  }
+
+  .mhacks-last-contact-input-bg{
+    height: 450px;
+  }
+
+  .mhacks-last-footer-bg{
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 1330px){
+  .mhacks-tn-right-item{
+    margin-left: -24vw;
+    margin-right: 24vw;
+  }
+
+  .mhacks-top-header{
+    font-size: 3.3em;
+  }
+
+  .mhacks-top-para{
+    font-size: 1.6em;
+  }
+
+}
+
+@media only screen and (max-width: 1290px){
+  .mhacks-tn-right-item{
+    margin-left: -28vw;
+    margin-right: 28vw;
+  }
+
+  .mhacks-top-bg{
+    height: 660px;
+  }
+
+  .mhacks-top-header{
+    font-size: 3.1em;
+  }
+
+  .mhacks-top-para{
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 1220px){
+  .mhacks-top-header{
+    font-size: 2.8em;
+  }
+
+  .mhacks-top-para{
+    font-size: 1.4em;
+  }
+
+  .mhacks-top-bg{
+    height: 640px;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  
 }
