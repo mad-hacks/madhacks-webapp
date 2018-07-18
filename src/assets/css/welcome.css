@@ -97,13 +97,13 @@
   cursor: pointer;
 }
 
-.mhacks-top-btn:hover{
+/* .mhacks-top-btn:hover{
   transition: all 0.4s ease-in-out;
   background-color: transparent;
   border: 1.2px solid #283149;
   color: #283149;
   box-shadow: 0 0 11px #ccc;
-}
+} */
 
 .mhacks-top-btn:active{
   transform: translateY(6px);
@@ -155,6 +155,10 @@
   margin-left: 25%;
   margin-bottom: 5%;
   line-height: 3em;
+}
+
+.mhacks-mid-content-list-item{
+  display: list-item;
 }
 
 .mhacks-mid-content-pic {
@@ -474,6 +478,7 @@
 
   .mhacks-mid-mission-content{
     margin-top: 10%;
+    margin-left: 7%;
     font-size: 1.4em;
     line-height: 1.67em;
   }
@@ -557,5 +562,16 @@
 }
 
 @media only screen and (max-width: 1200px){
-  
+  .mhacks-tn-right-item{
+    margin-left: -30vw;
+    margin-right: 30vw;
+  }
+
+  .mhacks-top-bg{
+    height: 620px;
+  }
+}
+
+@media only screen and (max-width:1199px){
+
 }
