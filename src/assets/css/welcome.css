@@ -639,6 +639,99 @@
   }
 }
 
-@media only screena and (max-width: 990px){
+@media only screen and (max-width: 991px){
+  .mhacks-tn-right-item{
+    margin-left: -2vw;
+    margin-right: 2vw;
+  }
 
+  .mhacks-top-bg{
+    height: 480px;
+  }
+
+  .mhacks-top-header{
+    font-size: 2.4em;
+  }
+
+  .mhacks-top-para{
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 965px){
+  .mhacks-tn-right-item{
+    margin-left: -8vw;
+    margin-right: 8vw;
+    font-size: 1em;
+  }
+
+  .mhacks-tn-left-logo{
+    font-size: 1em;
+  }
+
+  .mhacks-top-bg{
+    height: 420px;
+  }
+
+  .mhacks-top-header{
+    font-size: 2.3em;
+  }
+
+  .mhacks-top-para{
+    font-size: 1.1em;
+  }
+
+  .mhacks-top-btn{
+    font-size: 1.1em;
+    width: 160px;
+    height: 45px;
+  }
+}
+
+@media only screen and (max-width: 894px){
+  .mhacks-top-header{
+    font-size: 2.2em;
+  }
+
+  .mhacks-top-para{
+    font-size: 1em;
+  }
+
+  .mhacks-top-btn{
+    font-size: 1em;
+    height: 45px;
+    width: 140px;
+  }
+
+  .mhacks-top-bg{
+    height: 400px;
+  }
+
+  .mhacks-tn-left-logo{
+    font-size: 0.9em;
+  }
+
+  .mhacks-tn-right-item{
+    font-size: 0.9em;
+    margin-left: -12vw;
+    margin-right: 12vw;
+  }
+}
+
+@media only screen and (max-width: 850px){
+  .mhacks-top-header{
+    font-size: 2.1em;
+  }
+
+  .mhacks-tn-right-item{
+    margin-left: -18vw;
+    margin-right: 18vw;
+  }
+}
+
+@media only screen and (max-width: 810px){
+  .mhacks-tn-right-item{
+    margin-left: -24vw;
+    margin-right: 24vw;
+  }
 }
