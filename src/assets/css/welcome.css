@@ -457,7 +457,7 @@
   }
 
   .mhacks-mid-ft-content{
-    height: 150px;
+    height: 130px;
   }
 
   .mhacks-mid-ft-text{
@@ -486,11 +486,11 @@
   }
 
   .mhacks-last-contact-bg{
-    height: 120px;
+    height: 110px;
   }
 
   .mhacks-last-contact-header{
-    font-size: 3.4em;
+    font-size: 3.1em;
   }
 
   .mhacks-last-contact-input, .mhacks-last-contact-textarea{
@@ -588,7 +588,7 @@
   }
 
   .mhacks-mid-ft-content{
-    height: 160px;
+    height: 120px;
   }
 
   .mhacks-mid-container{
@@ -616,6 +616,26 @@
 
   .mhacks-mid-ft{
     height: 560px;
+  }
+
+  .mhacks-mid-container{
+    margin-left: 8%;
+  }
+
+  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-name{
+    font-size: 1.3em;
+  }
+
+  .mhacks-mid-team-card-pic-quote{
+    font-size: 1.4em;
+  }
+
+  .mhacks-mid-team-card-pic-name{
+    font-size: 1.3em;
+  }
+
+  .mhacks-mid-team-card-pic-position{
+    font-size: 1.3em;
   }
 }
 
@@ -674,6 +694,10 @@
     width: 180px;
     height: 50px;
   }
+
+  .mhacks-mid-container{
+    margin-left: 2%;
+  }
 }
 
 @media only screen and (max-width: 1040px){
@@ -687,6 +711,10 @@
   .mhacks-tn-right-item{
     margin-left: -24vw;
     margin-right: 24vw;
+  }
+
+  .mhacks-mid-container{
+    margin-left: 1%;
   }
 }
 
@@ -725,6 +753,10 @@
 
   .mhacks-mid-content-pic{
     height: 280px;
+  }
+
+  .mhacks-mid-container{
+    margin-left: 12%;
   }
 }
 
