@@ -443,6 +443,12 @@
     font-size: 1.7em;
   }
 
+  .mhacks-top-btn{
+    font-size: 1.3em;
+    width: 180px;
+    height: 50px;
+  }
+
   .mhacks-mid-bg{
     height: 130px;
   }
@@ -483,6 +489,10 @@
     margin-left: 7%;
     font-size: 1.4em;
     line-height: 1.67em;
+  }
+
+  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-name, .mhacks-mid-ft-list-two-para{
+    font-size: 1.5em;
   }
 
   .mhacks-last-contact-bg{
@@ -622,7 +632,7 @@
     margin-left: 8%;
   }
 
-  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-name{
+  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-name, .mhacks-mid-ft-list-two-para{
     font-size: 1.3em;
   }
 
@@ -687,12 +697,6 @@
   .mhacks-top-para{
     font-size: 1.3em;
     letter-spacing: 0.8px;
-  }
-
-  .mhacks-top-btn{
-    font-size: 1.3em;
-    width: 180px;
-    height: 50px;
   }
 
   .mhacks-mid-container{
