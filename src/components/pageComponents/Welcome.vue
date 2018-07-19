@@ -264,53 +264,27 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <div class="mhacks-mid-team-card">
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <center>
-                  <img class="mhacks-mid-team-card-pic" src="../../assets/images/alan.jpeg"/>
-                </center>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <center>
-                  <div class="mhacks-mid-team-card-pic-name">Alan Mathew</div>
-                </center>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <center>
-                  <div class="mhacks-mid-team-card-pic-position">Back-End Dev</div>
-                </center>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <center>
-                  <div class="mhacks-mid-team-card-pic-quote">
-                    <i class="fas fa-quote-left"></i>
-                      Our business relies on fast and reliable talent and support.<br>
-                      Some sort of relevant text appear here.
-                    <i class="fas fa-quote-right"></i>
-                  </div>
-                </center>
-              </div>
-            </div>
+
+            <transition enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
+            <keep-alive>
+              <component :is="renderedComponent"></component>
+            </keep-alive>
+            </transition>
+            
             <div class="container mhacks-mid-team-container">
               <center>
               <div class="row">
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/alan.jpeg" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/alan.jpeg" @click="renderedComponent='Alan'" class="mhacks-mid-team-card-other-pic"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/dani.jpeg" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/dani.jpeg" @click="renderedComponent='Dani'" class="mhacks-mid-team-card-other-pic"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/james.jpeg" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/james.jpeg" @click="renderedComponent='James'" class="mhacks-mid-team-card-other-pic"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/kavi.jpeg" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/kavi.jpeg" @click="renderedComponent='Kavi'" class="mhacks-mid-team-card-other-pic"/>
                 </div>
               </div>
               </center>
@@ -384,7 +358,27 @@
   </div>
   <!-- End -->
 </template>
+
 <script>
+  import James from './Team/James.vue'
+  import Kavi from './Team/Kavi.vue'
+  import Alan from './Team/Alan.vue'
+  import Dani from './Team/Dani.vue'
+
+  export default{
+    data: function () {
+      return {
+        renderedComponent: 'James'
+      }
+    },
+    components: {
+      James,
+      Kavi,
+      Alan,
+      Dani
+    }
+  }
 </script>
+
 <style src="../../assets/css/welcome.css" scoped>
 </style>
