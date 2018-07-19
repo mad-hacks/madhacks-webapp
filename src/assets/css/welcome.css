@@ -444,11 +444,12 @@
   }
 
   .mhacks-mid-bg{
-    height: 160px;
+    height: 130px;
   }
 
   .mhacks-mid-header{
-    font-size: 3.2em;
+    font-size: 3em;
+    padding-top: 3%;
   }
 
   .mhacks-mid-ft{
@@ -456,12 +457,13 @@
   }
 
   .mhacks-mid-ft-content{
-    height: 180px;
+    height: 150px;
   }
 
   .mhacks-mid-ft-text{
-    font-size: 3.4em;
+    font-size: 3.1em;
     padding-left: -26%;
+    padding-top: 7%;
   }
   
   .mhacks-mid-container{
@@ -469,11 +471,11 @@
   }
 
   .mhacks-mid-mission-text{
-    font-size: 3.4em;
+    font-size: 3.1em;
   }
 
   .mhacks-mid-mission-bg{
-    height: 160px;
+    height: 140px;
   }
 
   .mhacks-mid-mission-content{
@@ -510,6 +512,19 @@
   .mhacks-last-footer-bg{
     height: 150px;
   }
+
+  .mhacks-last-contact-input {
+    width: 60%;
+  }
+  
+  .mhacks-last-contact-textarea {
+    width: 60%;
+  }
+  
+  .mhacks-last-contact-btn {
+    width: 60%;
+    height: 40px;
+  }
 }
 
 @media only screen and (max-width: 1330px){
@@ -545,6 +560,10 @@
   .mhacks-top-para{
     font-size: 1.5em;
   }
+
+  .mhacks-mid-container{
+    margin-left: 4%;
+  }
 }
 
 @media only screen and (max-width: 1220px){
@@ -560,16 +579,20 @@
     height: 640px;
   }
 
-  .mhacks-mid-header{
+  .mhacks-mid-content{
+    font-size: 1.4em;
+  }
+
+  .mhacks-mid-ft-text{
     font-size: 3em;
   }
 
-  .mhacks-mid-bg{
-    height: 150px;
+  .mhacks-mid-ft-content{
+    height: 160px;
   }
 
-  .mhacks-mid-content{
-    font-size: 1.4em;
+  .mhacks-mid-container{
+    margin-left: 2%;
   }
 }
 
@@ -588,7 +611,11 @@
   }
 
   .mhacks-mid-bg{
-    height: 140px;
+    height: 120px;
+  }
+
+  .mhacks-mid-ft{
+    height: 560px;
   }
 }
 
