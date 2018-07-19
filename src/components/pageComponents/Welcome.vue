@@ -247,7 +247,7 @@
       <!-- End -->
       <!-- Mission Section Background -->
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-        <div class="mhacks-mid-mission-sec-bg"></div>
+        <img src="../../assets/images/mission.svg" class="mhacks-mid-mission-sec-bg">
       </div>
       <!-- End -->
     </div>

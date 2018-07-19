@@ -16,6 +16,7 @@
 .mhacks-tn-left-logo a {
   float: left;
   padding: 20px 15px;
+  padding-top: 25px;
   font-family: 'Muli', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
@@ -261,9 +262,8 @@
 }
 
 .mhacks-mid-mission-sec-bg {
-  background-image: url('../images/mission.svg');
-  background-repeat: no-repeat;
-  width: 100%;
+  width: 1000px;
+  margin-left: -23vw;
   height: 800px;
 }
 
@@ -409,11 +409,11 @@
 /* Laptop screens(upto 1366 px) */
 @media only screen and (max-width: 1366px){
   .mhacks-tn-left-logo {
-    padding: 10px 5px;
+    padding: 15px 10px;
   }
   
   .mhacks-tn-left-logo a {
-    padding: 15px 5px;
+    padding: 15px 10px;
   }
   
   .mhacks-tn-right-item {
@@ -445,8 +445,8 @@
 
   .mhacks-top-btn{
     font-size: 1.3em;
-    width: 180px;
-    height: 50px;
+    width: 160px;
+    height: 45px;
   }
 
   .mhacks-mid-bg{
@@ -483,6 +483,7 @@
   .mhacks-mid-mission-bg{
     height: 140px;
   }
+
 
   .mhacks-mid-mission-content{
     margin-top: 10%;
@@ -525,15 +526,18 @@
 
   .mhacks-last-contact-input {
     width: 60%;
+    margin-left: 0.6vw;
   }
   
   .mhacks-last-contact-textarea {
     width: 60%;
+    margin-left: 0.6vw;
   }
   
   .mhacks-last-contact-btn {
     width: 60%;
     height: 40px;
+    margin-left: 0.6vw;
   }
 }
 
