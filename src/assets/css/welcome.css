@@ -573,5 +573,72 @@
 }
 
 @media only screen and (max-width:1199px){
+  .mhacks-tn-right-item{
+    margin-left: -15vw;
+    margin-right: 15vw;
+  }
+}
+
+@media only screen and (max-width: 1150px){
+  .mhacks-tn-right-item{
+    margin-right: 17vw;
+    margin-left: -17vw;
+    font-size: 1.2em;
+  }
+
+  .mhacks-tn-left-logo{
+    font-size: 1.2em;
+  }
+  
+  .mhacks-top-bg{
+    height: 560px;
+    margin-left: 5vw;
+  } 
+}
+
+@media only screen and (max-width: 1065px){
+  .mhacks-tn-left-logo{
+    font-size: 1.1em;
+  }
+
+  .mhacks-tn-right-item{
+    font-size: 1.1em;
+  }
+
+  .mhacks-top-bg{
+    height: 520px;
+  }
+
+  .mhacks-top-header{
+    font-size: 2.6em;
+  }
+
+  .mhacks-top-para{
+    font-size: 1.3em;
+    letter-spacing: 0.8px;
+  }
+
+  .mhacks-top-btn{
+    font-size: 1.3em;
+    width: 180px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 1040px){
+  .mhacks-tn-right-item{
+    margin-left: -20vw;
+    margin-right: 20vw;
+  }
+}
+
+@media only screen and (max-width: 1020px){
+  .mhacks-tn-right-item{
+    margin-left: -24vw;
+    margin-right: 24vw;
+  }
+}
+
+@media only screena and (max-width: 990px){
 
 }
