@@ -44,7 +44,7 @@
   cursor: pointer;
 }
 
-.mhacks-tn-right-item a:hover {
+/*.mhacks-tn-right-item a:hover {
   float: right;
   padding: 20px 20px;
   font-family: 'Muli', sans-serif;
@@ -53,7 +53,7 @@
   text-decoration: none;
   cursor: pointer;
   color: #283149;
-}
+}*/
 
 .mhacks-top-bg {
   position: relative;
@@ -734,4 +734,27 @@
     margin-left: -24vw;
     margin-right: 24vw;
   }
+}
+/* ToDo => Navbar item fixes for 767 and below resolutions. */
+@media only screen and (max-width: 767px){
+  .mhacks-tn-left-logo a{
+    padding-left: 3px;
+    font-size: 1em;
+  }
+
+  .mhacks-tn-right-item a{
+    font-size: 1em;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
+  .mhacks-tn-right-item{
+    margin-left: -2vw;
+    margin-right: 6vw;
+  }
+
+  .mhacks-top-bg{
+    height: 370px;
+  }
+
 }
