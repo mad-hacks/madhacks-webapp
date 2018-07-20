@@ -1,15 +1,15 @@
 @keyframes fadeOut{
   from{
-    opacity: 0.8;
+    opacity: 0.3;
+    transform: scale(0.7);
   }
-  60%{
-    opacity: 0;
-    transform: translateX(6vw);
+  to{
+    transform: scale(1);
   }
   }
 .animated{
   animation-iteration-count: 0.8;
-  animation-duration: 0.6s;
+  animation-duration: 1s;
   animation-timing-function: ease-in-out;
 }
 .fadeOut{
@@ -435,10 +435,12 @@
 @media only screen and (max-width: 1366px){
   .mhacks-tn-left-logo {
     padding: 15px 10px;
+    padding-top: 16px;
   }
   
   .mhacks-tn-left-logo a {
     padding: 15px 10px;
+    padding-top: 16px;
   }
   
   .mhacks-tn-right-item {
@@ -509,16 +511,30 @@
     height: 140px;
   }
 
+  .mhacks-mid-mission-sec-bg{
+    width: 1100px;
+    margin-left: -30vw;
+  }
 
   .mhacks-mid-mission-content{
     margin-top: 10%;
-    margin-left: 7%;
+    margin-left: 15%;
     font-size: 1.4em;
     line-height: 1.67em;
   }
 
   .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-name, .mhacks-mid-ft-list-two-para{
     font-size: 1.5em;
+  }
+
+  .mhacks-mid-team-header{
+    position: relative;
+    z-index: 1;
+    font-size: 3.1em;
+  }
+
+  .mhacks-mid-team-card{
+    margin-top: -14%;
   }
 
   .mhacks-last-contact-bg{
@@ -791,6 +807,18 @@
   .mhacks-mid-container{
     margin-left: 12%;
   }
+
+  .mhacks-last-contact-input {
+    width: 80%;
+  }
+  
+  .mhacks-last-contact-textarea {
+    width: 80%;
+  }
+
+  .mhacks-last-contact-btn{
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 965px){
@@ -862,7 +890,7 @@
 
   .mhacks-mid-content{
     font-size: 1.1em;
-    margin-left: -1vw;
+    margin-left: -10%;
     margin-top: 12%;
   }
 
