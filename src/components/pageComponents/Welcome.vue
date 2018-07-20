@@ -115,11 +115,11 @@
         <!-- Content Section -->
         <!-- Image Section -->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <img class="mhacks-mid-content-pic" src="../../assets/images/stud.svg"/>
+          <img class="mhacks-mid-content-pic" src="../../assets/images/business.svg"/>
         </div>
         <!-- End -->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <div class="mhacks-mid-content">
+          <div class="mhacks-mid-content-business">
             <span class="mhacks-mid-content-list-item">
             Front End Development.<br>
             </span>
@@ -131,6 +131,9 @@
             </span>
             <span class="mhacks-mid-content-list-item">
             E-commerce Website.<br>
+            </span>
+            <span class="mhacks-mid-content-list-item">
+            Custom web tools.<br>
             </span>
           </div>
         </div>

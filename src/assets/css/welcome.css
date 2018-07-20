@@ -175,7 +175,7 @@
   margin-top: -20%;
 }
 
-.mhacks-mid-content {
+.mhacks-mid-content, .mhacks-mid-content-business {
   font-family: 'Muli', sans-serif;
   font-size: 1.5em;
   font-weight: 200;
@@ -648,7 +648,7 @@
     height: 640px;
   }
 
-  .mhacks-mid-content{
+  .mhacks-mid-content, .mhacks-mid-content-business{
     font-size: 1.4em;
   }
 
@@ -714,7 +714,7 @@
     margin-right: 15vw;
   }
 
-  .mhacks-mid-content{
+  .mhacks-mid-content, .mhacks-mid-content-business{
     font-size: 1.3em;
   }
 }
@@ -814,12 +814,18 @@
     margin-top: 12%;
   }
 
+  .mhacks-mid-content-business{
+    font-size: 1.2em;
+    margin-left: 8vw;
+    margin-top: 12%;
+  }
+
   .mhacks-mid-content-pic{
     height: 280px;
   }
 
   .mhacks-mid-container{
-    margin-left: 12%;
+    margin-left: 10%;
   }
 
   .mhacks-last-contact-input {
@@ -902,9 +908,8 @@
     height: 110px;
   }
 
-  .mhacks-mid-content{
+  .mhacks-mid-content, .mhacks-mid-content-business{
     font-size: 1.1em;
-    margin-left: -10%;
     margin-top: 12%;
   }
 
@@ -922,6 +927,10 @@
     margin-left: -18vw;
     margin-right: 18vw;
   }
+
+  .mhacks-mid-content{
+    margin-left: 5%;
+  }
 }
 
 @media only screen and (max-width: 810px){
@@ -936,6 +945,10 @@
 
   .mhacks-mid-bg{
     height: 90px;
+  }
+
+  .mhacks-mid-content{
+    margin-left: 8%;
   }
 
   .mhacks-mid-content-pic{
@@ -962,6 +975,10 @@
 
   .mhacks-top-bg{
     height: 370px;
+  }
+
+  .mhacks-mid-content{
+    margin-left: 10%;
   }
 
 }
