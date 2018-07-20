@@ -270,7 +270,7 @@
         </div>
         <!-- End -->
         <!-- Mission Description -->
-        <div class="container mhacks-mid-container">
+        <div class="container">
           <div class="row">
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
               <div class="mhacks-mid-mission-content">

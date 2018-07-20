@@ -163,7 +163,9 @@
 }
 
 .mhacks-mid-container {
-  margin-left: 25%;
+  /*margin-left: 25%;*/
+  width: 90%;
+  margin: 0 auto;
 }
 
 .mhacks-mid-pic-text {
@@ -513,9 +515,9 @@
     padding-top: 7%;
   }
   
-  .mhacks-mid-container{
+  /* .mhacks-mid-container{
     margin-left: 6%;
-  }
+  } */
 
   .mhacks-mid-mission-text{
     font-size: 3.1em;
@@ -538,7 +540,7 @@
   }
 
   .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-name, .mhacks-mid-ft-list-two-para{
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 
   .mhacks-mid-team-header{
@@ -630,9 +632,9 @@
     font-size: 1.5em;
   }
 
-  .mhacks-mid-container{
+  /* .mhacks-mid-container{
     margin-left: 4%;
-  }
+  } */
 }
 
 @media only screen and (max-width: 1220px){
@@ -660,9 +662,9 @@
     height: 120px;
   }
 
-  .mhacks-mid-container{
+  /* .mhacks-mid-container{
     margin-left: 2%;
-  }
+  } */
 }
 
 @media only screen and (max-width: 1200px){
@@ -687,9 +689,9 @@
     height: 560px;
   }
 
-  .mhacks-mid-container{
+  /* .mhacks-mid-container{
     margin-left: 8%;
-  }
+  } */
 
   .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-name, .mhacks-mid-ft-list-two-para{
     font-size: 1.3em;
@@ -758,9 +760,13 @@
     letter-spacing: 0.8px;
   }
 
-  .mhacks-mid-container{
-    margin-left: 2%;
+  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-two-para{
+    font-size: 1.2em;
   }
+
+  /* .mhacks-mid-container{
+    margin-left: 2%;
+  } */
 }
 
 @media only screen and (max-width: 1040px){
@@ -776,9 +782,9 @@
     margin-right: 24vw;
   }
 
-  .mhacks-mid-container{
+  /* .mhacks-mid-container{
     margin-left: 1%;
-  }
+  } */
 }
 
 @media only screen and (max-width: 991px){
@@ -824,8 +830,16 @@
     height: 280px;
   }
 
-  .mhacks-mid-container{
+  /* .mhacks-mid-container{
     margin-left: 10%;
+  } */
+
+  .mhacks-mid-ft-list-name{
+    font-size: 1.2em;
+  }
+
+  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-two-para{
+    font-size: 1.1em;
   }
 
   .mhacks-last-contact-input {
@@ -915,6 +929,14 @@
 
   .mhacks-mid-content-pic{
     height: 260px;
+  }
+
+  .mhacks-mid-ft-list-name{
+    font-size: 1em;
+  }
+
+  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-two-para{
+    font-size: 0.95em;
   }
 }
 
