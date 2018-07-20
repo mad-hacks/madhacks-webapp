@@ -98,6 +98,45 @@
       </div>
     </div>
     <!-- End -->
+    <!-- For Business section -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div>
+          <center>
+            <div class="mhacks-mid-header-business">For Business</div>
+          </center>
+        </div>
+      </div>
+    </div>
+    <!-- End -->
+    <!-- For Business Content -->
+    <div class="container">
+      <div class="row">
+        <!-- Content Section -->
+        <!-- Image Section -->
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <img class="mhacks-mid-content-pic" src="../../assets/images/stud.svg"/>
+        </div>
+        <!-- End -->
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="mhacks-mid-content">
+            <span class="mhacks-mid-content-list-item">
+            Front End Development.<br>
+            </span>
+            <span class="mhacks-mid-content-list-item">
+            Back End Development.<br>
+            </span>
+            <span class="mhacks-mid-content-list-item">
+            Single Page Apps.<br>
+            </span>
+            <span class="mhacks-mid-content-list-item">
+            E-commerce Website.<br>
+            </span>
+          </div>
+        </div>
+        <!-- End -->
+      </div>
+    </div>
     <!-- Features Section -->
     <div class="row">
       <!-- Image Section -->
