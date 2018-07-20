@@ -292,7 +292,8 @@
 
 .mhacks-mid-mission-sec-bg {
   width: 1000px;
-  margin-left: -23vw;
+  /*margin-left: -23vw;*/
+  float: right;
   height: 800px;
 }
 
@@ -529,7 +530,8 @@
 
   .mhacks-mid-mission-sec-bg{
     width: 1100px;
-    margin-left: -30vw;
+    float: right;
+    margin-right: -2vw;
   }
 
   .mhacks-mid-mission-content{
@@ -654,6 +656,18 @@
     font-size: 1.4em;
   }
 
+  .mhacks-mid-mission-text{
+    font-size: 3em;
+  }
+
+  .mhacks-mid-mission-content{
+    font-size: 1.3em;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 1000px;
+  }
+
   .mhacks-mid-ft-text{
     font-size: 3em;
   }
@@ -695,6 +709,18 @@
 
   .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-name, .mhacks-mid-ft-list-two-para{
     font-size: 1.3em;
+  }
+
+  .mhacks-mid-mission-text{
+    font-size: 2.95em;
+  }
+
+  .mhacks-mid-mission-content{
+    font-size: 1.25em;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 980px;
   }
 
   .mhacks-mid-team-card-pic-quote{
@@ -762,6 +788,18 @@
 
   .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-two-para{
     font-size: 1.2em;
+  }
+
+  .mhacks-mid-mission-text{
+    font-size: 2.9em;
+  }
+
+  .mhacks-mid-mission-content{
+    font-size: 1.2em;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 960px;
   }
 
   /* .mhacks-mid-container{
@@ -840,6 +878,19 @@
 
   .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-two-para{
     font-size: 1.1em;
+  }
+
+  .mhacks-mid-mission-text{
+    font-size: 2.8em;
+  }
+
+  .mhacks-mid-mission-content{
+    font-size: 1.15em;
+    width: 100%;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 860px;
   }
 
   .mhacks-last-contact-input {
@@ -938,6 +989,19 @@
   .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-two-para{
     font-size: 0.95em;
   }
+
+  .mhacks-mid-mission-text{
+    font-size: 2.5em;
+  }
+
+  .mhacks-mid-mission-content{
+    font-size: 1.1em;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 760px;
+    margin-top: -5vh;
+  }
 }
 
 @media only screen and (max-width: 850px){
@@ -952,6 +1016,18 @@
 
   .mhacks-mid-content{
     margin-left: 5%;
+  }
+
+  .mhacks-mid-mission-text{
+    font-size: 2.4em;
+  }
+
+  .mhacks-mid-mission-content{
+    font-size: 1.05em;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 720px;
   }
 }
 
@@ -975,6 +1051,19 @@
 
   .mhacks-mid-content-pic{
     height: 240px;
+  }
+
+  .mhacks-mid-mission-text{
+    font-size: 2.2em;
+  }
+
+  .mhacks-mid-mission-content{
+    font-size: 1em;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 660px;
+    margin-top: -10vh;
   }
 }
 /* ToDo => Fix Navbar items for 769 and below resolutions. */
@@ -1001,6 +1090,14 @@
 
   .mhacks-mid-content{
     margin-left: 10%;
+  }
+
+  .mhacks-mid-mission-text{
+    font-size: 2em;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 600px;
   }
 
 }
