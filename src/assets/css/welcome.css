@@ -552,7 +552,7 @@
   }
 
   .mhacks-mid-team-card{
-    margin-top: -14%;
+    margin-top: -10%;
   }
 
   .mhacks-last-contact-bg{
@@ -634,6 +634,14 @@
     font-size: 1.5em;
   }
 
+  .mhacks-mid-team-header{
+    font-size: 3em;
+  }
+
+  .mhacks-mid-team-card-pic-quote{
+    font-size: 1.5em;
+  }
+
   /* .mhacks-mid-container{
     margin-left: 4%;
   } */
@@ -676,6 +684,14 @@
     height: 120px;
   }
 
+  .mhacks-last-contact-bg{
+    height: 100px;
+  }
+
+  .mhacks-last-contact-header{
+    font-size: 3em;
+  }
+
   /* .mhacks-mid-container{
     margin-left: 2%;
   } */
@@ -701,6 +717,14 @@
 
   .mhacks-mid-ft{
     height: 560px;
+  }
+
+  .mhacks-mid-team-header{
+    font-size: 2.9em;
+  }
+
+  .mhacks-mid-team-card-pic-quote{
+    font-size: 1.4em;
   }
 
   /* .mhacks-mid-container{
@@ -762,6 +786,14 @@
     height: 560px;
     margin-left: 5vw;
   } 
+
+  .mhacks-last-contact-bg{
+    height: 95px;
+  }
+
+  .mhacks-last-contact-header{
+    font-size: 2.95em;
+  }
 }
 
 @media only screen and (max-width: 1065px){
@@ -802,6 +834,22 @@
     width: 960px;
   }
 
+  .mhacks-mid-team-header{
+    font-size: 2.7em;
+  }
+
+  .mhacks-mid-team-card-pic-quote{
+    font-size: 1.3em;
+  }
+
+  .mhacks-last-contact-bg{
+    height: 90px;
+  }
+
+  .mhacks-last-contact-header{
+    font-size: 2.8em;
+  }
+
   /* .mhacks-mid-container{
     margin-left: 2%;
   } */
@@ -818,6 +866,22 @@
   .mhacks-tn-right-item{
     margin-left: -24vw;
     margin-right: 24vw;
+  }
+
+  .mhacks-mid-team-header{
+    font-size: 2.5em;
+  }
+
+  .mhacks-mid-team-card-pic-quote{
+    font-size: 1.25em;
+  }
+
+  .mhacks-mid-team-card-pic-name{
+    font-size: 1.2em;
+  }
+
+  .mhacks-mid-team-card-pic-position{
+    font-size: 1.2em;
   }
 
   /* .mhacks-mid-container{
@@ -868,6 +932,10 @@
     height: 280px;
   }
 
+  .mhacks-mid-mission-bg{
+    height: 120px;
+  }
+
   /* .mhacks-mid-container{
     margin-left: 10%;
   } */
@@ -903,6 +971,14 @@
 
   .mhacks-last-contact-btn{
     width: 80%;
+  }
+
+  .mhacks-last-contact-bg{
+    height: 80px;
+  }
+
+  .mhacks-last-contact-header{
+    font-size: 2.6em;
   }
 }
 
@@ -1002,6 +1078,14 @@
     width: 760px;
     margin-top: -5vh;
   }
+
+  .mhacks-last-contact-bg{
+    height: 75px;
+  }
+
+  .mhacks-last-contact-header{
+    font-size: 2.2em;
+  }
 }
 
 @media only screen and (max-width: 850px){
@@ -1018,6 +1102,10 @@
     margin-left: 5%;
   }
 
+  .mhacks-mid-mission-bg{
+    height: 100px;
+  }
+
   .mhacks-mid-mission-text{
     font-size: 2.4em;
   }
@@ -1028,6 +1116,10 @@
 
   .mhacks-mid-mission-sec-bg{
     width: 720px;
+  }
+
+  .mhacks-mid-team-header{
+    font-size: 2.3em;
   }
 }
 
@@ -1100,4 +1192,11 @@
     width: 600px;
   }
 
+  .mhacks-last-contact-bg{
+    height: 70px;
+  }
+
+  .mhacks-last-contact-header{
+    font-size: 2em;
+  }
 }
