@@ -265,26 +265,24 @@
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <div class="mhacks-mid-team-card">
 
-            <transition enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
             <keep-alive>
-              <component :is="renderedComponent"></component>
+              <component :is="renderedComponent" class="animated fadeOut"></component>
             </keep-alive>
-            </transition>
             
             <div class="container mhacks-mid-team-container">
               <center>
               <div class="row">
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/alan.jpeg" @click="renderedComponent='Alan'" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/alan.jpeg" tabindex="0" @click="renderedComponent='Alan'" class="mhacks-mid-team-card-other-pic"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/dani.jpeg" @click="renderedComponent='Dani'" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/dani.jpeg"  tabindex="0" @click="renderedComponent='Dani'" class="mhacks-mid-team-card-other-pic"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/james.jpeg" @click="renderedComponent='James'" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/james.jpeg"  tabindex="0" @click="renderedComponent='James'" class="mhacks-mid-team-card-other-pic"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/kavi.jpeg" @click="renderedComponent='Kavi'" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/kavi.jpeg"  tabindex="0" @click="renderedComponent='Kavi'" class="mhacks-mid-team-card-other-pic"/>
                 </div>
               </div>
               </center>
