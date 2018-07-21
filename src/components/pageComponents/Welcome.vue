@@ -62,9 +62,7 @@
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="mhacks-mid-bg">
-          <center>
             <div class="mhacks-mid-header">Are you a Student ?</div>
-          </center>
         </div>
       </div>
     </div>
@@ -101,10 +99,8 @@
     <!-- For Business section -->
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div>
-          <center>
+        <div class="mhacks-mid-bg-business">
             <div class="mhacks-mid-header-business">For Business</div>
-          </center>
         </div>
       </div>
     </div>
@@ -141,7 +137,7 @@
       </div>
     </div>
     <!-- Features Section -->
-    <div class="row">
+    <div class="row mhacks-features-section">
       <!-- Image Section -->
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
         <div class="mhacks-mid-ft"></div>

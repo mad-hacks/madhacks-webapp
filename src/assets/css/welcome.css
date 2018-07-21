@@ -137,6 +137,15 @@
   margin-bottom: 1%;
 }
 
+.mhacks-mid-bg-business{
+  background-image: url('../images/serviceshadow.svg');
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 1%;
+}
+
 .mhacks-mid-header {
   font-family: 'Muli', sans-serif;
   font-size: 4em;
@@ -443,8 +452,8 @@
 }
 
 /* Media Queries */
-/* Laptop screens(upto 1366 px) */
-@media only screen and (max-width: 1366px){
+/* Laptop screens(upto 1400 px) */
+@media only screen and (max-width: 1400px){
   .mhacks-tn-left-logo {
     padding: 15px 10px;
     padding-top: 16px;
@@ -488,8 +497,12 @@
     height: 48px;
   }
 
-  .mhacks-mid-bg{
+  .mhacks-mid-bg, .mhacks-mid-bg-business{
     height: 130px;
+  }
+
+  .mhacks-mid-bg-business{
+    margin-top: 6%;
   }
 
   .mhacks-mid-header{
@@ -499,7 +512,8 @@
 
   .mhacks-mid-header-business{
     font-size: 3em;
-    padding-top: 10%;
+    padding-top: 3%;
+    padding-right: 25%;
   }
 
   .mhacks-mid-ft{
@@ -711,7 +725,7 @@
     font-size: 2.9em;
   }
 
-  .mhacks-mid-bg{
+  .mhacks-mid-bg, .mhacks-mid-bg-features{
     height: 120px;
   }
 
@@ -911,7 +925,7 @@
     font-size: 2.7em;
   }
 
-  .mhacks-mid-bg{
+  .mhacks-mid-bg, .mhacks-mid-bg-business{
     height: 130px;
     margin-top: 5vh;
   }
@@ -932,13 +946,13 @@
     height: 280px;
   }
 
-  .mhacks-mid-mission-bg{
-    height: 120px;
+  .mhacks-features-section{
+    margin-top: 5%;
   }
 
-  /* .mhacks-mid-container{
-    margin-left: 10%;
-  } */
+  .mhacks-mid-mission-bg{
+    height: 120px;
+  } 
 
   .mhacks-mid-ft-list-name{
     font-size: 1.2em;
@@ -957,8 +971,16 @@
     width: 100%;
   }
 
+  .mhacks-mid-team-card{
+    margin-bottom: -10%;
+  }
+
   .mhacks-mid-mission-sec-bg{
     width: 860px;
+  }
+
+  .mhacks-last-contact-input-header{
+    margin-top: 60%;
   }
 
   .mhacks-last-contact-input {
@@ -975,10 +997,17 @@
 
   .mhacks-last-contact-bg{
     height: 80px;
+    margin-top: 20%;
+    margin-bottom: -10%;
+  }
+
+  .mhacks-last-contact-input-bg{
+    margin-top: 62%;
   }
 
   .mhacks-last-contact-header{
     font-size: 2.6em;
+    padding-top: 2%;
   }
 }
 
@@ -1045,7 +1074,7 @@
     font-size: 2.3em;
   }
 
-  .mhacks-mid-bg{
+  .mhacks-mid-bg, .mhacks-mid-bg-business{
     height: 110px;
   }
 
@@ -1133,7 +1162,7 @@
     font-size: 2.1em;
   }
 
-  .mhacks-mid-bg{
+  .mhacks-mid-bg, .mhacks-mid-bg-business{
     height: 90px;
   }
 
