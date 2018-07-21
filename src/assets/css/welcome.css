@@ -951,6 +951,10 @@
     margin-top: 5%;
   }
 
+  .mhacks-mid-ft-list{
+    margin-top: 5%;
+  }
+
   .mhacks-mid-mission-bg{
     height: 120px;
   } 
@@ -1040,6 +1044,10 @@
     font-size: 1.1em;
     width: 160px;
     height: 45px;
+  }
+
+  .mhacks-mid-ft-list{
+    margin-top: 2%;
   }
   
   .mhacks-mid-mission-sec-bg{
