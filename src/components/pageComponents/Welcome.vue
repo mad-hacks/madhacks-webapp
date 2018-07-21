@@ -75,10 +75,18 @@
         <!-- Content Section -->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="mhacks-mid-content">
+            <span class="mhacks-mid-content-list-item">
             Attractive real-world projects to be done.<br>
+            </span>
+            <span class="mhacks-mid-content-list-item">
             Learn Industry Practices.<br>
+            </span>
+            <span class="mhacks-mid-content-list-item">
             Enhance skills doing real-world projects.<br>
+            </span>
+            <span class="mhacks-mid-content-list-item">
             Earn rewards based on work done.<br>
+            </span>
           </div>
         </div>
         <!-- End -->
@@ -90,6 +98,48 @@
       </div>
     </div>
     <!-- End -->
+    <!-- For Business section -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div>
+          <center>
+            <div class="mhacks-mid-header-business">For Business</div>
+          </center>
+        </div>
+      </div>
+    </div>
+    <!-- End -->
+    <!-- For Business Content -->
+    <div class="container">
+      <div class="row">
+        <!-- Content Section -->
+        <!-- Image Section -->
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <img class="mhacks-mid-content-pic" src="../../assets/images/business.svg"/>
+        </div>
+        <!-- End -->
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="mhacks-mid-content-business">
+            <span class="mhacks-mid-content-list-item">
+            Front End Development.<br>
+            </span>
+            <span class="mhacks-mid-content-list-item">
+            Back End Development.<br>
+            </span>
+            <span class="mhacks-mid-content-list-item">
+            Single Page Apps.<br>
+            </span>
+            <span class="mhacks-mid-content-list-item">
+            E-commerce Website.<br>
+            </span>
+            <span class="mhacks-mid-content-list-item">
+            Custom web tools.<br>
+            </span>
+          </div>
+        </div>
+        <!-- End -->
+      </div>
+    </div>
     <!-- Features Section -->
     <div class="row">
       <!-- Image Section -->
@@ -175,7 +225,7 @@
       </div>
     </div>
     <!-- End -->
-    <!-- Features Images Tiltle Section -->
+    <!-- Features Images Title Section -->
     <div class="container mhacks-mid-container">
       <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -208,7 +258,7 @@
     </div>
     <!-- End -->
     <!-- Mission Section -->
-    <div class="row">
+    <div class="row" style="margin-top:5%;">
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
         <!-- Mission Title -->
         <div class="row">
@@ -220,7 +270,7 @@
         </div>
         <!-- End -->
         <!-- Mission Description -->
-        <div class="container mhacks-mid-container">
+        <div class="container">
           <div class="row">
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
               <div class="mhacks-mid-mission-content">
@@ -239,7 +289,7 @@
       <!-- End -->
       <!-- Mission Section Background -->
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-        <div class="mhacks-mid-mission-sec-bg"></div>
+        <img src="../../assets/images/mission.svg" class="mhacks-mid-mission-sec-bg">
       </div>
       <!-- End -->
     </div>
@@ -247,7 +297,7 @@
     <!-- Team Section -->
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="mhacks-mid-team-header">Team</div>
+        <div class="mhacks-mid-team-header">The Team Behind</div>
       </div>
     </div>
     <!-- End -->
@@ -256,53 +306,25 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <div class="mhacks-mid-team-card">
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <center>
-                  <img class="mhacks-mid-team-card-pic" src="../../assets/images/alan.jpeg"/>
-                </center>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <center>
-                  <div class="mhacks-mid-team-card-pic-name">Alan Mathew</div>
-                </center>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <center>
-                  <div class="mhacks-mid-team-card-pic-position">Back-End Dev</div>
-                </center>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <center>
-                  <div class="mhacks-mid-team-card-pic-quote">
-                    <i class="fas fa-quote-left"></i>
-                      Our business relies on fast and reliable talent and support.<br>
-                      Some sort of relevant text appear here.
-                    <i class="fas fa-quote-right"></i>
-                  </div>
-                </center>
-              </div>
-            </div>
+
+            <keep-alive>
+              <component :is="renderedComponent" class="animated fadeOut"></component>
+            </keep-alive>
+            
             <div class="container mhacks-mid-team-container">
               <center>
               <div class="row">
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/alan.jpeg" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/alan.jpeg" tabindex="0" @click="renderedComponent='Alan'" class="mhacks-mid-team-card-other-pic"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/dani.jpeg" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/dani.jpeg"  tabindex="0" @click="renderedComponent='Dani'" class="mhacks-mid-team-card-other-pic"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/james.jpeg" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/james.jpeg"  tabindex="0" @click="renderedComponent='James'" class="mhacks-mid-team-card-other-pic"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/kavi.jpeg" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/kavi.jpeg"  tabindex="0" @click="renderedComponent='Kavi'" class="mhacks-mid-team-card-other-pic"/>
                 </div>
               </div>
               </center>
@@ -376,7 +398,27 @@
   </div>
   <!-- End -->
 </template>
+
 <script>
+  import James from './Team/James.vue'
+  import Kavi from './Team/Kavi.vue'
+  import Alan from './Team/Alan.vue'
+  import Dani from './Team/Dani.vue'
+
+  export default{
+    data: function () {
+      return {
+        renderedComponent: 'James'
+      }
+    },
+    components: {
+      James,
+      Kavi,
+      Alan,
+      Dani
+    }
+  }
 </script>
+
 <style src="../../assets/css/welcome.css" scoped>
 </style>

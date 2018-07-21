@@ -1,3 +1,21 @@
+@keyframes fadeOut{
+  from{
+    opacity: 0.3;
+    transform: scale(0.7);
+  }
+  to{
+    transform: scale(1);
+  }
+  }
+.animated{
+  animation-iteration-count: 0.8;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+.fadeOut{
+  animation-name: fadeOut;
+}
+
 .mhacks-top-nav {
   list-style: none;
   text-decoration: none;
@@ -16,6 +34,7 @@
 .mhacks-tn-left-logo a {
   float: left;
   padding: 20px 15px;
+  padding-top: 25px;
   font-family: 'Muli', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
@@ -44,7 +63,7 @@
   cursor: pointer;
 }
 
-.mhacks-tn-right-item a:hover {
+/*.mhacks-tn-right-item a:hover {
   float: right;
   padding: 20px 20px;
   font-family: 'Muli', sans-serif;
@@ -53,14 +72,16 @@
   text-decoration: none;
   cursor: pointer;
   color: #283149;
-}
+}*/
 
 .mhacks-top-bg {
+  position: relative;
   background-image: url('../images/topBg.svg');
   background-repeat: no-repeat;
   width: 100%;
   background-position-x: 100%;
   height: 1000px;
+  z-index: -1;
 }
 
 .mhacks-top-header {
@@ -95,6 +116,18 @@
   cursor: pointer;
 }
 
+/* .mhacks-top-btn:hover{
+  transition: all 0.4s ease-in-out;
+  background-color: transparent;
+  border: 1.2px solid #283149;
+  color: #283149;
+  box-shadow: 0 0 11px #ccc;
+} */
+
+.mhacks-top-btn:active{
+  transform: translateY(6px);
+}
+
 .mhacks-mid-bg {
   background-image: url('../images/serviceshadow.svg');
   background-repeat: no-repeat;
@@ -113,6 +146,15 @@
   padding-left: 20%;
 }
 
+.mhacks-mid-header-business {
+  font-family: 'Muli', sans-serif;
+  font-size: 4em;
+  font-weight: 300;
+  padding-top: 5%;
+  text-align: right;
+  padding-right: 20%;
+}
+
 .mhacks-mid-pic {
   width: 100%;
   height: 200px;
@@ -121,7 +163,9 @@
 }
 
 .mhacks-mid-container {
-  margin-left: 25%;
+  /*margin-left: 25%;*/
+  width: 90%;
+  margin: 0 auto;
 }
 
 .mhacks-mid-pic-text {
@@ -133,7 +177,7 @@
   margin-top: -20%;
 }
 
-.mhacks-mid-content {
+.mhacks-mid-content, .mhacks-mid-content-business {
   font-family: 'Muli', sans-serif;
   font-size: 1.5em;
   font-weight: 200;
@@ -141,6 +185,10 @@
   margin-left: 25%;
   margin-bottom: 5%;
   line-height: 3em;
+}
+
+.mhacks-mid-content-list-item{
+  display: list-item;
 }
 
 .mhacks-mid-content-pic {
@@ -243,9 +291,9 @@
 }
 
 .mhacks-mid-mission-sec-bg {
-  background-image: url('../images/mission.svg');
-  background-repeat: no-repeat;
-  width: 100%;
+  width: 1000px;
+  /*margin-left: -23vw;*/
+  float: right;
   height: 800px;
 }
 
@@ -298,8 +346,15 @@
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
+  opacity: 0.7;
   margin-top: 6%;
   cursor: pointer;
+}
+
+.mhacks-mid-team-card-other-pic:focus{
+  opacity: 1;
+  transform: scale(1.25);
+  outline: none;
 }
 
 .mhacks-mid-team-container {
@@ -385,4 +440,763 @@
   background-repeat: no-repeat;
   width: 100%;
   height: 200px;
+}
+
+/* Media Queries */
+/* Laptop screens(upto 1366 px) */
+@media only screen and (max-width: 1366px){
+  .mhacks-tn-left-logo {
+    padding: 15px 10px;
+    padding-top: 16px;
+  }
+  
+  .mhacks-tn-left-logo a {
+    padding: 15px 10px;
+    padding-top: 16px;
+  }
+  
+  .mhacks-tn-right-item {
+    padding: 15px 10px;
+    margin-left: -16vw;
+    margin-right: 16vw;
+  }
+  
+  .mhacks-tn-right-item a {
+    padding: 15px 10px;
+  }
+  
+  .mhacks-tn-right-item a:hover {
+    padding: 15px 10px;
+  }
+
+  .mhacks-top-bg{
+    height: 700px;
+  }
+
+  .mhacks-top-header{
+    font-size: 3.4em;
+    margin-top: 14%;
+  }
+
+  .mhacks-top-para{
+    font-size: 1.7em;
+  }
+
+  .mhacks-top-btn{
+    font-size: 1.3em;
+    width: 155px;
+    height: 48px;
+  }
+
+  .mhacks-mid-bg{
+    height: 130px;
+  }
+
+  .mhacks-mid-header{
+    font-size: 3em;
+    padding-top: 3%;
+  }
+
+  .mhacks-mid-header-business{
+    font-size: 3em;
+    padding-top: 10%;
+  }
+
+  .mhacks-mid-ft{
+    height: 520px;
+  }
+
+  .mhacks-mid-ft-content{
+    height: 130px;
+  }
+
+  .mhacks-mid-ft-text{
+    font-size: 3.1em;
+    padding-left: -26%;
+    padding-top: 7%;
+  }
+  
+  /* .mhacks-mid-container{
+    margin-left: 6%;
+  } */
+
+  .mhacks-mid-mission-text{
+    font-size: 3.1em;
+  }
+
+  .mhacks-mid-mission-bg{
+    height: 140px;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 1100px;
+    float: right;
+    margin-right: -2vw;
+  }
+
+  .mhacks-mid-mission-content{
+    margin-top: 10%;
+    margin-left: 15%;
+    font-size: 1.4em;
+    line-height: 1.67em;
+  }
+
+  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-name, .mhacks-mid-ft-list-two-para{
+    font-size: 1.4em;
+  }
+
+  .mhacks-mid-team-header{
+    position: relative;
+    z-index: 1;
+    font-size: 3.1em;
+  }
+
+  .mhacks-mid-team-card{
+    margin-top: -10%;
+  }
+
+  .mhacks-last-contact-bg{
+    height: 110px;
+  }
+
+  .mhacks-last-contact-header{
+    font-size: 3.1em;
+  }
+
+  .mhacks-last-contact-input, .mhacks-last-contact-textarea{
+    font-size: 1em;
+    padding: 8px;
+  }
+
+  .mhacks-last-contact-btn{
+    height: 40px;
+    font-size: 1.1em;
+    padding: 8px;
+    font-weight: bold;
+  }
+
+  .mhacks-last-contact-input-bg{
+    height: 450px;
+  }
+
+  .mhacks-last-footer-bg{
+    height: 150px;
+  }
+
+  .mhacks-last-contact-input {
+    width: 60%;
+    margin-left: 0.6vw;
+  }
+  
+  .mhacks-last-contact-textarea {
+    width: 60%;
+    margin-left: 0.6vw;
+  }
+  
+  .mhacks-last-contact-btn {
+    width: 60%;
+    height: 40px;
+    margin-left: 0.6vw;
+  }
+}
+
+@media only screen and (max-width: 1330px){
+  .mhacks-tn-right-item{
+    margin-left: -24vw;
+    margin-right: 24vw;
+  }
+
+  .mhacks-top-header{
+    font-size: 3.3em;
+  }
+
+  .mhacks-top-para{
+    font-size: 1.6em;
+  }
+
+}
+
+@media only screen and (max-width: 1290px){
+  .mhacks-tn-right-item{
+    margin-left: -28vw;
+    margin-right: 28vw;
+  }
+
+  .mhacks-top-bg{
+    height: 660px;
+  }
+
+  .mhacks-top-header{
+    font-size: 3.1em;
+  }
+
+  .mhacks-top-para{
+    font-size: 1.5em;
+  }
+
+  .mhacks-mid-team-header{
+    font-size: 3em;
+  }
+
+  .mhacks-mid-team-card-pic-quote{
+    font-size: 1.5em;
+  }
+
+  /* .mhacks-mid-container{
+    margin-left: 4%;
+  } */
+}
+
+@media only screen and (max-width: 1220px){
+  .mhacks-top-header{
+    font-size: 2.8em;
+  }
+
+  .mhacks-top-para{
+    font-size: 1.4em;
+  }
+
+  .mhacks-top-bg{
+    height: 640px;
+  }
+
+  .mhacks-mid-content, .mhacks-mid-content-business{
+    font-size: 1.4em;
+  }
+
+  .mhacks-mid-mission-text{
+    font-size: 3em;
+  }
+
+  .mhacks-mid-mission-content{
+    font-size: 1.3em;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 1000px;
+  }
+
+  .mhacks-mid-ft-text{
+    font-size: 3em;
+  }
+
+  .mhacks-mid-ft-content{
+    height: 120px;
+  }
+
+  .mhacks-last-contact-bg{
+    height: 100px;
+  }
+
+  .mhacks-last-contact-header{
+    font-size: 3em;
+  }
+
+  /* .mhacks-mid-container{
+    margin-left: 2%;
+  } */
+}
+
+@media only screen and (max-width: 1200px){
+  .mhacks-tn-right-item{
+    margin-left: -30vw;
+    margin-right: 30vw;
+  }
+
+  .mhacks-top-bg{
+    height: 620px;
+  }
+
+  .mhacks-mid-header, .mhacks-mid-header-business{
+    font-size: 2.9em;
+  }
+
+  .mhacks-mid-bg{
+    height: 120px;
+  }
+
+  .mhacks-mid-ft{
+    height: 560px;
+  }
+
+  .mhacks-mid-team-header{
+    font-size: 2.9em;
+  }
+
+  .mhacks-mid-team-card-pic-quote{
+    font-size: 1.4em;
+  }
+
+  /* .mhacks-mid-container{
+    margin-left: 8%;
+  } */
+
+  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-name, .mhacks-mid-ft-list-two-para{
+    font-size: 1.3em;
+  }
+
+  .mhacks-mid-mission-text{
+    font-size: 2.95em;
+  }
+
+  .mhacks-mid-mission-content{
+    font-size: 1.25em;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 980px;
+  }
+
+  .mhacks-mid-team-card-pic-quote{
+    font-size: 1.4em;
+  }
+
+  .mhacks-mid-team-card-pic-name{
+    font-size: 1.3em;
+  }
+
+  .mhacks-mid-team-card-pic-position{
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width:1199px){
+  .mhacks-tn-right-item{
+    margin-left: -15vw;
+    margin-right: 15vw;
+  }
+
+  .mhacks-mid-content, .mhacks-mid-content-business{
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 1150px){
+  .mhacks-tn-right-item{
+    margin-right: 17vw;
+    margin-left: -17vw;
+    font-size: 1.2em;
+  }
+
+  .mhacks-tn-left-logo{
+    font-size: 1.2em;
+  }
+  
+  .mhacks-top-bg{
+    height: 560px;
+    margin-left: 5vw;
+  } 
+
+  .mhacks-last-contact-bg{
+    height: 95px;
+  }
+
+  .mhacks-last-contact-header{
+    font-size: 2.95em;
+  }
+}
+
+@media only screen and (max-width: 1065px){
+  .mhacks-tn-left-logo{
+    font-size: 1.1em;
+  }
+
+  .mhacks-tn-right-item{
+    font-size: 1.1em;
+  }
+
+  .mhacks-top-bg{
+    height: 520px;
+  }
+
+  .mhacks-top-header{
+    font-size: 2.6em;
+  }
+
+  .mhacks-top-para{
+    font-size: 1.3em;
+    letter-spacing: 0.8px;
+  }
+
+  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-two-para{
+    font-size: 1.2em;
+  }
+
+  .mhacks-mid-mission-text{
+    font-size: 2.9em;
+  }
+
+  .mhacks-mid-mission-content{
+    font-size: 1.2em;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 960px;
+  }
+
+  .mhacks-mid-team-header{
+    font-size: 2.7em;
+  }
+
+  .mhacks-mid-team-card-pic-quote{
+    font-size: 1.3em;
+  }
+
+  .mhacks-last-contact-bg{
+    height: 90px;
+  }
+
+  .mhacks-last-contact-header{
+    font-size: 2.8em;
+  }
+
+  /* .mhacks-mid-container{
+    margin-left: 2%;
+  } */
+}
+
+@media only screen and (max-width: 1040px){
+  .mhacks-tn-right-item{
+    margin-left: -20vw;
+    margin-right: 20vw;
+  }
+}
+
+@media only screen and (max-width: 1020px){
+  .mhacks-tn-right-item{
+    margin-left: -24vw;
+    margin-right: 24vw;
+  }
+
+  .mhacks-mid-team-header{
+    font-size: 2.5em;
+  }
+
+  .mhacks-mid-team-card-pic-quote{
+    font-size: 1.25em;
+  }
+
+  .mhacks-mid-team-card-pic-name{
+    font-size: 1.2em;
+  }
+
+  .mhacks-mid-team-card-pic-position{
+    font-size: 1.2em;
+  }
+
+  /* .mhacks-mid-container{
+    margin-left: 1%;
+  } */
+}
+
+@media only screen and (max-width: 991px){
+  .mhacks-tn-right-item{
+    margin-left: -2vw;
+    margin-right: 2vw;
+  }
+
+  .mhacks-top-bg{
+    height: 480px;
+  }
+
+  .mhacks-top-header{
+    font-size: 2.4em;
+  }
+
+  .mhacks-top-para{
+    font-size: 1.2em;
+  }
+
+  .mhacks-mid-header, .mhacks-mid-header-business{
+    font-size: 2.7em;
+  }
+
+  .mhacks-mid-bg{
+    height: 130px;
+    margin-top: 5vh;
+  }
+
+  .mhacks-mid-content{
+    font-size: 1.2em;
+    margin-left: -1vw;
+    margin-top: 12%;
+  }
+
+  .mhacks-mid-content-business{
+    font-size: 1.2em;
+    margin-left: 8vw;
+    margin-top: 12%;
+  }
+
+  .mhacks-mid-content-pic{
+    height: 280px;
+  }
+
+  .mhacks-mid-mission-bg{
+    height: 120px;
+  }
+
+  /* .mhacks-mid-container{
+    margin-left: 10%;
+  } */
+
+  .mhacks-mid-ft-list-name{
+    font-size: 1.2em;
+  }
+
+  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-two-para{
+    font-size: 1.1em;
+  }
+
+  .mhacks-mid-mission-text{
+    font-size: 2.8em;
+  }
+
+  .mhacks-mid-mission-content{
+    font-size: 1.15em;
+    width: 100%;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 860px;
+  }
+
+  .mhacks-last-contact-input {
+    width: 80%;
+  }
+  
+  .mhacks-last-contact-textarea {
+    width: 80%;
+  }
+
+  .mhacks-last-contact-btn{
+    width: 80%;
+  }
+
+  .mhacks-last-contact-bg{
+    height: 80px;
+  }
+
+  .mhacks-last-contact-header{
+    font-size: 2.6em;
+  }
+}
+
+@media only screen and (max-width: 965px){
+  .mhacks-tn-right-item{
+    margin-left: -8vw;
+    margin-right: 8vw;
+    font-size: 1em;
+  }
+
+  .mhacks-tn-left-logo{
+    font-size: 1em;
+  }
+
+  .mhacks-top-bg{
+    height: 420px;
+  }
+
+  .mhacks-top-header{
+    font-size: 2.3em;
+  }
+
+  .mhacks-top-para{
+    font-size: 1.1em;
+  }
+
+  .mhacks-top-btn{
+    font-size: 1.1em;
+    width: 160px;
+    height: 45px;
+  }
+}
+
+@media only screen and (max-width: 894px){
+  .mhacks-top-header{
+    font-size: 2.2em;
+  }
+
+  .mhacks-top-para{
+    font-size: 1em;
+  }
+
+  .mhacks-top-btn{
+    font-size: 1em;
+    height: 45px;
+    width: 140px;
+  }
+
+  .mhacks-top-bg{
+    height: 400px;
+  }
+
+  .mhacks-tn-left-logo{
+    font-size: 0.9em;
+  }
+
+  .mhacks-tn-right-item{
+    font-size: 0.9em;
+    margin-left: -12vw;
+    margin-right: 12vw;
+  }
+
+  .mhacks-mid-header, .mhacks-mid-header-business{
+    font-size: 2.3em;
+  }
+
+  .mhacks-mid-bg{
+    height: 110px;
+  }
+
+  .mhacks-mid-content, .mhacks-mid-content-business{
+    font-size: 1.1em;
+    margin-top: 12%;
+  }
+
+  .mhacks-mid-content-pic{
+    height: 260px;
+  }
+
+  .mhacks-mid-ft-list-name{
+    font-size: 1em;
+  }
+
+  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-two-para{
+    font-size: 0.95em;
+  }
+
+  .mhacks-mid-mission-text{
+    font-size: 2.5em;
+  }
+
+  .mhacks-mid-mission-content{
+    font-size: 1.1em;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 760px;
+    margin-top: -5vh;
+  }
+
+  .mhacks-last-contact-bg{
+    height: 75px;
+  }
+
+  .mhacks-last-contact-header{
+    font-size: 2.2em;
+  }
+}
+
+@media only screen and (max-width: 850px){
+  .mhacks-top-header{
+    font-size: 2.1em;
+  }
+
+  .mhacks-tn-right-item{
+    margin-left: -18vw;
+    margin-right: 18vw;
+  }
+
+  .mhacks-mid-content{
+    margin-left: 5%;
+  }
+
+  .mhacks-mid-mission-bg{
+    height: 100px;
+  }
+
+  .mhacks-mid-mission-text{
+    font-size: 2.4em;
+  }
+
+  .mhacks-mid-mission-content{
+    font-size: 1.05em;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 720px;
+  }
+
+  .mhacks-mid-team-header{
+    font-size: 2.3em;
+  }
+}
+
+@media only screen and (max-width: 810px){
+  .mhacks-tn-right-item{
+    margin-left: -22vw;
+    margin-right: 22vw;
+  }
+
+  .mhacks-mid-header, .mhacks-mid-header-business{
+    font-size: 2.1em;
+  }
+
+  .mhacks-mid-bg{
+    height: 90px;
+  }
+
+  .mhacks-mid-content{
+    margin-left: 8%;
+  }
+
+  .mhacks-mid-content-pic{
+    height: 240px;
+  }
+
+  .mhacks-mid-mission-text{
+    font-size: 2.2em;
+  }
+
+  .mhacks-mid-mission-content{
+    font-size: 1em;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 660px;
+    margin-top: -10vh;
+  }
+}
+/* ToDo => Fix Navbar items for 769 and below resolutions. */
+@media only screen and (max-width: 769px){
+  .mhacks-tn-left-logo a{
+    padding-left: 3px;
+    font-size: 1em;
+  }
+
+  .mhacks-tn-right-item a{
+    font-size: 1em;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
+  .mhacks-tn-right-item{
+    margin-left: -2vw;
+    margin-right: 6vw;
+  }
+
+  .mhacks-top-bg{
+    height: 370px;
+  }
+
+  .mhacks-mid-content{
+    margin-left: 10%;
+  }
+
+  .mhacks-mid-mission-text{
+    font-size: 2em;
+  }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 600px;
+  }
+
+  .mhacks-last-contact-bg{
+    height: 70px;
+  }
+
+  .mhacks-last-contact-header{
+    font-size: 2em;
+  }
 }
