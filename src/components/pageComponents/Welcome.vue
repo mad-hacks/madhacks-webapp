@@ -4,7 +4,7 @@
     <div class="row">
       <!-- Top Nav, Top Header and Top Description -->
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-        <div class="container">
+        <div class="container nav-container">
           <ul class="mhack-top-nav">
             <li class="mhacks-tn-left-logo">
               <a href="#home">Mad.Hacks</a>
