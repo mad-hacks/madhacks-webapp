@@ -560,8 +560,6 @@
   }
 
   .mhacks-mid-team-header{
-    position: relative;
-    z-index: 1;
     font-size: 3.1em;
   }
 
@@ -957,7 +955,7 @@
 
   .mhacks-mid-mission-bg{
     height: 120px;
-  } 
+  }
 
   .mhacks-mid-ft-list-name{
     font-size: 1.2em;
@@ -977,7 +975,12 @@
   }
 
   .mhacks-mid-team-card{
-    margin-bottom: -10%;
+    margin-top: -20%;
+    margin-bottom: -28%;
+  }
+
+  .mhacks-mid-team-header{
+    margin-top: -26%;
   }
 
   .mhacks-mid-mission-sec-bg{
@@ -1169,6 +1172,12 @@
 
   .mhacks-mid-team-header{
     font-size: 2.3em;
+    margin-top: -36%;
+  }
+
+  .mhacks-mid-team-card{
+    margin-top: -30%;
+    margin-bottom: -40%;
   }
 }
 

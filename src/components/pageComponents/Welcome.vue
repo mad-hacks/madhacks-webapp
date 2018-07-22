@@ -137,7 +137,7 @@
       </div>
     </div>
     <!-- Features Section -->
-    <div class="row mhacks-features-section">
+    <div class="row mhacks-features-title-section">
       <!-- Image Section -->
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
         <div class="mhacks-mid-ft"></div>
@@ -153,6 +153,7 @@
     </div>
     <!-- End -->
     <!-- Features Images Section -->
+    <div class="mhacks-features-section">
     <div class="container mhacks-mid-container">
       <div class="row">
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -252,6 +253,7 @@
         </div>
       </div>
     </div>
+    </div>
     <!-- End -->
     <!-- Mission Section -->
     <div class="row" style="margin-top:5%;">
@@ -291,6 +293,7 @@
     </div>
     <!-- End -->
     <!-- Team Section -->
+    <div class="mhacks-team-section">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="mhacks-mid-team-header">The Team Behind</div>
@@ -329,6 +332,7 @@
         </div>
       </div>
     </div>
+  </div>
     <!-- End -->
     <!-- Hire Us Now Section -->
     <div class="row">
