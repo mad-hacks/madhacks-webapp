@@ -1,4 +1,5 @@
-@keyframes fadeOut{
+/* All sorts of animations */
+@keyframes zoomIn{
   from{
     opacity: 0.3;
     transform: scale(0.7);
@@ -7,19 +8,60 @@
     transform: scale(1);
   }
   }
-.animated{
-  animation-iteration-count: 0.8;
+.animated.zoomIn{
+  animation-iteration-count: 1;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+}
+.zoomIn{
+  animation-name: zoomIn;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.animated.fadeIn{
+  animation-iteration-count: 1;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
+}
+.fadeIn{
+  animation-name: fadeIn;
+}
+
+@keyframes fadeInTop{
+  from{
+    opacity: 0;
+    transform: translateY(6vh);
+  }
+  to{
+    transform: translateY(0vh);
+    opacity: 1;
+  }
+}
+.animated.fadeInTop{
+  animation-iteration-count: 1;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
 }
-.fadeOut{
-  animation-name: fadeOut;
+.fadeInTop{
+  animation-name: fadeInTop;
 }
 
 .mhacks-top-nav {
   list-style: none;
   text-decoration: none;
 }
+
+/* .nav-container{
+  position: fixed;
+  top: 0px;
+} */
 
 .mhacks-tn-left-logo {
   list-style-type: none;
@@ -132,6 +174,15 @@
   background-image: url('../images/serviceshadow.svg');
   background-repeat: no-repeat;
   background-position-x: 5%;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 1%;
+}
+
+.mhacks-mid-bg-business{
+  background-image: url('../images/serviceshadow.svg');
+  background-repeat: no-repeat;
+  background-position-x: 80%;
   width: 100%;
   height: 200px;
   margin-bottom: 1%;
@@ -443,8 +494,8 @@
 }
 
 /* Media Queries */
-/* Laptop screens(upto 1366 px) */
-@media only screen and (max-width: 1366px){
+/* Laptop screens(upto 1400 px) */
+@media only screen and (max-width: 1400px){
   .mhacks-tn-left-logo {
     padding: 15px 10px;
     padding-top: 16px;
@@ -488,8 +539,12 @@
     height: 48px;
   }
 
-  .mhacks-mid-bg{
+  .mhacks-mid-bg, .mhacks-mid-bg-business{
     height: 130px;
+  }
+
+  .mhacks-mid-bg-business{
+    margin-top: 6%;
   }
 
   .mhacks-mid-header{
@@ -499,7 +554,8 @@
 
   .mhacks-mid-header-business{
     font-size: 3em;
-    padding-top: 10%;
+    padding-top: 3%;
+    padding-right: 25%;
   }
 
   .mhacks-mid-ft{
@@ -536,7 +592,7 @@
 
   .mhacks-mid-mission-content{
     margin-top: 10%;
-    margin-left: 15%;
+    margin-left: 20%;
     font-size: 1.4em;
     line-height: 1.67em;
   }
@@ -546,8 +602,6 @@
   }
 
   .mhacks-mid-team-header{
-    position: relative;
-    z-index: 1;
     font-size: 3.1em;
   }
 
@@ -670,6 +724,7 @@
 
   .mhacks-mid-mission-content{
     font-size: 1.3em;
+    margin-left: 12%;
   }
 
   .mhacks-mid-mission-sec-bg{
@@ -711,7 +766,7 @@
     font-size: 2.9em;
   }
 
-  .mhacks-mid-bg{
+  .mhacks-mid-bg, .mhacks-mid-bg-features{
     height: 120px;
   }
 
@@ -911,7 +966,7 @@
     font-size: 2.7em;
   }
 
-  .mhacks-mid-bg{
+  .mhacks-mid-bg, .mhacks-mid-bg-business{
     height: 130px;
     margin-top: 5vh;
   }
@@ -932,13 +987,17 @@
     height: 280px;
   }
 
+  .mhacks-features-section{
+    margin-top: 5%;
+  }
+
+  .mhacks-mid-ft-list{
+    margin-top: 5%;
+  }
+
   .mhacks-mid-mission-bg{
     height: 120px;
   }
-
-  /* .mhacks-mid-container{
-    margin-left: 10%;
-  } */
 
   .mhacks-mid-ft-list-name{
     font-size: 1.2em;
@@ -957,8 +1016,22 @@
     width: 100%;
   }
 
+  .mhacks-mid-team-card{
+    margin-top: -20%;
+    margin-bottom: -28%;
+  }
+
+  .mhacks-mid-team-header{
+    margin-top: -26%;
+  }
+
   .mhacks-mid-mission-sec-bg{
-    width: 860px;
+    width: 920px;
+    margin-top: -10%;
+  }
+
+  .mhacks-last-contact-input-header{
+    margin-top: 60%;
   }
 
   .mhacks-last-contact-input {
@@ -975,10 +1048,17 @@
 
   .mhacks-last-contact-bg{
     height: 80px;
+    margin-top: 20%;
+    margin-bottom: -10%;
+  }
+
+  .mhacks-last-contact-input-bg{
+    margin-top: 62%;
   }
 
   .mhacks-last-contact-header{
     font-size: 2.6em;
+    padding-top: 2%;
   }
 }
 
@@ -1009,6 +1089,15 @@
     font-size: 1.1em;
     width: 160px;
     height: 45px;
+  }
+
+  .mhacks-mid-ft-list{
+    margin-top: 2%;
+  }
+  
+  .mhacks-mid-mission-sec-bg{
+    width: 820px;
+    margin-top: -18%;
   }
 }
 
@@ -1045,7 +1134,7 @@
     font-size: 2.3em;
   }
 
-  .mhacks-mid-bg{
+  .mhacks-mid-bg, .mhacks-mid-bg-business{
     height: 110px;
   }
 
@@ -1076,7 +1165,7 @@
 
   .mhacks-mid-mission-sec-bg{
     width: 760px;
-    margin-top: -5vh;
+    margin-top: -20%;
   }
 
   .mhacks-last-contact-bg{
@@ -1098,6 +1187,10 @@
     margin-right: 18vw;
   }
 
+  .mhacks-mid-header-business{
+    padding-top: 4%;
+  }
+
   .mhacks-mid-content{
     margin-left: 5%;
   }
@@ -1116,10 +1209,17 @@
 
   .mhacks-mid-mission-sec-bg{
     width: 720px;
+    margin-top: -25%;
   }
 
   .mhacks-mid-team-header{
     font-size: 2.3em;
+    margin-top: -36%;
+  }
+
+  .mhacks-mid-team-card{
+    margin-top: -30%;
+    margin-bottom: -40%;
   }
 }
 
@@ -1133,7 +1233,11 @@
     font-size: 2.1em;
   }
 
-  .mhacks-mid-bg{
+  .mhacks-mid-header-business{
+    padding-top: 3%;
+  }
+
+  .mhacks-mid-bg, .mhacks-mid-bg-business{
     height: 90px;
   }
 
@@ -1155,7 +1259,7 @@
 
   .mhacks-mid-mission-sec-bg{
     width: 660px;
-    margin-top: -10vh;
+    margin-top: -30%;
   }
 }
 /* ToDo => Fix Navbar items for 769 and below resolutions. */
