@@ -1,0 +1,164 @@
+<template>
+    <div class="mhacks-features-mobileview">
+        <!--Code Quality Section -->
+        <div class="codeq-section">
+            <img src="../../assets/images/codeq.svg" class="codeq_img">
+            <div class="codeq_desc">
+                Code Quality
+            </div>
+            <div class="codeq_desc_list">
+                Latest technology used. <br>
+                Neat and clean code. <br>
+                Best industry practices.
+            </div>
+        </div>
+        <!--End-->
+        <!-- Responsive Feature Section -->
+        <div class="resp-section">
+            <img src="../../assets/images/respon.svg" class="resp_img">
+            <div class="resp_desc">
+                Responsive
+            </div>
+            <div class="resp_desc_list">
+                Responsiveness at its best. <br>
+                All device compatible. <br>
+                Clear cut clarity.
+            </div>
+        </div>
+        <!--End-->
+        <!--Browser Compatibility Feature Section -->
+        <div class="browsercompat-section">
+            <img src="../../assets/images/browser.svg" class="bc_img">
+            <div class="bc_desc">
+                Browser Compatibility
+            </div>
+            <div class="bc_desc_list">
+                Runs on any browser. <br>
+                Supports every screen size. <br>
+                Easily viewable.
+            </div>
+        </div>
+        <!--End-->
+        <!-- Lifetime Support Section -->
+        <div class="lsupport-section">
+            <img src="../../assets/images/life.svg" alt="Lifetime Support icon" class="lsupport_img">
+            <div class="lsupport_desc">
+                Lifetime Support
+            </div>
+            <div class="lsupport_desc_list">
+                Lifetime Support available. <br>
+                Frequent updation. <br>
+                Later stage addition.
+            </div>
+        </div>
+        <!--End-->
+        <!-- Technical Support Section -->
+        <div class="tsupport-section">
+            <img src="../../assets/images/tech.svg" alt="Technical Support Icon" class="tsupport_img">
+            <div class="tsupport_desc">
+                Technical Support
+            </div>
+            <div class="tsupport_desc_list">
+                Technical Assistance available. <br>
+                Scheduled maintainence available. <br>
+                Super fast maintainence.
+            </div>
+        </div>
+    </div>
+</template>
+
+<style>
+.mhacks-features-mobileview{
+    display: none;
+}
+@media screen and (max-width: 781px){
+    .mhacks-features-mobileview{
+        display: block;
+        font-family: 'Muli'
+    }
+    .codeq_img{
+        height: 50px;
+        margin-left: 45%;
+        margin-bottom: 2%;
+        margin-top: -80%;
+    }
+    .codeq_desc{
+        float: left;
+        margin-left: 43%;
+        color: #f73589;
+        margin-top: -36%;
+        font-size: 1em;
+    }
+    .codeq_desc_list{
+        margin-left: 40%;
+        margin-top: -30%;
+        float: left;
+    }
+    .resp_img{
+        height: 50px;
+        margin-left: 45%;
+        margin-top: -20%;
+    }
+    .resp_desc{
+        float: left;
+        margin-left: 43%;
+        margin-top: -5%;
+        font-size: 1em;
+        color: #f73589;
+    }
+    .resp_desc_list{
+        margin-left: 40%;
+        margin-top: 1%;
+        float: left;
+    }
+    .bc_img{
+        height: 50px;
+        margin-left: 45%;
+        margin-top: 7%;
+    }
+    .bc_desc{
+        margin-left: 43%;
+        float: left;
+        color: #f73589;
+        margin-top: 5%;
+    }
+    .bc_desc_list{
+        float: left;
+        margin-top: 12%;
+        margin-left: -22%;
+    }
+    .lsupport_img{
+        height: 50px;
+        margin-left: 45%;
+        margin-top: 10%;
+    }
+    .lsupport_desc{
+        margin-left: 43%;
+        float: left;
+        color: #f73589;
+        margin-top: 5%;
+    }
+    .lsupport_desc_list{
+        margin-left: -17%;
+        margin-top: 12%;
+        float: left;
+    }
+    .tsupport_img{
+        height: 50px;
+        margin-left: 45%;
+        margin-top: 13%;
+    }
+    .tsupport_desc{
+        margin-left: 43%;
+        float: left;
+        color: #f73589;
+        margin-top: 5%;
+    }
+    .tsupport_desc_list{
+        float: left;
+        margin-top: 12%;
+        margin-left: -18%;
+    }
+}
+</style>
+

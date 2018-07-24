@@ -1304,3 +1304,37 @@
     font-size: 2em;
   }
 }
+@media screen and (max-width: 781px){
+  .mhacks-tn-right-item{
+    display: none;
+  }
+  .mhacks-top-bg{
+    display: none;
+  }
+  .students-section{
+    display: grid;
+    margin: 0 auto;
+  }
+  .mhacks-mid-header{
+    margin-left: 15%; 
+  }
+  .students-container{
+    margin-left: 26%;
+  }
+  .business-section{
+    display: grid;
+    margin-left: 26%;
+  }
+  .mhacks-mid-header-business{
+    margin-right: 10%;
+  }
+  .mhacks-mid-ft{
+    background-image: none;
+  }
+  .mhacks-mid-ft-content{
+    margin-left: -60%;
+  }
+  .mhacks-features-section{
+    display: none;
+  }
+}

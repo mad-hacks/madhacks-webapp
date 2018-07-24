@@ -70,8 +70,8 @@
     </div>
     <!-- End -->
     <!-- Student Content -->
-    <div class="container">
-      <div class="row">
+    <div class="container students-container">
+      <div class="row students-section">
         <!-- Content Section -->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="mhacks-mid-content">
@@ -110,7 +110,7 @@
     <!-- End -->
     <!-- For Business Content -->
     <div class="container">
-      <div class="row">
+      <div class="row business-section">
         <!-- Content Section -->
         <!-- Image Section -->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -198,9 +198,9 @@
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
           <div class="mhacks-mid-ft-list-para">
-            Responsivenes at its best.<br>
+            Responsiveness at its best.<br>
             All device compatible.<br>
-            Clear out clarity.<br>
+            Clear cut clarity.<br>
           </div>
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -258,6 +258,8 @@
     </div>
     </div>
     <!-- End -->
+    <!-- For Mobile View Features Section (Seperate)-->
+    <mview></mview>
     <!-- Mission Section -->
     <a name="about"></a>
     <div class="row" style="margin-top:5%;">
@@ -409,6 +411,7 @@
   import Kavi from './Team/Kavi.vue'
   import Alan from './Team/Alan.vue'
   import Dani from './Team/Dani.vue'
+  import mview from './mv_features.vue'
 
   export default{
     data: function () {
@@ -420,7 +423,8 @@
       James,
       Kavi,
       Alan,
-      Dani
+      Dani,
+      mview
     }
   }
 </script>
