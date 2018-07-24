@@ -1337,4 +1337,19 @@
   .mhacks-features-section{
     display: none;
   }
+  .mhacks-mid-bg{
+    background-image: none;
+  }
+  .mhacks-mid-bg-business{
+    background-image: none;
+  }
+  .mhacks-mid-ft-content{
+    background-image: none;
+  }
+  .mhacks-mid-mission-bg{
+    background-image: none;
+  }
+  .mhacks-last-contact-bg{
+    background-image: none;
+  }
 }

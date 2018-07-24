@@ -93,6 +93,7 @@
         margin-left: 40%;
         margin-top: -30%;
         float: left;
+        line-height: 2em;
     }
     .resp_img{
         height: 50px;
@@ -110,6 +111,7 @@
         margin-left: 40%;
         margin-top: 1%;
         float: left;
+        line-height: 2em;
     }
     .bc_img{
         height: 50px;
@@ -126,6 +128,7 @@
         float: left;
         margin-top: 12%;
         margin-left: -22%;
+        line-height: 2em;
     }
     .lsupport_img{
         height: 50px;
@@ -142,6 +145,7 @@
         margin-left: -17%;
         margin-top: 12%;
         float: left;
+        line-height: 2em;
     }
     .tsupport_img{
         height: 50px;
@@ -158,6 +162,7 @@
         float: left;
         margin-top: 12%;
         margin-left: -18%;
+        line-height: 2em;
     }
 }
 </style>
