@@ -1353,3 +1353,53 @@
     background-image: none;
   }
 }
+  @media screen and (max-width: 737px){
+    .mhacks-top-para{
+      width: 270px;
+    }
+    .mhacks-mid-header{
+      margin-left: -2%;
+    }
+    .mhacks-mid-content{
+      width: 270px;
+      line-height: 2em;
+      margin-left: -40%;
+    }
+    .mhacks-mid-content-pic{
+      height: 239px;
+      width: 230px;
+      float: right;
+      margin-right: -35%;
+    }
+    .mhacks-mid-content-business{
+      width: 270px;
+      margin-left: -5%;
+    }
+    .mhacks-mid-mission-sec-bg{
+      display: none;
+    }
+    .mhacks-mid-mission-content{
+      width: 320px;
+      margin-bottom: 195px;
+    }
+    .team-section{
+      display: grid;
+      float: left;
+      margin-left: 5%;
+    }
+    .mhacks-last-contact-header{
+      margin-top: 10%;
+      margin-right: 8%;
+    }
+    .mhacks-last-contact-input-bg{
+      display: none;
+    }
+    .contact-form{
+      width: 350px;
+    }
+    .mhacks-last-contact-input-header{
+      margin-top: 20%;
+      margin-bottom: 10%;
+    }
+}
+
