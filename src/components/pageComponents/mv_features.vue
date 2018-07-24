@@ -165,7 +165,57 @@
         line-height: 2em;
     }
 }
-@media screen and (max-width: 737px){
+@media screen and (max-width: 601px){
+    .codeq_img{
+        margin-left: 42%;
+        margin-top: -117%;
+    }
+    .codeq_desc{
+        margin-left: 40%;
+        margin-top: -50%;
+    }
+    .codeq_desc_list{
+        margin-left: 36%;
+        margin-top: -43%;
+    }
+    .resp_img{
+        margin-left: 40%;
+        margin-top: -35%;
+    }
+    .resp_desc{
+        margin-left: 39%;
+        margin-top: -9%;
+    }
+    .resp_desc_list{
+        margin-left: 37%;
+        margin-top: -1%;
+    }
+    .bc_img{
+        margin-left: 40%;
+    }
+    .bc_desc{
+        margin-left: 34%;
+    }
+    .lsupport_img{
+        margin-left: 39%;
+    }
+    .lsupport_desc{
+        margin-left: 35%;
+    }
+    .lsupport_desc_list{
+        margin-left: -18%;
+    }
+    .tsupport_img{
+        margin-left: 40%;
+    }
+    .tsupport_desc{
+        margin-left: 35%;
+    }
+    .tsupport_desc_list{
+        margin-left: -21%;
+    }
+}
+@media screen and (max-width: 415px){
     .codeq_img{
         margin-top: -750px;
         margin-left: 40%;

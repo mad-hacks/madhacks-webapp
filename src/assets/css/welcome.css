@@ -1353,7 +1353,49 @@
     background-image: none;
   }
 }
-  @media screen and (max-width: 737px){
+  @media screen and (max-width: 601px){
+    .mhacks-top-para{
+      width: 270px;
+    }
+    .mhacks-top-header{
+      width: 270px;
+    }
+    .mhacks-mid-header{
+      margin-left: 5%;
+    }
+    .mhacks-mid-content{
+      width: 270px;
+      line-height: 2em;
+      margin-left: -12%;
+    }
+    .mhacks-mid-content-pic{
+      height: 239px;
+      width: 230px;
+      float: right;
+      margin-right: -35%;
+    }
+    .mhacks-mid-content-business{
+      width: 270px;
+      margin-left: 20%;
+    }
+    .mhacks-mid-mission-sec-bg{
+      display: none;
+    }
+    .mhacks-mid-mission-content{
+      width: 450px;
+      margin-bottom: 250px;
+    }
+    .contact-form{
+      width: 350px;
+    }
+    .mhacks-last-contact-input-bg{
+      display: none;
+    }
+    .mhacks-last-contact-input{
+      width: 125%;
+    }  
+  }
+  @media screen and (max-width: 415px){
     .mhacks-top-para{
       width: 270px;
     }
@@ -1400,6 +1442,9 @@
     .mhacks-last-contact-input-header{
       margin-top: 20%;
       margin-bottom: 10%;
+    }
+    .mhacks-top-header{
+      width: 270px;
     }
 }
 
