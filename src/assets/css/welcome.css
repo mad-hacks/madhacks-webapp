@@ -1354,6 +1354,9 @@
   .mhacks-tn-right-item{
     display: none;
   }
+  .mhacks-top-header{
+    color: #f73589;
+  }
 }
 @media screen and (max-width: 767px){
   .mhacks-mid-team-card-other-pic{
@@ -1535,6 +1538,14 @@
     }
     .kavi{
       margin-right: -108px;
+    }
+  }
+  @media screen and (max-width: 429px){
+    .mhacks-mid-mission-content{
+      width: 372px;
+    }
+    .mhacks-last-contact-input-header{
+      margin-top: 25%;
     }
   }
   @media screen and (max-width: 415px){

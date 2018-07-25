@@ -1,5 +1,5 @@
 <template>
-    <div class="mhacks-features-mobileview">
+    <div class="mhacks-features-mobileview mhacks-mview-bg">
         <!--Code Quality Section -->
         <div class="codeq-section">
             <img src="../../assets/images/codeq.svg" class="codeq_img">
@@ -74,10 +74,16 @@
 @media screen and (max-width: 760px){
     .mhacks-features-mobileview{
         display: block;
-        font-family: 'Muli'
+        font-family: 'Muli',sans-serif;
+    }
+    .mhacks-mview-bg{
+        background-image: url(../../assets/images/Design.svg);
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-size: auto;
     }
     .codeq_img{
-        height: 50px;
+        height: 40px;
         margin-left: 45%;
         margin-bottom: 2%;
         margin-top: -47%;
@@ -96,32 +102,33 @@
         line-height: 2em;
     }
     .resp_img{
-        height: 50px;
+        height: 40px;
         margin-left: 45%;
-        margin-top: 5%;
+        margin-top: 18%;
     }
     .resp_desc{
         float: left;
         margin-left: 43%;
         margin-top: 3%;
         font-size: 1em;
-        color: #f73589;
+        color: #fff;
     }
     .resp_desc_list{
         margin-left: 40%;
         margin-top: 2%;
         float: left;
         line-height: 2em;
+        color: #fff;
     }
     .bc_img{
-        height: 50px;
+        height: 40px;
         margin-left: 45%;
         margin-top: 5%;
     }
     .bc_desc{
         margin-left: 43%;
         float: left;
-        color: #f73589;
+        color: #fff;
         margin-top: 3%;
     }
     .bc_desc_list{
@@ -129,16 +136,17 @@
         margin-top: 8%;
         margin-left: -22%;
         line-height: 2em;
+        color: #fff;
     }
     .lsupport_img{
-        height: 50px;
+        height: 40px;
         margin-left: 45%;
         margin-top: 4%;
     }
     .lsupport_desc{
         margin-left: 43%;
         float: left;
-        color: #f73589;
+        color: #fff;
         margin-top: 2%;
     }
     .lsupport_desc_list{
@@ -146,11 +154,12 @@
         margin-top: 7%;
         float: left;
         line-height: 2em;
+        color: #fff;
     }
     .tsupport_img{
-        height: 50px;
+        height: 40px;
         margin-left: 45%;
-        margin-top: 6%;
+        margin-top: 24%;
     }
     .tsupport_desc{
         margin-left: 43%;
@@ -172,7 +181,7 @@
         font-family: 'Muli'
     }
     .codeq_img{
-        height: 50px;
+        height: 40px;
         margin-left: 45%;
         margin-bottom: 2%;
         margin-top: -80%;
@@ -191,7 +200,7 @@
         line-height: 2em;
     }
     .resp_img{
-        height: 50px;
+        height: 40px;
         margin-left: 45%;
         margin-top: -20%;
     }
@@ -209,7 +218,7 @@
         line-height: 2em;
     }
     .bc_img{
-        height: 50px;
+        height: 40px;
         margin-left: 45%;
         margin-top: 7%;
     }
@@ -226,7 +235,7 @@
         line-height: 2em;
     }
     .lsupport_img{
-        height: 50px;
+        height: 40px;
         margin-left: 45%;
         margin-top: 10%;
     }
@@ -243,7 +252,7 @@
         line-height: 2em;
     }
     .tsupport_img{
-        height: 50px;
+        height: 40px;
         margin-left: 45%;
         margin-top: 13%;
     }
@@ -260,10 +269,24 @@
         line-height: 2em;
     }
 }
+@media screen and (max-width: 748px){
+    .mhacks-mview-bg{
+        margin-top: -29%;
+    }
+    .resp_desc{
+        color: #fff;
+    }
+    .bc_desc{
+        color: #fff;
+    }
+    .lsupport_desc{
+        color: #fff;
+    }
+}
 @media screen and (max-width: 601px){
     .codeq_img{
-        margin-left: 42%;
-        margin-top: -117%;
+        margin-left: -6%;
+        margin-top: -58%;
     }
     .codeq_desc{
         margin-left: 40%;
@@ -274,16 +297,16 @@
         margin-top: -43%;
     }
     .resp_img{
-        margin-left: 40%;
-        margin-top: -35%;
+        margin-left: -9%;
+        margin-top: 26%;
     }
     .resp_desc{
         margin-left: 39%;
-        margin-top: -9%;
+        margin-top: 4%;
     }
     .resp_desc_list{
         margin-left: 37%;
-        margin-top: -1%;
+        margin-top: 4%;
     }
     .bc_img{
         margin-left: 40%;
@@ -292,7 +315,8 @@
         margin-left: 34%;
     }
     .lsupport_img{
-        margin-left: 39%;
+        margin-left: -22%;
+        margin-top: 37%;
     }
     .lsupport_desc{
         margin-left: 35%;
@@ -308,6 +332,23 @@
     }
     .tsupport_desc_list{
         margin-left: -21%;
+    }
+}
+@media screen and (max-width: 429px){
+    .tsupport_desc_list{
+        margin-left: -29%;
+    }
+    .tsupport_img{
+        margin-top: 64%;
+    }
+    .lsupport_img{
+        margin-left: -38%;
+    }
+    .bc_desc_list{
+        margin-left: -33%;
+    }
+    .lsupport_desc_list{
+        margin-left: -25%;
     }
 }
 @media screen and (max-width: 415px){
