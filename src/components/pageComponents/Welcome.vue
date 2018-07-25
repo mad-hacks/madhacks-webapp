@@ -9,16 +9,16 @@
             <li class="mhacks-tn-left-logo">
               <a href="#home">Mad.Hacks</a>
             </li>
-            <li class="mhacks-tn-right-item">
+            <li class="mhacks-tn-right-item contact-btn">
               <a href="#contact">Contact</a>
             </li>
-            <li class="mhacks-tn-right-item">
+            <li class="mhacks-tn-right-item about-btn">
               <a href="#about">About</a>
             </li>
-            <li class="mhacks-tn-right-item">
+            <li class="mhacks-tn-right-item business-btn">
               <a href="#business">Business</a>
             </li>
-            <li class="mhacks-tn-right-item">
+            <li class="mhacks-tn-right-item students-btn">
               <a href="#students">Students</a>
             </li>
           </ul>

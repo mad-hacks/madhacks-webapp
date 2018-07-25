@@ -494,6 +494,35 @@
 }
 
 /* Media Queries */
+@media only screen and (max-width: 1537px){
+  .contact-btn{
+    margin-right: 12vw;
+  }
+  .business-btn{
+    margin-right: -3vw;
+  }
+  .about-btn{
+    margin-right: -2vw;
+  }
+  .students-btn{
+    margin-right: -2vw;
+  }
+  .mhacks-top-header{
+    font-size: 3.7em;
+  }
+  .mhacks-mid-mission-content{
+    margin-left: 10%;
+    width: 524px;
+  }
+  .mhacks-mid-mission-sec-bg{
+    width: 1101px;
+    float: right;
+    height: 850px;
+  }
+  .mhacks-mid-team-header{
+    margin-top: -19%;
+  }
+}
 /* Laptop screens(upto 1400 px) */
 @media only screen and (max-width: 1400px){
   .mhacks-tn-left-logo {
