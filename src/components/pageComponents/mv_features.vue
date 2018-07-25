@@ -71,7 +71,7 @@
 .mhacks-features-mobileview{
     display: none;
 }
-@media screen and (max-width: 781px){
+@media screen and (max-width: 750px){
     .mhacks-features-mobileview{
         display: block;
         font-family: 'Muli'
@@ -268,5 +268,26 @@
         margin-left: -28%;
     }
 }
+@media screen and (max-width: 376px){
+    .codeq_desc{
+        margin-top: -89%;
+    }
+    .codeq_desc_list{
+        margin-top: -77%;
+    }
+    .bc_desc{
+        margin-left: 31%;
+    }
+    .bc_desc_list{
+        margin-left: -36%;
+    }
+    .lsupport_desc_list{
+        margin-left: -28%;
+    }
+    .tsupport_desc_list{
+        margin-left: -30%;
+    }
+}
+
 </style>
 

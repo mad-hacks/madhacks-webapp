@@ -1304,9 +1304,28 @@
     font-size: 2em;
   }
 }
-@media screen and (max-width: 781px){
+@media screen and (max-width: 770px){
   .mhacks-tn-right-item{
     display: none;
+  }
+}
+@media screen and (max-width: 750px){
+  .mhacks-tn-right-item{
+    display: none;
+  }
+  .mhacks-mid-content{
+    width: 290px;
+  }
+  .mhacks-mid-mission-content{
+    width: 535px;
+    margin-bottom: 320px;
+  }
+  .mhacks-mid-mission-text{
+    padding-left: 9%;
+    padding-top: 11%;
+  }
+  .mhacks-mid-ft-text{
+    padding-right: 20%;
   }
   .mhacks-top-bg{
     display: none;
@@ -1351,6 +1370,20 @@
   }
   .mhacks-last-contact-bg{
     background-image: none;
+  }
+  .mhacks-mid-mission-sec-bg{
+    display: none;
+  }
+}
+@media screen and (max-width: 701px){
+  .mhacks-mid-content-business{
+    width: 270px;
+  }
+  .mhacks-top-header{
+    width: 409px;
+  }
+  .mhacks-top-para{
+    width: 270px;
   }
 }
   @media screen and (max-width: 601px){
@@ -1446,5 +1479,13 @@
     .mhacks-top-header{
       width: 270px;
     }
+}
+@media screen and (max-width: 376px){
+  .mhacks-mid-team-header{
+    margin-top: -41%;
+  }
+  .mhacks-last-contact-input{
+    width: 100%;
+  }
 }
 
