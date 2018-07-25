@@ -1488,6 +1488,9 @@
     .mhacks-last-contact-textarea{
       width: 125%;
     }
+    .mhacks-last-contact-btn{
+      width: 125%;
+    }
   }
   @media screen and (max-width: 557px){
     .alan{
@@ -1571,6 +1574,9 @@
   .mhacks-last-contact-textarea{
     width: 120%;
   }
+  .mhacks-last-contact-btn{
+    width: 120%;
+  }
 }
 @media screen and (max-width: 385px){
   .mhacks-last-contact-input{
@@ -1588,6 +1594,9 @@
     width: 97%;
   }
   .mhacks-last-contact-textarea{
+    width: 97%;
+  }
+  .mhacks-last-contact-btn{
     width: 97%;
   }
 }
@@ -1626,6 +1635,9 @@
     margin-left: -14%;
   }
   .mhacks-last-contact-textarea{
+    width: 88%;
+  }
+  .mhacks-last-contact-btn{
     width: 88%;
   }
 }
