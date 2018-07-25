@@ -4,29 +4,30 @@
     <div class="row">
       <!-- Top Nav, Top Header and Top Description -->
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-        <div class="container">
+        <div class="container nav-container">
           <ul class="mhack-top-nav">
             <li class="mhacks-tn-left-logo">
-              <a>Mad.Hacks</a>
+              <a href="#home">Mad.Hacks</a>
             </li>
             <li class="mhacks-tn-right-item">
-              <a>Contact</a>
+              <a href="#contact">Contact</a>
             </li>
             <li class="mhacks-tn-right-item">
-              <a>About</a>
+              <a href="#about">About</a>
             </li>
             <li class="mhacks-tn-right-item">
-              <a>Business</a>
+              <a href="#business">Business</a>
             </li>
             <li class="mhacks-tn-right-item">
-              <a>Students</a>
+              <a href="#students">Students</a>
             </li>
           </ul>
         </div>
+        <a name="home"></a>
         <div class="row">
           <div class="container">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <div class="mhacks-top-header">
+              <div class="mhacks-top-header animated fadeInTop">
                 Student Developer Community
               </div>
             </div>
@@ -35,7 +36,7 @@
         <div class="row">
           <div class="container">
             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-              <div class="mhacks-top-para">
+              <div class="mhacks-top-para animated fadeIn">
                 A community built for and by the students that develops
                 quality products for business.
               </div>
@@ -45,7 +46,7 @@
         <div class="row">
           <div class="container">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <div class="mhacks-top-btn">Explore</div>
+              <div class="mhacks-top-btn animated fadeIn">Explore</div>
             </div>
           </div>
         </div>
@@ -59,19 +60,18 @@
     </div>
     <!-- End -->
     <!-- Student Section -->
+    <a name="students"></a>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="mhacks-mid-bg">
-          <center>
             <div class="mhacks-mid-header">Are you a Student ?</div>
-          </center>
         </div>
       </div>
     </div>
     <!-- End -->
     <!-- Student Content -->
-    <div class="container">
-      <div class="row">
+    <div class="container students-container">
+      <div class="row students-section">
         <!-- Content Section -->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="mhacks-mid-content">
@@ -99,19 +99,18 @@
     </div>
     <!-- End -->
     <!-- For Business section -->
+    <a name="business"></a>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div>
-          <center>
+        <div class="mhacks-mid-bg-business">
             <div class="mhacks-mid-header-business">For Business</div>
-          </center>
         </div>
       </div>
     </div>
     <!-- End -->
     <!-- For Business Content -->
     <div class="container">
-      <div class="row">
+      <div class="row business-section">
         <!-- Content Section -->
         <!-- Image Section -->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -141,7 +140,7 @@
       </div>
     </div>
     <!-- Features Section -->
-    <div class="row">
+    <div class="row mhacks-features-title-section">
       <!-- Image Section -->
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
         <div class="mhacks-mid-ft"></div>
@@ -157,6 +156,7 @@
     </div>
     <!-- End -->
     <!-- Features Images Section -->
+    <div class="mhacks-features-section">
     <div class="container mhacks-mid-container">
       <div class="row">
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -198,9 +198,9 @@
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
           <div class="mhacks-mid-ft-list-para">
-            Responsivenes at its best.<br>
+            Responsiveness at its best.<br>
             All device compatible.<br>
-            Clear out clarity.<br>
+            Clear cut clarity.<br>
           </div>
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -256,8 +256,12 @@
         </div>
       </div>
     </div>
+    </div>
     <!-- End -->
+    <!-- For Mobile View Features Section (Seperate)-->
+    <mview></mview>
     <!-- Mission Section -->
+    <a name="about"></a>
     <div class="row" style="margin-top:5%;">
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
         <!-- Mission Title -->
@@ -295,6 +299,7 @@
     </div>
     <!-- End -->
     <!-- Team Section -->
+    <div class="mhacks-team-section">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="mhacks-mid-team-header">The Team Behind</div>
@@ -308,12 +313,12 @@
           <div class="mhacks-mid-team-card">
 
             <keep-alive>
-              <component :is="renderedComponent" class="animated fadeOut"></component>
+              <component :is="renderedComponent" class="animated zoomIn"></component>
             </keep-alive>
             
             <div class="container mhacks-mid-team-container">
               <center>
-              <div class="row">
+              <div class="row team-section">
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
                   <img src="../../assets/images/alan.jpeg" tabindex="0" @click="renderedComponent='Alan'" class="mhacks-mid-team-card-other-pic"/>
                 </div>
@@ -333,8 +338,10 @@
         </div>
       </div>
     </div>
+  </div>
     <!-- End -->
     <!-- Hire Us Now Section -->
+    <a name="contact"></a> 
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="mhacks-last-contact-bg">
@@ -346,7 +353,7 @@
     <!-- Contact Us Section -->
     <div class="container">
       <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 contact-form">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <div class="mhacks-last-contact-input-header">Drop us a message</div>
@@ -404,6 +411,7 @@
   import Kavi from './Team/Kavi.vue'
   import Alan from './Team/Alan.vue'
   import Dani from './Team/Dani.vue'
+  import mview from './mv_features.vue'
 
   export default{
     data: function () {
@@ -415,7 +423,8 @@
       James,
       Kavi,
       Alan,
-      Dani
+      Dani,
+      mview
     }
   }
 </script>
