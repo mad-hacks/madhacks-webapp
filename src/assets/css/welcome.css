@@ -1214,7 +1214,7 @@
 
   .mhacks-mid-team-header{
     font-size: 2.3em;
-    margin-top: -36%;
+    margin-top: -40%;
   }
 
   .mhacks-mid-team-card{
@@ -1309,6 +1309,23 @@
     display: none;
   }
 }
+@media screen and (max-width: 767px){
+  .mhacks-mid-team-card-other-pic{
+    float: right;
+  }
+  .alan{
+    margin-right: -50px;
+  }
+  .dani{
+    margin-right: -78px;
+  }
+  .james{
+    margin-right: -101px;
+  }
+  .kavi{
+    margin-right: -118px;
+  }
+}
 @media screen and (max-width: 750px){
   .mhacks-tn-right-item{
     display: none;
@@ -1375,6 +1392,18 @@
     display: none;
   }
 }
+@media screen and (max-width: 761px){
+  .mhacks-mid-mission-sec-bg{
+    display: none;
+  }
+  .mhacks-mid-mission-content{
+    float: left;
+    width: 500px;
+  }
+  .mhacks-features-section{
+    display: none;
+  }
+}
 @media screen and (max-width: 701px){
   .mhacks-mid-content-business{
     width: 270px;
@@ -1428,6 +1457,34 @@
       width: 125%;
     }  
   }
+  @media screen and (max-width: 557px){
+    .alan{
+      margin-right: -25px;
+    }
+    .dani{
+      margin-right: -64px;
+    }
+    .james{
+      margin-right: -96px;
+    }
+    .kavi{
+      margin-right: -129px;
+    }
+  }
+  @media screen and (max-width: 465px){
+    .alan{
+      margin-right: -4px;
+    }
+    .dani{
+      margin-right: -39px;
+    }
+    .james{
+      margin-right: -74px;
+    }
+    .kavi{
+      margin-right: -108px;
+    }
+  }
   @media screen and (max-width: 415px){
     .mhacks-top-para{
       width: 270px;
@@ -1456,11 +1513,6 @@
     .mhacks-mid-mission-content{
       width: 320px;
       margin-bottom: 195px;
-    }
-    .team-section{
-      display: grid;
-      float: left;
-      margin-left: 5%;
     }
     .mhacks-last-contact-header{
       margin-top: 10%;
@@ -1510,6 +1562,21 @@
   }
   .mhacks-last-contact-input{
     width: 88%;
+  }
+  .alan{
+    margin-right: 30px;
+  }
+  .dani{
+    margin-right: -9px;
+  }
+  .james{
+    margin-right: -45px; 
+  }
+  .kavi{
+    margin-right: -78px;
+  }
+  .mhacks-last-footer-bg{
+    margin-top: 13%;
   }
 }
 

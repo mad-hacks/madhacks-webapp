@@ -71,6 +71,101 @@
 .mhacks-features-mobileview{
     display: none;
 }
+@media screen and (max-width: 760px){
+    .mhacks-features-mobileview{
+        display: block;
+        font-family: 'Muli'
+    }
+    .codeq_img{
+        height: 50px;
+        margin-left: 45%;
+        margin-bottom: 2%;
+        margin-top: -47%;
+    }
+    .codeq_desc{
+        float: left;
+        margin-left: 43%;
+        color: #f73589;
+        margin-top: -20%;
+        font-size: 1em;
+    }
+    .codeq_desc_list{
+        margin-left: 40%;
+        margin-top: -15%;
+        float: left;
+        line-height: 2em;
+    }
+    .resp_img{
+        height: 50px;
+        margin-left: 45%;
+        margin-top: 5%;
+    }
+    .resp_desc{
+        float: left;
+        margin-left: 43%;
+        margin-top: 3%;
+        font-size: 1em;
+        color: #f73589;
+    }
+    .resp_desc_list{
+        margin-left: 40%;
+        margin-top: 2%;
+        float: left;
+        line-height: 2em;
+    }
+    .bc_img{
+        height: 50px;
+        margin-left: 45%;
+        margin-top: 5%;
+    }
+    .bc_desc{
+        margin-left: 43%;
+        float: left;
+        color: #f73589;
+        margin-top: 3%;
+    }
+    .bc_desc_list{
+        float: left;
+        margin-top: 8%;
+        margin-left: -22%;
+        line-height: 2em;
+    }
+    .lsupport_img{
+        height: 50px;
+        margin-left: 45%;
+        margin-top: 4%;
+    }
+    .lsupport_desc{
+        margin-left: 43%;
+        float: left;
+        color: #f73589;
+        margin-top: 2%;
+    }
+    .lsupport_desc_list{
+        margin-left: -17%;
+        margin-top: 7%;
+        float: left;
+        line-height: 2em;
+    }
+    .tsupport_img{
+        height: 50px;
+        margin-left: 45%;
+        margin-top: 6%;
+    }
+    .tsupport_desc{
+        margin-left: 43%;
+        float: left;
+        color: #f73589;
+        margin-top: 5%;
+    }
+    .tsupport_desc_list{
+        float: left;
+        margin-top: 10%;
+        margin-left: -18%;
+        line-height: 2em;
+        margin-bottom: 12%;
+    }
+}
 @media screen and (max-width: 750px){
     .mhacks-features-mobileview{
         display: block;
