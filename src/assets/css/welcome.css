@@ -523,6 +523,23 @@
     margin-top: -19%;
   }
 }
+@media only screen and (max-width: 1467px){
+  .students-btn{
+    margin-right: -1vw;
+  }
+  .about-btn{
+    margin-right: -1vw;
+  }
+  .contact-btn{
+    margin-right: 17vw;
+  }
+  .business-btn{
+    margin-right: -1vw;
+  }
+  .mhacks-top-header{
+    font-size: 3.5em;
+  }
+}
 /* Laptop screens(upto 1400 px) */
 @media only screen and (max-width: 1400px){
   .mhacks-tn-left-logo {
