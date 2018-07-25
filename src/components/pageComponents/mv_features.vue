@@ -411,9 +411,10 @@
 @media screen and (max-width: 321px){
     .tsupport_desc_list{
         margin-left: 18%;
+        margin-right: 9%;
     }
     .lsupport_desc_list{
-        margin-left: -40%;
+        margin-left: -34%;
     }
     .bc_desc_list{
         margin-left: -47%;

@@ -1456,6 +1456,9 @@
     .mhacks-last-contact-input{
       width: 125%;
     }  
+    .mhacks-last-contact-textarea{
+      width: 125%;
+    }
   }
   @media screen and (max-width: 557px){
     .alan{
@@ -1536,6 +1539,9 @@
   .mhacks-last-contact-input{
     width: 120%;
   }
+  .mhacks-last-contact-textarea{
+    width: 120%;
+  }
 }
 @media screen and (max-width: 385px){
   .mhacks-last-contact-input{
@@ -1550,7 +1556,10 @@
     margin-top: -41%;
   }
   .mhacks-last-contact-input{
-    width: 100%;
+    width: 97%;
+  }
+  .mhacks-last-contact-textarea{
+    width: 97%;
   }
 }
 @media screen and (max-width: 321px){
@@ -1577,6 +1586,18 @@
   }
   .mhacks-last-footer-bg{
     margin-top: 13%;
+  }
+  .mhacks-mid-header{
+    margin-left: -8%;
+  }
+  .mhacks-mid-header-business{
+    margin-right: -2%;
+  }
+  .mhacks-mid-content-business{
+    margin-left: -14%;
+  }
+  .mhacks-last-contact-textarea{
+    width: 88%;
   }
 }
 
