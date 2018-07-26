@@ -9,16 +9,16 @@
             <li class="mhacks-tn-left-logo">
               <a href="#home">Mad.Hacks</a>
             </li>
-            <li class="mhacks-tn-right-item">
+            <li class="mhacks-tn-right-item contact-btn">
               <a href="#contact">Contact</a>
             </li>
-            <li class="mhacks-tn-right-item">
+            <li class="mhacks-tn-right-item about-btn">
               <a href="#about">About</a>
             </li>
-            <li class="mhacks-tn-right-item">
+            <li class="mhacks-tn-right-item business-btn">
               <a href="#business">Business</a>
             </li>
-            <li class="mhacks-tn-right-item">
+            <li class="mhacks-tn-right-item students-btn">
               <a href="#students">Students</a>
             </li>
           </ul>
@@ -320,16 +320,16 @@
               <center>
               <div class="row team-section">
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/alan.jpeg" tabindex="0" @click="renderedComponent='Alan'" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/alan.jpeg" tabindex="0" @click="renderedComponent='Alan'" class="mhacks-mid-team-card-other-pic alan"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/dani.jpeg"  tabindex="0" @click="renderedComponent='Dani'" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/dani.jpeg"  tabindex="0" @click="renderedComponent='Dani'" class="mhacks-mid-team-card-other-pic dani"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/james.jpeg"  tabindex="0" @click="renderedComponent='James'" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/james.jpeg"  tabindex="0" @click="renderedComponent='James'" class="mhacks-mid-team-card-other-pic james"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/kavi.jpeg"  tabindex="0" @click="renderedComponent='Kavi'" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/kavi.jpeg"  tabindex="0" @click="renderedComponent='Kavi'" class="mhacks-mid-team-card-other-pic kavi"/>
                 </div>
               </div>
               </center>
