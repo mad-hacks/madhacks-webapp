@@ -1356,6 +1356,15 @@
   }
   .mhacks-top-header{
     color: #f73589;
+    margin-left: 50%;
+    width: 409px;
+  }
+  .mhacks-top-para{
+    margin-left: 22vw;
+    width: 300px;
+  }
+  .mhacks-top-btn{
+    margin-left: 22vw;
   }
 }
 @media screen and (max-width: 761px){
@@ -1377,6 +1386,37 @@
 }
 @media screen and (max-width: 750px){
   .mhacks-tn-right-item{
+    display: none;
+  }
+  .contactus-section{
+    background: url(../images/DesignContactUs.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -1%;
+    background-position-x: 100%;
+    height: 618px;
+    margin-top: -7%;
+  }
+  .mhacks-last-contact-btn{
+    width: 208%;
+  }
+  .mhacks-last-contact-textarea{
+    width: 209%;
+  }
+  .mhacks-last-contact-input{
+    width: 209%;
+  }
+  .mhacks-last-contact-header{
+    padding-top: 13%;
+    color: #fff;
+  }
+  .mhacks-last-contact-input-header{
+    color: #fff;
+  }
+  .mhacks-last-contact-input-bg{
+    display: none;
+  }
+  .mhacks-last-footer-bg{
     display: none;
   }
   .mhacks-mid-content{
@@ -1593,6 +1633,15 @@
     .mhacks-last-contact-input-header{
       margin-top: 25%;
     }
+    .mhacks-last-contact-input{
+      width: 120%;
+    }
+    .mhacks-last-contact-textarea{
+      width: 120%;
+    }
+    .mhacks-last-contact-btn{
+      width: 120%;
+    }
     .mhacks-mid-ft-text{
       color: #fff;
       width: 100%;
@@ -1650,20 +1699,31 @@
       margin-top: 24%;
     }
 }
-@media screen and (max-width: 413px){
+@media screen and (max-width: 414px){
   .mhacks-last-contact-input{
-    width: 120%;
+    width: 115%;
   }
   .mhacks-last-contact-textarea{
-    width: 120%;
+    width: 115%;
   }
   .mhacks-last-contact-btn{
-    width: 120%;
+    width: 115%;
   }
 }
 @media screen and (max-width: 401px){
   .mhacks-mid-ft-text{
     margin-top: 45%;
+  }
+}
+@media screen and (max-width: 397px){
+  .mhacks-last-contact-input{
+    width: 110%;
+  }
+  .mhacks-last-contact-textarea{
+    width: 110%;
+  }
+  .mhacks-last-contact-btn{
+    width: 110%;
   }
 }
 @media screen and (max-width: 386px){
@@ -1677,6 +1737,22 @@
     margin-top: 55%;
   }
 }
+@media screen and (max-width: 381px){
+  .mhacks-last-contact-input{
+    width: 105%;
+  }
+  .mhacks-last-contact-textarea{
+    width: 105%;
+  }
+  .mhacks-last-contact-btn{
+    width: 105%;
+  }
+  .mhacks-last-contact-header{
+    margin-top: 8%;
+    margin-left: -45%;
+  }
+}
+
 @media screen and (max-width: 376px){
   .mhacks-mid-team-header{
     margin-top: -41%;
