@@ -71,16 +71,18 @@
 .mhacks-features-mobileview{
     display: none;
 }
-@media screen and (max-width: 760px){
+@media screen and (max-width: 761px){
     .mhacks-features-mobileview{
         display: block;
         font-family: 'Muli',sans-serif;
+        margin-top: -76%;
+        height: 1680px;
     }
     .mhacks-mview-bg{
-        background-image: url(../../assets/images/Design.svg);
+        background-image: url(../../assets/images/DesignFeatures.svg);
         background-repeat: no-repeat;
         background-position-x: 100%;
-        background-size: auto;
+        background-size: cover;
     }
     .codeq_img{
         height: 40px;
@@ -91,7 +93,7 @@
     .codeq_desc{
         float: left;
         margin-left: 43%;
-        color: #f73589;
+        color: #fff;
         margin-top: -20%;
         font-size: 1em;
     }
@@ -100,6 +102,7 @@
         margin-top: -15%;
         float: left;
         line-height: 2em;
+        color: #fff;
     }
     .resp_img{
         height: 40px;
@@ -164,7 +167,7 @@
     .tsupport_desc{
         margin-left: 43%;
         float: left;
-        color: #f73589;
+        color: #fff;
         margin-top: 5%;
     }
     .tsupport_desc_list{
@@ -189,7 +192,7 @@
     .codeq_desc{
         float: left;
         margin-left: 43%;
-        color: #f73589;
+        color: #fff;
         margin-top: -36%;
         font-size: 1em;
     }
@@ -209,7 +212,7 @@
         margin-left: 43%;
         margin-top: -5%;
         font-size: 1em;
-        color: #f73589;
+        color: #fff;
     }
     .resp_desc_list{
         margin-left: 40%;
@@ -225,7 +228,7 @@
     .bc_desc{
         margin-left: 43%;
         float: left;
-        color: #f73589;
+        color: #fff;
         margin-top: 5%;
     }
     .bc_desc_list{
@@ -242,7 +245,7 @@
     .lsupport_desc{
         margin-left: 43%;
         float: left;
-        color: #f73589;
+        color: #fff;
         margin-top: 5%;
     }
     .lsupport_desc_list{
@@ -259,7 +262,7 @@
     .tsupport_desc{
         margin-left: 43%;
         float: left;
-        color: #f73589;
+        color: #fff;
         margin-top: 5%;
     }
     .tsupport_desc_list{
@@ -267,11 +270,12 @@
         margin-top: 12%;
         margin-left: -18%;
         line-height: 2em;
+        color: #fff;
     }
 }
 @media screen and (max-width: 748px){
     .mhacks-mview-bg{
-        margin-top: -29%;
+        margin-top: -80%;
     }
     .resp_desc{
         color: #fff;
@@ -286,27 +290,27 @@
 @media screen and (max-width: 601px){
     .codeq_img{
         margin-left: -6%;
-        margin-top: -58%;
+        margin-top: -8%;
     }
     .codeq_desc{
         margin-left: 40%;
-        margin-top: -50%;
+        margin-top: -41%;
     }
     .codeq_desc_list{
         margin-left: 36%;
-        margin-top: -43%;
+        margin-top: -35%;
     }
     .resp_img{
         margin-left: -9%;
-        margin-top: 26%;
+        margin-top: 23%;
     }
     .resp_desc{
         margin-left: 39%;
-        margin-top: 4%;
+        margin-top: -6%;
     }
     .resp_desc_list{
         margin-left: 37%;
-        margin-top: 4%;
+        margin-top: -1%;
     }
     .bc_img{
         margin-left: 40%;
@@ -315,7 +319,7 @@
         margin-left: 34%;
     }
     .lsupport_img{
-        margin-left: -22%;
+        margin-left: -28%;
         margin-top: 37%;
     }
     .lsupport_desc{
@@ -334,50 +338,155 @@
         margin-left: -21%;
     }
 }
+@media screen and (max-width: 571px){
+    .resp_img{
+        margin-top: 27%;
+    }
+}
+@media screen and (max-width: 544px){
+    .resp_img{
+        margin-top: 26%;
+    }
+    .bc_desc_list{
+        margin-left: -27%;
+    }
+    .lsupport_desc_list{
+        margin-left: -21%;
+    }
+    .tsupport_desc_list{
+        margin-left: -23%;
+    }
+}
+@media screen and (max-width: 450px){
+    .codeq_img{
+        margin-top: -4%;
+    }
+    .codeq_desc{
+        margin-top: -20%;
+    }
+    .codeq_desc_list{
+        margin-top: -14%;
+    }
+    .resp_img{
+        margin-top: 49%;
+        margin-left: -30%;
+    }
+    .resp_desc{
+        margin-top: 3%;
+    }
+    .resp_desc_list{
+        margin-top: 3%;
+    }
+    .bc_img{
+        margin-top: 17%;
+    }
+    .bc_desc{
+        margin-left: 31%;
+    }
+    .bc_desc_list{
+        margin-left: -28%;
+    }
+    .lsupport_img{
+        margin-left: -37%;
+        margin-top: 44%;
+    }
+    .lsupport_desc_list{
+      margin-left: -24%;
+    }
+    .tsupport_img{
+        margin-top: 21%;
+    } 
+    .tsupport_desc_list{
+        margin-left: -27%;
+    }
+}
 @media screen and (max-width: 429px){
     .tsupport_desc_list{
         margin-left: -29%;
+        color: #fff;
     }
     .tsupport_img{
-        margin-top: 64%;
+        margin-top: 12%;
     }
     .lsupport_img{
         margin-left: -38%;
     }
     .bc_desc_list{
         margin-left: -33%;
+        color: #fff;
     }
     .lsupport_desc_list{
         margin-left: -25%;
+        color: #fff;
+    }
+    .mhacks-features-mobileview{
+        height: 1236px;
+        margin-top: -141%;
+    }
+    .codeq_img{
+        margin-left: -58%;
+        margin-top: 43%;
+    }
+    .codeq_desc{
+        margin-top: -85%;
+        color: #fff;
+    }
+    .codeq_desc_list{
+        margin-top: -78%;
+        color: #fff;
+    }
+    .resp_img{
+        margin-top: 37%;
+    }
+    .resp_desc{
+        margin-top: -36%;
+        color: #fff;
+    }
+    .resp_desc_list{
+        margin-top: -29%;
+        color: #fff;
+    }
+    .bc_img{
+        margin-top: -2%;
+    }
+    .tsupport_desc{
+        color: #fff;
+    }
+
+}
+@media screen and (max-width: 425px){
+    .resp_img{
+        margin-left: -8%;
     }
 }
 @media screen and (max-width: 415px){
     .codeq_img{
-        margin-top: -750px;
+        margin-top: -201%;
         margin-left: 40%;
     }
     .codeq_desc{
-        margin-top: -80%;
+        margin-top: -93%;
         margin-left: 37%;
     }
     .codeq_desc_list{
         margin-left: 32%;
-        margin-top: -70%;
+        margin-top: -83%;
     }
     .resp_img{
         margin-left: 38%;
-        margin-top: -75%;
+        margin-top: -102%;
     }
     .resp_desc{
         margin-left: 37%;
-        margin-top: -26%;
+        margin-top: -44%;
     }
     .resp_desc_list{
         margin-left: 32%;
-        margin-top: -15%;
+        margin-top: -35%;
     }
     .bc_img{
         margin-left: 38%;
+        margin-top: -4%;
     }
     .bc_desc{
         margin-left: 30%;
@@ -387,6 +496,7 @@
     }
     .lsupport_img{
         margin-left: 38%;
+        margin-top: 16%;
     }
     .lsupport_desc{
         margin-left: 32%;
@@ -404,7 +514,7 @@
         margin-left: -28%;
     }
 }
-@media screen and (max-width: 385px){
+@media screen and (max-width: 386px){
     .bc_desc_list{
         margin-left: -35%;
     }
@@ -414,6 +524,7 @@
     .tsupport_desc_list{
         margin-left: -33%;
     }
+
 }
 @media screen and (max-width: 376px){
     .codeq_desc{
@@ -435,9 +546,9 @@
         margin-left: -30%;
     }
 }
-@media screen and (max-width: 361px){
+@media screen and (max-width: 363px){
     .tsupport_desc_list{
-        margin-right: 19%;
+        margin-right: 8%;
         float: right;
         margin-bottom: 5%;
         margin-top: 2%;
@@ -447,6 +558,9 @@
     }
     .bc_desc_list{
         margin-left: -42%;
+    }
+    .resp_img{
+        margin-top: -98%;
     }
 }
 @media screen and (max-width: 321px){
@@ -467,6 +581,51 @@
         margin-top: -89%;
     }
 }
+@media screen and (max-width: 305px){
+    .codeq_img{
+        margin-top: -180%;
+    }
+    .codeq_desc{
+        margin-top: -84%;
+    }
+    .codeq_desc_list{
+        margin-top: -75%;
+    }
+    .resp_img{
+        margin-top: -73%;
+    }
+    .resp_desc{
+        margin-top: -29%;
+    }
+    .resp_desc_list{
+        margin-top: -17%;
+    }
+    .bc_img{
+        margin-top: 9%;
+    }
+    .bc_desc{
+        margin-top: 9%;
+    }
+    .bc_desc_list{
+        margin-top: 22%;
+    }
+    .lsupport_img{
+        margin-top: 24%;
+    }
+    .lsupport_desc_list{
+        margin-top: 18%;
+        margin-left: -40%;
+    }
+    .tsupport_img{
+        margin-top: 22%;
+    }
+    .tsupport_desc{
+        margin-top: 11%;
+    }
+    .tsupport_desc_list{
+        margin-right: 2%;
+    }
 
+}
 </style>
 
