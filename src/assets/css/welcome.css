@@ -1358,12 +1358,9 @@
     color: #f73589;
   }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 761px){
   .mhacks-mid-team-card-other-pic{
     float: right;
-  }
-  .mhacks-mid-ft-text{
-    color: #fff;
   }
   .alan{
     margin-right: -50px;
@@ -1444,9 +1441,12 @@
     display: none;
   }
 }
-@media screen and (max-width: 761px){
+@media screen and (max-width: 751px){
   .mhacks-mid-mission-sec-bg{
     display: none;
+  }
+  .mhacks-mid-ft-text{
+    color: #fff;
   }
   .mhacks-mid-mission-content{
     float: left;
@@ -1549,6 +1549,24 @@
       margin-top: 85%;
     }
   }
+  @media screen and (max-width: 530px){
+    .mhacks-mid-ft-text{
+      margin-top: 97%;
+    }
+  }
+  @media screen and (max-width: 510px){
+    .mhacks-mid-ft-text{
+      margin-top: 108%;
+    }
+  }
+  @media screen and (max-width: 496px){
+    .mhacks-mid-ft-text{
+      margin-top: 120%;
+    }
+  }
+  @media screen and (max-width: 471px){
+    
+  }
   @media screen and (max-width: 450px){
     .mhacks-mid-ft-text{
       margin-top: 151%;
@@ -1638,6 +1656,11 @@
   }
   .mhacks-last-contact-btn{
     width: 120%;
+  }
+}
+@media screen and (max-width: 401px){
+  .mhacks-mid-ft-text{
+    margin-top: 45%;
   }
 }
 @media screen and (max-width: 386px){

@@ -71,12 +71,14 @@
 .mhacks-features-mobileview{
     display: none;
 }
-@media screen and (max-width: 761px){
+@media screen and (max-width: 751px){
     .mhacks-features-mobileview{
         display: block;
         font-family: 'Muli',sans-serif;
         margin-top: -76%;
         height: 1680px;
+        width: 100%;
+        margin: 0 auto;
     }
     .mhacks-mview-bg{
         background-image: url(../../assets/images/DesignFeatures.svg);
@@ -290,43 +292,47 @@
 @media screen and (max-width: 601px){
     .codeq_img{
         margin-left: -6%;
-        margin-top: -8%;
+        margin-top: 8%;
     }
     .codeq_desc{
         margin-left: 40%;
-        margin-top: -41%;
+        margin-top: -23%;
     }
     .codeq_desc_list{
         margin-left: 36%;
-        margin-top: -35%;
+        margin-top: -15%;
     }
     .resp_img{
         margin-left: -9%;
-        margin-top: 23%;
+        margin-top: 41%;
     }
     .resp_desc{
         margin-left: 39%;
-        margin-top: -6%;
+        margin-top: 4%;
     }
     .resp_desc_list{
         margin-left: 37%;
-        margin-top: -1%;
+        margin-top: 6%;
     }
     .bc_img{
         margin-left: 40%;
+        margin-top: 18%;
     }
     .bc_desc{
         margin-left: 34%;
+        margin-top: 5%;
     }
     .lsupport_img{
         margin-left: -28%;
-        margin-top: 37%;
+        margin-top: 35%;
     }
     .lsupport_desc{
         margin-left: 35%;
+        margin-top: 19%;
     }
     .lsupport_desc_list{
         margin-left: -18%;
+        margin-top: 26%;
     }
     .tsupport_img{
         margin-left: 40%;
@@ -334,18 +340,47 @@
     .tsupport_desc{
         margin-left: 35%;
     }
+
     .tsupport_desc_list{
         margin-left: -21%;
     }
+}
+@media screen and (max-width: 576px){
+    .resp_img{
+    margin-left: -22%;
+    }
+    .lsupport_img{
+        margin-left: -25%;
+    }
+    .lsupport_desc{
+        margin-left: 36%;
+        margin-top: 8%;
+    }
+    .lsupport_desc_list{
+        margin-top: 15%;
+    }
+
 }
 @media screen and (max-width: 571px){
     .resp_img{
         margin-top: 27%;
     }
 }
+@media screen and (max-width: 567px){
+    .resp_img{
+        margin-top: 42%;
+    }
+    .bc_desc_list{
+        margin-left: -26%;
+    }
+    .lsupport_desc_list{
+        margin-left: -20%;
+    }
+
+}
 @media screen and (max-width: 544px){
     .resp_img{
-        margin-top: 26%;
+        margin-top: 40%;
     }
     .bc_desc_list{
         margin-left: -27%;
@@ -356,6 +391,37 @@
     .tsupport_desc_list{
         margin-left: -23%;
     }
+}
+@media screen and (max-width: 507px){
+    .resp_img{
+        margin-top: 50%;
+    }
+}
+@media screen and (max-width: 496px){
+    .codeq_img{
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width: 471px){
+    .lsupport_img{
+        margin-left: -35%;
+        margin-top: 38%;
+    }
+    .resp_img{
+        margin-top: 42%;
+    }
+    .bc_desc_list{
+        margin-left: -31%;
+    }
+    .lsupport_img{
+        margin-left: -31%;
+    }
+    .lsupport_desc_list{
+        margin-left: -25%;
+    }
+    .tsupport_desc_list{
+        margin-left: -27%;
+    }    
 }
 @media screen and (max-width: 450px){
     .codeq_img{
