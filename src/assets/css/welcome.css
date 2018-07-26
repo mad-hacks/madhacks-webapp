@@ -1646,6 +1646,9 @@
     .mhacks-top-header{
       width: 270px;
     }
+    .mhacks-mid-ft-text{
+      margin-top: 24%;
+    }
 }
 @media screen and (max-width: 413px){
   .mhacks-last-contact-input{

@@ -520,6 +520,18 @@
     }
 
 }
+@media screen and (max-width: 427px){
+    .resp_img{
+        margin-left: -9vw;
+    }
+    .bc_img{
+        margin-top: 36%;
+        margin-left: -9vw;
+    }
+    .tsupport_img{
+        margin-top: 3%;
+    }
+}
 @media screen and (max-width: 425px){
     .resp_img{
         margin-left: -8%;
@@ -527,8 +539,8 @@
 }
 @media screen and (max-width: 415px){
     .codeq_img{
-        margin-top: -201%;
-        margin-left: 40%;
+        margin-top: 34vw;
+        margin-left: -62vw;
     }
     .codeq_desc{
         margin-top: -93%;
@@ -539,8 +551,8 @@
         margin-top: -83%;
     }
     .resp_img{
-        margin-left: 38%;
-        margin-top: -102%;
+        margin-left: -9vw;
+        margin-top: 39vw;
     }
     .resp_desc{
         margin-left: 37%;
@@ -551,8 +563,8 @@
         margin-top: -35%;
     }
     .bc_img{
-        margin-left: 38%;
-        margin-top: -4%;
+        margin-left: -10%;
+        margin-top: 38%;
     }
     .bc_desc{
         margin-left: 30%;
@@ -575,9 +587,11 @@
     }
     .tsupport_desc{
         margin-left: 30%;
+        margin-top: 3%;
     }
     .tsupport_desc_list{
         margin-left: -28%;
+        margin-top: 10%;
     }
 }
 @media screen and (max-width: 386px){
@@ -626,8 +640,21 @@
         margin-left: -42%;
     }
     .resp_img{
-        margin-top: -98%;
+        margin-top: 40vw;
     }
+    .resp_desc{
+        margin-top: -35vw;
+    }
+    .resp_desc_list{
+        margin-top: -29vw;
+    }
+    .codeq_img{
+        margin-top: 40vw;
+    }
+    .codeq_desc{
+        margin-top: -85vw;
+    }
+
 }
 @media screen and (max-width: 321px){
     .tsupport_desc_list{
@@ -649,7 +676,7 @@
 }
 @media screen and (max-width: 305px){
     .codeq_img{
-        margin-top: -180%;
+        margin-top: 40vw;
     }
     .codeq_desc{
         margin-top: -84%;
@@ -658,7 +685,7 @@
         margin-top: -75%;
     }
     .resp_img{
-        margin-top: -73%;
+        margin-top: 43vw;
     }
     .resp_desc{
         margin-top: -29%;
@@ -667,7 +694,7 @@
         margin-top: -17%;
     }
     .bc_img{
-        margin-top: 9%;
+        margin-top: 53vw;
     }
     .bc_desc{
         margin-top: 9%;

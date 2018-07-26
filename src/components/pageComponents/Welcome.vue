@@ -302,7 +302,7 @@
     <div class="mhacks-team-section">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="mhacks-mid-team-header">The Team Behind</div>
+        <div class="mhacks-mid-team-header">The Team</div>
       </div>
     </div>
     <!-- End -->
