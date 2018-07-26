@@ -1362,6 +1362,9 @@
   .mhacks-mid-team-card-other-pic{
     float: right;
   }
+  .mhacks-mid-ft-text{
+    color: #fff;
+  }
   .alan{
     margin-right: -50px;
   }
@@ -1464,6 +1467,21 @@
     width: 270px;
   }
 }
+@media screen and (max-width: 680px){
+  .mhacks-mid-ft-text{
+    margin-top: 49%;
+  }
+}
+@media screen and (max-width: 651px){
+  .mhacks-mid-ft-text{
+    margin-top: 60%;
+  }
+}
+@media screen and (max-width: 610px){
+  .mhacks-mid-ft-text{
+    margin-top: 76%;
+  }
+}
   @media screen and (max-width: 601px){
     .mhacks-top-para{
       width: 270px;
@@ -1526,6 +1544,16 @@
       margin-right: -129px;
     }
   }
+  @media screen and (max-width: 544px){
+    .mhacks-mid-ft-text{
+      margin-top: 85%;
+    }
+  }
+  @media screen and (max-width: 450px){
+    .mhacks-mid-ft-text{
+      margin-top: 151%;
+    }
+  }
   @media screen and (max-width: 465px){
     .alan{
       margin-right: -4px;
@@ -1546,6 +1574,12 @@
     }
     .mhacks-last-contact-input-header{
       margin-top: 25%;
+    }
+    .mhacks-mid-ft-text{
+      color: #fff;
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 32%;
     }
   }
   @media screen and (max-width: 415px){
@@ -1606,12 +1640,15 @@
     width: 120%;
   }
 }
-@media screen and (max-width: 385px){
+@media screen and (max-width: 386px){
   .mhacks-last-contact-input{
     width: 110%;
   }
   .mhacks-mid-team-header{
     margin-top: -40%;
+  }
+  .mhacks-mid-ft-text{
+    margin-top: 55%;
   }
 }
 @media screen and (max-width: 376px){
@@ -1626,6 +1663,21 @@
   }
   .mhacks-last-contact-btn{
     width: 97%;
+  }
+}
+@media screen and (max-width: 362px){
+  .mhacks-mid-ft-text{
+    margin-top: 77%;
+  }
+}
+@media screen and (max-width: 350px){
+  .mhacks-mid-ft-text{
+    margin-top: 91%;
+  }
+}
+@media screen and (max-width: 333px){
+  .mhacks-mid-ft-text{
+    margin-top: 106%;
   }
 }
 @media screen and (max-width: 321px){
@@ -1669,4 +1721,11 @@
     width: 88%;
   }
 }
-
+@media screen and (max-width: 305px){
+  .mhacks-mid-ft-text{
+    margin-top: 158%;
+  }
+  .mhacks-mid-header{
+    font-size: 1.9em;
+  }
+}
