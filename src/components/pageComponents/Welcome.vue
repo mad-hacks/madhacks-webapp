@@ -9,16 +9,16 @@
             <li class="mhacks-tn-left-logo">
               <a href="#home">Mad.Hacks</a>
             </li>
-            <li class="mhacks-tn-right-item">
+            <li class="mhacks-tn-right-item contact-btn">
               <a href="#contact">Contact</a>
             </li>
-            <li class="mhacks-tn-right-item">
+            <li class="mhacks-tn-right-item about-btn">
               <a href="#about">About</a>
             </li>
-            <li class="mhacks-tn-right-item">
+            <li class="mhacks-tn-right-item business-btn">
               <a href="#business">Business</a>
             </li>
-            <li class="mhacks-tn-right-item">
+            <li class="mhacks-tn-right-item students-btn">
               <a href="#students">Students</a>
             </li>
           </ul>
@@ -308,7 +308,7 @@
     <div class="mhacks-team-section fadeInViewPort" ref="team" v-in-viewport.once='100'>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="mhacks-mid-team-header">The Team Behind</div>
+        <div class="mhacks-mid-team-header">The Team</div>
       </div>
     </div>
     <!-- End -->
@@ -326,16 +326,16 @@
               <center>
               <div class="row team-section">
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/alan.jpeg" tabindex="0" @click="renderedComponent='Alan'" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/alan.jpeg" tabindex="0" @click="renderedComponent='Alan'" class="mhacks-mid-team-card-other-pic alan"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/dani.jpeg"  tabindex="0" @click="renderedComponent='Dani'" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/dani.jpeg"  tabindex="0" @click="renderedComponent='Dani'" class="mhacks-mid-team-card-other-pic dani"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/james.jpeg"  tabindex="0" @click="renderedComponent='James'" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/james.jpeg"  tabindex="0" @click="renderedComponent='James'" class="mhacks-mid-team-card-other-pic james"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/kavi.jpeg"  tabindex="0" @click="renderedComponent='Kavi'" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/kavi.jpeg"  tabindex="0" @click="renderedComponent='Kavi'" class="mhacks-mid-team-card-other-pic kavi"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
                   <img src="../../assets/images/placeholder.png"  tabindex="0" @click="renderedComponent='Sandra'" class="mhacks-mid-team-card-other-pic"/>
@@ -361,7 +361,7 @@
     </div>
     <!-- End -->
     <!-- Contact Us Section -->
-    <div class="container">
+    <div class="container contactus-section">
       <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 contact-form">
           <div class="row">

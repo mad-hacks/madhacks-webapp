@@ -520,6 +520,52 @@
 }
 
 /* Media Queries */
+@media only screen and (max-width: 1537px){
+  .contact-btn{
+    margin-right: 12vw;
+  }
+  .business-btn{
+    margin-right: -3vw;
+  }
+  .about-btn{
+    margin-right: -2vw;
+  }
+  .students-btn{
+    margin-right: -2vw;
+  }
+  .mhacks-top-header{
+    font-size: 3.7em;
+  }
+  .mhacks-mid-mission-content{
+    margin-left: 10%;
+    width: 524px;
+  }
+  .mhacks-mid-mission-sec-bg{
+    width: 1101px;
+    float: right;
+    height: 850px;
+  }
+  .mhacks-mid-team-header{
+    margin-top: -19%;
+  }
+}
+@media only screen and (max-width: 1467px){
+  .students-btn{
+    margin-right: -1vw;
+  }
+  .about-btn{
+    margin-right: -1vw;
+  }
+  .contact-btn{
+    margin-right: 17vw;
+  }
+  .business-btn{
+    margin-right: -1vw;
+  }
+  .mhacks-top-header{
+    font-size: 3.5em;
+  }
+}
 /* Laptop screens(upto 1400 px) */
 @media only screen and (max-width: 1400px){
   .mhacks-tn-left-logo {
@@ -1244,7 +1290,7 @@
 
   .mhacks-mid-team-header{
     font-size: 2.3em;
-    margin-top: -36%;
+    margin-top: -40%;
   }
 
   .mhacks-mid-team-card{
@@ -1346,9 +1392,69 @@
   .mhacks-tn-right-item{
     display: none;
   }
+  .mhacks-top-header{
+    color: #f73589;
+    margin-left: 50%;
+    width: 409px;
+  }
+  .mhacks-top-para{
+    margin-left: 22vw;
+    width: 300px;
+  }
+  .mhacks-top-btn{
+    margin-left: 22vw;
+  }
+}
+@media screen and (max-width: 761px){
+  .mhacks-mid-team-card-other-pic{
+    float: right;
+  }
+  .alan{
+    margin-right: -50px;
+  }
+  .dani{
+    margin-right: -78px;
+  }
+  .james{
+    margin-right: -101px;
+  }
+  .kavi{
+    margin-right: -118px;
+  }
 }
 @media screen and (max-width: 750px){
   .mhacks-tn-right-item{
+    display: none;
+  }
+  .contactus-section{
+    background: url(../images/DesignContactUs.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -1%;
+    background-position-x: 100%;
+    height: 618px;
+    margin-top: -7%;
+  }
+  .mhacks-last-contact-btn{
+    width: 208%;
+  }
+  .mhacks-last-contact-textarea{
+    width: 209%;
+  }
+  .mhacks-last-contact-input{
+    width: 209%;
+  }
+  .mhacks-last-contact-header{
+    padding-top: 13%;
+    color: #fff;
+  }
+  .mhacks-last-contact-input-header{
+    color: #fff;
+  }
+  .mhacks-last-contact-input-bg{
+    display: none;
+  }
+  .mhacks-last-footer-bg{
     display: none;
   }
   .mhacks-mid-content{
@@ -1413,6 +1519,21 @@
     display: none;
   }
 }
+@media screen and (max-width: 751px){
+  .mhacks-mid-mission-sec-bg{
+    display: none;
+  }
+  .mhacks-mid-ft-text{
+    color: #fff;
+  }
+  .mhacks-mid-mission-content{
+    float: left;
+    width: 500px;
+  }
+  .mhacks-features-section{
+    display: none;
+  }
+}
 @media screen and (max-width: 701px){
   .mhacks-mid-content-business{
     width: 270px;
@@ -1422,6 +1543,21 @@
   }
   .mhacks-top-para{
     width: 270px;
+  }
+}
+@media screen and (max-width: 680px){
+  .mhacks-mid-ft-text{
+    margin-top: 49%;
+  }
+}
+@media screen and (max-width: 651px){
+  .mhacks-mid-ft-text{
+    margin-top: 60%;
+  }
+}
+@media screen and (max-width: 610px){
+  .mhacks-mid-ft-text{
+    margin-top: 76%;
   }
 }
   @media screen and (max-width: 601px){
@@ -1465,6 +1601,91 @@
     .mhacks-last-contact-input{
       width: 125%;
     }  
+    .mhacks-last-contact-textarea{
+      width: 125%;
+    }
+    .mhacks-last-contact-btn{
+      width: 125%;
+    }
+  }
+  @media screen and (max-width: 557px){
+    .alan{
+      margin-right: -25px;
+    }
+    .dani{
+      margin-right: -64px;
+    }
+    .james{
+      margin-right: -96px;
+    }
+    .kavi{
+      margin-right: -129px;
+    }
+  }
+  @media screen and (max-width: 544px){
+    .mhacks-mid-ft-text{
+      margin-top: 85%;
+    }
+  }
+  @media screen and (max-width: 530px){
+    .mhacks-mid-ft-text{
+      margin-top: 97%;
+    }
+  }
+  @media screen and (max-width: 510px){
+    .mhacks-mid-ft-text{
+      margin-top: 108%;
+    }
+  }
+  @media screen and (max-width: 496px){
+    .mhacks-mid-ft-text{
+      margin-top: 120%;
+    }
+  }
+  @media screen and (max-width: 471px){
+    
+  }
+  @media screen and (max-width: 450px){
+    .mhacks-mid-ft-text{
+      margin-top: 151%;
+    }
+  }
+  @media screen and (max-width: 465px){
+    .alan{
+      margin-right: -4px;
+    }
+    .dani{
+      margin-right: -39px;
+    }
+    .james{
+      margin-right: -74px;
+    }
+    .kavi{
+      margin-right: -108px;
+    }
+  }
+  @media screen and (max-width: 429px){
+    .mhacks-mid-mission-content{
+      width: 372px;
+    }
+    .mhacks-last-contact-input-header{
+      margin-top: 25%;
+    }
+    .mhacks-last-contact-input{
+      width: 120%;
+    }
+    .mhacks-last-contact-textarea{
+      width: 120%;
+    }
+    .mhacks-last-contact-btn{
+      width: 120%;
+    }
+    .mhacks-mid-ft-text{
+      color: #fff;
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 32%;
+    }
   }
   @media screen and (max-width: 415px){
     .mhacks-top-para{
@@ -1495,11 +1716,6 @@
       width: 320px;
       margin-bottom: 195px;
     }
-    .team-section{
-      display: grid;
-      float: left;
-      margin-left: 5%;
-    }
     .mhacks-last-contact-header{
       margin-top: 10%;
       margin-right: 8%;
@@ -1517,26 +1733,91 @@
     .mhacks-top-header{
       width: 270px;
     }
+    .mhacks-mid-ft-text{
+      margin-top: 24%;
+    }
 }
-@media screen and (max-width: 413px){
+@media screen and (max-width: 414px){
   .mhacks-last-contact-input{
-    width: 120%;
+    width: 115%;
+  }
+  .mhacks-last-contact-textarea{
+    width: 115%;
+  }
+  .mhacks-last-contact-btn{
+    width: 115%;
   }
 }
-@media screen and (max-width: 385px){
+@media screen and (max-width: 401px){
+  .mhacks-mid-ft-text{
+    margin-top: 45%;
+  }
+}
+@media screen and (max-width: 397px){
+  .mhacks-last-contact-input{
+    width: 110%;
+  }
+  .mhacks-last-contact-textarea{
+    width: 110%;
+  }
+  .mhacks-last-contact-btn{
+    width: 110%;
+  }
+}
+@media screen and (max-width: 386px){
   .mhacks-last-contact-input{
     width: 110%;
   }
   .mhacks-mid-team-header{
     margin-top: -40%;
   }
+  .mhacks-mid-ft-text{
+    margin-top: 55%;
+  }
 }
+@media screen and (max-width: 381px){
+  .mhacks-last-contact-input{
+    width: 105%;
+  }
+  .mhacks-last-contact-textarea{
+    width: 105%;
+  }
+  .mhacks-last-contact-btn{
+    width: 105%;
+  }
+  .mhacks-last-contact-header{
+    margin-top: 8%;
+    margin-left: -45%;
+  }
+}
+
 @media screen and (max-width: 376px){
   .mhacks-mid-team-header{
     margin-top: -41%;
   }
   .mhacks-last-contact-input{
-    width: 100%;
+    width: 97%;
+  }
+  .mhacks-last-contact-textarea{
+    width: 97%;
+  }
+  .mhacks-last-contact-btn{
+    width: 97%;
+  }
+}
+@media screen and (max-width: 362px){
+  .mhacks-mid-ft-text{
+    margin-top: 77%;
+  }
+}
+@media screen and (max-width: 350px){
+  .mhacks-mid-ft-text{
+    margin-top: 91%;
+  }
+}
+@media screen and (max-width: 333px){
+  .mhacks-mid-ft-text{
+    margin-top: 106%;
   }
 }
 @media screen and (max-width: 321px){
@@ -1549,5 +1830,42 @@
   .mhacks-last-contact-input{
     width: 88%;
   }
+  .alan{
+    margin-right: 30px;
+  }
+  .dani{
+    margin-right: -9px;
+  }
+  .james{
+    margin-right: -45px; 
+  }
+  .kavi{
+    margin-right: -78px;
+  }
+  .mhacks-last-footer-bg{
+    margin-top: 13%;
+  }
+  .mhacks-mid-header{
+    margin-left: -8%;
+  }
+  .mhacks-mid-header-business{
+    margin-right: -2%;
+  }
+  .mhacks-mid-content-business{
+    margin-left: -14%;
+  }
+  .mhacks-last-contact-textarea{
+    width: 88%;
+  }
+  .mhacks-last-contact-btn{
+    width: 88%;
+  }
 }
-
+@media screen and (max-width: 305px){
+  .mhacks-mid-ft-text{
+    margin-top: 158%;
+  }
+  .mhacks-mid-header{
+    font-size: 1.9em;
+  }
+}
