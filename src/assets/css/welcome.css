@@ -16,6 +16,9 @@
 .zoomIn{
   animation-name: zoomIn;
 }
+.zoomIn.in-viewport{
+  animation-duration: 1.4s;
+}
 
 @keyframes fadeIn{
   from{
@@ -33,9 +36,10 @@
 .fadeIn{
   animation-name: fadeIn;
 }
+
 .fadeInViewPort{
   opacity: 0;
-  transition: all 1.4s ease-in-out;
+  transition: all 1.6s ease-in-out;
 }
 .fadeInViewPort.in-viewport{
   opacity: 1;
@@ -58,6 +62,31 @@
 }
 .fadeInTop{
   animation-name: fadeInTop;
+}
+.fadeInTop.in-viewport{
+  animation-duration: 1.4s;
+  opacity: 1;
+}
+
+@keyframes fadeInLeft{
+  from{
+    opacity: 0.2;
+    transform: translateX(-6vw);
+  }
+  to{
+    transform: translateX(0vw);
+  }
+}
+.animated.fadeInFromLeft{
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1.6s;
+}
+.fadeInFromLeft{
+  animation-name: fadeInLeft;
+}
+.fadeInFromLeft.in-viewport{
+  opacity: 1;
 }
 
 .mhacks-top-nav {
@@ -149,7 +178,7 @@
   margin-left: 11%;
 }
 
-.mhacks-top-btn {
+.mhacks-top-btn{
   font-family: 'Muli', sans-serif;
   font-weight: 400;
   font-size: 1.5em;
@@ -160,6 +189,22 @@
   height: 60px;
   border-radius: .375rem;
   padding: 12px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.mhacks-register-btn{
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  margin-top: 4%;
+  margin-left: 7%;
+  background-color: #283149;
+  width: 240px;
+  height: 80px;
+  border-radius: .375rem;
+  padding: 8px;
   text-align: center;
   color: #fff;
   cursor: pointer;
@@ -609,6 +654,13 @@
     font-size: 1.3em;
     width: 155px;
     height: 48px;
+  }
+
+  .mhacks-register-btn{
+    font-size: 1em;
+    width: 220px;
+    height: 60px;
+    padding: 2px;
   }
 
   .mhacks-mid-bg, .mhacks-mid-bg-business{
@@ -1190,6 +1242,12 @@
     font-size: 1em;
     height: 45px;
     width: 140px;
+  }
+
+  .mhacks-register-btn{
+    font-size: 1em;
+    height: 40px;
+    padding: 0px;
   }
 
   .mhacks-top-bg{

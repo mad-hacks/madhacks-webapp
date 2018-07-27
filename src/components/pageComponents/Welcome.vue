@@ -61,10 +61,10 @@
     <!-- End -->
     <!-- Student Section -->
     <a name="students"></a>
-    <div class="mhacks-students-section fadeInViewPort" ref="student" v-in-viewport.once='100'>
+    <div class="mhacks-students-section fadeInViewPort" ref="student" v-in-viewport.once>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="mhacks-mid-bg fadeInViewPort" v-in-viewport.once='100'>
+        <div class="mhacks-mid-bg animated fadeInFromLeft" v-in-viewport.once>
             <div class="mhacks-mid-header">Are you a Student ?</div>
         </div>
       </div>
@@ -75,7 +75,7 @@
       <div class="row students-section">
         <!-- Content Section -->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <div class="mhacks-mid-content fadeInViewPort" v-in-viewport.once='100'>
+          <div class="mhacks-mid-content animated fadeInTop" v-in-viewport.once>
             <span class="mhacks-mid-content-list-item">
             Attractive real-world projects to be done.<br>
             </span>
@@ -88,11 +88,13 @@
             <span class="mhacks-mid-content-list-item">
             Earn rewards based on work done.<br>
             </span>
+            <br>
+            <div class="mhacks-register-btn">Register</div>
           </div>
         </div>
         <!-- End -->
         <!-- Image Section -->
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 fadeInViewPort" v-in-viewport.once='100'>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 animated zoomIn" v-in-viewport.once>
           <img class="mhacks-mid-content-pic" src="../../assets/images/stud.svg"/>
         </div>
         <!-- End -->
@@ -102,10 +104,10 @@
     <!-- End -->
     <!-- For Business section -->
     <a name="business"></a>
-    <div class="mhacks-business-section fadeInViewPort" ref="business" v-in-viewport.once='100'>
+    <div class="mhacks-business-section fadeInViewPort" ref="business" v-in-viewport.once>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="mhacks-mid-bg-business fadeInViewPort" v-in-viewport.once='100'>
+        <div class="mhacks-mid-bg-business animated fadeInFromLeft" v-in-viewport.once>
             <div class="mhacks-mid-header-business">For Business</div>
         </div>
       </div>
@@ -116,12 +118,12 @@
       <div class="row business-section">
         <!-- Content Section -->
         <!-- Image Section -->
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 fadeInViewPort" v-in-viewport.once='100'>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 animated zoomIn" v-in-viewport.once>
           <img class="mhacks-mid-content-pic" src="../../assets/images/business.svg"/>
         </div>
         <!-- End -->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <div class="mhacks-mid-content-business fadeInViewPort" v-in-viewport.once='100'>
+          <div class="mhacks-mid-content-business animated fadeInTop" v-in-viewport.once>
             <span class="mhacks-mid-content-list-item">
             Front End Development.<br>
             </span>
@@ -144,15 +146,15 @@
     </div>
     </div>
     <!-- Features Section -->
-    <div class="mhacks-features-container fadeInViewPort" ref="features" v-in-viewport.once='100'>
+    <div class="mhacks-features-container fadeInViewPort" ref="features" v-in-viewport.once>
     <div class="row mhacks-features-title-section">
       <!-- Image Section -->
-      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 fadeInViewPort" v-in-viewport.once='100'>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 animated zoomIn" v-in-viewport.once>
         <div class="mhacks-mid-ft"></div>
       </div>
       <!-- End -->
       <!-- Title Section -->
-      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 fadeInViewPort" v-in-viewport.once='100'>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 animated fadeInFromLeft" v-in-viewport.once>
         <div class="mhacks-mid-ft-content">
           <div class="mhacks-mid-ft-text">Features</div>
         </div>
@@ -162,7 +164,7 @@
     <!-- End -->
     <!-- Features Images Section -->
     <div class="mhacks-features-section">
-    <div class="container mhacks-mid-container fadeInViewPort" v-in-viewport.once='100'>
+    <div class="container mhacks-mid-container animated zoomIn" v-in-viewport.once>
       <div class="row">
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
           <img class="mhacks-mid-ft-list" src="../../assets/images/codeq.svg">
@@ -177,7 +179,7 @@
     </div>
     <!-- End -->
     <!-- Features Images Title Section -->
-    <div class="container mhacks-mid-container fadeInViewPort" v-in-viewport.once='100'>
+    <div class="container mhacks-mid-container animated fadeInTop" v-in-viewport.once>
       <div class="row">
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
           <div class="mhacks-mid-ft-list-name">Code Quality</div>
@@ -192,7 +194,7 @@
     </div>
     <!-- End -->
     <!-- Features Images Description Section -->
-    <div class="container mhacks-mid-container fadeInViewPort" v-in-viewport.once='100'>
+    <div class="container mhacks-mid-container fadeInViewPort" v-in-viewport.once>
       <div class="row">
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
           <div class="mhacks-mid-ft-list-para">
@@ -219,7 +221,7 @@
     </div>
     <!-- End -->
     <!-- Features Images Section -->
-    <div class="container mhacks-mid-container fadeInViewPort" v-in-viewport.once='100'>
+    <div class="container mhacks-mid-container animated zoomIn" v-in-viewport.once>
       <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <img class="mhacks-mid-ft-list" src="../../assets/images/tech.svg">
@@ -231,7 +233,7 @@
     </div>
     <!-- End -->
     <!-- Features Images Title Section -->
-    <div class="container mhacks-mid-container fadeInViewPort" v-in-viewport.once='100'>
+    <div class="container mhacks-mid-container animated fadeInTop" v-in-viewport.once>
       <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="mhacks-mid-ft-list-name">Technical Support</div>
@@ -243,7 +245,7 @@
     </div>
     <!-- End -->
     <!-- Features Images Description Section -->
-    <div class="container mhacks-mid-container fadeInViewPort" v-in-viewport.once='100'>
+    <div class="container mhacks-mid-container fadeInViewPort" v-in-viewport.once>
       <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="mhacks-mid-ft-list-two-para">
@@ -268,13 +270,13 @@
     <mview></mview>
     <!-- Mission Section -->
     <a name="about"></a>
-    <div class="row mhacks-mission-section fadeInViewPort" ref="mission" style="margin-top:5%;" v-in-viewport.once='100'>
+    <div class="row mhacks-mission-section fadeInViewPort" ref="mission" style="margin-top:5%;" v-in-viewport.once='1000'>
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
         <!-- Mission Title -->
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div class="mhacks-mid-mission-bg">
-              <div class="mhacks-mid-mission-text">Our Mission</div>
+              <div class="mhacks-mid-mission-text animated fadeInTop" v-in-viewport.once>Our Mission</div>
             </div>
           </div>
         </div>
@@ -283,7 +285,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-              <div class="mhacks-mid-mission-content">
+              <div class="mhacks-mid-mission-content animated fadeInFromLeft" v-in-viewport.once='1000'>
                 MadHacks aims to support both students and Business in
                 each and every way it can. We help students to gain the
                 industrial knowledge by providing them with real world
@@ -299,13 +301,13 @@
       <!-- End -->
       <!-- Mission Section Background -->
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-        <img src="../../assets/images/mission.svg" class="mhacks-mid-mission-sec-bg">
+        <img src="../../assets/images/mission.svg" class="mhacks-mid-mission-sec-bg  animated zoomIn" v-in-viewport.once>
       </div>
       <!-- End -->
     </div>
     <!-- End -->
     <!-- Team Section -->
-    <div class="mhacks-team-section fadeInViewPort" ref="team" v-in-viewport.once='100'>
+    <div class="mhacks-team-section animated fadeInTop" ref="team" v-in-viewport.once>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="mhacks-mid-team-header">The Team</div>
@@ -322,7 +324,7 @@
               <component :is="renderedComponent" class="animated zoomIn"></component>
             </keep-alive>
             
-            <div class="container mhacks-mid-team-container">
+            <div class="container mhacks-mid-team-container animated fadeInFromLeft" v-in-viewport.once>
               <center>
               <div class="row team-section">
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
@@ -351,7 +353,7 @@
     <!-- End -->
     <!-- Hire Us Now Section -->
     <a name="contact"></a> 
-    <div class="mhacks-contact-section fadeInViewPort" ref="contact" v-in-viewport.once='100'>
+    <div class="mhacks-contact-section animated fadeInTop" ref="contact" v-in-viewport.once>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="mhacks-last-contact-bg">
@@ -366,7 +368,7 @@
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 contact-form">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <div class="mhacks-last-contact-input-header">Drop us a message</div>
+              <div class="mhacks-last-contact-input-header animated fadeInFromLeft" v-in-viewport.once>Drop us a message</div>
             </div>
           </div>
           <div class="row">
@@ -407,7 +409,7 @@
     </div>
     <!-- End -->
     <!-- Footer Section -->
-    <div class="mhacks-footer-section fadeInViewPort" ref="footer" v-in-viewport.once='100'>
+    <div class="mhacks-footer-section fadeInViewPort" ref="footer" v-in-viewport.once>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="mhacks-last-footer-bg">
