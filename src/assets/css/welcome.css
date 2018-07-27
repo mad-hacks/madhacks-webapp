@@ -33,6 +33,13 @@
 .fadeIn{
   animation-name: fadeIn;
 }
+.fadeInViewPort{
+  opacity: 0;
+  transition: all 1.4s ease-in-out;
+}
+.fadeInViewPort.in-viewport{
+  opacity: 1;
+}
 
 @keyframes fadeInTop{
   from{
@@ -493,6 +500,25 @@
   height: 200px;
 }
 
+.mhacks-footer-social-media-icons{
+  width: 60px;
+  height: 60px;
+  margin-top: 10vh;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.mhacks-footer-content{
+  position: relative;
+  bottom: 0;
+  z-index: 2;
+  margin-top: -8%;
+  margin-right: 3%;
+  font-family: 'Muli';
+  font-size: 1.4em;
+  float: right;
+}
+
 /* Media Queries */
 /* Laptop screens(upto 1400 px) */
 @media only screen and (max-width: 1400px){
@@ -939,6 +965,10 @@
     font-size: 1.2em;
   }
 
+  .mhacks-footer-content{
+    margin-top: -10%;
+  }
+
   /* .mhacks-mid-container{
     margin-left: 1%;
   } */
@@ -1220,6 +1250,14 @@
   .mhacks-mid-team-card{
     margin-top: -30%;
     margin-bottom: -40%;
+  }
+
+  .mhacks-footer-content{
+    margin-top: -10%;
+  }
+
+  .mhacks-footer-content{
+    margin-top: -14%;
   }
 }
 
