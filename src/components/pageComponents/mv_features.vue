@@ -289,6 +289,37 @@
         color: #fff;
     }
 }
+@media screen and (max-width: 611px){
+    .bc_desc{
+        margin-left: 39%;
+    }
+    .bc_desc_list{
+        margin-left: -23%;
+    }
+    .lsupport_desc{
+        margin-left: 41%;
+    }
+    .lsupport_desc_list{
+        margin-left: -19%;
+    }
+    .tsupport_desc{
+        margin-left: 40%;
+    }
+    .tsupport_desc_list{
+       margin-left: -24%; 
+    }
+}
+@media screen and (max-width: 608px){
+    .bc_desc_list{
+        margin-left: -25%;
+    }
+    .lsupport_desc_list{
+        margin-left: -19%;
+    }
+    .tsupport_desc_list{
+        margin-left: -20%;
+    }
+}
 @media screen and (max-width: 601px){
     .codeq_img{
         margin-left: -6%;
@@ -363,7 +394,22 @@
 }
 @media screen and (max-width: 571px){
     .resp_img{
-        margin-top: 27%;
+        margin-top: 45%;
+    }
+    .bc_img{
+        margin-left: 43%;
+    }
+    .bc_desc{
+        margin-left: 36%;
+    }
+    .bc_desc_list{
+        margin-left: -25%;
+    }
+    .lsupport_desc{
+        margin-left: 38vw;
+    }
+    .lsupport_desc_list{
+        margin-left: -21vw;
     }
 }
 @media screen and (max-width: 567px){
@@ -400,6 +446,29 @@
 @media screen and (max-width: 496px){
     .codeq_img{
         margin-top: 3%;
+    }
+}
+@media screen and (max-width: 481px){
+    .bc_img{
+        margin-left: 47%;
+    }
+    .bc_desc{
+        margin-left: 38%;
+    }
+    .bc_desc_list{
+        margin-left: -32%;
+    }
+    .lsupport_img{
+        margin-left: -30%;
+    }
+    .lsupport_desc{
+        margin-left: 37vw;
+    }
+    .lsupport_desc_list{
+        margin-left: -25%;
+    }
+    .tsupport_desc_list{
+        margin-left: -28%;
     }
 }
 @media screen and (max-width: 471px){
