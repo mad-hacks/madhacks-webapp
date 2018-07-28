@@ -7,7 +7,7 @@
         <div class="container nav-container">
           <ul class="mhack-top-nav">
             <li class="mhacks-tn-left-logo">
-              <a href="#home">Mad.Hacks</a>
+              <a href="#home"><img src="../../assets/images/logo.svg" class="logo"/></a>
             </li>
             <li class="mhacks-tn-right-item contact-btn">
               <a href="#contact">Contact</a>
@@ -119,7 +119,7 @@
         <!-- Content Section -->
         <!-- Image Section -->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 animated zoomIn" v-in-viewport.once>
-          <img class="mhacks-mid-content-pic" src="../../assets/images/business.svg"/>
+          <img class="mhacks-mid-content-pic business-pic" src="../../assets/images/business.svg"/>
         </div>
         <!-- End -->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">

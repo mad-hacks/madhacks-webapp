@@ -569,6 +569,16 @@
   .contact-btn{
     margin-right: 12vw;
   }
+  .logo{
+    height: 358px;
+    margin-top: -8vw;
+  }
+  .mhacks-top-header{
+    margin-top: -5%;
+  }
+  .mhacks-tn-right-item{
+    display: none;
+  }
   .business-btn{
     margin-right: -3vw;
   }
@@ -643,7 +653,7 @@
 
   .mhacks-top-header{
     font-size: 3.4em;
-    margin-top: 14%;
+    margin-top: -5%;
   }
 
   .mhacks-top-para{
@@ -870,6 +880,9 @@
   .mhacks-last-contact-header{
     font-size: 3em;
   }
+  .logo{
+    margin-top: -9vw;
+  }
 
   /* .mhacks-mid-container{
     margin-left: 2%;
@@ -972,6 +985,27 @@
 
   .mhacks-last-contact-header{
     font-size: 2.95em;
+  }
+}
+
+@media screen and (max-width: 1132px){
+  .logo{
+    margin-top: -11vw;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .mhacks-top-btn{
+    margin-top: 4%;
+  }
+  .mhacks-top-para{
+    margin-top: -6%;
+  }
+  .mhacks-top-header{
+    margin-top: -13%;
+  }
+  .logo{
+    margin-top: -14vw;
   }
 }
 
@@ -1450,14 +1484,21 @@
   .mhacks-tn-right-item{
     display: none;
   }
+}
+@media screen and (max-width: 750px){
+  .mhacks-tn-right-item{
+    display: none;
+  }
   .mhacks-top-header{
     color: #f73589;
     margin-left: 50%;
     width: 409px;
+    margin-top: -30%;
   }
   .mhacks-top-para{
     margin-left: 22vw;
     width: 300px;
+    margin-top: -19%;
   }
   .mhacks-top-btn{
     margin-left: 22vw;
@@ -1484,7 +1525,7 @@
   .mhacks-tn-right-item{
     display: none;
   }
-  .contactus-section{
+  /*.contactus-section{
     background: url(../images/DesignContactUs.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1492,22 +1533,25 @@
     background-position-x: 100%;
     height: 618px;
     margin-top: -7%;
-  }
+  }*/
   .mhacks-last-contact-btn{
     width: 208%;
   }
   .mhacks-last-contact-textarea{
     width: 209%;
   }
+  .mhacks-footer-content{
+    display: none;
+  }
   .mhacks-last-contact-input{
     width: 209%;
   }
   .mhacks-last-contact-header{
     padding-top: 13%;
-    color: #fff;
+    color: #000;
   }
   .mhacks-last-contact-input-header{
-    color: #fff;
+    color: #000;
   }
   .mhacks-last-contact-input-bg{
     display: none;
@@ -1535,6 +1579,13 @@
   .students-section{
     display: grid;
     margin: 0 auto;
+  }
+  .mhacks-mid-content-business{
+    margin-top: -79vw;
+    width: 270px;
+  }
+  .business-pic{
+    margin-top: 49vw;
   }
   .mhacks-mid-header{
     margin-left: 15%; 
@@ -1603,6 +1654,11 @@
     width: 270px;
   }
 }
+@media screen and (max-width: 695px){
+  .mhacks-mid-ft-text{
+    padding-top: 18%;
+  }
+}
 @media screen and (max-width: 680px){
   .mhacks-mid-ft-text{
     margin-top: 49%;
@@ -1618,9 +1674,24 @@
     margin-top: 76%;
   }
 }
-  @media screen and (max-width: 601px){
+@media screen and (max-width: 603px){
+  .mhacks-top-para{
+    margin-top: -33%;
+  }
+  .mhacks-top-header{
+    margin-top: -45%;
+  }
+}
+  @media screen and (max-width: 602px){
     .mhacks-top-para{
       width: 270px;
+      margin-top: -2%;
+    }
+    .business-pic{
+      margin-top: 61vw;
+    }
+    .mhacks-mid-content-business{
+      margin-top: -90vw;
     }
     .mhacks-top-header{
       width: 270px;
@@ -1685,6 +1756,11 @@
       margin-top: 85%;
     }
   }
+  @media screen and (max-width: 542px){
+    .mhacks-mid-content-business{
+      margin-top: -100vw;
+    }
+  }
   @media screen and (max-width: 530px){
     .mhacks-mid-ft-text{
       margin-top: 97%;
@@ -1700,8 +1776,10 @@
       margin-top: 120%;
     }
   }
-  @media screen and (max-width: 471px){
-    
+  @media screen and (max-width: 482px){
+    .mhacks-mid-content-business{
+      margin-top: -107vw;
+    }
   }
   @media screen and (max-width: 450px){
     .mhacks-mid-ft-text{
@@ -1743,6 +1821,11 @@
       width: 100%;
       margin: 0 auto;
       margin-top: 32%;
+    }
+  }
+  @media screen and (max-width: 426px){
+    .mhacks-mid-content-business{
+      margin-top: -117vw;
     }
   }
   @media screen and (max-width: 415px){
@@ -1833,6 +1916,11 @@
     margin-top: 55%;
   }
 }
+@media screen and (max-width: 383px){
+  .mhacks-mid-content-business{
+    margin-top: -127vw;
+  }
+}
 @media screen and (max-width: 381px){
   .mhacks-last-contact-input{
     width: 105%;
@@ -1868,9 +1956,22 @@
     margin-top: 77%;
   }
 }
+@media screen and (max-width: 354px){
+  .mhacks-mid-content-business{
+    margin-top: -134vw;
+  }
+}
 @media screen and (max-width: 350px){
   .mhacks-mid-ft-text{
     margin-top: 91%;
+  }
+}
+@media screen and (max-width: 336px){
+  .mhacks-mid-content-business{
+    margin-top: -144vw;
+  }
+  .business-pic{
+    margin-top: 75vw;
   }
 }
 @media screen and (max-width: 333px){
@@ -1917,6 +2018,11 @@
   }
   .mhacks-last-contact-btn{
     width: 88%;
+  }
+}
+@media screen and (max-width: 315px){
+  .mhacks-mid-content-business{
+    margin-top: -153vw;
   }
 }
 @media screen and (max-width: 305px){
