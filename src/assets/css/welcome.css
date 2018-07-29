@@ -1496,12 +1496,15 @@
     margin-top: -30%;
   }
   .mhacks-top-para{
-    margin-left: 22vw;
-    width: 300px;
+    margin-left: 30vw;
+    width: 307px;
     margin-top: -19%;
   }
+  .mhacks-tp1{
+    margin-left: -0.1vw;
+  }
   .mhacks-top-btn{
-    margin-left: 22vw;
+    margin-left: 39vw;
   }
 }
 @media screen and (max-width: 761px){
@@ -1651,7 +1654,7 @@
     width: 409px;
   }
   .mhacks-top-para{
-    width: 270px;
+    width: 306px;
   }
 }
 @media screen and (max-width: 695px){
@@ -1684,8 +1687,8 @@
 }
   @media screen and (max-width: 602px){
     .mhacks-top-para{
-      width: 270px;
-      margin-top: -2%;
+      width: 311px;
+      margin-top: -9vw;
     }
     .business-pic{
       margin-top: 61vw;
@@ -1694,7 +1697,7 @@
       margin-top: -90vw;
     }
     .mhacks-top-header{
-      width: 270px;
+      width: 409px;
     }
     .mhacks-mid-header{
       margin-left: 5%;
@@ -1737,6 +1740,25 @@
       width: 125%;
     }
   }
+  @media screen and (max-width: 594px){
+    .mhacks-top-header{
+      margin-left: 43%;
+    }
+    .mhacks-top-para{
+      margin-left: 27vw;
+    }
+  }
+  @media screen and (max-width: 584px){
+    .mhacks-mid-ft-text{
+      margin-top: 28vw;
+    }
+  }
+  @media screen and (max-width: 566px){
+    .mhacks-mid-ft-text{
+      margin-top: 31vw;
+    }
+  }
+  
   @media screen and (max-width: 557px){
     .alan{
       margin-right: -25px;
@@ -1749,6 +1771,20 @@
     }
     .kavi{
       margin-right: -129px;
+    }
+  }
+  @media screen and (max-width: 552px){
+    .mhacks-top-header{
+      margin-left: 30%;
+    }
+    .mhacks-top-para{
+      margin-left: 22vw;
+    }
+    .mhacks-top-btn{
+      margin-left: 34vw;
+    }
+    .mhacks-mid-ft-text{
+      margin-top: 33vw;
     }
   }
   @media screen and (max-width: 544px){
@@ -1776,6 +1812,17 @@
       margin-top: 120%;
     }
   }
+  @media screen and (max-width: 484px){
+    .mhacks-top-header{
+      margin-left: 7vw;
+    }
+    .mhacks-top-para{
+      margin-left: 18vw;
+    }
+    .mhacks-top-btn{
+      margin-left: 30vw;
+    }
+  }
   @media screen and (max-width: 482px){
     .mhacks-mid-content-business{
       margin-top: -107vw;
@@ -1786,7 +1833,7 @@
       margin-top: 151%;
     }
   }
-  @media screen and (max-width: 465px){
+  @media screen and (max-width: 466px){
     .alan{
       margin-right: -4px;
     }
@@ -1798,6 +1845,12 @@
     }
     .kavi{
       margin-right: -108px;
+    }
+    .mhacks-top-header{
+      margin-left: 4vw;
+    }
+    .mhacks-top-para{
+      margin-left: 15vw;
     }
   }
   @media screen and (max-width: 429px){
@@ -1830,7 +1883,13 @@
   }
   @media screen and (max-width: 415px){
     .mhacks-top-para{
-      width: 270px;
+      width: 306px;
+      margin-left: 8vw;
+      margin-top: -14vw;
+    }
+    .mhacks-top-btn{
+      margin-top: 2vw;
+      margin-left: 25vw;
     }
     .mhacks-mid-header{
       margin-left: -2%;
@@ -1872,7 +1931,10 @@
       margin-bottom: 10%;
     }
     .mhacks-top-header{
-      width: 270px;
+      width: 409px;
+      font-size: 1.9em;
+      margin-left: 1vw;
+      margin-top: -30vw;
     }
     .mhacks-mid-ft-text{
       margin-top: 24%;
@@ -1903,6 +1965,11 @@
   }
   .mhacks-last-contact-btn{
     width: 110%;
+  }
+}
+@media screen and (max-width: 390px){
+  .mhacks-top-header{
+    font-size: 1.8em;
   }
 }
 @media screen and (max-width: 386px){
@@ -1950,6 +2017,11 @@
     width: 97%;
   }
 }
+@media screen and (max-width: 370px){
+  .mhacks-top-header{
+    font-size: 1.7em;
+  }
+}
 @media screen and (max-width: 362px){
   .mhacks-mid-ft-text{
     margin-top: 77%;
@@ -1958,6 +2030,15 @@
 @media screen and (max-width: 354px){
   .mhacks-mid-content-business{
     margin-top: -134vw;
+  }
+  .mhacks-top-header{
+    font-size: 1.6em;
+  }
+  .mhacks-top-para{
+    margin-left: 4vw;
+  }
+  .mhacks-top-btn{
+    margin-left: 22vw;
   }
 }
 @media screen and (max-width: 350px){
@@ -1973,9 +2054,15 @@
     margin-top: 75vw;
   }
 }
-@media screen and (max-width: 333px){
+@media screen and (max-width: 334px){
   .mhacks-mid-ft-text{
     margin-top: 106%;
+  }
+  .mhacks-top-header{
+    font-size: 1.5em;
+  }
+  .mhacks-top-para{
+    margin-left: 2vw;
   }
 }
 @media screen and (max-width: 321px){
@@ -1987,11 +2074,14 @@
   }
   .mhacks-top-header{
     margin-top: -53vw;
-    margin-left: 11vw;
+    margin-left: 1vw;
   }
   .mhacks-top-para{
-    margin-left: 13vw;
-    margin-top: -21vw;
+    margin-left: -1vw;
+    margin-top: -32vw;
+  }
+  .mhacks-top-btn{
+    margin-top: -10vw;
   }
   .logo{
     margin-top: -35vw;

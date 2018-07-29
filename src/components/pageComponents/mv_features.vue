@@ -201,13 +201,13 @@
     }
     .codeq_img{
         height: 40px;
-        margin-left: -57vw;
+        margin-left: -56vw;
         margin-bottom: 2%;
         margin-top: 36vw;
     }
     .codeq_desc{
         float: left;
-        margin-left: 43%;
+        margin-left: 41vw;
         color: #fff;
         margin-top: -36%;
         font-size: 1.2em;
@@ -347,32 +347,15 @@
         margin-left: -24vw;
     }
 }
-@media screen and (max-width: 661px){
+@media screen and (max-width: 662px){
     .bc_desc_list{
         margin-left: -25vw;
     }
     .lsupport_desc_list{
-        margin-left: -21vw;
+        margin-left: -22vw;
     }
-}
-@media screen and (max-width: 611px){
-    .bc_desc{
-        margin-left: 39%;
-    }
-    .bc_desc_list{
-        margin-left: -23%;
-    }
-    .lsupport_desc{
-        margin-left: 41%;
-    }
-    .lsupport_desc_list{
-        margin-left: -19%;
-    }
-    .tsupport_desc{
-        margin-left: 40%;
-    }
-    .tsupport_desc_list{
-       margin-left: -24%; 
+    .lsupport_img{
+        margin-top: 11vw;
     }
 }
 @media screen and (max-width: 609px){
@@ -385,8 +368,11 @@
     .tsupport_desc_list{
         margin-left: -28vw;
     }
+    .lsupport_img{
+        margin-top: 26vw;
+    }
 }
-@media screen and (max-width: 601px){
+@media screen and (max-width: 602px){
     .codeq_img{
         margin-left: -6%;
         margin-top: 8%;
@@ -408,7 +394,7 @@
         margin-top: 4%;
     }
     .resp_desc_list{
-        margin-left: 37%;
+        margin-left: 34vw;
         margin-top: 6%;
     }
     .bc_img{
@@ -420,7 +406,7 @@
         margin-top: 5%;
     }
     .lsupport_img{
-        margin-left: -25vw;
+        margin-left: -22vw;
         margin-top: 35%;
     }
     .lsupport_desc{
@@ -431,11 +417,8 @@
         margin-left: -22vw;
         margin-top: 14vw;
     }
-    .tsupport_img{
-        margin-left: 40%;
-    }
     .tsupport_desc{
-        margin-left: 35%;
+        margin-left: 35vw;
     }
 
     .tsupport_desc_list{
@@ -481,7 +464,10 @@
 }
 @media screen and (max-width: 543px){
     .codeq_img{
-        margin-top: -2vw;
+        margin-top: 7vw;
+    }
+    .resp_img{
+        margin-top: 50vw;
     }
 }
 @media screen and (max-width: 503px){
@@ -542,11 +528,28 @@
         margin-top: -13vw;
     }
 }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 451px){
     .lsupport_desc{
         margin-left: 34vw;
     }
-
+    .codeq_img{
+        margin-top: -4vw;
+    }
+    .resp_img{
+        margin-top: 47vw;
+    }
+    .resp_desc{
+        margin-left: 41vw;
+    }
+    .bc_img{
+        margin-left: 46vw;
+    }
+    .lsupport_img{
+        margin-left: -27vw;
+    }
+    .lsupport_desc{
+        margin-left: 38vw;
+    }
 }
 @media screen and (max-width: 446px){
     .codeq_img{
@@ -680,7 +683,7 @@
 }
 @media screen and (max-width: 415px){
     .codeq_img{
-        margin-top: 42vw;
+        margin-top: 38vw;
         margin-left: -62vw;
     }
     .codeq_desc{
@@ -746,10 +749,23 @@
         margin-left: -48vw;
     }
 }
-@media screen and (max-width: 365px){
+@media screen and (max-width: 367px){
     .bc_img{
-        margin-left: -40vw;
-        margin-top: 42vw;
+        margin-left: -43vw;
+        margin-top: 43vw;
+    }
+    .resp_desc{
+        margin-top: -26vw;
+    }
+    .resp_desc_list{
+        margin-top: -18vw;
+    }
+    .codeq_img{
+        margin-left: -58vw;
+    }
+    .codeq_desc{
+        margin-top: -83vw;
+        margin-left: 36vw;
     }
 }
 @media screen and (max-width: 363px){
@@ -775,7 +791,7 @@
         margin-top: -19vw;
     }
     .codeq_img{
-        margin-top: 47vw;
+        margin-top: 41vw;
     }
     .codeq_desc{
         margin-top: -78vw;
@@ -794,7 +810,7 @@
     }
     .lsupport_img{
        margin-left: 45vw;
-       margin-top: 16vw; 
+       margin-top: 36vw; 
     }
     .lsupport_desc_list{
         margin-left: -37vw;
@@ -822,6 +838,29 @@
     }
     .bc_img{
         margin-top: 51vw;
+    }
+}
+@media screen and (max-width: 319px){
+    .codeq_img{
+        margin-top: 35vw;
+    }
+    .resp_img{
+        margin-top: 45vw;
+    }
+    .resp_desc{
+        margin-top: -20vw;
+    }
+    .resp_desc_list{
+        margin-top: -9vw;
+    }
+    .bc_img{
+        margin-left: -51vw;
+    }
+    .lsupport_img{
+        margin-top: 15vw;
+    }
+    .tsupport_desc_list{
+        margin-right: 5%;
     }
 }
 @media screen and (max-width: 305px){

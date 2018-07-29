@@ -37,8 +37,8 @@
           <div class="container">
             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
               <div class="mhacks-top-para animated fadeIn">
-                A community built for and by the students that develops
-                quality products for business.
+                A community built for and by the students <br> <span class="mhacks-tp1">that develops
+                quality products for business.</span>
               </div>
             </div>
           </div>
