@@ -514,44 +514,84 @@
     }
     .bc_img{
         margin-top: 17%;
+        margin-left: 41%;
     }
     .bc_desc{
-        margin-left: 31%;
+        margin-left: 32%;
     }
     .bc_desc_list{
-        margin-left: -28%;
+        margin-left: -32%;
     }
     .lsupport_img{
-        margin-left: -37%;
+        margin-left: -33%;
         margin-top: 44%;
     }
     .lsupport_desc_list{
-      margin-left: -24%;
+      margin-left: -27%;
     }
+    .lsupport_desc{
+        margin-left: 34vw;
+    }
+
     .tsupport_img{
         margin-top: 21%;
     } 
     .tsupport_desc_list{
-        margin-left: -27%;
+        margin-left: -33%;
     }
+}
+@media screen and (max-width: 446px){
+    .codeq_img{
+       margin-top: 1%;
+   }
+    .codeq_desc{
+        margin-left: 39%;
+    }
+    .codeq_desc_list{
+        margin-left: 32%;
+    }
+    .resp_img{
+        margin-top: 43%;
+        margin-left: -25%;
+    }
+    .resp_desc_list{
+        margin-left: 32%;
+    }
+    .bc_img{
+        margin-left: 42%;
+    }
+    .bc_desc{
+        margin-left: 33vw;
+    }
+    .bc_desc_list{
+        margin-left: -32vw;
+    }
+    .lsupport_desc_list{
+        margin-left: -28%;
+    }
+
 }
 @media screen and (max-width: 429px){
     .tsupport_desc_list{
-        margin-left: -29%;
+        margin-left: -33vw;
         color: #fff;
     }
     .tsupport_img{
-        margin-top: 12%;
+        margin-top: 6vw;
+        margin-left: 44vw;
     }
     .lsupport_img{
-        margin-left: -38%;
+        margin-left: -32vw;
+    }
+    .lsupport_desc{
+        margin-left: 37vw;
     }
     .bc_desc_list{
-        margin-left: -33%;
+        margin-left: -34vw;
         color: #fff;
     }
     .lsupport_desc_list{
-        margin-left: -25%;
+        margin-left: -29vw;
         color: #fff;
     }
     .mhacks-features-mobileview{
@@ -564,28 +604,38 @@
     }
     .codeq_desc{
         margin-top: -85%;
+        margin-left: 40vw;
         color: #fff;
     }
     .codeq_desc_list{
         margin-top: -78%;
+        margin-left: 34vw;
         color: #fff;
     }
     .resp_img{
         margin-top: 37%;
+        margin-left: -4vw;
     }
     .resp_desc{
         margin-top: -36%;
+        margin-left: 41vw;
         color: #fff;
     }
     .resp_desc_list{
         margin-top: -29%;
+        margin-left: 33vw;
         color: #fff;
     }
     .bc_img{
         margin-top: -2%;
+        margin-left: 44vw;
+    }
+    .bc_desc{
+        margin-left: 34vw;
     }
     .tsupport_desc{
         color: #fff;
+        margin-left: 36vw;
     }
 
 }
@@ -621,11 +671,11 @@
     }
     .resp_img{
         margin-left: -9vw;
-        margin-top: 39vw;
+        margin-top: 38vw;
     }
     .resp_desc{
         margin-left: 37%;
-        margin-top: -44%;
+        margin-top: -40vw;
     }
     .resp_desc_list{
         margin-left: 32%;
@@ -682,17 +732,35 @@
     .codeq_desc_list{
         margin-top: -77%;
     }
+    .resp_img{
+        margin-top: 45vw;
+    }
+    .resp_desc{
+        margin-top: -30vw;
+    }
+    .resp_desc_list{
+        margin-top: -23vw;
+    }
     .bc_desc{
         margin-left: 31%;
     }
     .bc_desc_list{
-        margin-left: -36%;
+        margin-left: -38vw;
     }
     .lsupport_desc_list{
-        margin-left: -28%;
+        margin-left: -29vw;
+    }
+    .tsupport_img{
+        margin-top: 10vw;
     }
     .tsupport_desc_list{
-        margin-left: -30%;
+        margin-left: -34vw;
+    }
+}
+@media screen and (max-width: 365px){
+    .bc_img{
+        margin-left: -40vw;
+        margin-top: 42vw;
     }
 }
 @media screen and (max-width: 363px){
@@ -712,16 +780,16 @@
         margin-top: 40vw;
     }
     .resp_desc{
-        margin-top: -35vw;
+        margin-top: -28vw;
     }
     .resp_desc_list{
-        margin-top: -29vw;
+        margin-top: -19vw;
     }
     .codeq_img{
         margin-top: 40vw;
     }
     .codeq_desc{
-        margin-top: -85vw;
+        margin-top: -81vw;
     }
 
 }
@@ -737,10 +805,13 @@
         margin-left: -47%;
     }
     .codeq_desc{
-        margin-top: -104%;
+        margin-top: -85vw;
     }
     .codeq_desc_list{
-        margin-top: -89%;
+        margin-top: -76vw;
+    }
+    .bc_img{
+        margin-top: 51vw;
     }
 }
 @media screen and (max-width: 305px){
@@ -757,19 +828,22 @@
         margin-top: 43vw;
     }
     .resp_desc{
-        margin-top: -29%;
+        margin-top: -18vw;
     }
     .resp_desc_list{
-        margin-top: -17%;
+        margin-top: -7vw;
     }
     .bc_img{
         margin-top: 53vw;
+        margin-left: -51vw;
     }
     .bc_desc{
         margin-top: 9%;
+        margin-left: 28vw;
     }
     .bc_desc_list{
         margin-top: 22%;
+        margin-left: -48vw;
     }
     .lsupport_img{
         margin-top: 24%;

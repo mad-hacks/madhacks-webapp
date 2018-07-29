@@ -1933,7 +1933,6 @@
   }
   .mhacks-last-contact-header{
     margin-top: 8%;
-    margin-left: -45%;
   }
 }
 
@@ -1986,6 +1985,17 @@
   .mhacks-mid-mission-content{
     width: 270px;
   }
+  .mhacks-top-header{
+    margin-top: -53vw;
+    margin-left: 11vw;
+  }
+  .mhacks-top-para{
+    margin-left: 13vw;
+    margin-top: -21vw;
+  }
+  .logo{
+    margin-top: -35vw;
+  }
   .mhacks-last-contact-input{
     width: 88%;
   }
@@ -2009,6 +2019,9 @@
   }
   .mhacks-mid-header-business{
     margin-right: -2%;
+  }
+  .mhacks-register-btn{
+    margin-left: -3%;
   }
   .mhacks-mid-content-business{
     margin-left: -14%;
