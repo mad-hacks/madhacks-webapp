@@ -8,8 +8,8 @@
             </div>
             <div class="codeq_desc_list">
                 Latest technology used. <br>
-                Neat and clean code. <br>
-                Best industry practices.
+               <span class="codeq1"> Neat and clean code. <br> </span>
+                <span class="codeq2"> Best industry practices. </span>
             </div>
         </div>
         <!--End-->
@@ -21,8 +21,8 @@
             </div>
             <div class="resp_desc_list">
                 Responsiveness at its best. <br>
-                All device compatible. <br>
-                Clear cut clarity.
+                <span class="resp1">All device compatible. <br> </span>
+                <span class="resp2">Clear cut clarity. </span>
             </div>
         </div>
         <!--End-->
@@ -34,8 +34,8 @@
             </div>
             <div class="bc_desc_list">
                 Runs on any browser. <br>
-                Supports every screen size. <br>
-                Easily viewable.
+                <span class="bc1"> Supports every screen size. <br> </span>
+                <span class="bc2"> Easily viewable.</span>
             </div>
         </div>
         <!--End-->
@@ -47,8 +47,8 @@
             </div>
             <div class="lsupport_desc_list">
                 Lifetime Support available. <br>
-                Frequent updation. <br>
-                Later stage addition.
+                <span class="lsupport1">Frequent updation. <br> </span>
+                <span class="lsupport2">Later stage addition.</span>
             </div>
         </div>
         <!--End-->
@@ -60,8 +60,8 @@
             </div>
             <div class="tsupport_desc_list">
                 Technical Assistance available. <br>
-                Scheduled maintainence available. <br>
-                Super fast maintainence.
+                <span class="tsupport1">Scheduled maintainence available. <br> </span>
+                <span class="tsupport2">Super fast maintainence.</span>
             </div>
         </div>
     </div>
@@ -80,6 +80,17 @@
         width: 100%;
         margin: 0 auto;
     }
+    .codeq1{
+        width: 100%;
+        margin-left: 1.1vw;
+    }
+    .resp1{
+        width: 100%;
+        margin-left: 2.1vw;
+    }
+    .resp2{
+        margin-left: 4.1vw;
+    }
     .mhacks-mview-bg{
         background-image: url(../../assets/images/DesignFeatures.svg);
         background-repeat: no-repeat;
@@ -97,7 +108,7 @@
         margin-left: 43%;
         color: #fff;
         margin-top: -20%;
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .codeq_desc_list{
         margin-left: 40%;
@@ -115,11 +126,11 @@
         float: left;
         margin-left: 43%;
         margin-top: 3%;
-        font-size: 1em;
+        font-size: 1.2em;
         color: #fff;
     }
     .resp_desc_list{
-        margin-left: 40%;
+        margin-left: 39vw;
         margin-top: 2%;
         float: left;
         line-height: 2em;
@@ -135,6 +146,7 @@
         float: left;
         color: #fff;
         margin-top: 3%;
+        font-size: 1.2em;
     }
     .bc_desc_list{
         float: left;
@@ -153,6 +165,7 @@
         float: left;
         color: #fff;
         margin-top: 2%;
+        font-size: 1.2em;
     }
     .lsupport_desc_list{
         margin-left: -17%;
@@ -171,6 +184,7 @@
         float: left;
         color: #fff;
         margin-top: 5%;
+        font-size: 1.2em;
     }
     .tsupport_desc_list{
         float: left;
@@ -187,9 +201,9 @@
     }
     .codeq_img{
         height: 40px;
-        margin-left: 45%;
+        margin-left: -57vw;
         margin-bottom: 2%;
-        margin-top: -80%;
+        margin-top: 36vw;
     }
     .codeq_desc{
         float: left;
@@ -217,10 +231,28 @@
         color: #fff;
     }
     .resp_desc_list{
-        margin-left: 40%;
+        margin-left: 38vw;
         margin-top: 1%;
         float: left;
         line-height: 2em;
+    }
+    .bc1{
+        margin-left: -2vw;
+    }
+    .bc2{
+        margin-left: 2.3vw;
+    }
+    .lsupport1{
+        margin-left: 3vw;
+    }
+    .lsupport2{
+        margin-left: 2.3vw
+    }
+    .tsupport1{
+        margin-left: -1vw;
+    }
+    .tsupport2{
+        margin-left: 3vw;
     }
     .bc_img{
         height: 40px;
@@ -253,11 +285,12 @@
         font-size: 1.2em;
     }
     .lsupport_desc_list{
-        margin-left: -17%;
+        margin-left: -20vw;
         margin-top: 12%;
         float: left;
         line-height: 2em;
     }
+
     .tsupport_img{
         height: 40px;
         margin-left: 45%;
@@ -273,7 +306,7 @@
     .tsupport_desc_list{
         float: left;
         margin-top: 12%;
-        margin-left: -18%;
+        margin-left: -22vw;
         line-height: 2em;
         color: #fff;
     }
