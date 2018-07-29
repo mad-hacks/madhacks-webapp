@@ -196,7 +196,7 @@
         margin-left: 43%;
         color: #fff;
         margin-top: -36%;
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .codeq_desc_list{
         margin-left: 40%;
@@ -213,7 +213,7 @@
         float: left;
         margin-left: 43%;
         margin-top: -5%;
-        font-size: 1em;
+        font-size: 1.2em;
         color: #fff;
     }
     .resp_desc_list{
@@ -228,15 +228,16 @@
         margin-top: 7%;
     }
     .bc_desc{
-        margin-left: 43%;
+        margin-left: 38vw;
         float: left;
         color: #fff;
         margin-top: 5%;
+        font-size: 1.2em;
     }
     .bc_desc_list{
         float: left;
         margin-top: 12%;
-        margin-left: -22%;
+        margin-left: -21vw;
         line-height: 2em;
     }
     .lsupport_img{
@@ -245,10 +246,11 @@
         margin-top: 10%;
     }
     .lsupport_desc{
-        margin-left: 43%;
+        margin-left: 40vw;
         float: left;
         color: #fff;
         margin-top: 5%;
+        font-size: 1.2em;
     }
     .lsupport_desc_list{
         margin-left: -17%;
@@ -262,10 +264,11 @@
         margin-top: 13%;
     }
     .tsupport_desc{
-        margin-left: 43%;
+        margin-left: 39vw;
         float: left;
         color: #fff;
         margin-top: 5%;
+        font-size: 1.2em;
     }
     .tsupport_desc_list{
         float: left;
@@ -289,6 +292,36 @@
         color: #fff;
     }
 }
+@media screen and (max-width: 729px){
+    .bc_desc_list{
+        margin-left: -22vw;
+    }
+    .lsupport_desc_list{
+        margin-left: -18vw;
+    }
+    .tsupport_desc_list{
+        margin-left: -21vw;
+    }
+}
+@media screen and (max-width: 689px){
+    .bc_desc_list{
+        margin-left: -23vw;
+    }
+    .lsupport_desc_list{
+        margin-left: -19vw;
+    }
+    .tsupport_desc_list{
+        margin-left: -24vw;
+    }
+}
+@media screen and (max-width: 661px){
+    .bc_desc_list{
+        margin-left: -25vw;
+    }
+    .lsupport_desc_list{
+        margin-left: -21vw;
+    }
+}
 @media screen and (max-width: 611px){
     .bc_desc{
         margin-left: 39%;
@@ -309,15 +342,15 @@
        margin-left: -24%; 
     }
 }
-@media screen and (max-width: 608px){
+@media screen and (max-width: 609px){
     .bc_desc_list{
-        margin-left: -25%;
+        margin-left: -28vw;
     }
     .lsupport_desc_list{
-        margin-left: -19%;
+        margin-left: -24vw;
     }
     .tsupport_desc_list{
-        margin-left: -20%;
+        margin-left: -28vw;
     }
 }
 @media screen and (max-width: 601px){
@@ -327,11 +360,11 @@
     }
     .codeq_desc{
         margin-left: 40%;
-        margin-top: -23%;
+        margin-top: -34vw;
     }
     .codeq_desc_list{
         margin-left: 36%;
-        margin-top: -15%;
+        margin-top: -27vw;
     }
     .resp_img{
         margin-left: -9%;
@@ -347,23 +380,23 @@
     }
     .bc_img{
         margin-left: 40%;
-        margin-top: 18%;
+        margin-top: 11vw;
     }
     .bc_desc{
         margin-left: 34%;
         margin-top: 5%;
     }
     .lsupport_img{
-        margin-left: -28%;
+        margin-left: -25vw;
         margin-top: 35%;
     }
     .lsupport_desc{
         margin-left: 35%;
-        margin-top: 19%;
+        margin-top: 6vw;
     }
     .lsupport_desc_list{
-        margin-left: -18%;
-        margin-top: 26%;
+        margin-left: -22vw;
+        margin-top: 14vw;
     }
     .tsupport_img{
         margin-left: 40%;
@@ -373,28 +406,17 @@
     }
 
     .tsupport_desc_list{
-        margin-left: -21%;
+        margin-left: -27vw;
     }
 }
-@media screen and (max-width: 576px){
-    .resp_img{
-    margin-left: -22%;
-    }
-    .lsupport_img{
-        margin-left: -25%;
-    }
-    .lsupport_desc{
-        margin-left: 36%;
-        margin-top: 8%;
-    }
-    .lsupport_desc_list{
-        margin-top: 15%;
-    }
 
-}
 @media screen and (max-width: 571px){
     .resp_img{
-        margin-top: 45%;
+        margin-top: 32vw;
+        margin-left: -7vw;
+    }
+    .resp_desc_list{
+        margin-left: 35vw;
     }
     .bc_img{
         margin-left: 43%;
@@ -403,44 +425,62 @@
         margin-left: 36%;
     }
     .bc_desc_list{
-        margin-left: -25%;
+        margin-left: 35vw;
+        margin-top: 5vw;
     }
     .lsupport_desc{
         margin-left: 38vw;
     }
     .lsupport_desc_list{
-        margin-left: -21vw;
-    }
-}
-@media screen and (max-width: 567px){
-    .resp_img{
-        margin-top: 42%;
-    }
-    .bc_desc_list{
-        margin-left: -26%;
-    }
-    .lsupport_desc_list{
-        margin-left: -20%;
-    }
-
-}
-@media screen and (max-width: 544px){
-    .resp_img{
-        margin-top: 40%;
-    }
-    .bc_desc_list{
-        margin-left: -27%;
-    }
-    .lsupport_desc_list{
-        margin-left: -21%;
+        margin-left: -26vw;
     }
     .tsupport_desc_list{
-        margin-left: -23%;
+        margin-left: -28vw;
     }
 }
-@media screen and (max-width: 507px){
+@media screen and (max-width: 545px){
+    .codeq_desc{
+        margin-top: -25vw;
+    }
+    .codeq_desc_list{
+        margin-top: -17vw;
+    }
+}
+@media screen and (max-width: 543px){
+    .codeq_img{
+        margin-top: -2vw;
+    }
+}
+@media screen and (max-width: 503px){
+    .codeq_desc{
+        margin-top: -17vw;
+    }
+    .codeq_desc_list{
+        margin-top: -6vw;
+    }
+    .codeq_img{
+        margin-top: 11vw;
+    }
     .resp_img{
-        margin-top: 50%;
+        margin-top: 41vw;
+        margin-left: -23vw;
+    }
+    .resp_desc{
+        margin-top: 7vw;
+    }
+    .resp_desc_list{
+        margin-top: 4vw;
+    }
+    .bc_img{
+        margin-top: 15vw;
+    }
+}
+@media screen and (max-width: 502px){
+    .lsupport_desc_list{
+        margin-left: -29vw;
+    }
+    .tsupport_desc_list{
+        margin-left: -33vw;
     }
 }
 @media screen and (max-width: 496px){
@@ -448,97 +488,32 @@
         margin-top: 3%;
     }
 }
-@media screen and (max-width: 481px){
-    .bc_img{
-        margin-left: 47%;
-    }
-    .bc_desc{
-        margin-left: 38%;
-    }
-    .bc_desc_list{
-        margin-left: -32%;
-    }
-    .lsupport_img{
-        margin-left: -30%;
-    }
-    .lsupport_desc{
-        margin-left: 37vw;
-    }
-    .lsupport_desc_list{
-        margin-left: -25%;
-    }
-    .tsupport_desc_list{
-        margin-left: -28%;
-    }
-}
-@media screen and (max-width: 471px){
-    .lsupport_img{
-        margin-left: -35%;
-        margin-top: 38%;
-    }
+@media screen and (max-width: 461px){
     .resp_img{
-        margin-top: 42%;
-    }
-    .bc_desc_list{
-        margin-left: -31%;
+        margin-top: 56vw;
     }
     .lsupport_img{
-        margin-left: -31%;
+        margin-top: 45vw;
+        margin-left: -30vw;
     }
     .lsupport_desc_list{
-        margin-left: -25%;
+        margin-left: -31vw;
     }
     .tsupport_desc_list{
-        margin-left: -27%;
-    }    
-}
-@media screen and (max-width: 450px){
-    .codeq_img{
-        margin-top: -4%;
+        margin-left: -35vw;
     }
     .codeq_desc{
-        margin-top: -20%;
+        margin-top: -25vw;
     }
     .codeq_desc_list{
-        margin-top: -14%;
+        margin-top: -13vw;
     }
-    .resp_img{
-        margin-top: 49%;
-        margin-left: -30%;
-    }
-    .resp_desc{
-        margin-top: 3%;
-    }
-    .resp_desc_list{
-        margin-top: 3%;
-    }
-    .bc_img{
-        margin-top: 17%;
-        margin-left: 41%;
-    }
-    .bc_desc{
-        margin-left: 32%;
-    }
-    .bc_desc_list{
-        margin-left: -32%;
-    }
-    .lsupport_img{
-        margin-left: -33%;
-        margin-top: 44%;
-    }
-    .lsupport_desc_list{
-      margin-left: -27%;
-    }
+}
+@media screen and (max-width: 450px){
     .lsupport_desc{
         margin-left: 34vw;
     }
 
-    .tsupport_img{
-        margin-top: 21%;
-    } 
-    .tsupport_desc_list{
-        margin-left: -33%;
-    }
 }
 @media screen and (max-width: 446px){
     .codeq_img{
@@ -546,9 +521,11 @@
    }
     .codeq_desc{
         margin-left: 39%;
+        margin-top: -18vw;
     }
     .codeq_desc_list{
         margin-left: 32%;
+        margin-top: -7vw;
     }
     .resp_img{
         margin-top: 43%;
@@ -564,10 +541,14 @@
         margin-left: 33vw;
     }
     .bc_desc_list{
-        margin-left: -32vw;
+        margin-left: -40vw;
+        margin-top: 15vw;
     }
     .lsupport_desc_list{
-        margin-left: -28%;
+        margin-left: -31vw;
+    }
+    .tsupport_desc_list{
+        margin-left: -38vw;
     }
 
 }
@@ -637,9 +618,8 @@
         color: #fff;
         margin-left: 36vw;
     }
-
 }
-@media screen and (max-width: 427px){
+@media screen and (max-width: 428px){
     .resp_img{
         margin-left: -9vw;
     }
@@ -650,6 +630,15 @@
     .tsupport_img{
         margin-top: 3%;
     }
+    .bc_desc_list{
+        margin-left: -41vw;
+    }
+    .lsupport_desc_list{
+        margin-left: -34vw;
+    }
+    .tsupport_desc_list{
+        margin-left: -39vw;
+    }
 }
 @media screen and (max-width: 425px){
     .resp_img{
@@ -658,16 +647,11 @@
 }
 @media screen and (max-width: 415px){
     .codeq_img{
-        margin-top: 34vw;
+        margin-top: 42vw;
         margin-left: -62vw;
     }
     .codeq_desc{
-        margin-top: -93%;
-        margin-left: 37%;
-    }
-    .codeq_desc_list{
-        margin-left: 32%;
-        margin-top: -83%;
+        margin-left: 37vw;
     }
     .resp_img{
         margin-left: -9vw;
@@ -675,59 +659,25 @@
     }
     .resp_desc{
         margin-left: 37%;
-        margin-top: -40vw;
+        margin-top: -37vw;
     }
-    .resp_desc_list{
-        margin-left: 32%;
-        margin-top: -35%;
-    }
-    .bc_img{
-        margin-left: -10%;
-        margin-top: 38%;
-    }
-    .bc_desc{
-        margin-left: 30%;
-    }
-    .bc_desc_list{
-        margin-left: -33%;
-    }
-    .lsupport_img{
-        margin-left: 38%;
-        margin-top: 16%;
-    }
-    .lsupport_desc{
-        margin-left: 32%;
-    }
-    .lsupport_desc_list{
-        margin-left: -26%;
-    }
-    .tsupport_img{
-        margin-left: 39%;
-    }
-    .tsupport_desc{
-        margin-left: 30%;
-        margin-top: 3%;
-    }
-    .tsupport_desc_list{
-        margin-left: -28%;
-        margin-top: 10%;
-    }
+    
 }
 @media screen and (max-width: 386px){
     .bc_desc_list{
-        margin-left: -35%;
+        margin-left: -46vw;
     }
     .lsupport_desc_list{
-        margin-left: -28%;
+        margin-left: -38vw;
     }
     .tsupport_desc_list{
-        margin-left: -33%;
+        margin-left: -43vw;
     }
 
 }
 @media screen and (max-width: 376px){
     .codeq_desc{
-        margin-top: -89%;
+        margin-top: -85vw;
     }
     .codeq_desc_list{
         margin-top: -77%;
@@ -745,16 +695,22 @@
         margin-left: 31%;
     }
     .bc_desc_list{
+        margin-left: -45vw;
+    }
+    .lsupport_img{
         margin-left: -38vw;
     }
+    .lsupport_desc{
+        margin-left: 34vw;
+    }
     .lsupport_desc_list{
-        margin-left: -29vw;
+        margin-left: -36vw;
     }
     .tsupport_img{
         margin-top: 10vw;
     }
     .tsupport_desc_list{
-        margin-left: -34vw;
+        margin-left: -48vw;
     }
 }
 @media screen and (max-width: 365px){
@@ -765,16 +721,16 @@
 }
 @media screen and (max-width: 363px){
     .tsupport_desc_list{
-        margin-right: 8%;
+        margin-right: 13vw;
         float: right;
         margin-bottom: 5%;
-        margin-top: 2%;
+        margin-top: 6vw;
     }
     .lsupport_desc_list{
-        margin-left: -35%;
+        margin-left: -37vw;
     }
     .bc_desc_list{
-        margin-left: -42%;
+        margin-left: -46vw;
     }
     .resp_img{
         margin-top: 40vw;
@@ -786,12 +742,30 @@
         margin-top: -19vw;
     }
     .codeq_img{
-        margin-top: 40vw;
+        margin-top: 47vw;
     }
     .codeq_desc{
-        margin-top: -81vw;
+        margin-top: -78vw;
+    }
+    .codeq_desc_list{
+        margin-top: -69vw;
+    }
+    .bc_img{
+        margin-left: -38vw;
     }
 
+}
+@media screen and (max-width: 349px){
+    .bc_desc_list{
+        margin-left: -49vw;
+    }
+    .lsupport_img{
+       margin-left: 45vw;
+       margin-top: 16vw; 
+    }
+    .lsupport_desc_list{
+        margin-left: -37vw;
+    }
 }
 @media screen and (max-width: 321px){
     .tsupport_desc_list{
@@ -799,16 +773,19 @@
         margin-right: 9%;
     }
     .lsupport_desc_list{
-        margin-left: -34%;
+        margin-left: -43vw;
     }
     .bc_desc_list{
-        margin-left: -47%;
+        margin-left: -53vw;
     }
     .codeq_desc{
         margin-top: -85vw;
     }
     .codeq_desc_list{
         margin-top: -76vw;
+    }
+    .codeq_img{
+        margin-top: 43vw;
     }
     .bc_img{
         margin-top: 51vw;
@@ -825,7 +802,7 @@
         margin-top: -75%;
     }
     .resp_img{
-        margin-top: 43vw;
+        margin-top: 48vw;
     }
     .resp_desc{
         margin-top: -18vw;
@@ -834,8 +811,8 @@
         margin-top: -7vw;
     }
     .bc_img{
-        margin-top: 53vw;
-        margin-left: -51vw;
+        margin-top: 57vw;
+        margin-left: -46vw;
     }
     .bc_desc{
         margin-top: 9%;
@@ -843,20 +820,17 @@
     }
     .bc_desc_list{
         margin-top: 22%;
-        margin-left: -48vw;
+        margin-left: -55vw;
     }
     .lsupport_img{
-        margin-top: 24%;
+        margin-top: 15vw;
     }
     .lsupport_desc_list{
         margin-top: 18%;
-        margin-left: -40%;
+        margin-left: -46vw;
     }
     .tsupport_img{
         margin-top: 22%;
-    }
-    .tsupport_desc{
-        margin-top: 11%;
     }
     .tsupport_desc_list{
         margin-right: 2%;

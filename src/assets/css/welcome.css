@@ -1671,7 +1671,7 @@
 }
 @media screen and (max-width: 610px){
   .mhacks-mid-ft-text{
-    margin-top: 76%;
+    margin-top: 25vw;
   }
 }
 @media screen and (max-width: 603px){
@@ -1820,7 +1820,7 @@
       color: #fff;
       width: 100%;
       margin: 0 auto;
-      margin-top: 32%;
+      margin-top: 7vw;
     }
   }
   @media screen and (max-width: 426px){
@@ -2040,7 +2040,7 @@
 }
 @media screen and (max-width: 305px){
   .mhacks-mid-ft-text{
-    margin-top: 158%;
+    margin-top: 54vw;
   }
   .mhacks-mid-header{
     font-size: 1.9em;
