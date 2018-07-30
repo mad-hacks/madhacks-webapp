@@ -7,7 +7,7 @@
         <div class="container nav-container">
           <ul class="mhack-top-nav">
             <li class="mhacks-tn-left-logo">
-              <a href="#home">Mad.Hacks</a>
+              <a href="#home"><img src="../../assets/images/logo.svg" class="logo"/></a>
             </li>
             <li class="mhacks-tn-right-item contact-btn">
               <a href="#contact">Contact</a>
@@ -37,8 +37,8 @@
           <div class="container">
             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
               <div class="mhacks-top-para animated fadeIn">
-                A community built for and by the students that develops
-                quality products for business.
+                A community built for and by the students <br> <span class="mhacks-tp1">that develops
+                quality products for business.</span>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@
         <!-- Content Section -->
         <!-- Image Section -->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 animated zoomIn" v-in-viewport.once>
-          <img class="mhacks-mid-content-pic" src="../../assets/images/business.svg"/>
+          <img class="mhacks-mid-content-pic business-pic" src="../../assets/images/business.svg"/>
         </div>
         <!-- End -->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">

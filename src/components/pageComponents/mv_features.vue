@@ -8,8 +8,8 @@
             </div>
             <div class="codeq_desc_list">
                 Latest technology used. <br>
-                Neat and clean code. <br>
-                Best industry practices.
+               <span class="codeq1"> Neat and clean code. <br> </span>
+                <span class="codeq2"> Best industry practices. </span>
             </div>
         </div>
         <!--End-->
@@ -21,8 +21,8 @@
             </div>
             <div class="resp_desc_list">
                 Responsiveness at its best. <br>
-                All device compatible. <br>
-                Clear cut clarity.
+                <span class="resp1">All device compatible. <br> </span>
+                <span class="resp2">Clear cut clarity. </span>
             </div>
         </div>
         <!--End-->
@@ -34,8 +34,8 @@
             </div>
             <div class="bc_desc_list">
                 Runs on any browser. <br>
-                Supports every screen size. <br>
-                Easily viewable.
+                <span class="bc1"> Supports every screen size. <br> </span>
+                <span class="bc2"> Easily viewable.</span>
             </div>
         </div>
         <!--End-->
@@ -47,8 +47,8 @@
             </div>
             <div class="lsupport_desc_list">
                 Lifetime Support available. <br>
-                Frequent updation. <br>
-                Later stage addition.
+                <span class="lsupport1">Frequent updation. <br> </span>
+                <span class="lsupport2">Later stage addition.</span>
             </div>
         </div>
         <!--End-->
@@ -60,8 +60,8 @@
             </div>
             <div class="tsupport_desc_list">
                 Technical Assistance available. <br>
-                Scheduled maintainence available. <br>
-                Super fast maintainence.
+                <span class="tsupport1">Scheduled maintainence available. <br> </span>
+                <span class="tsupport2">Super fast maintainence.</span>
             </div>
         </div>
     </div>
@@ -80,6 +80,17 @@
         width: 100%;
         margin: 0 auto;
     }
+    .codeq1{
+        width: 100%;
+        margin-left: 1.1vw;
+    }
+    .resp1{
+        width: 100%;
+        margin-left: 2.1vw;
+    }
+    .resp2{
+        margin-left: 4.1vw;
+    }
     .mhacks-mview-bg{
         background-image: url(../../assets/images/DesignFeatures.svg);
         background-repeat: no-repeat;
@@ -97,7 +108,7 @@
         margin-left: 43%;
         color: #fff;
         margin-top: -20%;
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .codeq_desc_list{
         margin-left: 40%;
@@ -115,11 +126,11 @@
         float: left;
         margin-left: 43%;
         margin-top: 3%;
-        font-size: 1em;
+        font-size: 1.2em;
         color: #fff;
     }
     .resp_desc_list{
-        margin-left: 40%;
+        margin-left: 39vw;
         margin-top: 2%;
         float: left;
         line-height: 2em;
@@ -135,6 +146,7 @@
         float: left;
         color: #fff;
         margin-top: 3%;
+        font-size: 1.2em;
     }
     .bc_desc_list{
         float: left;
@@ -153,6 +165,7 @@
         float: left;
         color: #fff;
         margin-top: 2%;
+        font-size: 1.2em;
     }
     .lsupport_desc_list{
         margin-left: -17%;
@@ -171,6 +184,7 @@
         float: left;
         color: #fff;
         margin-top: 5%;
+        font-size: 1.2em;
     }
     .tsupport_desc_list{
         float: left;
@@ -187,16 +201,16 @@
     }
     .codeq_img{
         height: 40px;
-        margin-left: 45%;
+        margin-left: -56vw;
         margin-bottom: 2%;
-        margin-top: -80%;
+        margin-top: 36vw;
     }
     .codeq_desc{
         float: left;
-        margin-left: 43%;
+        margin-left: 41vw;
         color: #fff;
         margin-top: -36%;
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .codeq_desc_list{
         margin-left: 40%;
@@ -213,14 +227,32 @@
         float: left;
         margin-left: 43%;
         margin-top: -5%;
-        font-size: 1em;
+        font-size: 1.2em;
         color: #fff;
     }
     .resp_desc_list{
-        margin-left: 40%;
+        margin-left: 38vw;
         margin-top: 1%;
         float: left;
         line-height: 2em;
+    }
+    .bc1{
+        margin-left: -2vw;
+    }
+    .bc2{
+        margin-left: 2.3vw;
+    }
+    .lsupport1{
+        margin-left: 3vw;
+    }
+    .lsupport2{
+        margin-left: 2.3vw
+    }
+    .tsupport1{
+        margin-left: -1vw;
+    }
+    .tsupport2{
+        margin-left: 3vw;
     }
     .bc_img{
         height: 40px;
@@ -228,15 +260,16 @@
         margin-top: 7%;
     }
     .bc_desc{
-        margin-left: 43%;
+        margin-left: 38vw;
         float: left;
         color: #fff;
         margin-top: 5%;
+        font-size: 1.2em;
     }
     .bc_desc_list{
         float: left;
         margin-top: 12%;
-        margin-left: -22%;
+        margin-left: -21vw;
         line-height: 2em;
     }
     .lsupport_img{
@@ -245,32 +278,35 @@
         margin-top: 10%;
     }
     .lsupport_desc{
-        margin-left: 43%;
+        margin-left: 40vw;
         float: left;
         color: #fff;
         margin-top: 5%;
+        font-size: 1.2em;
     }
     .lsupport_desc_list{
-        margin-left: -17%;
+        margin-left: -20vw;
         margin-top: 12%;
         float: left;
         line-height: 2em;
     }
+
     .tsupport_img{
         height: 40px;
         margin-left: 45%;
         margin-top: 13%;
     }
     .tsupport_desc{
-        margin-left: 43%;
+        margin-left: 39vw;
         float: left;
         color: #fff;
         margin-top: 5%;
+        font-size: 1.2em;
     }
     .tsupport_desc_list{
         float: left;
         margin-top: 12%;
-        margin-left: -18%;
+        margin-left: -22vw;
         line-height: 2em;
         color: #fff;
     }
@@ -289,18 +325,65 @@
         color: #fff;
     }
 }
-@media screen and (max-width: 601px){
+@media screen and (max-width: 729px){
+    .bc_desc_list{
+        margin-left: -22vw;
+    }
+    .lsupport_desc_list{
+        margin-left: -18vw;
+    }
+    .tsupport_desc_list{
+        margin-left: -21vw;
+    }
+}
+@media screen and (max-width: 689px){
+    .bc_desc_list{
+        margin-left: -23vw;
+    }
+    .lsupport_desc_list{
+        margin-left: -19vw;
+    }
+    .tsupport_desc_list{
+        margin-left: -24vw;
+    }
+}
+@media screen and (max-width: 662px){
+    .bc_desc_list{
+        margin-left: -25vw;
+    }
+    .lsupport_desc_list{
+        margin-left: -22vw;
+    }
+    .lsupport_img{
+        margin-top: 11vw;
+    }
+}
+@media screen and (max-width: 609px){
+    .bc_desc_list{
+        margin-left: -28vw;
+    }
+    .lsupport_desc_list{
+        margin-left: -24vw;
+    }
+    .tsupport_desc_list{
+        margin-left: -28vw;
+    }
+    .lsupport_img{
+        margin-top: 26vw;
+    }
+}
+@media screen and (max-width: 602px){
     .codeq_img{
         margin-left: -6%;
         margin-top: 8%;
     }
     .codeq_desc{
         margin-left: 40%;
-        margin-top: -23%;
+        margin-top: -34vw;
     }
     .codeq_desc_list{
         margin-left: 36%;
-        margin-top: -15%;
+        margin-top: -27vw;
     }
     .resp_img{
         margin-left: -9%;
@@ -311,90 +394,112 @@
         margin-top: 4%;
     }
     .resp_desc_list{
-        margin-left: 37%;
+        margin-left: 34vw;
         margin-top: 6%;
     }
     .bc_img{
         margin-left: 40%;
-        margin-top: 18%;
+        margin-top: 11vw;
     }
     .bc_desc{
         margin-left: 34%;
         margin-top: 5%;
     }
     .lsupport_img{
-        margin-left: -28%;
+        margin-left: -22vw;
         margin-top: 35%;
     }
     .lsupport_desc{
         margin-left: 35%;
-        margin-top: 19%;
+        margin-top: 6vw;
     }
     .lsupport_desc_list{
-        margin-left: -18%;
-        margin-top: 26%;
-    }
-    .tsupport_img{
-        margin-left: 40%;
+        margin-left: -22vw;
+        margin-top: 14vw;
     }
     .tsupport_desc{
-        margin-left: 35%;
+        margin-left: 35vw;
     }
 
     .tsupport_desc_list{
-        margin-left: -21%;
+        margin-left: -27vw;
     }
 }
-@media screen and (max-width: 576px){
-    .resp_img{
-    margin-left: -22%;
-    }
-    .lsupport_img{
-        margin-left: -25%;
-    }
-    .lsupport_desc{
-        margin-left: 36%;
-        margin-top: 8%;
-    }
-    .lsupport_desc_list{
-        margin-top: 15%;
-    }
 
-}
 @media screen and (max-width: 571px){
     .resp_img{
-        margin-top: 27%;
+        margin-top: 32vw;
+        margin-left: -7vw;
     }
-}
-@media screen and (max-width: 567px){
-    .resp_img{
-        margin-top: 42%;
+    .resp_desc_list{
+        margin-left: 35vw;
     }
-    .bc_desc_list{
-        margin-left: -26%;
+    .bc_img{
+        margin-left: 43%;
     }
-    .lsupport_desc_list{
-        margin-left: -20%;
-    }
-
-}
-@media screen and (max-width: 544px){
-    .resp_img{
-        margin-top: 40%;
+    .bc_desc{
+        margin-left: 36%;
     }
     .bc_desc_list{
-        margin-left: -27%;
+        margin-left: 35vw;
+        margin-top: 5vw;
+    }
+    .lsupport_desc{
+        margin-left: 38vw;
     }
     .lsupport_desc_list{
-        margin-left: -21%;
+        margin-left: -26vw;
     }
     .tsupport_desc_list{
-        margin-left: -23%;
+        margin-left: -28vw;
     }
 }
-@media screen and (max-width: 507px){
+@media screen and (max-width: 545px){
+    .codeq_desc{
+        margin-top: -25vw;
+    }
+    .codeq_desc_list{
+        margin-top: -17vw;
+    }
+}
+@media screen and (max-width: 543px){
+    .codeq_img{
+        margin-top: 7vw;
+    }
     .resp_img{
-        margin-top: 50%;
+        margin-top: 50vw;
+    }
+}
+@media screen and (max-width: 503px){
+    .codeq_desc{
+        margin-top: -17vw;
+    }
+    .codeq_desc_list{
+        margin-top: -6vw;
+    }
+    .codeq_img{
+        margin-top: 11vw;
+    }
+    .resp_img{
+        margin-top: 41vw;
+        margin-left: -23vw;
+    }
+    .resp_desc{
+        margin-top: 7vw;
+    }
+    .resp_desc_list{
+        margin-top: 4vw;
+    }
+    .bc_img{
+        margin-top: 15vw;
+    }
+}
+@media screen and (max-width: 502px){
+    .lsupport_desc_list{
+        margin-left: -29vw;
+    }
+    .tsupport_desc_list{
+        margin-left: -33vw;
     }
 }
 @media screen and (max-width: 496px){
@@ -402,87 +507,108 @@
         margin-top: 3%;
     }
 }
-@media screen and (max-width: 471px){
-    .lsupport_img{
-        margin-left: -35%;
-        margin-top: 38%;
-    }
+@media screen and (max-width: 461px){
     .resp_img{
-        margin-top: 42%;
-    }
-    .bc_desc_list{
-        margin-left: -31%;
+        margin-top: 56vw;
     }
     .lsupport_img{
-        margin-left: -31%;
+        margin-top: 45vw;
+        margin-left: -30vw;
     }
     .lsupport_desc_list{
-        margin-left: -25%;
+        margin-left: -31vw;
     }
     .tsupport_desc_list{
-        margin-left: -27%;
-    }    
-}
-@media screen and (max-width: 450px){
-    .codeq_img{
-        margin-top: -4%;
+        margin-left: -35vw;
     }
     .codeq_desc{
-        margin-top: -20%;
+        margin-top: -25vw;
     }
     .codeq_desc_list{
-        margin-top: -14%;
+        margin-top: -13vw;
+    }
+}
+@media screen and (max-width: 451px){
+    .lsupport_desc{
+        margin-left: 34vw;
+    }
+    .codeq_img{
+        margin-top: -4vw;
     }
     .resp_img{
-        margin-top: 49%;
-        margin-left: -30%;
+        margin-top: 47vw;
     }
     .resp_desc{
-        margin-top: 3%;
-    }
-    .resp_desc_list{
-        margin-top: 3%;
+        margin-left: 41vw;
     }
     .bc_img{
-        margin-top: 17%;
-    }
-    .bc_desc{
-        margin-left: 31%;
-    }
-    .bc_desc_list{
-        margin-left: -28%;
+        margin-left: 46vw;
     }
     .lsupport_img{
-        margin-left: -37%;
-        margin-top: 44%;
+        margin-left: -27vw;
+    }
+    .lsupport_desc{
+        margin-left: 38vw;
+    }
+}
+@media screen and (max-width: 446px){
+    .codeq_img{
+       margin-top: 1%;
+   }
+    .codeq_desc{
+        margin-left: 39%;
+        margin-top: -18vw;
+    }
+    .codeq_desc_list{
+        margin-left: 32%;
+        margin-top: -7vw;
+    }
+    .resp_img{
+        margin-top: 43%;
+        margin-left: -25%;
+    }
+    .resp_desc_list{
+        margin-left: 32%;
+    }
+    .bc_img{
+        margin-left: 42%;
+    }
+    .bc_desc{
+        margin-left: 33vw;
+    }
+    .bc_desc_list{
+        margin-left: -40vw;
+        margin-top: 15vw;
     }
     .lsupport_desc_list{
-      margin-left: -24%;
+        margin-left: -31vw;
     }
-    .tsupport_img{
-        margin-top: 21%;
-    } 
     .tsupport_desc_list{
-        margin-left: -27%;
+        margin-left: -38vw;
     }
+
 }
 @media screen and (max-width: 429px){
     .tsupport_desc_list{
-        margin-left: -29%;
+        margin-left: -33vw;
         color: #fff;
     }
     .tsupport_img{
-        margin-top: 12%;
+        margin-top: 6vw;
+        margin-left: 44vw;
     }
     .lsupport_img{
-        margin-left: -38%;
+        margin-left: -32vw;
+    }
+    .lsupport_desc{
+        margin-left: 37vw;
     }
     .bc_desc_list{
-        margin-left: -33%;
+        margin-left: -34vw;
         color: #fff;
     }
     .lsupport_desc_list{
-        margin-left: -25%;
+        margin-left: -29vw;
         color: #fff;
     }
     .mhacks-features-mobileview{
@@ -495,32 +621,41 @@
     }
     .codeq_desc{
         margin-top: -85%;
+        margin-left: 40vw;
         color: #fff;
     }
     .codeq_desc_list{
         margin-top: -78%;
+        margin-left: 34vw;
         color: #fff;
     }
     .resp_img{
         margin-top: 37%;
+        margin-left: -4vw;
     }
     .resp_desc{
         margin-top: -36%;
+        margin-left: 41vw;
         color: #fff;
     }
     .resp_desc_list{
         margin-top: -29%;
+        margin-left: 33vw;
         color: #fff;
     }
     .bc_img{
         margin-top: -2%;
+        margin-left: 44vw;
+    }
+    .bc_desc{
+        margin-left: 34vw;
     }
     .tsupport_desc{
         color: #fff;
+        margin-left: 36vw;
     }
-
 }
-@media screen and (max-width: 427px){
+@media screen and (max-width: 428px){
     .resp_img{
         margin-left: -9vw;
     }
@@ -531,6 +666,15 @@
     .tsupport_img{
         margin-top: 3%;
     }
+    .bc_desc_list{
+        margin-left: -41vw;
+    }
+    .lsupport_desc_list{
+        margin-left: -34vw;
+    }
+    .tsupport_desc_list{
+        margin-left: -39vw;
+    }
 }
 @media screen and (max-width: 425px){
     .resp_img{
@@ -539,122 +683,138 @@
 }
 @media screen and (max-width: 415px){
     .codeq_img{
-        margin-top: 34vw;
+        margin-top: 38vw;
         margin-left: -62vw;
     }
     .codeq_desc{
-        margin-top: -93%;
-        margin-left: 37%;
-    }
-    .codeq_desc_list{
-        margin-left: 32%;
-        margin-top: -83%;
+        margin-left: 37vw;
     }
     .resp_img{
         margin-left: -9vw;
-        margin-top: 39vw;
+        margin-top: 38vw;
     }
     .resp_desc{
         margin-left: 37%;
-        margin-top: -44%;
+        margin-top: -37vw;
     }
-    .resp_desc_list{
-        margin-left: 32%;
-        margin-top: -35%;
-    }
-    .bc_img{
-        margin-left: -10%;
-        margin-top: 38%;
-    }
-    .bc_desc{
-        margin-left: 30%;
-    }
-    .bc_desc_list{
-        margin-left: -33%;
-    }
-    .lsupport_img{
-        margin-left: 38%;
-        margin-top: 16%;
-    }
-    .lsupport_desc{
-        margin-left: 32%;
-    }
-    .lsupport_desc_list{
-        margin-left: -26%;
-    }
-    .tsupport_img{
-        margin-left: 39%;
-    }
-    .tsupport_desc{
-        margin-left: 30%;
-        margin-top: 3%;
-    }
-    .tsupport_desc_list{
-        margin-left: -28%;
-        margin-top: 10%;
-    }
+    
 }
 @media screen and (max-width: 386px){
     .bc_desc_list{
-        margin-left: -35%;
+        margin-left: -46vw;
     }
     .lsupport_desc_list{
-        margin-left: -28%;
+        margin-left: -38vw;
     }
     .tsupport_desc_list{
-        margin-left: -33%;
+        margin-left: -43vw;
     }
 
 }
 @media screen and (max-width: 376px){
     .codeq_desc{
-        margin-top: -89%;
+        margin-top: -85vw;
     }
     .codeq_desc_list{
         margin-top: -77%;
+    }
+    .resp_img{
+        margin-top: 45vw;
+    }
+    .resp_desc{
+        margin-top: -30vw;
+    }
+    .resp_desc_list{
+        margin-top: -23vw;
     }
     .bc_desc{
         margin-left: 31%;
     }
     .bc_desc_list{
-        margin-left: -36%;
+        margin-left: -45vw;
+    }
+    .lsupport_img{
+        margin-left: -38vw;
+    }
+    .lsupport_desc{
+        margin-left: 34vw;
     }
     .lsupport_desc_list{
-        margin-left: -28%;
+        margin-left: -36vw;
+    }
+    .tsupport_img{
+        margin-top: 10vw;
     }
     .tsupport_desc_list{
-        margin-left: -30%;
+        margin-left: -48vw;
+    }
+}
+@media screen and (max-width: 367px){
+    .bc_img{
+        margin-left: -43vw;
+        margin-top: 43vw;
+    }
+    .resp_desc{
+        margin-top: -26vw;
+    }
+    .resp_desc_list{
+        margin-top: -18vw;
+    }
+    .codeq_img{
+        margin-left: -58vw;
+    }
+    .codeq_desc{
+        margin-top: -83vw;
+        margin-left: 36vw;
     }
 }
 @media screen and (max-width: 363px){
     .tsupport_desc_list{
-        margin-right: 8%;
+        margin-right: 13vw;
         float: right;
         margin-bottom: 5%;
-        margin-top: 2%;
+        margin-top: 6vw;
     }
     .lsupport_desc_list{
-        margin-left: -35%;
+        margin-left: -37vw;
     }
     .bc_desc_list{
-        margin-left: -42%;
+        margin-left: -46vw;
     }
     .resp_img{
         margin-top: 40vw;
     }
     .resp_desc{
-        margin-top: -35vw;
+        margin-top: -28vw;
     }
     .resp_desc_list{
-        margin-top: -29vw;
+        margin-top: -19vw;
     }
     .codeq_img{
-        margin-top: 40vw;
+        margin-top: 41vw;
     }
     .codeq_desc{
-        margin-top: -85vw;
+        margin-top: -78vw;
+    }
+    .codeq_desc_list{
+        margin-top: -69vw;
+    }
+    .bc_img{
+        margin-left: -38vw;
     }
 
+}
+@media screen and (max-width: 349px){
+    .bc_desc_list{
+        margin-left: -49vw;
+    }
+    .lsupport_img{
+       margin-left: 45vw;
+       margin-top: 36vw; 
+    }
+    .lsupport_desc_list{
+        margin-left: -37vw;
+    }
 }
 @media screen and (max-width: 321px){
     .tsupport_desc_list{
@@ -662,16 +822,45 @@
         margin-right: 9%;
     }
     .lsupport_desc_list{
-        margin-left: -34%;
+        margin-left: -43vw;
     }
     .bc_desc_list{
-        margin-left: -47%;
+        margin-left: -53vw;
     }
     .codeq_desc{
-        margin-top: -104%;
+        margin-top: -85vw;
     }
     .codeq_desc_list{
-        margin-top: -89%;
+        margin-top: -76vw;
+    }
+    .codeq_img{
+        margin-top: 43vw;
+    }
+    .bc_img{
+        margin-top: 51vw;
+    }
+}
+@media screen and (max-width: 319px){
+    .codeq_img{
+        margin-top: 35vw;
+    }
+    .resp_img{
+        margin-top: 45vw;
+    }
+    .resp_desc{
+        margin-top: -20vw;
+    }
+    .resp_desc_list{
+        margin-top: -9vw;
+    }
+    .bc_img{
+        margin-left: -51vw;
+    }
+    .lsupport_img{
+        margin-top: 15vw;
+    }
+    .tsupport_desc_list{
+        margin-right: 5%;
     }
 }
 @media screen and (max-width: 305px){
@@ -685,35 +874,35 @@
         margin-top: -75%;
     }
     .resp_img{
-        margin-top: 43vw;
+        margin-top: 48vw;
     }
     .resp_desc{
-        margin-top: -29%;
+        margin-top: -18vw;
     }
     .resp_desc_list{
-        margin-top: -17%;
+        margin-top: -7vw;
     }
     .bc_img{
-        margin-top: 53vw;
+        margin-top: 57vw;
+        margin-left: -46vw;
     }
     .bc_desc{
         margin-top: 9%;
+        margin-left: 28vw;
     }
     .bc_desc_list{
         margin-top: 22%;
+        margin-left: -55vw;
     }
     .lsupport_img{
-        margin-top: 24%;
+        margin-top: 15vw;
     }
     .lsupport_desc_list{
         margin-top: 18%;
-        margin-left: -40%;
+        margin-left: -46vw;
     }
     .tsupport_img{
         margin-top: 22%;
-    }
-    .tsupport_desc{
-        margin-top: 11%;
     }
     .tsupport_desc_list{
         margin-right: 2%;
