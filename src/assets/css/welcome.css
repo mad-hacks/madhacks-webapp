@@ -1512,16 +1512,19 @@
     float: right;
   }
   .alan{
-    margin-right: -50px;
+    margin-right: 1px;
   }
   .dani{
-    margin-right: -78px;
+    margin-right: -19px;
   }
   .james{
-    margin-right: -101px;
+    margin-right: -34px;
   }
   .kavi{
-    margin-right: -118px;
+    margin-right: -45px;
+  }
+  .sandra{
+    margin-right: -7vw;
   }
 }
 @media screen and (max-width: 750px){
@@ -1753,6 +1756,27 @@
       margin-top: 28vw;
     }
   }
+  @media screen and (max-width: 571px){
+    .alan{
+      margin-right: 7px;
+    }
+    .dani{
+      margin-right: -8px;
+    }
+    .mhacks-mid-team-card-other-pic{
+      width: 40px;
+      height: 40px;
+    }
+    .james{
+      margin-right: -23px;
+    }
+    .kavi{
+      margin-right: -34px;
+    }
+    .sandra{
+      margin-right: -7vw;
+    }
+  }
   @media screen and (max-width: 566px){
     .mhacks-mid-ft-text{
       margin-top: 31vw;
@@ -1761,16 +1785,19 @@
   
   @media screen and (max-width: 557px){
     .alan{
-      margin-right: -25px;
+      margin-right: 6px;
     }
     .dani{
-      margin-right: -64px;
+      margin-right: -18px;
     }
     .james{
-      margin-right: -96px;
+      margin-right: -39px;
     }
     .kavi{
-      margin-right: -129px;
+      margin-right: -60px;
+    }
+    .sandra{
+      margin-right: -14vw;
     }
   }
   @media screen and (max-width: 552px){
@@ -1834,23 +1861,22 @@
     }
   }
   @media screen and (max-width: 466px){
-    .alan{
-      margin-right: -4px;
-    }
-    .dani{
-      margin-right: -39px;
-    }
-    .james{
-      margin-right: -74px;
-    }
-    .kavi{
-      margin-right: -108px;
-    }
     .mhacks-top-header{
       margin-left: 4vw;
     }
     .mhacks-top-para{
       margin-left: 15vw;
+    }
+  }
+  @media screen and (max-width: 425px){
+    .dani{
+      margin-right: -7px;
+    }
+    .james{
+      margin-right: -24px;
+    }
+    .kavi{
+      margin-right: -44px;
     }
   }
   @media screen and (max-width: 429px){
@@ -2093,13 +2119,13 @@
     margin-right: 30px;
   }
   .dani{
-    margin-right: -9px;
+    margin-right: 5px;
   }
   .james{
-    margin-right: -45px; 
+    margin-right: -14px; 
   }
   .kavi{
-    margin-right: -78px;
+    margin-right: -31px;
   }
   .mhacks-last-footer-bg{
     margin-top: 13%;
