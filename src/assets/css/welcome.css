@@ -1280,7 +1280,7 @@
 
   .mhacks-register-btn{
     font-size: 1em;
-    height: 40px;
+    height: 45px;
     padding: 0px;
   }
 
@@ -1686,6 +1686,9 @@
   }
   .mhacks-top-header{
     margin-top: -45%;
+  }
+  .mhacks-register-btn{
+    height: 34px;
   }
 }
   @media screen and (max-width: 602px){

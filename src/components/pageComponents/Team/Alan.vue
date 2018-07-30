@@ -26,8 +26,8 @@
                 <center>
                   <div class="mhacks-mid-team-card-pic-quote">
                     <i class="fas fa-quote-left"></i>
-                      Our business relies on fast and reliable talent and support.<br>
-                      Some sort of relevant text appear here.
+                      Mad.Hacks is an oppurtunity for students to sharpen their skills.<br>
+                      It is indeed great working for Mad. Hacks.
                     <i class="fas fa-quote-right"></i>
                   </div>
                 </center>
