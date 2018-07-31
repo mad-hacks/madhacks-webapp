@@ -26,8 +26,8 @@
                 <center>
                   <div class="mhacks-mid-team-card-pic-quote">
                     <i class="fas fa-quote-left"></i>
-                      Our business relies on fast and reliable talent and support.<br>
-                      Some sort of relevant text appear here.
+                      Leading Mad.Hacks is indeed a great responsibility.<br>
+                      Mad.Hacks ensures that the work done is of the best quality.
                     <i class="fas fa-quote-right"></i>
                   </div>
                 </center>

@@ -340,7 +340,7 @@
                   <img src="../../assets/images/kavi.jpeg"  tabindex="0" @click="renderedComponent='Kavi'" class="mhacks-mid-team-card-other-pic kavi"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/placeholder.png"  tabindex="0" @click="renderedComponent='Sandra'" class="mhacks-mid-team-card-other-pic"/>
+                  <img src="../../assets/images/placeholder.png"  tabindex="0" @click="renderedComponent='Sandra'" class="mhacks-mid-team-card-other-pic sandra"/>
                 </div>
               </div>
               </center>
