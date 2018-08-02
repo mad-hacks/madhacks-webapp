@@ -1916,6 +1916,22 @@
       margin-left: 8vw;
       margin-top: -14vw;
     }
+    .logo{
+      margin-left: -20vw;
+    }
+    .mhacks-mid-team-card-pic{
+      width: 150px;
+      height: 150px;
+    }
+    .mhacks-mid-team-card-pic-quote{
+      font-size: 0.91em;
+    }
+    .mhacks-mid-team-card-pic-name{
+      font-size: 1.2em;
+    }
+    .mhacks-mid-team-card-pic-position{
+      font-size: 1em;
+    }
     .mhacks-top-btn{
       margin-top: 2vw;
       margin-left: 25vw;

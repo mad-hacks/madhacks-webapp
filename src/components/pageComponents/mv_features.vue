@@ -722,16 +722,34 @@
     }
     .bc_img{
        margin-top: 45vw;
-       margin-left: -31vw; 
+       margin-left: -28vw; 
+    }
+    .bc1{
+        margin-left: -4vw;
+    }
+    .bc3{
+        margin-left: 4.3vw;
     }
     .bc_desc{
-        margin-left: 31vw;
+        margin-left: 29vw;
     }
     .bc_desc_list{
-        margin-left: -39vw;
+        margin-left: -40vw;
+    }
+    .lsupport_img{
+        margin-left: -28vw;
     }
     .lsupport_desc{
         margin-left: 33vw;
+    }
+    .lsupport_desc_list{
+        margin-left: -35vw;
+    }
+    .lsupport1{
+        margin-left: 5vw;
+    }
+    .lsupport2{
+        margin-left: 4.3vw;
     }
     .tsupport_img{
         margin-top: 11vw;
@@ -741,20 +759,35 @@
         margin-left: 32vw;
     }
     .tsupport_desc_list{
-        margin-left: -40vw;
+        margin-left: 26vw;
+        margin-top: 5vw;
     }
 }
 @media screen and (max-width: 386px){
     .bc_desc_list{
-        margin-left: -46vw;
+        margin-left: -42vw;
+        margin-top: 16vw;
+    }
+    .bc_img{
+        margin-left: -32vw;
+    }
+    .bc_desc{
+        margin-left: 28vw;
     }
     .lsupport_desc_list{
         margin-left: -38vw;
+        margin-top: 16vw;
     }
     .tsupport_desc_list{
         margin-left: -43vw;
+        margin-top: 15vw;
     }
-
+    .resp_desc{
+        margin-top: -21vw;
+    }
+    .resp_desc_list{
+        margin-top: -11vw;
+    }
 }
 @media screen and (max-width: 376px){
     .codeq_img{
@@ -784,7 +817,7 @@
         margin-left: 28%;
     }
     .bc_desc_list{
-        margin-left: -45vw;
+        margin-left: -42vw;
     }
     .lsupport_img{
         margin-left: -31vw;
@@ -800,16 +833,43 @@
     }
     .tsupport_desc_list{
         margin-left: -48vw;
+        margin-top: 15vw;
+    }
+}
+@media screen and (max-width: 361px){
+    .resp_desc_list{
+        margin-left: 26vw;
+    }
+    .bc_desc{
+        margin-left: 25%;
+    }
+    .bc_desc_list{
+        margin-left: -45vw;
+    }
+    .lsupport_img{
+        margin-left: -34vw;
+    }
+    .lsupport_desc_list{
+        margin-left: -42vw;
+    }
+    .tsupport_img{
+        margin-left: 40vw;
+    }
+    .tsupport_desc{
+        margin-left: 28vw;
+    }
+    .tsupport_desc_list{
+        margin-left: -46vw;
     }
 }
 @media screen and (max-width: 321px){
     .codeq_img{
         margin-top: 52vw;
-        margin-left: -63vw;
+        margin-left: -67vw;
     }
     .codeq_desc{
-        margin-top: -62vw;
-        margin-left: 29vw;
+        margin-top: -69vw;
+        margin-left: 30vw;
     }
     .codeq_desc_list{
         margin-top: -51vw;
@@ -876,6 +936,9 @@
     }
     .tsupport_desc{
         margin-left: 25vw;
+    }
+    .tsupport_desc_list{
+        margin-left: -53vw;
     }
     .mhacks-features-mobileview{
         height: 1341px;
