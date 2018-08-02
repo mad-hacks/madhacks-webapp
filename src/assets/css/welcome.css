@@ -2085,7 +2085,7 @@
 }
 @media screen and (max-width: 334px){
   .mhacks-mid-ft-text{
-    margin-top: 106%;
+    margin-top: 55vw;
   }
   .mhacks-top-header{
     font-size: 1.5em;
@@ -2151,6 +2151,9 @@
   .mhacks-last-contact-btn{
     width: 88%;
   }
+  .mhacks-mid-ft-text{
+    margin-left: -7vw;
+  }
 }
 @media screen and (max-width: 315px){
   .mhacks-mid-content-business{
@@ -2159,7 +2162,7 @@
 }
 @media screen and (max-width: 305px){
   .mhacks-mid-ft-text{
-    margin-top: 54vw;
+    margin-top: 62vw;
   }
   .mhacks-mid-header{
     font-size: 1.9em;
