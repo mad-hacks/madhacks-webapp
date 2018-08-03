@@ -1965,6 +1965,22 @@
       margin-left: 8vw;
       margin-top: -14vw;
     }
+    .logo{
+      margin-left: -20vw;
+    }
+    .mhacks-mid-team-card-pic{
+      width: 150px;
+      height: 150px;
+    }
+    .mhacks-mid-team-card-pic-quote{
+      font-size: 0.91em;
+    }
+    .mhacks-mid-team-card-pic-name{
+      font-size: 1.2em;
+    }
+    .mhacks-mid-team-card-pic-position{
+      font-size: 1em;
+    }
     .mhacks-top-btn{
       margin-top: 2vw;
       margin-left: 25vw;
@@ -2134,7 +2150,7 @@
 }
 @media screen and (max-width: 334px){
   .mhacks-mid-ft-text{
-    margin-top: 106%;
+    margin-top: 55vw;
   }
   .mhacks-top-header{
     font-size: 1.5em;
@@ -2200,6 +2216,9 @@
   .mhacks-last-contact-btn{
     width: 88%;
   }
+  .mhacks-mid-ft-text{
+    margin-left: -7vw;
+  }
 }
 @media screen and (max-width: 315px){
   .mhacks-mid-content-business{
@@ -2208,7 +2227,7 @@
 }
 @media screen and (max-width: 305px){
   .mhacks-mid-ft-text{
-    margin-top: 54vw;
+    margin-top: 62vw;
   }
   .mhacks-mid-header{
     font-size: 1.9em;
