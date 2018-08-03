@@ -122,6 +122,7 @@
 
 .mhacks-tn-right-item {
   list-style-type: none;
+  display: none;
   float: right;
   padding: 20px 20px;
   font-family: 'Muli', sans-serif;
@@ -1595,9 +1596,6 @@
   .mhacks-last-contact-textarea{
     width: 209%;
   }
-  .mhacks-footer-content{
-    display: none;
-  }
   .mhacks-last-contact-input{
     width: 209%;
   }
@@ -1958,6 +1956,30 @@
     .mhacks-mid-content-business{
       margin-top: -117vw;
     }
+    .mhacks-top-header{
+      margin-left: -1vw;
+    }
+    .mhacks-hire-btn{
+      margin-left: 4vw;
+      margin-top: 69vw;
+      margin-bottom: 15vw;
+      height: 43px;
+      width: 100px;
+    }
+    .mhacks-footer-title{
+      font-size: 1.3em;
+    }
+    .mhacks-footer-content{
+      font-size: 0.9em;
+    }
+    .mhacks-footer-policies{
+      font-size: 0.9em;
+      margin-left: 5vw;
+      margin-top: -0.9vw;
+    }
+    .mhacks-footer-community{
+      margin-left: 5vw;
+    }
   }
   @media screen and (max-width: 415px){
     .mhacks-top-para{
@@ -2110,6 +2132,12 @@
   .mhacks-last-contact-btn{
     width: 97%;
   }
+  .mhacks-footer-title{
+    font-size: 1.25em;
+  }
+  .mhacks-footer-community{
+    font-size: 1.25em;
+  }
 }
 @media screen and (max-width: 370px){
   .mhacks-top-header{
@@ -2170,6 +2198,15 @@
     margin-top: -53vw;
     margin-left: 1vw;
   }
+  .mhacks-top-btn{
+    margin-left: 30vw;
+    height: 34px;
+    width: 100px;
+    padding: 7px;
+  }
+  .mhacks-register-btn{
+    margin-left: 5vw;
+  }
   .mhacks-top-para{
     margin-left: -1vw;
     margin-top: -32vw;
@@ -2204,9 +2241,6 @@
   .mhacks-mid-header-business{
     margin-right: -2%;
   }
-  .mhacks-register-btn{
-    margin-left: -3%;
-  }
   .mhacks-mid-content-business{
     margin-left: -14%;
   }
@@ -2218,6 +2252,12 @@
   }
   .mhacks-mid-ft-text{
     margin-left: -7vw;
+  }
+  .mhacks-footer-policies{
+    font-size: 0.8em;
+  }
+  .mhacks-footer-content{
+    font-size: 0.8em;
   }
 }
 @media screen and (max-width: 315px){
