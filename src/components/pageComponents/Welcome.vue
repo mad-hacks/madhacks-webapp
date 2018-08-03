@@ -1,6 +1,7 @@
 <template>
   <div>
     <!-- Top Section -->
+    <transition enter-active-class="animated fadeIn">
     <div class="row mhacks-home-section" id="home" ref="home">
       <!-- Top Nav, Top Header and Top Description -->
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -58,6 +59,7 @@
       </div>
       <!-- End -->
     </div>
+    </transition>
     <!-- End -->
     <!-- Student Section -->
     <a name="students"></a>
@@ -89,7 +91,7 @@
             Earn rewards based on work done.<br>
             </span>
             <br>
-            <div class="mhacks-register-btn">Register</div>
+            <div class="mhacks-register-btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfLHgNMgOsreNP5vMQqQD9s-4ed7pfHg_vX5lHqH-ztnPFB8w/viewform?embedded=true" target="_blank">Register Now</a></div>
           </div>
         </div>
         <!-- End -->
@@ -139,14 +141,14 @@
             <span class="mhacks-mid-content-list-item">
             Custom web tools.<br>
             </span>
+            <div class="mhacks-hire-btn">Hire Us</div>
           </div>
         </div>
         <!-- End -->
       </div>
     </div>
     </div>
-    <!-- Features Section -->
-    <div class="mhacks-features-container fadeInViewPort" ref="features" v-in-viewport.once>
+    <!-- <Features /> -->
     <div class="row mhacks-features-title-section">
       <!-- Image Section -->
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 animated zoomIn" v-in-viewport.once>
@@ -161,113 +163,76 @@
       </div>
       <!-- End -->
     </div>
-    <!-- End -->
-    <!-- Features Images Section -->
+    <!-- Features section -->
     <div class="mhacks-features-section">
-    <div class="container mhacks-mid-container animated zoomIn" v-in-viewport.once>
-      <div class="row">
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <img class="mhacks-mid-ft-list" src="../../assets/images/codeq.svg">
-        </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <img class="mhacks-mid-ft-list" src="../../assets/images/respon.svg">
-        </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <img class="mhacks-mid-ft-list" src="../../assets/images/browser.svg">
-        </div>
-      </div>
-    </div>
-    <!-- End -->
-    <!-- Features Images Title Section -->
-    <div class="container mhacks-mid-container animated fadeInTop" v-in-viewport.once>
-      <div class="row">
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <div class="mhacks-mid-ft-list-name">Code Quality</div>
-        </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <div class="mhacks-mid-ft-list-name">Responsive</div>
-        </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <div class="mhacks-mid-ft-list-name">Browser</div>
-        </div>
-      </div>
-    </div>
-    <!-- End -->
-    <!-- Features Images Description Section -->
-    <div class="container mhacks-mid-container fadeInViewPort" v-in-viewport.once>
-      <div class="row">
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <div class="mhacks-mid-ft-list-para">
+      <div class="mhacks-features-rowOne row">
+        <div class="mhacks-features-col col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          <div class="mhacks-features-card">
+          <img class="mhacks-mid-ft-list animated zoomIn" src="../../assets/images/codeq.svg" alt="" v-in-viewport.once> <br>
+          <div class="mhacks-mid-ft-list-name animated fadeInTop" v-in-viewport.once> Code Quality </div>
+          <div class="mhacks-mid-ft-list-para fadeInViewPort" v-in-viewport.once>
             Latest technology used.<br>
             Neat and clean code.<br>
-            Best Industry practices.<br>
+            Best industry practices.<br>
+          </div>
           </div>
         </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <div class="mhacks-mid-ft-list-para">
+        <div class="mhacks-features-col col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          <div class="mhacks-features-card">
+          <img class="mhacks-mid-ft-list animated zoomIn" src="../../assets/images/respon.svg" alt="" v-in-viewport.once> <br>
+          <div class="mhacks-mid-ft-list-name animated fadeInTop" v-in-viewport.once> Responsive </div>
+          <div class="mhacks-mid-ft-list-para fadeInViewPort" v-in-viewport.once>
             Responsiveness at its best.<br>
             All device compatible.<br>
             Clear cut clarity.<br>
           </div>
+          </div>
         </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <div class="mhacks-mid-ft-list-para">
+        <div class="mhacks-features-col col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          <div class="mhacks-features-card">
+          <img class="mhacks-mid-ft-list animated zoomIn" src="../../assets/images/browser.svg" alt="" v-in-viewport.once> <br>
+          <div class="mhacks-mid-ft-list-name animated fadeInTop" v-in-viewport.once> Browser Compatibility </div>
+          <div class="mhacks-mid-ft-list-para fadeInViewPort" v-in-viewport.once>
             Runs on any browser.<br>
             Supports every screen size.<br>
             Easily viewable.<br>
           </div>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- End -->
-    <!-- Features Images Section -->
-    <div class="container mhacks-mid-container animated zoomIn" v-in-viewport.once>
-      <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <img class="mhacks-mid-ft-list" src="../../assets/images/tech.svg">
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <img class="mhacks-mid-ft-list" src="../../assets/images/life.svg">
-        </div>
-      </div>
-    </div>
-    <!-- End -->
-    <!-- Features Images Title Section -->
-    <div class="container mhacks-mid-container animated fadeInTop" v-in-viewport.once>
-      <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <div class="mhacks-mid-ft-list-name">Technical Support</div>
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <div class="mhacks-mid-ft-list-name">Lifetime Support</div>
-        </div>
-      </div>
-    </div>
-    <!-- End -->
-    <!-- Features Images Description Section -->
-    <div class="container mhacks-mid-container fadeInViewPort" v-in-viewport.once>
-      <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <div class="mhacks-mid-ft-list-two-para">
+
+      <div class="mhacks-features-rowTwo row">
+        <div class="mhacks-features-col col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="mhacks-features-card mhacks-features-card-tech">
+          <img class="mhacks-mid-ft-list animated zoomIn" src="../../assets/images/tech.svg" alt="" v-in-viewport.once> <br>
+          <div class="mhacks-mid-ft-list-name animated fadeInTop" v-in-viewport.once> Technical Support </div>
+          <div class="mhacks-mid-ft-list-two-para fadeInViewPort" v-in-viewport.once>
             Technical assistance available.<br>
             Schedule maintainence available.<br>
             Super fast maintainence.<br>
           </div>
+          </div>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <div class="mhacks-mid-ft-list-two-para">
+
+        <div class="mhacks-features-col col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="mhacks-features-card mhacks-features-card-life">
+          <img class="mhacks-mid-ft-list animated zoomIn" src="../../assets/images/life.svg" alt="" v-in-viewport.once> <br>
+          <div class="mhacks-mid-ft-list-name animated fadeInTop" v-in-viewport.once> Lifetime Support </div>
+          <div class="mhacks-mid-ft-list-two-para fadeInViewPort" v-in-viewport.once>
             Life time support available.<br>
             Frequent updation.<br>
             Later stage addition.<br>
           </div>
+          </div>
         </div>
       </div>
-    </div>
-    </div>
+      
     </div>
     <!-- End -->
+
     <!-- For Mobile View Features Section (Seperate)-->
     <mview></mview>
+    
     <!-- Mission Section -->
     <a name="about"></a>
     <div class="row mhacks-mission-section fadeInViewPort" ref="mission" style="margin-top:5%;" v-in-viewport.once='1000'>
@@ -409,6 +374,7 @@
     </div>
     <!-- End -->
     <!-- Footer Section -->
+    <!--
     <div class="mhacks-footer-section fadeInViewPort" ref="footer" v-in-viewport.once>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -419,13 +385,39 @@
         </div>
       </div>
     </div>
-    <div class="mhacks-footer-content">
+    <div class="row mhacks-footer-content">
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        Terms and conditions
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
         Mad.Hacks<br>
         abc@gmail.com<br>
         &copy; All rights reserved.
       </div>
     </div>
+    </div>
+    _-->
     <!-- End -->
+    <footer class="mhacks-footer">
+      <div class="row mhacks-footer-row">
+        <div class=" mhacks-footer-about col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <h2 class="mhacks-footer-title">Mad.Hacks</h2><br><br>
+          <div class="mhacks-footer-content">
+          (91)8281634261 <br>
+          mad.hacks@gmail.com<br>
+          &copy; 2018
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <h2 class="mhacks-footer-community">Community</h2><br><br>
+           <div class="mhacks-footer-policies">
+           About Us <br>
+          Terms & Conditions<br>
+        Privacy Policy
+           </div>
+        </div>
+      </div>
+    </footer>
   </div>
   <!-- End -->
 </template>
@@ -437,6 +429,7 @@
   import Dani from './Team/Dani.vue'
   import Sandra from './Team/Sandra.vue'
   import mview from './mv_features.vue'
+  import Features from './Features.vue'
 
   export default{
     data: function () {
@@ -450,7 +443,8 @@
       Alan,
       Dani,
       Sandra,
-      mview
+      mview,
+      Features
     }
   }
 </script>

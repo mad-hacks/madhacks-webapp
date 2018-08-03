@@ -210,6 +210,28 @@
   cursor: pointer;
 }
 
+.mhacks-hire-btn{
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  margin-top: 4%;
+  margin-left: -2%;
+  background-color: #283149;
+  width: 240px;
+  height: 80px;
+  border-radius: .375rem;
+  padding: 8px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.mhacks-register-btn a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
 /* .mhacks-top-btn:hover{
   transition: all 0.4s ease-in-out;
   background-color: transparent;
@@ -294,6 +316,14 @@
   display: list-item;
 }
 
+.mhacks-features-card{
+  border-right: .5px solid #ebebeb; 
+}
+
+.mhacks-features-rowOne{
+  margin-bottom: 8vh;
+}
+
 .mhacks-mid-content-pic {
   width: 100%;
   height: 300px;
@@ -352,8 +382,8 @@
   font-family: 'Muli';
   font-size: 1.5em;
   font-weight: 200;
-  text-align: left;
-  padding-left: 20%;
+  text-align: center;
+  padding-left: 8%;
   line-height: 1.7em;
   color: #283149;
 }
@@ -362,8 +392,8 @@
   font-family: 'Muli';
   font-size: 1.5em;
   font-weight: 200;
-  text-align: left;
-  padding-left: 30%;
+  text-align: center;
+  padding-left: 8%;
   line-height: 1.7em;
   color: #283149;
   margin-bottom: 5%;
@@ -374,6 +404,7 @@
   background-repeat: no-repeat;
   width: 100%;
   height: 200px;
+  margin-top: 5vh;
 }
 
 .mhacks-mid-mission-text {
@@ -553,15 +584,36 @@
   cursor: pointer;
 }
 
-.mhacks-footer-content{
-  position: relative;
-  bottom: 0;
-  z-index: 2;
-  margin-top: -8%;
-  margin-right: 3%;
-  font-family: 'Muli';
-  font-size: 1.4em;
-  float: right;
+.contactus-section{
+  margin-bottom: 10vh;
+}
+
+.mhacks-footer-row{
+  height: 100%;
+}
+
+.mhacks-footer-community, .mhacks-footer-title{
+  margin-top: 8vh;
+  font-size: 1.5em;
+}
+
+.mhacks-footer-community, .mhacks-footer-policies{
+  margin-left: 16vw;
+}
+
+.mhacks-footer-content, .mhacks-footer-policies{
+  font-weight: 100;
+  line-height: 1.7em;
+  font-size: 1.1em;
+}
+
+.mhacks-footer{
+  width: 100%;
+  overflow: hidden;
+  background-color: #283149;
+  color: #fff;
+  height: 220px;
+  padding-left: 12vw;
 }
 
 /* Media Queries */
@@ -666,11 +718,11 @@
     height: 48px;
   }
 
-  .mhacks-register-btn{
-    font-size: 1em;
-    width: 220px;
+  .mhacks-register-btn, .mhacks-hire-btn{
+    font-size: 0.9em;
+    width: 160px;
     height: 60px;
-    padding: 2px;
+    padding: 1px;
   }
 
   .mhacks-mid-bg, .mhacks-mid-bg-business{
@@ -992,6 +1044,14 @@
   .logo{
     margin-top: -11vw;
   }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 960px;
+  }
+
+  .mhacks-mid-mission-content{
+    width: 435px;
+  }
 }
 
 @media screen and (max-width: 991px){
@@ -1097,10 +1157,6 @@
     font-size: 1.2em;
   }
 
-  .mhacks-footer-content{
-    margin-top: -10%;
-  }
-
   /* .mhacks-mid-container{
     margin-left: 1%;
   } */
@@ -1176,6 +1232,7 @@
   .mhacks-mid-mission-content{
     font-size: 1.15em;
     width: 100%;
+    margin-left: 12%;
   }
 
   .mhacks-mid-team-card{
@@ -1388,14 +1445,6 @@
   .mhacks-mid-team-card{
     margin-top: -30%;
     margin-bottom: -40%;
-  }
-
-  .mhacks-footer-content{
-    margin-top: -10%;
-  }
-
-  .mhacks-footer-content{
-    margin-top: -14%;
   }
 }
 
