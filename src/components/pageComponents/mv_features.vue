@@ -201,37 +201,37 @@
     }
     .codeq_img{
         height: 40px;
-        margin-left: -55vw;
+        margin-left: -2vw;
         margin-bottom: 2%;
         margin-top: 35vw;
     }
     .codeq_desc{
         float: left;
-        margin-left: 41vw;
+        margin-left: 44vw;
         color: #fff;
         margin-top: -35vw;
         font-size: 1.2em;
     }
     .codeq_desc_list{
-        margin-left: 39%;
+        margin-left: 41vw;
         margin-top: -30%;
         float: left;
         line-height: 2em;
     }
     .resp_img{
         height: 40px;
-        margin-left: 45%;
+        margin-left: 47vw;
         margin-top: -20%;
     }
     .resp_desc{
         float: left;
-        margin-left: 43%;
+        margin-left: 44vw;
         margin-top: -5%;
         font-size: 1.2em;
         color: #fff;
     }
     .resp_desc_list{
-        margin-left: 36vw;
+        margin-left: 39vw;
         margin-top: 1%;
         float: left;
         line-height: 2em;
@@ -256,11 +256,11 @@
     }
     .bc_img{
         height: 40px;
-        margin-left: 45%;
+        margin-left: 48vw;
         margin-top: 7%;
     }
     .bc_desc{
-        margin-left: 38vw;
+        margin-left: 40vw;
         float: left;
         color: #fff;
         margin-top: 5%;
@@ -274,11 +274,11 @@
     }
     .lsupport_img{
         height: 40px;
-        margin-left: 45%;
-        margin-top: 21vw;
+        margin-left: 48vw;
+        margin-top: 9vw;
     }
     .lsupport_desc{
-        margin-left: 40vw;
+        margin-left: 43vw;
         float: left;
         color: #fff;
         margin-top: 5%;
@@ -293,11 +293,11 @@
 
     .tsupport_img{
         height: 40px;
-        margin-left: 45%;
+        margin-left: 49vw;
         margin-top: 13%;
     }
     .tsupport_desc{
-        margin-left: 39vw;
+        margin-left: 43vw;
         float: left;
         color: #fff;
         margin-top: 5%;
@@ -306,7 +306,7 @@
     .tsupport_desc_list{
         float: left;
         margin-top: 12%;
-        margin-left: -24vw;
+        margin-left: -23vw;
         line-height: 2em;
         color: #fff;
     }
@@ -660,30 +660,49 @@
         margin-left: 36vw;
     }
 }
-@media screen and (max-width: 428px){
+@media screen and (max-width: 426px){
+    .codeq_desc{
+        margin-top: -84vw;
+    }
+    .codeq_desc_list{
+        margin-top: -76vw;
+        margin-left: 35vw;
+    }
     .resp_img{
-        margin-left: -9vw;
+        margin-left: -5vw;
+    }
+    .resp_desc_list{
+        margin-top: -28vw;
     }
     .bc_img{
-        margin-top: 36%;
-        margin-left: -9vw;
+        margin-top: 40vw;
+        margin-left: -5vw;
+    }
+    .bc_desc{
+        margin-left: 32vw;
     }
     .tsupport_img{
         margin-top: 3%;
     }
     .bc_desc_list{
-        margin-left: -41vw;
+        margin-left: -38vw;
     }
     .lsupport_desc_list{
         margin-left: -34vw;
+        margin-top: 15vw;
+    }
+    .lsupport_desc{
+        margin-left: 34vw;
+    }
+    .tsupport_img{
+        margin-top: 12vw;
+    }
+    .tsupport_desc{
+        margin-left: 33vw;
     }
     .tsupport_desc_list{
         margin-left: -39vw;
-    }
-}
-@media screen and (max-width: 425px){
-    .resp_img{
-        margin-left: -8%;
+        margin-top: 13vw;
     }
 }
 @media screen and (max-width: 415px){
@@ -704,7 +723,7 @@
     }
     .resp_img{
         margin-left: -7vw;
-        margin-top: 47vw;
+        margin-top: 39vw;
     }
     .resp_desc{
         margin-left: 38vw;
@@ -811,7 +830,7 @@
         margin-top: -4vw;
     }
     .bc_img{
-        margin-left: -33vw;
+        margin-left: -6vw;
     }
     .bc_desc{
         margin-left: 28%;
@@ -832,7 +851,7 @@
         margin-top: 10vw;
     }
     .tsupport_desc_list{
-        margin-left: -48vw;
+        margin-left: -44vw;
         margin-top: 15vw;
     }
 }
@@ -864,16 +883,16 @@
 }
 @media screen and (max-width: 321px){
     .codeq_img{
-        margin-top: 52vw;
-        margin-left: -67vw;
+        margin-top: -4vw;
+        margin-left: -9vw;
     }
     .codeq_desc{
         margin-top: -69vw;
         margin-left: 30vw;
     }
     .codeq_desc_list{
-        margin-top: -51vw;
-        margin-left: 22vw;
+        margin-top: -58vw;
+        margin-left: 23vw;
     }
     .codeq1{
         margin-left: 2.1vw;
@@ -898,7 +917,7 @@
     }
     .bc_img{
         margin-top: 59vw;
-        margin-left: -37vw;
+        margin-left: -21vw;
     }
     .bc_desc{
         margin-left: 19vw;
