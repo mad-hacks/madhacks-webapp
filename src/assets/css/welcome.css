@@ -316,8 +316,12 @@
   display: list-item;
 }
 
-.mhacks-features-col{
-  border-right: 1px solid rgba(.3, .3, .3, .2);
+.mhacks-features-card{
+  border-right: .5px solid #ebebeb; 
+}
+
+.mhacks-features-rowOne{
+  margin-bottom: 8vh;
 }
 
 .mhacks-mid-content-pic {
@@ -378,8 +382,8 @@
   font-family: 'Muli';
   font-size: 1.5em;
   font-weight: 200;
-  text-align: left;
-  padding-left: 20%;
+  text-align: center;
+  padding-left: 8%;
   line-height: 1.7em;
   color: #283149;
 }
@@ -388,8 +392,8 @@
   font-family: 'Muli';
   font-size: 1.5em;
   font-weight: 200;
-  text-align: left;
-  padding-left: 30%;
+  text-align: center;
+  padding-left: 8%;
   line-height: 1.7em;
   color: #283149;
   margin-bottom: 5%;
@@ -400,6 +404,7 @@
   background-repeat: no-repeat;
   width: 100%;
   height: 200px;
+  margin-top: 5vh;
 }
 
 .mhacks-mid-mission-text {
@@ -1039,6 +1044,14 @@
   .logo{
     margin-top: -11vw;
   }
+
+  .mhacks-mid-mission-sec-bg{
+    width: 960px;
+  }
+
+  .mhacks-mid-mission-content{
+    width: 435px;
+  }
 }
 
 @media screen and (max-width: 991px){
@@ -1219,6 +1232,7 @@
   .mhacks-mid-mission-content{
     font-size: 1.15em;
     width: 100%;
+    margin-left: 12%;
   }
 
   .mhacks-mid-team-card{

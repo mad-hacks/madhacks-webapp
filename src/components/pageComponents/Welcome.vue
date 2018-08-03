@@ -149,57 +149,80 @@
     </div>
     </div>
     <!-- <Features /> -->
-
+    <div class="row mhacks-features-title-section">
+      <!-- Image Section -->
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 animated zoomIn" v-in-viewport.once>
+        <div class="mhacks-mid-ft"></div>
+      </div>
+      <!-- End -->
+      <!-- Title Section -->
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 animated fadeInFromLeft" v-in-viewport.once>
+        <div class="mhacks-mid-ft-content">
+          <div class="mhacks-mid-ft-text">Features</div>
+        </div>
+      </div>
+      <!-- End -->
+    </div>
     <!-- Features section -->
     <div class="mhacks-features-section">
       <div class="mhacks-features-rowOne row">
         <div class="mhacks-features-col col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <img class="mhacks-mid-ft-list" src="../../assets/images/codeq.svg" alt=""> <br>
-          <div class="mhacks-mid-ft-list-name"> Code Quality </div>
-          <div class="mhacks-mid-ft-list-para">
+          <div class="mhacks-features-card">
+          <img class="mhacks-mid-ft-list animated zoomIn" src="../../assets/images/codeq.svg" alt="" v-in-viewport.once> <br>
+          <div class="mhacks-mid-ft-list-name animated fadeInTop" v-in-viewport.once> Code Quality </div>
+          <div class="mhacks-mid-ft-list-para fadeInViewPort" v-in-viewport.once>
             Latest technology used.<br>
             Neat and clean code.<br>
             Best industry practices.<br>
           </div>
+          </div>
         </div>
         <div class="mhacks-features-col col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <img class="mhacks-mid-ft-list" src="../../assets/images/respon.svg" alt=""> <br>
-          <div class="mhacks-mid-ft-list-name"> Responsive </div>
-          <div class="mhacks-mid-ft-list-para">
+          <div class="mhacks-features-card">
+          <img class="mhacks-mid-ft-list animated zoomIn" src="../../assets/images/respon.svg" alt="" v-in-viewport.once> <br>
+          <div class="mhacks-mid-ft-list-name animated fadeInTop" v-in-viewport.once> Responsive </div>
+          <div class="mhacks-mid-ft-list-para fadeInViewPort" v-in-viewport.once>
             Responsiveness at its best.<br>
             All device compatible.<br>
             Clear cut clarity.<br>
           </div>
+          </div>
         </div>
         <div class="mhacks-features-col col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <img class="mhacks-mid-ft-list" src="../../assets/images/browser.svg" alt=""> <br>
-          <div class="mhacks-mid-ft-list-name"> Browser </div>
-          <div class="mhacks-mid-ft-list-para">
+          <div class="mhacks-features-card">
+          <img class="mhacks-mid-ft-list animated zoomIn" src="../../assets/images/browser.svg" alt="" v-in-viewport.once> <br>
+          <div class="mhacks-mid-ft-list-name animated fadeInTop" v-in-viewport.once> Browser Compatibility </div>
+          <div class="mhacks-mid-ft-list-para fadeInViewPort" v-in-viewport.once>
             Runs on any browser.<br>
             Supports every screen size.<br>
             Easily viewable.<br>
+          </div>
           </div>
         </div>
       </div>
 
       <div class="mhacks-features-rowTwo row">
         <div class="mhacks-features-col col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <img class="mhacks-mid-ft-list" src="../../assets/images/tech.svg" alt=""> <br>
-          <div class="mhacks-mid-ft-list-name"> Technical Support </div>
-          <div class="mhacks-mid-ft-list-two-para">
+          <div class="mhacks-features-card mhacks-features-card-tech">
+          <img class="mhacks-mid-ft-list animated zoomIn" src="../../assets/images/tech.svg" alt="" v-in-viewport.once> <br>
+          <div class="mhacks-mid-ft-list-name animated fadeInTop" v-in-viewport.once> Technical Support </div>
+          <div class="mhacks-mid-ft-list-two-para fadeInViewPort" v-in-viewport.once>
             Technical assistance available.<br>
             Schedule maintainence available.<br>
             Super fast maintainence.<br>
           </div>
+          </div>
         </div>
 
         <div class="mhacks-features-col col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <img class="mhacks-mid-ft-list" src="../../assets/images/life.svg" alt=""> <br>
-          <div class="mhacks-mid-ft-list-name"> Lifetime Support </div>
-          <div class="mhacks-mid-ft-list-two-para">
+          <div class="mhacks-features-card mhacks-features-card-life">
+          <img class="mhacks-mid-ft-list animated zoomIn" src="../../assets/images/life.svg" alt="" v-in-viewport.once> <br>
+          <div class="mhacks-mid-ft-list-name animated fadeInTop" v-in-viewport.once> Lifetime Support </div>
+          <div class="mhacks-mid-ft-list-two-para fadeInViewPort" v-in-viewport.once>
             Life time support available.<br>
             Frequent updation.<br>
             Later stage addition.<br>
+          </div>
           </div>
         </div>
       </div>
