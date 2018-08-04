@@ -194,54 +194,16 @@
   cursor: pointer;
 }
 
-.mhacks-register-btn{
-  font-family: 'Muli', sans-serif;
-  font-weight: 400;
-  font-size: 1.3em;
-  margin-top: 4%;
-  margin-left: 7%;
+.mhacks-register-btn, .mhacks-hire-btn{
   background-color: #283149;
-  width: 240px;
-  height: 80px;
-  border-radius: .375rem;
-  padding: 8px;
-  text-align: center;
   color: #fff;
-  cursor: pointer;
+  border-radius: .375rem;
+  font-size: 0.95em;
+  width: 40%;
 }
 
 .mhacks-hire-btn{
-  font-family: 'Muli', sans-serif;
-  font-weight: 400;
-  font-size: 1.3em;
-  margin-top: 4%;
-  margin-left: -2%;
-  background-color: #283149;
-  width: 240px;
-  height: 80px;
-  border-radius: .375rem;
-  padding: 8px;
-  text-align: center;
-  color: #fff;
-  cursor: pointer;
-}
-
-.mhacks-register-btn a{
-  text-decoration: none;
-  color: #fff;
-}
-
-
-/* .mhacks-top-btn:hover{
-  transition: all 0.4s ease-in-out;
-  background-color: transparent;
-  border: 1.2px solid #283149;
-  color: #283149;
-  box-shadow: 0 0 11px #ccc;
-} */
-
-.mhacks-top-btn:active{
-  transform: translateY(6px);
+  margin-top: 5vh;
 }
 
 .mhacks-mid-bg {
@@ -599,6 +561,7 @@
 
 .mhacks-footer-community, .mhacks-footer-policies{
   margin-left: 16vw;
+  margin-bottom: .7vh;
 }
 
 .mhacks-footer-content, .mhacks-footer-policies{
@@ -654,6 +617,9 @@
   }
   .mhacks-mid-team-header{
     margin-top: -19%;
+  }
+  .mhacks-register-btn, .mhacks-hire-btn{
+    font-size: 0.85em;
   }
 }
 @media only screen and (max-width: 1467px){
@@ -716,13 +682,6 @@
     font-size: 1.3em;
     width: 155px;
     height: 48px;
-  }
-
-  .mhacks-register-btn, .mhacks-hire-btn{
-    font-size: 0.9em;
-    width: 160px;
-    height: 60px;
-    padding: 1px;
   }
 
   .mhacks-mid-bg, .mhacks-mid-bg-business{
@@ -1335,11 +1294,11 @@
     width: 140px;
   }
 
-  .mhacks-register-btn{
+  /* .mhacks-register-btn{
     font-size: 1em;
     height: 45px;
     padding: 0px;
-  }
+  } */
 
   .mhacks-top-bg{
     height: 400px;
@@ -1738,7 +1697,7 @@
   }
   .mhacks-register-btn{
     height: 34px;
-  }
+  } 
 }
   @media screen and (max-width: 602px){
     .mhacks-top-para{
