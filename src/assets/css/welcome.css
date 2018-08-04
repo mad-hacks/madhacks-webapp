@@ -206,6 +206,12 @@
   margin-top: 5vh;
 }
 
+select{
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  appearance: none; 
+}
+
 .mhacks-mid-bg {
   background-image: url('../images/serviceshadow.svg');
   background-repeat: no-repeat;

@@ -113,14 +113,14 @@
           <br>
           <label class="label" for="college">College</label>
           <select class="form-control" required>
-            <option value="" disabled selected style="color: #999;">College</option>
+            <option value="" disabled selected>College</option>
             <option value="AJCE">AJCE</option>
             <option value="Other">Other</option>
           </select>
           <br>
           <label class="label" for="branch">Branch</label>
           <select class="form-control" required>
-            <option value="" disabled selected style="color: #999;">Branch</option>
+            <option value="" disabled selected>Branch</option>
             <option value="CSE">CSE</option>
             <option value="IT">IT</option>
             <option value="EC">EC</option>
@@ -135,7 +135,7 @@
           <br>
           <label for="area" class="label">Area of interest</label>
           <select class="form-control" required>
-            <option value="" disabled selected style="color: red;">Area of interest</option>
+            <option value="" disabled selected>Area of interest <i class="fas fa-caret-down"></i></option>
             <option value="dev">Web Development</option>
             <option value="android">Android Development</option>
             <option value="design">Web Designing</option>
@@ -144,9 +144,7 @@
           <br>
           <textarea class="form-control" cols="15" rows="5" placeholder="Hobbies" required></textarea>
           <br>
-          <center>
           <button class="btn btn-primary">Submit</button>
-          </center>
         </form>
       </div>
       <div class="modal-footer">
