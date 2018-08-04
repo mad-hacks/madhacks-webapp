@@ -1743,6 +1743,21 @@
       width: 311px;
       margin-top: -9vw;
     }
+    .mhacks-top-header{
+      margin-left: 33%;
+    }
+    .mhacks-top-btn{
+      margin-left: 36vw;
+    }
+    .mhacks-mid-content-business{
+      margin-top: -108vw;
+    }
+    .business-pic{
+      margin-top: 72vw;
+    }
+    .mhacks-top-para{
+      margin-left: 25vw;
+    }
     .business-pic{
       margin-top: 61vw;
     }
@@ -1791,6 +1806,10 @@
     }
     .mhacks-last-contact-btn{
       width: 125%;
+    }
+    .mhacks-hire-btn{
+      width: 140px;
+      height: 45px;
     }
   }
   @media screen and (max-width: 594px){
@@ -2067,6 +2086,76 @@
     width: 115%;
   }
 }
+@media screen and (max-width: 412px){
+  .mhacks-register-btn{
+    margin-left: 15%;
+  }
+  .mhacks-hire-btn{
+    margin-top: 6vw;
+  }
+  .business-pic{
+    margin-top: 73vw;
+  }
+  .mhacks-mid-content-pic{
+    margin-right: -55%;
+  }
+  .mhacks-top-btn{
+    margin-left: 29vw;
+    margin-top: 9vw;
+  }
+  .mhacks-tp1{
+    margin-left: -0.1vw;
+  }
+  .mhacks-tp{
+    margin-left: 1vw;
+  }
+  .logo{
+    margin-top: -10vw;
+  }
+  .mhacks-top-header{
+    margin-top: -28vw;
+  }
+  .mhacks-top-para{
+    margin-top: -10vw;
+  }
+  .mhacks-mid-header{
+    padding-top: 30%;
+  }
+  .mhacks-mid-content{
+    margin-top: 27vw;
+  }
+  .mhacks-mid-content-business{
+    margin-top: -131vw;
+  }
+  .mhacks-mid-mission-text{
+    margin-left: 25vw;
+    width: 200px;
+  }
+  .mhacks-mid-mission-content{
+    margin-left: 7vw;
+  }
+  .alan{
+    margin-right: 20px;
+  }
+  .dani{
+    margin-right: 2px;
+  }
+  .james{
+    margin-right: -15px;
+  }
+  .kavi{
+    margin-right: -34px;
+  }
+  .sandra{
+    margin-right: -12vw;
+  }
+  .mhacks-last-contact-input-header{
+    margin-top: 39%;
+  }
+  .mhacks-last-contact-input{
+    margin-top: -7vw;
+  }
+}
 @media screen and (max-width: 401px){
   .mhacks-mid-ft-text{
     margin-top: 45%;
@@ -2138,15 +2227,72 @@
   .mhacks-footer-community{
     font-size: 1.25em;
   }
+  .mhacks-mid-content-business{
+    margin-top: -152vw;
+  }
+  .business-pic{
+    margin-top: 89vw;
+  }
+  .mhacks-last-contact-input{
+    margin-left: 5vw;
+  }
+  .mhacks-last-contact-textarea{
+    margin-left: 5vw;
+  }
+  .mhacks-last-contact-btn{
+    margin-left: 5vw;
+  }
+  .mhacks-top-btn{
+    margin-left: 26vw;
+  }
+  .mhacks-register-btn{
+    margin-left: 10%;
+  }
+  .mhacks-mid-content-pic{
+    margin-right: -46%;
+  }
+  .mhacks-footer-about{
+    margin-left: -5vw;
+  }
+  .community-side-footer{
+    margin-left: 5vw;
+  }
 }
 @media screen and (max-width: 370px){
   .mhacks-top-header{
     font-size: 1.7em;
   }
 }
-@media screen and (max-width: 362px){
+@media screen and (max-width: 361px){
   .mhacks-mid-ft-text{
     margin-top: 77%;
+  }
+  .mhacks-last-contact-textarea{
+    margin-top: -3vw;
+  }
+  .mhacks-mid-mission-content{
+    margin-left: 2vw;
+  }
+  .mhacks-mid-content-business{
+    margin-top: -156vw;
+  }
+  .mhacks-hire-btn{
+    margin-top: 5vw;
+  }
+  .business-pic{
+    margin-top: 87vw;
+  }
+  .mhacks-top-header{
+    margin-left: 0vw;
+  }
+  .mhacks-tp{
+    margin-left: -3vw;
+  }
+  .mhacks-tp1{
+    margin-left: -4.1vw;
+  }
+  .mhacks-top-btn{
+    margin-left: 25vw;
   }
 }
 @media screen and (max-width: 354px){
@@ -2195,8 +2341,14 @@
     width: 270px;
   }
   .mhacks-top-header{
-    margin-top: -53vw;
+    margin-top: -22vw;
     margin-left: 1vw;
+  }
+  .mhacks-mid-header{
+    padding-top: 54%;
+  }
+  .mhacks-mid-content{
+    margin-top: 50vw;
   }
   .mhacks-top-btn{
     margin-left: 30vw;
@@ -2209,10 +2361,16 @@
   }
   .mhacks-top-para{
     margin-left: -1vw;
-    margin-top: -32vw;
+    margin-top: -3vw;
   }
   .mhacks-top-btn{
-    margin-top: -10vw;
+    margin-top: 16vw;
+  }
+  .mhacks-mid-content{
+    margin-left: -50%;
+  }
+  .mhacks-mid-content-pic{
+    margin-right: -37%;
   }
   .logo{
     margin-top: -35vw;
@@ -2243,6 +2401,7 @@
   }
   .mhacks-mid-content-business{
     margin-left: -14%;
+    margin-top: -171vw;
   }
   .mhacks-last-contact-textarea{
     width: 88%;
@@ -2258,6 +2417,15 @@
   }
   .mhacks-footer-content{
     font-size: 0.8em;
+  }
+  .business-pic{
+    margin-top: 93vw;
+  }
+  .mhacks-tp{
+    margin-left: 0vw;
+  }
+  .mhacks-tp1{
+    margin-left: -1.1vw;
   }
 }
 @media screen and (max-width: 315px){

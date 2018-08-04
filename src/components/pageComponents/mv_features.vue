@@ -741,7 +741,7 @@
     }
     .bc_img{
        margin-top: 45vw;
-       margin-left: -28vw; 
+       margin-left: -8vw; 
     }
     .bc1{
         margin-left: -4vw;
@@ -780,6 +780,27 @@
     .tsupport_desc_list{
         margin-left: 26vw;
         margin-top: 5vw;
+    }
+}
+@media screen and (max-width: 412px){
+    .resp_img{
+        margin-top: 45vw;
+    }
+    .bc_img{
+        margin-top: 45vw;
+        margin-left: -6vw;
+    }
+    .bc_desc_list{
+        margin-left: -38vw;
+    }
+    .lsupport_img{
+        margin-left: -28vw;
+    }
+    .lsupport_desc{
+        margin-left: 34vw;
+    }
+    .tsupport_img{
+        margin-left: 46vw;
     }
 }
 @media screen and (max-width: 386px){
@@ -859,23 +880,29 @@
     .resp_desc_list{
         margin-left: 26vw;
     }
+    .bc_img{
+        margin-left: -6vw;
+    }
     .bc_desc{
-        margin-left: 25%;
+        margin-left: 28%;
     }
     .bc_desc_list{
-        margin-left: -45vw;
+        margin-left: -44vw;
+    }
+    .lsupport_desc{
+        margin-left: 32vw;
     }
     .lsupport_img{
-        margin-left: -34vw;
+        margin-left: -33vw;
     }
     .lsupport_desc_list{
-        margin-left: -42vw;
+        margin-left: -41vw;
     }
     .tsupport_img{
-        margin-left: 40vw;
+        margin-left: 46vw;
     }
     .tsupport_desc{
-        margin-left: 28vw;
+        margin-left: 31vw;
     }
     .tsupport_desc_list{
         margin-left: -46vw;
@@ -917,10 +944,10 @@
     }
     .bc_img{
         margin-top: 59vw;
-        margin-left: -21vw;
+        margin-left: -19vw;
     }
     .bc_desc{
-        margin-left: 19vw;
+        margin-left: 22vw;
         margin-top: 7%;
     }
     .bc_desc_list{
@@ -934,11 +961,11 @@
         margin-left: 4.3vw;
     }
     .lsupport_img{
-        margin-left: 37vw;
+        margin-left: 40vw;
         margin-top: 14vw;
     }
     .lsupport_desc{
-        margin-left: 25vw;
+        margin-left: 28vw;
     }
     .lsupport_desc_list{
         margin-left: -46vw;
@@ -951,16 +978,31 @@
         margin-left: 4.3vw;
     }
     .tsupport_img{
-        margin-left: 38vw;
+        margin-left: 41vw;
     }
     .tsupport_desc{
-        margin-left: 25vw;
+        margin-left: 28vw;
     }
     .tsupport_desc_list{
         margin-left: -53vw;
     }
     .mhacks-features-mobileview{
         height: 1341px;
+    }
+    .alan{
+        margin-right: 33px;
+    }
+    .dani{
+        margin-right: 14px;
+    }
+    .james{
+        margin-right: -5px;
+    }
+    .kavi{
+        margin-right: -21px;
+    }
+    .sandra{
+        margin-right: -11vw;
     }
 }
 @media screen and (max-width: 309px){
