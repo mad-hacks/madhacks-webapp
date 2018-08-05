@@ -1454,7 +1454,9 @@
     margin-left: -22vw;
     margin-right: 22vw;
   }
-
+  .mhacks-mid-team-card{
+    margin-bottom: -22%;
+  }
   .mhacks-mid-header, .mhacks-mid-header-business{
     font-size: 2.1em;
   }
@@ -1738,7 +1740,7 @@
     height: 34px;
   }
 }
-  @media screen and (max-width: 602px){
+  @media screen and (max-width: 601px){
     .mhacks-top-para{
       width: 311px;
       margin-top: -9vw;
@@ -1762,7 +1764,7 @@
       margin-top: 61vw;
     }
     .mhacks-mid-content-business{
-      margin-top: -90vw;
+      margin-top: -98vw;
     }
     .mhacks-top-header{
       width: 409px;
@@ -1799,17 +1801,39 @@
       display: none;
     }
     .mhacks-last-contact-input{
-      width: 125%;
+      width: 175%;
     }  
     .mhacks-last-contact-textarea{
-      width: 125%;
+      width: 175%;
     }
     .mhacks-last-contact-btn{
-      width: 125%;
+      width: 175%;
     }
     .mhacks-hire-btn{
       width: 140px;
       height: 45px;
+    }
+    .mhacks-mid-mission-text{
+      padding-left: 38vw;
+      width: 385px;
+    }
+    .mhacks-mid-mission-content{
+      margin-left: 10vw;
+    }
+    .mhacks-mid-team-header{
+      margin-top: -36%;
+    }
+    .alan{
+      margin-right: 14px;
+    }
+    .dani{
+      margin-right: -10px;
+    }
+    .kavi{
+      margin-right: -56px;
+    }
+    .sandra{
+      margin-right: -71px;
     }
   }
   @media screen and (max-width: 594px){
@@ -1974,6 +1998,46 @@
   @media screen and (max-width: 426px){
     .mhacks-mid-content-business{
       margin-top: -117vw;
+    }
+    .mhacks-mid-mission-content{
+      margin-left: 3vw;
+    }
+    .mhacks-mid-mission-text{
+      padding-left: 31vw;
+    }
+    .mhacks-top-para{
+      margin-top: -2vw;
+      margin-left: 13vw;
+    }
+    .mhacks-top-btn{
+      margin-top: 30%;
+    }
+    .mhacks-mid-content{
+      margin-left: -23%;
+    }
+    .mhacks-mid-header{
+      margin-left: 2%;
+    }
+    .mhacks-mid-content-pic{
+      margin-right: -16vw;
+    }
+    .mhacks-mid-content-business{
+      margin-left: -1vw;
+    }
+    .dani{
+      margin-right: -12px;
+    }
+    .james{
+      margin-right: -29px;
+    }
+    .kavi{
+      margin-right: -47px;
+    }
+    .mhacks-footer-about{
+      margin-left: -5vw;
+    }
+    .community-side-footer{
+      margin-left: 5vw;
     }
     .mhacks-top-header{
       margin-left: -1vw;
@@ -2267,6 +2331,10 @@
   .mhacks-mid-ft-text{
     margin-top: 77%;
   }
+  .mhacks-mid-mission-text{
+    width: 297px;
+    margin-left: -10vw;
+  }
   .mhacks-last-contact-textarea{
     margin-top: -3vw;
   }
@@ -2335,7 +2403,8 @@
 }
 @media screen and (max-width: 321px){
   .mhacks-mid-mission-text{
-    width: 180px;
+    width: 281px;
+    margin-left: -12vw;
   }
   .mhacks-mid-mission-content{
     width: 270px;

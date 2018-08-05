@@ -377,7 +377,7 @@
         margin-top: 26vw;
     }
 }
-@media screen and (max-width: 602px){
+@media screen and (max-width: 601px){
     .codeq_img{
         margin-left: -6%;
         margin-top: 8%;
@@ -391,39 +391,45 @@
         margin-top: -27vw;
     }
     .resp_img{
-        margin-left: -9%;
-        margin-top: 41%;
+        margin-left: -6vw;
+        margin-top: 33%;
     }
     .resp_desc{
-        margin-left: 39%;
+        margin-left: 41vw;
         margin-top: 4%;
     }
     .resp_desc_list{
-        margin-left: 34vw;
+        margin-left: 35vw;
         margin-top: 6%;
     }
     .bc_img{
-        margin-left: 40%;
+        margin-left: 44vw;
         margin-top: 11vw;
     }
     .bc_desc{
-        margin-left: 34%;
+        margin-left: 36vw;
         margin-top: 5%;
+    }
+    .bc_desc_list{
+        margin-left: -27vw;
     }
     .lsupport_img{
         margin-left: -22vw;
         margin-top: 35%;
     }
     .lsupport_desc{
-        margin-left: 35%;
+        margin-left: 38vw;
         margin-top: 6vw;
     }
+    .tsupport_img{
+        margin-left: 44vw;
+    }
     .lsupport_desc_list{
-        margin-left: -22vw;
+        margin-left: -24vw;
         margin-top: 14vw;
     }
     .tsupport_desc{
-        margin-left: 35vw;
+        margin-left: 36vw;
     }
 
     .tsupport_desc_list{
