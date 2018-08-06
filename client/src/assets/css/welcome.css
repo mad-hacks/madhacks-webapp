@@ -587,7 +587,7 @@ select{
 }
 
 /* Media Queries */
-@media only screen and (max-width: 1537px){
+@media only screen and (max-width: 2200px){
   .contact-btn{
     margin-right: 12vw;
   }
