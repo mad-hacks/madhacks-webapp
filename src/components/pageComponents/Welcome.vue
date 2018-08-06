@@ -38,7 +38,7 @@
           <div class="container">
             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
               <div class="mhacks-top-para animated fadeIn">
-                A community built for and by the students <br> <span class="mhacks-tp1">that develops
+                <span class="mhacks-tp"> A community built for and by the students <br></span> <span class="mhacks-tp1">that develops
                 quality products for business.</span>
               </div>
             </div>
@@ -408,7 +408,7 @@
           &copy; 2018
           </div>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 community-side-footer">
           <h2 class="mhacks-footer-community">Community</h2><br><br>
            <div class="mhacks-footer-policies">
            About Us <br>
