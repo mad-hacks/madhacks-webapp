@@ -399,31 +399,33 @@
               <div class="mhacks-last-contact-input-header animated fadeInFromLeft" v-in-viewport.once>Drop us a message</div>
             </div>
           </div>
+          <form @submit.prevent="submitContactForm">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <input class="mhacks-last-contact-input" type="text" placeholder="Name"/>
+              <input class="mhacks-last-contact-input" type="text" v-model="name" placeholder="Name" required/>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <input class="mhacks-last-contact-input" type="text" placeholder="Email"/>
+              <input class="mhacks-last-contact-input" type="text" v-model="email" placeholder="Email" required/>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <input class="mhacks-last-contact-input" type="text" placeholder="Contact No"/>
+              <input class="mhacks-last-contact-input" type="text" v-model="phoneno" placeholder="Contact No" required/>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <textarea class="mhacks-last-contact-textarea">Message</textarea>
+              <textarea class="mhacks-last-contact-textarea" v-model="message" placeholder="Message">Message</textarea>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <div class="mhacks-last-contact-btn">Submit</div>
+              <div class="mhacks-last-contact-btn"><button style="background-color: #283149;border: none;">Submit</button></div>
             </div>
           </div>
+          </form>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="row">
@@ -493,11 +495,31 @@
   import Sandra from './Team/Sandra.vue'
   import mview from './mv_features.vue'
   import Features from './Features.vue'
+  import axios from 'axios'
 
   export default{
     data: function () {
       return {
-        renderedComponent: 'James'
+        renderedComponent: 'James',
+        name: '',
+        email: '',
+        phoneno: '',
+        message: ''
+      }
+    },
+    methods: {
+      submitContactForm: function () {
+        axios.post('http://localhost:4000/contact',
+          this.name, this.email, this.phoneno, this.message,
+          { headers: {
+            'Content-type': 'application/x-www-form-urlencoded'
+          }
+          })
+          .then(response =>
+            console.log(response)
+          )
+          .catch(err => console.log(err))
+        console.log('Done')
       }
     },
     components: {

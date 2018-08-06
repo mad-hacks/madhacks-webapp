@@ -781,6 +781,10 @@ select{
     font-weight: bold;
   }
 
+  .mhacks-last-contact-btn:hover{
+    cursor:pointer;
+  }
+
   .mhacks-last-contact-input-bg{
     height: 450px;
   }
