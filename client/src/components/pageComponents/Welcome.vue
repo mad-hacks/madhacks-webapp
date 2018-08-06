@@ -91,10 +91,73 @@
             Earn rewards based on work done.<br>
             </span>
             <br>
-            <div class="mhacks-register-btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfLHgNMgOsreNP5vMQqQD9s-4ed7pfHg_vX5lHqH-ztnPFB8w/viewform?embedded=true" target="_blank">Register Now</a></div>
+            <button data-toggle="modal" data-target="#registerModal" class="btn mhacks-register-btn">Register Now</button>
           </div>
         </div>
         <!-- End -->
+
+        <!-- Modal to show up on the click of register button -->
+<!-- Modal -->
+<div id="registerModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Register</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-group">
+          <input type="text" class="form-control" placeholder="Name" required>
+          <br>
+          <label class="label" for="college">College</label>
+          <select class="form-control" required>
+            <option value="" disabled selected>College</option>
+            <option value="AJCE">AJCE</option>
+            <option value="Other">Other</option>
+          </select>
+          <br>
+          <label class="label" for="branch">Branch</label>
+          <select class="form-control" required>
+            <option value="" disabled selected>Branch</option>
+            <option value="CSE">CSE</option>
+            <option value="IT">IT</option>
+            <option value="EC">EC</option>
+            <option value="Other">Other</option>
+          </select>
+          <br>
+          <input type="text" placeholder="Year of study" class="form-control" required>
+          <br>
+          <input type="email" placeholder="E-mail" class="form-control" required>
+          <br>
+          <input type="text" maxlength="10" placeholder="Contact Number" class="form-control" required>
+          <br>
+          <label for="area" class="label">Area of interest</label>
+          <select class="form-control" required>
+            <option value="" disabled selected>Area of interest <i class="fas fa-caret-down"></i></option>
+            <option value="dev">Web Development</option>
+            <option value="android">Android Development</option>
+            <option value="design">Web Designing</option>
+            <option value="Other">Other</option>
+          </select>
+          <br>
+          <textarea class="form-control" cols="15" rows="5" placeholder="Hobbies" required></textarea>
+          <br>
+          <button class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+        <!-- End -->
+
         <!-- Image Section -->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 animated zoomIn" v-in-viewport.once>
           <img class="mhacks-mid-content-pic" src="../../assets/images/stud.svg"/>
@@ -141,7 +204,7 @@
             <span class="mhacks-mid-content-list-item">
             Custom web tools.<br>
             </span>
-            <div class="mhacks-hire-btn">Hire Us</div>
+            <button class="btn mhacks-hire-btn">Hire Us</button>
           </div>
         </div>
         <!-- End -->
