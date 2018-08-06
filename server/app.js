@@ -10,8 +10,13 @@ app.use(cors())
 app.use(morgan('combined'))
 
 mongoose.connect('mongodb://alan:alan123@ds111192.mlab.com:11192/madhacks')
+.then(() => {
+  return server.start()
+})
+.catch(err => console.log(err))
+
 mongoose.connection.on('open', () => {
-  console.log('Connected to database')
+  console.log('Connected open database')
 })
 
 mongoose.Promise = global.Promise

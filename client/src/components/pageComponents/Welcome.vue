@@ -144,7 +144,9 @@
           <br>
           <textarea class="form-control" cols="15" rows="5" placeholder="Hobbies" required></textarea>
           <br>
-          <button class="btn btn-primary">Submit</button>
+          <center>
+          <button class="btn" style="width: 25%;">Submit</button>
+          </center>
         </form>
       </div>
       <div class="modal-footer">
@@ -417,12 +419,12 @@
           </div>
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <textarea class="mhacks-last-contact-textarea" v-model="message" placeholder="Message">Message</textarea>
+              <textarea class="mhacks-last-contact-textarea" v-model="description" placeholder="Message">Message</textarea>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <div class="mhacks-last-contact-btn"><button style="background-color: #283149;border: none;">Submit</button></div>
+              <div class="mhacks-last-contact-btn"><button style="background-color: #283149;border: none; width: 100%">Submit</button></div>
             </div>
           </div>
           </form>
@@ -504,13 +506,13 @@
         name: '',
         email: '',
         phoneno: '',
-        message: ''
+        description: ''
       }
     },
     methods: {
       submitContactForm: function () {
         axios.post('http://localhost:4000/contact',
-          this.name, this.email, this.phoneno, this.message,
+          this.name, this.email, this.phoneno, this.description,
           { headers: {
             'Content-type': 'application/x-www-form-urlencoded'
           }
