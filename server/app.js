@@ -9,16 +9,15 @@ const app = express()
 app.use(cors())
 app.use(morgan('combined'))
 
+
 mongoose.connect('mongodb://alan:alan123@ds111192.mlab.com:11192/madhacks')
-.then(() => {
-  return server.start()
-})
-.catch(err => console.log(err))
-
+  .catch((err) => {
+    console.error('eror: ' + err.stack)
+    process.exit(1)
+  })
 mongoose.connection.on('open', () => {
-  console.log('Connected open database')
+  console.log('connected to database')
 })
-
 mongoose.Promise = global.Promise
 
 app.use(bodyparser.json())
