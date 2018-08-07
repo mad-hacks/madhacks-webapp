@@ -7,24 +7,19 @@ const {
 const app = express()
 
 app.post('/contact', (req, res) => {
-  console.log(req.body)
-  contact.create(req.body)
-  .then(() => {
+  contact.create(req.body).then(() => {
     res.send({
       "status": "ok"
     })
   })
-  .catch(err => console.log(err))
 })
 
 app.post('/register', (req, res) => {
-  register.create(req.body)
-  .then(() => {
+  register.create(req.body).then(() => {
     res.send({
       "status": "ok"
     })
   })
-  .catch(err => console.log(err))
 })
 
 
