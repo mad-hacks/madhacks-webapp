@@ -203,8 +203,17 @@
   width: 40%;
 }
 
+.modal-content{
+  font-family: inherit;
+}
+
 .mhacks-hire-btn{
   margin-top: 5vh;
+}
+
+.btn{
+  color: #fff;
+  background-color: #283149;
 }
 
 select{

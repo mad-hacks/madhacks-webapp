@@ -7,6 +7,7 @@ const {
 const app = express()
 
 app.post('/contact', (req, res) => {
+  console.log(req.body)
   contact.create(req.body)
   .then(() => {
     res.send({

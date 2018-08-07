@@ -33,7 +33,7 @@ const registerschema = new Schema({
   year: {
     type: String
   },
-  area_of_interest: {
+  area_of_interst: {
     type: String
   },
   hobbies: {

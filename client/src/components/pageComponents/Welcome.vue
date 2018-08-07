@@ -144,7 +144,9 @@
           <br>
           <textarea class="form-control" cols="15" rows="5" placeholder="Hobbies" required></textarea>
           <br>
-          <button class="btn btn-primary">Submit</button>
+          <center>
+          <button class="btn" style="width: 25%;">Submit</button>
+          </center>
         </form>
       </div>
       <div class="modal-footer">
@@ -368,7 +370,7 @@
                   <img src="../../assets/images/kavi.jpeg"  tabindex="0" @click="renderedComponent='Kavi'" class="mhacks-mid-team-card-other-pic kavi"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/placeholder.png"  tabindex="0" @click="renderedComponent='Sandra'" class="mhacks-mid-team-card-other-pic sandra"/>
+                  <img src="../../assets/images/sandra.jpg"  tabindex="0" @click="renderedComponent='Sandra'" class="mhacks-mid-team-card-other-pic sandra"/>
                 </div>
               </div>
               </center>
@@ -417,12 +419,12 @@
           </div>
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <textarea class="mhacks-last-contact-textarea" v-model="message" placeholder="Message">Message</textarea>
+              <textarea class="mhacks-last-contact-textarea" v-model="description" placeholder="Message">Message</textarea>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <div class="mhacks-last-contact-btn"><button style="background-color: #283149;border: none;">Submit</button></div>
+              <div class="mhacks-last-contact-btn"><button style="background-color: #283149;border: none; width: 100%">Submit</button></div>
             </div>
           </div>
           </form>
@@ -504,13 +506,13 @@
         name: '',
         email: '',
         phoneno: '',
-        message: ''
+        description: ''
       }
     },
     methods: {
       submitContactForm: function () {
         axios.post('http://localhost:4000/contact',
-          this.name, this.email, this.phoneno, this.message,
+          this.name, this.email, this.phoneno, this.description,
           { headers: {
             'Content-type': 'application/x-www-form-urlencoded'
           }
