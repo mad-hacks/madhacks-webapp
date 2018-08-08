@@ -10,6 +10,9 @@
             <li class="mhacks-tn-left-logo">
               <a href="#home"><img src="../../assets/images/logo.svg" class="logo"/></a>
             </li>
+            <li class="mhacks-event-vr">
+              <a><router-link to="event">VR</router-link></a>
+            </li>
             <li class="mhacks-tn-right-item contact-btn">
               <a href="#contact">Contact</a>
             </li>
@@ -47,7 +50,7 @@
         <div class="row">
           <div class="container">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <div class="mhacks-top-btn animated fadeIn">Explore</div>
+              <div class="mhacks-top-btn animated fadeIn"><a href="#students" style="color: #fff;text-decoration: none;width: 100%;">Explore</a></div>
             </div>
           </div>
         </div>
@@ -206,7 +209,7 @@
             <span class="mhacks-mid-content-list-item">
             Custom web tools.<br>
             </span>
-            <button class="btn mhacks-hire-btn">Hire Us</button>
+            <a href="#contact" class="btn mhacks-hire-btn">Hire Us</a>
           </div>
         </div>
         <!-- End -->
@@ -469,7 +472,7 @@
       <div class="row mhacks-footer-row">
         <div class=" mhacks-footer-about col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <h2 class="mhacks-footer-title">Mad.Hacks</h2><br><br>
-          <div class="mhacks-footer-content">
+          <div class="mhacks-footer-content" style="margin-bottom: 1vh;">
           (91)8281634261 <br>
           mad.hacks@gmail.com<br>
           &copy; 2018
@@ -477,7 +480,7 @@
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 community-side-footer">
           <h2 class="mhacks-footer-community">Community</h2><br><br>
-           <div class="mhacks-footer-policies">
+           <div class="mhacks-footer-policies" style="margin-bottom: 1vh;">
            About Us <br>
           Terms & Conditions<br>
         Privacy Policy

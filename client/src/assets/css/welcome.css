@@ -98,7 +98,6 @@
   position: fixed;
   top: 0px;
 } */
-
 .mhacks-tn-left-logo {
   list-style-type: none;
   float: left;
@@ -118,6 +117,38 @@
   font-size: 1.3em;
   text-decoration: none;
   color: #283149;
+}
+
+.mhacks-event-vr {
+  font-family: 'Muli', sans-serif;
+  padding: 15px 15px;
+  font-size: 1.3em;
+  padding-top: 7.5vh;
+  list-style: none;
+}
+
+.mhacks-event-vr a{
+  padding: 20px 15px;
+  text-decoration: none;
+  color: #283149;
+}
+
+.mhacks-event-container{
+  background: url('../../assets/images/bg.png');
+  height: 100vh;
+  background-size: cover;
+  margin-top: -0.1vh;
+}
+
+.mhacks-event-content{
+  float: right;
+  padding-right: 15vw;
+  margin-top: 20vh;
+}
+
+.mhacks-event-content h1{
+  color: #fff;
+  font-family: 'Muli', sans-serif;
 }
 
 .mhacks-tn-right-item {
@@ -657,12 +688,12 @@ select{
 }
 /* Laptop screens(upto 1400 px) */
 @media only screen and (max-width: 1400px){
-  .mhacks-tn-left-logo {
+  .mhacks-tn-left-logo, .mhacks-event-vr {
     padding: 15px 10px;
     padding-top: 16px;
   }
   
-  .mhacks-tn-left-logo a {
+  .mhacks-tn-left-logo a, .mhacks-event-vr a {
     padding: 15px 10px;
     padding-top: 16px;
   }
