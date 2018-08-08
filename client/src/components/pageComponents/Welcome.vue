@@ -10,9 +10,9 @@
             <li class="mhacks-tn-left-logo">
               <a href="#home"><img src="../../assets/images/logo.svg" class="logo"/></a>
             </li>
-            <li class="mhacks-event-vr">
+            <!-- <li class="mhacks-event-vr">
               <a><router-link to="event">VR</router-link></a>
-            </li>
+            </li> -->
             <li class="mhacks-tn-right-item contact-btn">
               <a href="#contact">Contact</a>
             </li>
