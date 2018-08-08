@@ -10,6 +10,9 @@
             <li class="mhacks-tn-left-logo">
               <a href="#home"><img src="../../assets/images/logo.svg" class="logo"/></a>
             </li>
+            <li class="mhacks-event-vr">
+              <a><router-link to="event">VR</router-link></a>
+            </li>
             <li class="mhacks-tn-right-item contact-btn">
               <a href="#contact">Contact</a>
             </li>
@@ -47,7 +50,7 @@
         <div class="row">
           <div class="container">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <div class="mhacks-top-btn animated fadeIn">Explore</div>
+              <div class="mhacks-top-btn animated fadeIn"><a href="#students" style="color: #fff;text-decoration: none;width: 100%;">Explore</a></div>
             </div>
           </div>
         </div>
@@ -108,18 +111,18 @@
         <h4 class="modal-title">Register</h4>
       </div>
       <div class="modal-body">
-        <form class="form-group">
-          <input type="text" class="form-control" placeholder="Name" required>
+        <form class="form-group" @submit.prevent = "registerForm">
+          <input type="text" class="form-control" v-model="student_name" placeholder="Name" required>
           <br>
           <label class="label" for="college">College</label>
-          <select class="form-control" required>
+          <select class="form-control" v-model="college" required>
             <option value="" disabled selected>College</option>
             <option value="AJCE">AJCE</option>
             <option value="Other">Other</option>
           </select>
           <br>
           <label class="label" for="branch">Branch</label>
-          <select class="form-control" required>
+          <select class="form-control" v-model="branch" required>
             <option value="" disabled selected>Branch</option>
             <option value="CSE">CSE</option>
             <option value="IT">IT</option>
@@ -127,14 +130,14 @@
             <option value="Other">Other</option>
           </select>
           <br>
-          <input type="text" placeholder="Year of study" class="form-control" required>
+          <input type="text" placeholder="Year of study" v-model="year" class="form-control" required>
           <br>
-          <input type="email" placeholder="E-mail" class="form-control" required>
+          <input type="email" placeholder="E-mail" v-model="student_email" class="form-control" required>
           <br>
-          <input type="text" maxlength="10" placeholder="Contact Number" class="form-control" required>
+          <input type="text" maxlength="10" v-model="mobno" placeholder="Contact Number" class="form-control" required>
           <br>
           <label for="area" class="label">Area of interest</label>
-          <select class="form-control" required>
+          <select class="form-control" v-model="area_of_interest" required>
             <option value="" disabled selected>Area of interest <i class="fas fa-caret-down"></i></option>
             <option value="dev">Web Development</option>
             <option value="android">Android Development</option>
@@ -142,10 +145,10 @@
             <option value="Other">Other</option>
           </select>
           <br>
-          <textarea class="form-control" cols="15" rows="5" placeholder="Hobbies" required></textarea>
+          <textarea class="form-control" v-model="hobbies" cols="15" rows="5" placeholder="Hobbies" required></textarea>
           <br>
           <center>
-          <button class="btn" style="width: 25%;">Submit</button>
+          <button  class="btn" style="width: 25%;">Submit</button>
           </center>
         </form>
       </div>
@@ -206,7 +209,7 @@
             <span class="mhacks-mid-content-list-item">
             Custom web tools.<br>
             </span>
-            <button class="btn mhacks-hire-btn">Hire Us</button>
+            <a href="#contact" class="btn mhacks-hire-btn">Hire Us</a>
           </div>
         </div>
         <!-- End -->
@@ -469,7 +472,7 @@
       <div class="row mhacks-footer-row">
         <div class=" mhacks-footer-about col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <h2 class="mhacks-footer-title">Mad.Hacks</h2><br><br>
-          <div class="mhacks-footer-content">
+          <div class="mhacks-footer-content" style="margin-bottom: 1vh;">
           (91)8281634261 <br>
           mad.hacks@gmail.com<br>
           &copy; 2018
@@ -477,7 +480,7 @@
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 community-side-footer">
           <h2 class="mhacks-footer-community">Community</h2><br><br>
-           <div class="mhacks-footer-policies">
+           <div class="mhacks-footer-policies" style="margin-bottom: 1vh;">
            About Us <br>
           Terms & Conditions<br>
         Privacy Policy
@@ -506,15 +509,25 @@
         name: '',
         email: '',
         phoneno: '',
-        description: ''
+        description: '',
+        student_name: '',
+        student_email: '',
+        branch: '',
+        year: '',
+        mobno: '',
+        college: '',
+        area_of_interest: '',
+        hobbies: ''
       }
     },
     methods: {
       submitContactForm: function () {
-        axios.post('http://localhost:4000/contact',
-          this.name, this.email, this.phoneno, this.description,
+        let formData = {name: this.name, email: this.email, phoneno: this.phoneno, description: this.description}
+        console.log(formData)
+        axios.post('http://localhost:4000/api/contact',
+          formData,
           { headers: {
-            'Content-type': 'application/x-www-form-urlencoded'
+            'Content-type': 'application/json'
           }
           })
           .then(response =>
@@ -522,6 +535,20 @@
           )
           .catch(err => console.log(err))
         console.log('Done')
+      },
+      registerForm: function () {
+        let registerData = {name: this.student_name, email: this.student_email, college: this.college, branch: this.branch, year: this.year, mobno: this.mobno, area_of_interest: this.area_of_interest, hobbies: this.hobbies}
+        console.log(registerData)
+        axios.post('http://localhost:4000/api/register',
+          registerData,
+          { headers: {
+            'Content-type': 'application/json'
+          }
+          })
+          .then(response =>
+            console.log(response)
+          )
+          .catch(err => console.log(err))
       }
     },
     components: {
