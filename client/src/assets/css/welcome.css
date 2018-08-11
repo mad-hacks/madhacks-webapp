@@ -263,7 +263,7 @@
 }
 
 .modal-content{
-  font-family: inherit;
+  font-family: 'Muli', sans-serif;
   border-radius: 0px;
   border: none;
 }
@@ -274,7 +274,22 @@
 }
 
 .modal-body input{
-  transition: none;
+  border: 0px;
+  border-radius: .375rem;
+  outline: none;
+  width: 100%;
+  padding: 6px 12px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.modal-body input:focus{
+  border-left: 1px solid #ccc;
+  transition: 0.4s linear;
+}
+
+.form-control{
+  border-radius: .375rem;;
 }
 
 .form-control:focus{

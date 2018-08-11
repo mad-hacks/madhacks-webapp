@@ -112,7 +112,7 @@
       </div>
       <div class="modal-body">
         <form class="form-group" @submit.prevent = "registerForm">
-          <input type="text" class="form-control" v-model="student_name" placeholder="Name" required>
+          <input type="text" v-model="student_name" placeholder="Name" required>
           <label class="label" for="college">College</label>
           <select class="form-control" v-model="college" required>
             <option value="" disabled selected>College</option>
@@ -128,11 +128,12 @@
             <option value="Other">Other</option>
           </select>
           <br>
-          <input type="text" placeholder="Year of study" v-model="year" class="form-control" required>
+          <input type="text" placeholder="Year of study" v-model="year" required>
+          <br><br>
+          <input type="email" placeholder="E-mail" v-model="student_email" required>
+          <br><br>
+          <input type="text" maxlength="10" v-model="mobno" placeholder="Contact Number" required>
           <br>
-          <input type="email" placeholder="E-mail" v-model="student_email" class="form-control" required>
-          <br>
-          <input type="text" maxlength="10" v-model="mobno" placeholder="Contact Number" class="form-control" required>
           <label for="area" class="label">Area of interest</label>
           <select class="form-control" v-model="area_of_interest" required>
             <option value="" disabled selected>Area of interest <i class="fas fa-caret-down"></i></option>
