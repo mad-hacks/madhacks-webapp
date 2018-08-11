@@ -1,7 +1,6 @@
 const mongoose = require('mongoose')
 
 const Schema = mongoose.Schema
-mongoose.Promise = global.Promise
 
 const contactschema = new Schema({
   name: {
@@ -32,10 +31,10 @@ const registerschema = new Schema({
     type: String
   },
   year: {
-    type: String
+    type: Number
   },
   mobno: {
-    type: number
+    type: Number
   },
   area_of_interest: {
     type: String

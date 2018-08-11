@@ -6,6 +6,10 @@ const cors = require('cors')
 
 const app = express()
 
+app.use(bodyparser.json())
+app.use('/api', require('./routes/api'))
+
+
 app.use(cors())
 app.use(morgan('combined'))
 
@@ -19,9 +23,6 @@ mongoose.connection.on('open', () => {
   console.log('connected to database')
 })
 mongoose.Promise = global.Promise
-
-app.use(bodyparser.json())
-app.use('/api', require('./routes/api'))
 
 app.listen(process.env.port || 4000, () => {
   console.log('Server is up in port 4000.......!')
