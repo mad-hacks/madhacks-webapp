@@ -210,7 +210,7 @@
   margin-left: 11%;
 }
 
-.mhacks-top-btn{
+/* .mhacks-top-btn{
   font-family: 'Muli', sans-serif;
   font-weight: 400;
   font-size: 1.5em;
@@ -224,27 +224,78 @@
   text-align: center;
   color: #fff;
   cursor: pointer;
+} */
+
+.mhacks-top-btn{
+  margin-top: 4%;
+  margin-left: 7%;
+  background-color: #283149;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  text-align: center;
+  border-radius: .375rem;
+  width: 15%;
+  font-size: 1.5em;
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, .1);
+}
+
+.mhacks-top-btn:hover, .mhacks-register-btn:hover, .mhacks-hire-btn:hover{
+  transition: all 0.4s ease-in-out;
+  box-shadow: none;
 }
 
 .mhacks-register-btn, .mhacks-hire-btn{
   background-color: #283149;
   color: #fff;
+  border: none;
+  font-size: 1.2em;
   border-radius: .375rem;
-  font-size: 0.95em;
-  width: 40%;
+  text-align: center;
+  width: 45%;
+  padding: 8px;
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, .1);
+}
+
+.mhacks-hire-btn a{
+  text-decoration: none;
+  color: #fff;
 }
 
 .modal-content{
   font-family: inherit;
+  border-radius: 0px;
+  border: none;
+}
+
+.modal-body textarea{
+  resize: none;
+  outline: none;
+}
+
+.modal-body input{
+  transition: none;
+}
+
+.form-control:focus{
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .mhacks-hire-btn{
   margin-top: 5vh;
 }
 
-.btn{
+.mhacks-modal-btn{
   color: #fff;
   background-color: #283149;
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, .1);
+}
+
+.mhacks-modal-btn:hover{
+  transition: all 0.4s ease-in-out;
+  box-shadow: none;
 }
 
 select{
@@ -286,7 +337,7 @@ select{
   font-weight: 300;
   padding-top: 5%;
   text-align: right;
-  padding-right: 20%;
+  padding-right: 30%;
 }
 
 .mhacks-mid-pic {
@@ -627,12 +678,30 @@ select{
 }
 
 /* Media Queries */
-@media only screen and (max-width: 2200px){
+@media screen and (max-width: 3000px){
   .contact-btn{
     margin-right: 12vw;
   }
   .logo{
-    height: 358px;
+    height: 378px;
+    margin-top: -4vw;
+  }
+  .mhacks-top-header{
+    margin-top: -3%;
+  }
+}
+
+@media screen and (max-width: 2000px){
+  .mhacks-register-btn, .mhacks-hire-btn{
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 1800px){
+  .contact-btn{
+    margin-right: 12vw;
+  }
+  .logo{
     margin-top: -8vw;
   }
   .mhacks-top-header{
@@ -664,9 +733,6 @@ select{
   }
   .mhacks-mid-team-header{
     margin-top: -19%;
-  }
-  .mhacks-register-btn, .mhacks-hire-btn{
-    font-size: 0.85em;
   }
 }
 @media only screen and (max-width: 1467px){
@@ -725,10 +791,15 @@ select{
     font-size: 1.7em;
   }
 
-  .mhacks-top-btn{
+  .mhacks-top-btn {
     font-size: 1.3em;
-    width: 155px;
-    height: 48px;
+    /* width: 155px;
+    height: 48px; */
+  }
+
+  .mhacks-register-btn, .mhacks-hire-btn{
+    font-size: 0.9em;
+    padding: 12px;
   }
 
   .mhacks-mid-bg, .mhacks-mid-bg-business{
@@ -1077,6 +1148,15 @@ select{
   .logo{
     margin-top: -14vw;
   }
+  .mhacks-register-btn{
+    width: 35%;
+    font-size: 1em;
+  }
+  .mhackss-hire-btn{
+    width: 45%;
+    font-size: 1em;
+  }
+  
 }
 
 @media only screen and (max-width: 1065px){
