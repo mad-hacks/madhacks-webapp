@@ -820,7 +820,7 @@ select{
 
   .mhacks-register-btn, .mhacks-hire-btn{
     font-size: 0.9em;
-    padding: 12px;
+    padding: 10px;
   }
 
   .mhacks-mid-bg, .mhacks-mid-bg-business{
@@ -1599,6 +1599,11 @@ select{
     width: 660px;
     margin-top: -30%;
   }
+
+  .mhacks-register-btn{
+    font-size: .9em;
+    width: 40%;
+  }
 }
 /* ToDo => Fix Navbar items for 769 and below resolutions. */
 @media only screen and (max-width: 769px){
@@ -1833,6 +1838,13 @@ select{
   .mhacks-mid-ft-text{
     margin-top: 60%;
   }
+  .mhacks-register-btn{
+    height: 45%;
+    font-size: .8em;
+  }
+  .mhacks-hire-btn{
+    font-size: .8em;
+  }
 }
 @media screen and (max-width: 610px){
   .mhacks-mid-ft-text{
@@ -1918,10 +1930,6 @@ select{
     }
     .mhacks-last-contact-btn{
       width: 175%;
-    }
-    .mhacks-hire-btn{
-      width: 140px;
-      height: 45px;
     }
     .mhacks-mid-mission-text{
       padding-left: 38vw;
@@ -2156,8 +2164,6 @@ select{
       margin-left: 4vw;
       margin-top: 69vw;
       margin-bottom: 15vw;
-      height: 43px;
-      width: 100px;
     }
     .mhacks-footer-title{
       font-size: 1.3em;
