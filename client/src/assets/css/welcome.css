@@ -210,7 +210,7 @@
   margin-left: 11%;
 }
 
-.mhacks-top-btn{
+/* .mhacks-top-btn{
   font-family: 'Muli', sans-serif;
   font-weight: 400;
   font-size: 1.5em;
@@ -224,14 +224,35 @@
   text-align: center;
   color: #fff;
   cursor: pointer;
+} */
+
+.mhacks-top-btn{
+  margin-top: 4%;
+  margin-left: 7%;
+  background-color: #283149;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  text-align: center;
+  border-radius: .375rem;
+  width: 20%;
+  font-size: 1.5em;
 }
 
 .mhacks-register-btn, .mhacks-hire-btn{
   background-color: #283149;
   color: #fff;
+  border: none;
+  font-size: 1.3em;
   border-radius: .375rem;
-  font-size: 0.95em;
-  width: 40%;
+  text-align: center;
+  width: 55%;
+  padding: 8px;
+}
+
+.mhacks-hire-btn a{
+  text-decoration: none;
+  color: #fff;
 }
 
 .modal-content{
@@ -286,7 +307,7 @@ select{
   font-weight: 300;
   padding-top: 5%;
   text-align: right;
-  padding-right: 20%;
+  padding-right: 30%;
 }
 
 .mhacks-mid-pic {
@@ -640,6 +661,12 @@ select{
   }
 }
 
+@media screen and (max-width: 2000px){
+  .mhacks-register-btn, .mhacks-hire-btn{
+    font-size: 1.1em;
+  }
+}
+
 @media only screen and (max-width: 1800px){
   .contact-btn{
     margin-right: 12vw;
@@ -676,9 +703,6 @@ select{
   }
   .mhacks-mid-team-header{
     margin-top: -19%;
-  }
-  .mhacks-register-btn, .mhacks-hire-btn{
-    font-size: 0.85em;
   }
 }
 @media only screen and (max-width: 1467px){
@@ -737,10 +761,15 @@ select{
     font-size: 1.7em;
   }
 
-  .mhacks-top-btn{
+  .mhacks-top-btn {
     font-size: 1.3em;
-    width: 155px;
-    height: 48px;
+    /* width: 155px;
+    height: 48px; */
+  }
+
+  .mhacks-register-btn, .mhacks-hire-btn{
+    font-size: 0.9em;
+    padding: 12px;
   }
 
   .mhacks-mid-bg, .mhacks-mid-bg-business{
@@ -1089,6 +1118,15 @@ select{
   .logo{
     margin-top: -14vw;
   }
+  .mhacks-register-btn{
+    width: 40%;
+    font-size: 1em;
+  }
+  .mhackss-hire-btn{
+    width: 45%;
+    font-size: 1em;
+  }
+  
 }
 
 @media only screen and (max-width: 1065px){

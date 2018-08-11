@@ -209,7 +209,7 @@
             <span class="mhacks-mid-content-list-item">
             Custom web tools.<br>
             </span>
-            <a href="#contact" class="btn mhacks-hire-btn">Hire Us</a>
+            <div class="btn mhacks-hire-btn"><a href="#contact">Hire Us</a></div>
           </div>
         </div>
         <!-- End -->
