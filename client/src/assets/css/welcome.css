@@ -237,6 +237,12 @@
   border-radius: .375rem;
   width: 15%;
   font-size: 1.5em;
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, .1);
+}
+
+.mhacks-top-btn:hover, .mhacks-register-btn:hover, .mhacks-hire-btn:hover{
+  transition: all 0.4s ease-in-out;
+  box-shadow: none;
 }
 
 .mhacks-register-btn, .mhacks-hire-btn{
@@ -248,6 +254,7 @@
   text-align: center;
   width: 45%;
   padding: 8px;
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, .1);
 }
 
 .mhacks-hire-btn a{
@@ -257,15 +264,38 @@
 
 .modal-content{
   font-family: inherit;
+  border-radius: 0px;
+  border: none;
+}
+
+.modal-body textarea{
+  resize: none;
+  outline: none;
+}
+
+.modal-body input{
+  transition: none;
+}
+
+.form-control:focus{
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .mhacks-hire-btn{
   margin-top: 5vh;
 }
 
-.btn{
+.mhacks-modal-btn{
   color: #fff;
   background-color: #283149;
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, .1);
+}
+
+.mhacks-modal-btn:hover{
+  transition: all 0.4s ease-in-out;
+  box-shadow: none;
 }
 
 select{

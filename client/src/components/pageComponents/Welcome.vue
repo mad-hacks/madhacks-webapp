@@ -113,14 +113,12 @@
       <div class="modal-body">
         <form class="form-group" @submit.prevent = "registerForm">
           <input type="text" class="form-control" v-model="student_name" placeholder="Name" required>
-          <br>
           <label class="label" for="college">College</label>
           <select class="form-control" v-model="college" required>
             <option value="" disabled selected>College</option>
             <option value="AJCE">AJCE</option>
             <option value="Other">Other</option>
           </select>
-          <br>
           <label class="label" for="branch">Branch</label>
           <select class="form-control" v-model="branch" required>
             <option value="" disabled selected>Branch</option>
@@ -135,7 +133,6 @@
           <input type="email" placeholder="E-mail" v-model="student_email" class="form-control" required>
           <br>
           <input type="text" maxlength="10" v-model="mobno" placeholder="Contact Number" class="form-control" required>
-          <br>
           <label for="area" class="label">Area of interest</label>
           <select class="form-control" v-model="area_of_interest" required>
             <option value="" disabled selected>Area of interest <i class="fas fa-caret-down"></i></option>
@@ -148,7 +145,7 @@
           <textarea class="form-control" v-model="hobbies" cols="15" rows="5" placeholder="Hobbies" required></textarea>
           <br>
           <center>
-          <button  class="btn" style="width: 25%;">Submit</button>
+          <button  class="btn mhacks-modal-btn" style="width: 25%;">Submit</button>
           </center>
         </form>
       </div>
