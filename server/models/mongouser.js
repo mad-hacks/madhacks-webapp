@@ -19,10 +19,10 @@ const contactschema = new Schema({
 })
 
 const registerschema = new Schema({
-  name: {
+  student_name: {
     type: String
   },
-  email: {
+  student_email: {
     type: String
   },
   college: {
@@ -33,6 +33,9 @@ const registerschema = new Schema({
   },
   year: {
     type: String
+  },
+  mobno: {
+    type: number
   },
   area_of_interest: {
     type: String

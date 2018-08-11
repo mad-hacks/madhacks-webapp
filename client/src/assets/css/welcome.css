@@ -627,12 +627,24 @@ select{
 }
 
 /* Media Queries */
-@media only screen and (max-width: 2200px){
+@media screen and (max-width: 3000px){
   .contact-btn{
     margin-right: 12vw;
   }
   .logo{
-    height: 358px;
+    height: 378px;
+    margin-top: -4vw;
+  }
+  .mhacks-top-header{
+    margin-top: -3%;
+  }
+}
+
+@media only screen and (max-width: 1800px){
+  .contact-btn{
+    margin-right: 12vw;
+  }
+  .logo{
     margin-top: -8vw;
   }
   .mhacks-top-header{
