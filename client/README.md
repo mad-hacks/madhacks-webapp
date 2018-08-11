@@ -3,6 +3,6 @@
 ```
 - Clone the repository.
 - Navigate to the client directory
-- Install the dependencies using <code>npm install</code>
+- Install the dependencies using npm install
 - Run the webapp using npm run dev
 ```
