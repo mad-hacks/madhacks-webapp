@@ -683,6 +683,11 @@ select{
   margin-bottom: .7vh;
 }
 
+.mhacks-footer-policies a{
+  text-decoration: none;
+  color: #fff;
+}
+
 .mhacks-footer-content, .mhacks-footer-policies{
   font-weight: 100;
   line-height: 1.7em;

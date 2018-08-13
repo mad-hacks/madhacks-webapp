@@ -17,6 +17,7 @@ export default {
 <style>
 body {
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 #app {
