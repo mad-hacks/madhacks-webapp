@@ -101,7 +101,7 @@
 
         <!-- Modal to show up on the click of register button -->
 <!-- Modal -->
-<div id="registerModal" class="modal fade" role="dialog">
+<div id="registerModal" ref="modal" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
     <!-- Modal content-->
@@ -112,15 +112,15 @@
       </div>
       <div class="modal-body">
         <form class="form-group" @submit.prevent = "registerForm">
-          <input type="text" class="form-control" v-model="student_name" placeholder="Name" required>
+          <input type="text" ref="nameField" v-model="student_name" placeholder="Name" required>
           <label class="label" for="college">College</label>
-          <select class="form-control" v-model="college" required>
+          <select class="form-control" ref="collegeOptionBox" v-model="college" required>
             <option value="" disabled selected>College</option>
             <option value="AJCE">AJCE</option>
             <option value="Other">Other</option>
           </select>
           <label class="label" for="branch">Branch</label>
-          <select class="form-control" v-model="branch" required>
+          <select class="form-control" ref="branchOptionBox" v-model="branch" required>
             <option value="" disabled selected>Branch</option>
             <option value="CSE">CSE</option>
             <option value="IT">IT</option>
@@ -128,13 +128,14 @@
             <option value="Other">Other</option>
           </select>
           <br>
-          <input type="text" placeholder="Year of study" v-model="year" class="form-control" required>
+          <input type="text" placeholder="Year of study" ref="yearField" v-model="year" required>
+          <br><br>
+          <input type="email" placeholder="E-mail" ref="emailField" v-model="student_email" required>
+          <br><br>
+          <input type="text" maxlength="10" ref="numberField" v-model="mobno" placeholder="Contact Number" required>
           <br>
-          <input type="email" placeholder="E-mail" v-model="student_email" class="form-control" required>
-          <br>
-          <input type="text" maxlength="10" v-model="mobno" placeholder="Contact Number" class="form-control" required>
           <label for="area" class="label">Area of interest</label>
-          <select class="form-control" v-model="area_of_interest" required>
+          <select class="form-control" ref="interestOptionBox" v-model="area_of_interest" required>
             <option value="" disabled selected>Area of interest <i class="fas fa-caret-down"></i></option>
             <option value="dev">Web Development</option>
             <option value="android">Android Development</option>
@@ -142,10 +143,10 @@
             <option value="Other">Other</option>
           </select>
           <br>
-          <textarea class="form-control" v-model="hobbies" cols="15" rows="5" placeholder="Hobbies" required></textarea>
+          <textarea class="form-control" ref="hobbiesField" v-model="hobbies" cols="15" rows="5" placeholder="Hobbies" required></textarea>
           <br>
           <center>
-          <button  class="btn mhacks-modal-btn" style="width: 25%;">Submit</button>
+          <button class="btn mhacks-modal-btn" ref="modalBtn" style="width: 25%;">Submit</button>
           </center>
         </form>
       </div>
@@ -519,7 +520,12 @@
     },
     methods: {
       submitContactForm: function () {
-        let formData = {name: this.name, email: this.email, phoneno: this.phoneno, description: this.description}
+        let formData = {
+          name: this.name,
+          email: this.email,
+          phoneno: this.phoneno,
+          description: this.description
+        }
         console.log(formData)
         axios.post('http://localhost:4000/api/contact',
           formData,
@@ -528,13 +534,24 @@
           }
           })
           .then(response =>
-            console.log(response)
+            console.log(response),
+          alert('Thank you, will get in touch soon!'),
+          window.location.reload()
           )
           .catch(err => console.log(err))
         console.log('Done')
       },
       registerForm: function () {
-        let registerData = {name: this.student_name, email: this.student_email, college: this.college, branch: this.branch, year: this.year, mobno: this.mobno, area_of_interest: this.area_of_interest, hobbies: this.hobbies}
+        let registerData = {
+          name: this.student_name,
+          email: this.student_email,
+          college: this.college,
+          branch: this.branch,
+          year: this.year,
+          mobno: this.mobno,
+          area_of_interest: this.area_of_interest,
+          hobbies: this.hobbies
+        }
         console.log(registerData)
         axios.post('http://localhost:4000/api/register',
           registerData,
@@ -543,7 +560,9 @@
           }
           })
           .then(response =>
-            console.log(response)
+            console.log(response),
+          alert('Stay alert!'),
+          window.location.reload()
           )
           .catch(err => console.log(err))
       }
