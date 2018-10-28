@@ -300,19 +300,19 @@
               <center>
               <div class="row team-section">
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/alan.jpeg" tabindex="0" @click="renderedComponent='Alan'" class="mhacks-mid-team-card-other-pic alan"/>
+                  <img src="../../assets/images/alan.jpg" tabindex="0" @click="renderedComponent='Alan'" class="mhacks-mid-team-card-other-pic alan"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/dani.jpeg"  tabindex="0" @click="renderedComponent='Dani'" class="mhacks-mid-team-card-other-pic dani"/>
+                  <img src="../../assets/images/dani.jpg"  tabindex="0" @click="renderedComponent='Dani'" class="mhacks-mid-team-card-other-pic dani"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/james.jpeg"  tabindex="0" @click="renderedComponent='James'" class="mhacks-mid-team-card-other-pic james"/>
+                  <img src="../../assets/images/james.jpg"  tabindex="0" @click="renderedComponent='James'" class="mhacks-mid-team-card-other-pic james"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/kavi.jpeg"  tabindex="0" @click="renderedComponent='Kavi'" class="mhacks-mid-team-card-other-pic kavi"/>
+                  <img src="../../assets/images/kavi.jpg"  tabindex="0" @click="renderedComponent='Kavi'" class="mhacks-mid-team-card-other-pic kavi"/>
                 </div>
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/sandra.jpg"  tabindex="0" @click="renderedComponent='Sandra'" class="mhacks-mid-team-card-other-pic sandra"/>
+                  <img src="../../assets/images/andria.jpg"  tabindex="0" @click="renderedComponent='Andria'" class="mhacks-mid-team-card-other-pic andria"/>
                 </div>
               </div>
               </center>
@@ -410,10 +410,10 @@
     <footer class="mhacks-footer">
       <div class="row mhacks-footer-row">
         <div class=" mhacks-footer-about col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <h2 class="mhacks-footer-title">Mad.Hacks</h2><br><br>
+          <h2 class="mhacks-footer-title">Mad Hacks</h2><br><br>
           <div class="mhacks-footer-content" style="margin-bottom: 1vh;">
           (91)8281634261 <br>
-          mad.hacks@gmail.com<br>
+          madhacks18@gmail.com<br>
           &copy; 2018
           </div>
         </div>
@@ -436,7 +436,7 @@
   import Kavi from './Team/Kavi.vue'
   import Alan from './Team/Alan.vue'
   import Dani from './Team/Dani.vue'
-  import Sandra from './Team/Sandra.vue'
+  import Andria from './Team/Andria.vue'
   import mview from './mv_features.vue'
   import Features from './Features.vue'
   import Register from './Register.vue'
@@ -514,7 +514,7 @@
       Kavi,
       Alan,
       Dani,
-      Sandra,
+      Andria,
       mview,
       Features,
       Register

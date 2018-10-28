@@ -3,14 +3,14 @@
             <div class="row">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <center>
-                  <img class="mhacks-mid-team-card-pic" src="../../../assets/images/sandra.jpg"/>
+                  <img class="mhacks-mid-team-card-pic" src="../../../assets/images/andria.jpg"/>
                 </center>
               </div>
             </div>
             <div class="row">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <center>
-                  <div class="mhacks-mid-team-card-pic-name">Sandra</div>
+                  <div class="mhacks-mid-team-card-pic-name">Andria Ajai</div>
                 </center>
               </div>
             </div>
