@@ -72,7 +72,7 @@
         memberDetails: [
           {
             name: 'James George',
-            position: 'Techy',
+            position: 'Techie',
             quote: `Mad.Hacks is a community for techies.<br> Latest technology with creative design is implemented here.`,
             pic: 'james.jpg'
           },
