@@ -233,13 +233,13 @@
           </div>
         </div>
       </div>
-      
+
     </div>
     <!-- End -->
 
     <!-- For Mobile View Features Section (Seperate)-->
     <mview></mview>
-    
+
     <!-- Mission Section -->
     <a name="about"></a>
     <div class="row mhacks-mission-section fadeInViewPort" id="mhacks-mission" ref="mission" style="margin-top:5%;" v-in-viewport.once='1000'>
@@ -291,32 +291,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <div class="mhacks-mid-team-card">
-
-            <keep-alive>
-              <component :is="renderedComponent" class="animated zoomIn"></component>
-            </keep-alive>
-            
-            <div class="container mhacks-mid-team-container animated fadeInFromLeft" v-in-viewport.once>
-              <center>
-              <div class="row team-section">
-                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/alan.jpg" tabindex="0" @click="renderedComponent='Alan'" class="mhacks-mid-team-card-other-pic alan"/>
-                </div>
-                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/dani.jpg"  tabindex="0" @click="renderedComponent='Dani'" class="mhacks-mid-team-card-other-pic dani"/>
-                </div>
-                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/james.jpg"  tabindex="0" @click="renderedComponent='James'" class="mhacks-mid-team-card-other-pic james"/>
-                </div>
-                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/kavi.jpg"  tabindex="0" @click="renderedComponent='Kavi'" class="mhacks-mid-team-card-other-pic kavi"/>
-                </div>
-                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                  <img src="../../assets/images/andria.jpg"  tabindex="0" @click="renderedComponent='Andria'" class="mhacks-mid-team-card-other-pic andria"/>
-                </div>
-              </div>
-              </center>
-            </div>
+            <Team class="animated zoomIn" />
           </div>
         </div>
       </div>
@@ -324,7 +299,7 @@
   </div>
     <!-- End -->
     <!-- Hire Us Now Section -->
-    <a name="contact"></a> 
+    <a name="contact"></a>
     <div class="mhacks-contact-section animated fadeInTop" ref="contact" v-in-viewport.once>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -432,17 +407,13 @@
 </template>
 
 <script>
-  import James from './Team/James.vue'
-  import Kavi from './Team/Kavi.vue'
-  import Alan from './Team/Alan.vue'
-  import Dani from './Team/Dani.vue'
-  import Andria from './Team/Andria.vue'
-  import mview from './mv_features.vue'
-  import Features from './Features.vue'
-  import Register from './Register.vue'
+  import Team from './Team'
+  import mview from './mv_features'
+  import Features from './Features'
+  import Register from './Register'
   import axios from 'axios'
 
-  export default{
+  export default {
     data: function () {
       return {
         renderedComponent: 'James',
@@ -510,11 +481,7 @@
       } */
     },
     components: {
-      James,
-      Kavi,
-      Alan,
-      Dani,
-      Andria,
+      Team,
       mview,
       Features,
       Register
