@@ -407,10 +407,10 @@
 </template>
 
 <script>
-  import Team from './Team'
-  import mview from './mv_features'
-  import Features from './Features'
-  import Register from './Register'
+  import Team from '../views/Team'
+  import mview from '../views/mv_features'
+  import Features from '../views/Features'
+  import Register from '../views/Register'
   import axios from 'axios'
 
   export default {
