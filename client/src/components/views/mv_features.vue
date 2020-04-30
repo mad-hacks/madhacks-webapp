@@ -82,7 +82,7 @@
 @media screen and (max-width: 751px) {
   .mhacks-features-mobileview {
     display: block;
-    font-family: "Muli", sans-serif;
+    font-family: 'Muli', sans-serif;
     margin-top: -76%;
     height: 1680px;
     width: 100%;
@@ -205,7 +205,7 @@
 @media screen and (max-width: 750px) {
   .mhacks-features-mobileview {
     display: block;
-    font-family: "Muli";
+    font-family: 'Muli';
   }
   .codeq_img {
     height: 40px;
