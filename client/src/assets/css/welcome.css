@@ -1,91 +1,91 @@
 /* All sorts of animations */
-@keyframes zoomIn{
-  from{
+@keyframes zoomIn {
+  from {
     opacity: 0.3;
     transform: scale(0.7);
   }
-  to{
+  to {
     transform: scale(1);
   }
-  }
-.animated.zoomIn{
+}
+.animated.zoomIn {
   animation-iteration-count: 1;
   animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
 }
-.zoomIn{
+.zoomIn {
   animation-name: zoomIn;
 }
-.zoomIn.in-viewport{
+.zoomIn.in-viewport {
   animation-duration: 1.4s;
 }
 
-@keyframes fadeIn{
-  from{
+@keyframes fadeIn {
+  from {
     opacity: 0;
   }
-  to{
+  to {
     opacity: 1;
   }
 }
-.animated.fadeIn{
+.animated.fadeIn {
   animation-iteration-count: 1;
   animation-duration: 0.6s;
   animation-timing-function: ease-in-out;
 }
-.fadeIn{
+.fadeIn {
   animation-name: fadeIn;
 }
 
-.fadeInViewPort{
+.fadeInViewPort {
   opacity: 0;
   transition: all 1.6s ease-in-out;
 }
-.fadeInViewPort.in-viewport{
+.fadeInViewPort.in-viewport {
   opacity: 1;
 }
 
-@keyframes fadeInTop{
-  from{
+@keyframes fadeInTop {
+  from {
     opacity: 0;
     transform: translateY(6vh);
   }
-  to{
+  to {
     transform: translateY(0vh);
     opacity: 1;
   }
 }
-.animated.fadeInTop{
+.animated.fadeInTop {
   animation-iteration-count: 1;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
 }
-.fadeInTop{
+.fadeInTop {
   animation-name: fadeInTop;
 }
-.fadeInTop.in-viewport{
+.fadeInTop.in-viewport {
   animation-duration: 1.4s;
   opacity: 1;
 }
 
-@keyframes fadeInLeft{
-  from{
+@keyframes fadeInLeft {
+  from {
     opacity: 0.2;
     transform: translateX(-6vw);
   }
-  to{
+  to {
     transform: translateX(0vw);
   }
 }
-.animated.fadeInFromLeft{
+.animated.fadeInFromLeft {
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;
   animation-duration: 1.6s;
 }
-.fadeInFromLeft{
+.fadeInFromLeft {
   animation-name: fadeInLeft;
 }
-.fadeInFromLeft.in-viewport{
+.fadeInFromLeft.in-viewport {
   opacity: 1;
 }
 
@@ -102,7 +102,7 @@
   list-style-type: none;
   float: left;
   padding: 15px 15px;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 500;
   font-size: 1.3em;
   color: #283149;
@@ -112,7 +112,7 @@
   float: left;
   padding: 20px 15px;
   padding-top: 25px;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 500;
   font-size: 1.3em;
   text-decoration: none;
@@ -120,35 +120,35 @@
 }
 
 .mhacks-event-vr {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   padding: 15px 15px;
   font-size: 1.3em;
   padding-top: 7.5vh;
   list-style: none;
 }
 
-.mhacks-event-vr a{
+.mhacks-event-vr a {
   padding: 20px 15px;
   text-decoration: none;
   color: #283149;
 }
 
-.mhacks-event-container{
-  background: url('../../assets/images/bg.png');
+.mhacks-event-container {
+  background: url("../../assets/images/bg.png");
   height: 100vh;
   background-size: cover;
   margin-top: -0.1vh;
 }
 
-.mhacks-event-content{
+.mhacks-event-content {
   float: right;
   padding-right: 15vw;
   margin-top: 20vh;
 }
 
-.mhacks-event-content h1{
+.mhacks-event-content h1 {
   color: #fff;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 .mhacks-tn-right-item {
@@ -156,7 +156,7 @@
   display: none;
   float: right;
   padding: 20px 20px;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 300;
   font-size: 1.3em;
   cursor: pointer;
@@ -165,7 +165,7 @@
 .mhacks-tn-right-item a {
   float: right;
   padding: 20px 20px;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 300;
   font-size: 1.3em;
   text-decoration: none;
@@ -186,7 +186,7 @@
 
 .mhacks-top-bg {
   position: relative;
-  background-image: url('../images/topBg.svg');
+  background-image: url("../images/topBg.svg");
   background-repeat: no-repeat;
   width: 100%;
   background-position-x: 100%;
@@ -195,7 +195,7 @@
 }
 
 .mhacks-top-header {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 300;
   font-size: 4em;
   margin-top: 19%;
@@ -203,7 +203,7 @@
 }
 
 .mhacks-top-para {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 200;
   font-size: 2em;
   margin-top: 4%;
@@ -226,7 +226,7 @@
   cursor: pointer;
 } */
 
-.mhacks-top-btn{
+.mhacks-top-btn {
   margin-top: 4%;
   margin-left: 7%;
   background-color: #283149;
@@ -234,48 +234,51 @@
   padding: 12px;
   border: none;
   text-align: center;
-  border-radius: .375rem;
+  border-radius: 0.375rem;
   width: 15%;
   font-size: 1.5em;
-  box-shadow: 12px 15px 20px rgba(0, 0, 0, .1);
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
 }
 
-.mhacks-top-btn:hover, .mhacks-register-btn:hover, .mhacks-hire-btn:hover{
+.mhacks-top-btn:hover,
+.mhacks-register-btn:hover,
+.mhacks-hire-btn:hover {
   transition: all 0.4s ease-in-out;
   box-shadow: none;
 }
 
-.mhacks-register-btn, .mhacks-hire-btn{
+.mhacks-register-btn,
+.mhacks-hire-btn {
   background-color: #283149;
   color: #fff;
   border: none;
   font-size: 1.2em;
-  border-radius: .375rem;
+  border-radius: 0.375rem;
   text-align: center;
   width: 45%;
   padding: 8px;
-  box-shadow: 12px 15px 20px rgba(0, 0, 0, .1);
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
 }
 
-.mhacks-hire-btn a{
+.mhacks-hire-btn a {
   text-decoration: none;
   color: #fff;
 }
 
-.modal-content{
-  font-family: 'Muli', sans-serif;
+.modal-content {
+  font-family: "Muli", sans-serif;
   border-radius: 0px;
   border: none;
 }
 
-.modal-body textarea{
+.modal-body textarea {
   resize: none;
   outline: none;
 }
 
-.modal-body input{
+.modal-body input {
   border: 0px;
-  border-radius: .375rem;
+  border-radius: 0.375rem;
   outline: none;
   width: 100%;
   padding: 6px 12px;
@@ -283,44 +286,44 @@
   border-bottom: 1px solid #ccc;
 }
 
-.modal-body input:focus{
+.modal-body input:focus {
   border-left: 1px solid #ccc;
   transition: 0.4s linear;
 }
 
-.form-control{
-  border-radius: .375rem;;
+.form-control {
+  border-radius: 0.375rem;
 }
 
-.form-control:focus{
+.form-control:focus {
   border-color: inherit;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-.mhacks-hire-btn{
+.mhacks-hire-btn {
   margin-top: 5vh;
 }
 
-.mhacks-modal-btn{
+.mhacks-modal-btn {
   color: #fff;
   background-color: #283149;
-  box-shadow: 12px 15px 20px rgba(0, 0, 0, .1);
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
 }
 
-.mhacks-modal-btn:hover{
+.mhacks-modal-btn:hover {
   transition: all 0.4s ease-in-out;
   box-shadow: none;
 }
 
-select{
-  -webkit-appearance: none; 
+select {
+  -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none; 
+  appearance: none;
 }
 
 .mhacks-mid-bg {
-  background-image: url('../images/serviceshadow.svg');
+  background-image: url("../images/serviceshadow.svg");
   background-repeat: no-repeat;
   background-position-x: 5%;
   width: 100%;
@@ -328,8 +331,8 @@ select{
   margin-bottom: 1%;
 }
 
-.mhacks-mid-bg-business{
-  background-image: url('../images/serviceshadow.svg');
+.mhacks-mid-bg-business {
+  background-image: url("../images/serviceshadow.svg");
   background-repeat: no-repeat;
   background-position-x: 80%;
   width: 100%;
@@ -338,7 +341,7 @@ select{
 }
 
 .mhacks-mid-header {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 4em;
   font-weight: 300;
   padding-top: 5%;
@@ -347,7 +350,7 @@ select{
 }
 
 .mhacks-mid-header-business {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 4em;
   font-weight: 300;
   padding-top: 5%;
@@ -369,7 +372,7 @@ select{
 }
 
 .mhacks-mid-pic-text {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 300;
   font-size: 1.5em;
   color: #283149;
@@ -377,8 +380,9 @@ select{
   margin-top: -20%;
 }
 
-.mhacks-mid-content, .mhacks-mid-content-business {
-  font-family: 'Muli', sans-serif;
+.mhacks-mid-content,
+.mhacks-mid-content-business {
+  font-family: "Muli", sans-serif;
   font-size: 1.5em;
   font-weight: 200;
   margin-top: 10%;
@@ -387,15 +391,15 @@ select{
   line-height: 3em;
 }
 
-.mhacks-mid-content-list-item{
+.mhacks-mid-content-list-item {
   display: list-item;
 }
 
-.mhacks-features-card{
-  border-right: .5px solid #ebebeb; 
+.mhacks-features-card {
+  border-right: 0.5px solid #ebebeb;
 }
 
-.mhacks-features-rowOne{
+.mhacks-features-rowOne {
   margin-bottom: 8vh;
 }
 
@@ -407,7 +411,7 @@ select{
 }
 
 .mhacks-mid-ft {
-  background-image: url('../images/computer.svg');
+  background-image: url("../images/computer.svg");
   width: 100%;
   height: 600px;
   background-repeat: no-repeat;
@@ -416,7 +420,7 @@ select{
 }
 
 .mhacks-mid-ft-content {
-  background-image: url('../images/ftvec.svg');
+  background-image: url("../images/ftvec.svg");
   width: 100%;
   height: 200px;
   background-repeat: no-repeat;
@@ -426,7 +430,7 @@ select{
 }
 
 .mhacks-mid-ft-text {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 4em;
   font-weight: 300;
   margin-top: 30%;
@@ -444,7 +448,7 @@ select{
 }
 
 .mhacks-mid-ft-list-name {
-  font-family: 'Muli';
+  font-family: "Muli";
   font-size: 1.5em;
   font-weight: 300;
   text-align: center;
@@ -454,7 +458,7 @@ select{
 }
 
 .mhacks-mid-ft-list-para {
-  font-family: 'Muli';
+  font-family: "Muli";
   font-size: 1.5em;
   font-weight: 200;
   text-align: center;
@@ -464,7 +468,7 @@ select{
 }
 
 .mhacks-mid-ft-list-two-para {
-  font-family: 'Muli';
+  font-family: "Muli";
   font-size: 1.5em;
   font-weight: 200;
   text-align: center;
@@ -475,7 +479,7 @@ select{
 }
 
 .mhacks-mid-mission-bg {
-  background-image: url('../images/missionvec.svg');
+  background-image: url("../images/missionvec.svg");
   background-repeat: no-repeat;
   width: 100%;
   height: 200px;
@@ -483,7 +487,7 @@ select{
 }
 
 .mhacks-mid-mission-text {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 4em;
   font-weight: 300;
   padding-left: 20%;
@@ -491,7 +495,7 @@ select{
 }
 
 .mhacks-mid-mission-content {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.5em;
   font-weight: 200;
   color: #283149;
@@ -507,7 +511,7 @@ select{
 }
 
 .mhacks-mid-team-header {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 4em;
   font-weight: 300;
   text-align: center;
@@ -531,19 +535,19 @@ select{
 }
 
 .mhacks-mid-team-card-pic-name {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 300;
   font-size: 1.5em;
 }
 
 .mhacks-mid-team-card-pic-position {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 300;
   font-size: 1.2em;
 }
 
 .mhacks-mid-team-card-pic-quote {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   margin-top: 2%;
   font-weight: 300;
   font-size: 1.7em;
@@ -560,7 +564,7 @@ select{
   cursor: pointer;
 }
 
-.mhacks-mid-team-card-other-pic:focus{
+.mhacks-mid-team-card-other-pic:focus {
   opacity: 1;
   transform: scale(1.25);
   outline: none;
@@ -571,7 +575,7 @@ select{
 }
 
 .mhacks-last-contact-bg {
-  background-image: url('../images/svect.svg');
+  background-image: url("../images/svect.svg");
   background-repeat: no-repeat;
   width: 100%;
   height: 150px;
@@ -581,7 +585,7 @@ select{
 }
 
 .mhacks-last-contact-header {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 4em;
   font-weight: 300;
   text-align: center;
@@ -593,10 +597,10 @@ select{
   width: 80%;
   padding: 12px;
   color: #283149;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.2em;
   font-weight: 200;
-  border-radius: .375rem;
+  border-radius: 0.375rem;
   margin-bottom: 5%;
 }
 
@@ -605,22 +609,22 @@ select{
   width: 80%;
   padding: 12px;
   color: #8e8e8e;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.2em;
   font-weight: 200;
-  border-radius: .375rem;
+  border-radius: 0.375rem;
   margin-bottom: 5%;
   resize: none;
 }
 
 .mhacks-last-contact-btn {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.2em;
   font-weight: 200;
-  border-radius: .375rem;
+  border-radius: 0.375rem;
   margin-bottom: 5%;
   background-color: #283149;
-  box-shadow: 12px 15px 20px rgba(0, 0, 0, .1);
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
   color: #fff;
   width: 80%;
   height: 50px;
@@ -628,13 +632,13 @@ select{
   padding: 12px;
 }
 
-.mhacks-last-contact-btn:hover{
+.mhacks-last-contact-btn:hover {
   transition: 0.4s ease-in-out;
   box-shadow: none;
 }
 
 .mhacks-last-contact-input-header {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.2em;
   font-weight: 200;
   color: #283149;
@@ -642,7 +646,7 @@ select{
 }
 
 .mhacks-last-contact-input-bg {
-  background-image: url('../images/mailvect.svg');
+  background-image: url("../images/mailvect.svg");
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
@@ -651,13 +655,13 @@ select{
 
 .mhacks-last-footer-bg {
   margin-top: 5%;
-  background-image: url('../images/btmvect.svg');
+  background-image: url("../images/btmvect.svg");
   background-repeat: no-repeat;
   width: 100%;
   height: 200px;
 }
 
-.mhacks-footer-social-media-icons{
+.mhacks-footer-social-media-icons {
   width: 60px;
   height: 60px;
   margin-top: 10vh;
@@ -665,36 +669,39 @@ select{
   cursor: pointer;
 }
 
-.contactus-section{
+.contactus-section {
   margin-bottom: 10vh;
 }
 
-.mhacks-footer-row{
+.mhacks-footer-row {
   height: 100%;
 }
 
-.mhacks-footer-community, .mhacks-footer-title{
+.mhacks-footer-community,
+.mhacks-footer-title {
   margin-top: 8vh;
   font-size: 1.5em;
 }
 
-.mhacks-footer-community, .mhacks-footer-policies{
+.mhacks-footer-community,
+.mhacks-footer-policies {
   margin-left: 16vw;
-  margin-bottom: .7vh;
+  margin-bottom: 0.7vh;
 }
 
-.mhacks-footer-policies a{
+.mhacks-footer-policies a {
   text-decoration: none;
   color: #fff;
 }
 
-.mhacks-footer-content, .mhacks-footer-policies{
+.mhacks-footer-content,
+.mhacks-footer-policies {
   font-weight: 100;
   line-height: 1.7em;
   font-size: 1.1em;
 }
 
-.mhacks-footer{
+.mhacks-footer {
   width: 100%;
   overflow: hidden;
   background-color: #283149;
@@ -704,116 +711,119 @@ select{
 }
 
 /* Media Queries */
-@media screen and (max-width: 3000px){
-  .contact-btn{
+@media screen and (max-width: 3000px) {
+  .contact-btn {
     margin-right: 12vw;
   }
-  .logo{
+  .logo {
     height: 378px;
     margin-top: -4vw;
   }
-  .mhacks-top-header{
+  .mhacks-top-header {
     margin-top: -3%;
   }
 }
 
-@media screen and (max-width: 2000px){
-  .mhacks-register-btn, .mhacks-hire-btn{
+@media screen and (max-width: 2000px) {
+  .mhacks-register-btn,
+  .mhacks-hire-btn {
     font-size: 1.1em;
   }
 }
 
-@media only screen and (max-width: 1800px){
-  .contact-btn{
+@media only screen and (max-width: 1800px) {
+  .contact-btn {
     margin-right: 12vw;
   }
-  .logo{
+  .logo {
     margin-top: -8vw;
   }
-  .mhacks-top-header{
+  .mhacks-top-header {
     margin-top: -5%;
   }
-  .mhacks-tn-right-item{
+  .mhacks-tn-right-item {
     display: none;
   }
-  .business-btn{
+  .business-btn {
     margin-right: -3vw;
   }
-  .about-btn{
+  .about-btn {
     margin-right: -2vw;
   }
-  .students-btn{
+  .students-btn {
     margin-right: -2vw;
   }
-  .mhacks-top-header{
+  .mhacks-top-header {
     font-size: 3.7em;
   }
-  .mhacks-mid-mission-content{
+  .mhacks-mid-mission-content {
     margin-left: 10%;
     width: 524px;
   }
-  .mhacks-mid-mission-sec-bg{
+  .mhacks-mid-mission-sec-bg {
     width: 1101px;
     float: right;
     height: 850px;
   }
-  .mhacks-mid-team-header{
+  .mhacks-mid-team-header {
     margin-top: -19%;
   }
 }
-@media only screen and (max-width: 1467px){
-  .students-btn{
+@media only screen and (max-width: 1467px) {
+  .students-btn {
     margin-right: -1vw;
   }
-  .about-btn{
+  .about-btn {
     margin-right: -1vw;
   }
-  .contact-btn{
+  .contact-btn {
     margin-right: 17vw;
   }
-  .business-btn{
+  .business-btn {
     margin-right: -1vw;
   }
-  .mhacks-top-header{
+  .mhacks-top-header {
     font-size: 3.5em;
   }
 }
 /* Laptop screens(upto 1400 px) */
-@media only screen and (max-width: 1400px){
-  .mhacks-tn-left-logo, .mhacks-event-vr {
+@media only screen and (max-width: 1400px) {
+  .mhacks-tn-left-logo,
+  .mhacks-event-vr {
     padding: 15px 10px;
     padding-top: 16px;
   }
-  
-  .mhacks-tn-left-logo a, .mhacks-event-vr a {
+
+  .mhacks-tn-left-logo a,
+  .mhacks-event-vr a {
     padding: 15px 10px;
     padding-top: 16px;
   }
-  
+
   .mhacks-tn-right-item {
     padding: 15px 10px;
     margin-left: -16vw;
     margin-right: 16vw;
   }
-  
+
   .mhacks-tn-right-item a {
     padding: 15px 10px;
   }
-  
+
   .mhacks-tn-right-item a:hover {
     padding: 15px 10px;
   }
 
-  .mhacks-top-bg{
+  .mhacks-top-bg {
     height: 700px;
   }
 
-  .mhacks-top-header{
+  .mhacks-top-header {
     font-size: 3.4em;
     margin-top: -5%;
   }
 
-  .mhacks-top-para{
+  .mhacks-top-para {
     font-size: 1.7em;
   }
 
@@ -823,110 +833,115 @@ select{
     height: 48px; */
   }
 
-  .mhacks-register-btn, .mhacks-hire-btn{
+  .mhacks-register-btn,
+  .mhacks-hire-btn {
     font-size: 0.9em;
     padding: 10px;
   }
 
-  .mhacks-mid-bg, .mhacks-mid-bg-business{
+  .mhacks-mid-bg,
+  .mhacks-mid-bg-business {
     height: 130px;
   }
 
-  .mhacks-mid-bg-business{
+  .mhacks-mid-bg-business {
     margin-top: 6%;
   }
 
-  .mhacks-mid-header{
+  .mhacks-mid-header {
     font-size: 3em;
     padding-top: 3%;
   }
 
-  .mhacks-mid-header-business{
+  .mhacks-mid-header-business {
     font-size: 3em;
     padding-top: 3%;
     padding-right: 25%;
   }
 
-  .mhacks-mid-ft{
+  .mhacks-mid-ft {
     height: 520px;
   }
 
-  .mhacks-mid-ft-content{
+  .mhacks-mid-ft-content {
     height: 130px;
   }
 
-  .mhacks-mid-ft-text{
+  .mhacks-mid-ft-text {
     font-size: 3.1em;
     padding-left: -26%;
     padding-top: 7%;
   }
-  
+
   /* .mhacks-mid-container{
     margin-left: 6%;
   } */
 
-  .mhacks-mid-mission-text{
+  .mhacks-mid-mission-text {
     font-size: 3.1em;
   }
 
-  .mhacks-mid-mission-bg{
+  .mhacks-mid-mission-bg {
     height: 140px;
   }
 
-  .mhacks-mid-mission-sec-bg{
+  .mhacks-mid-mission-sec-bg {
     width: 1100px;
     float: right;
     margin-right: -2vw;
   }
 
-  .mhacks-mid-mission-content{
+  .mhacks-mid-mission-content {
     margin-top: 10%;
     margin-left: 20%;
     font-size: 1.4em;
     line-height: 1.67em;
   }
 
-  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-name, .mhacks-mid-ft-list-two-para{
+  .mhacks-mid-ft-list-para,
+  .mhacks-mid-ft-list-name,
+  .mhacks-mid-ft-list-two-para {
     font-size: 1.4em;
   }
 
-  .mhacks-mid-team-header{
+  .mhacks-mid-team-header {
     font-size: 3.1em;
   }
 
-  .mhacks-mid-team-card{
+  .mhacks-mid-team-card {
     margin-top: -10%;
   }
 
-  .mhacks-last-contact-bg{
+  .mhacks-last-contact-bg {
     height: 110px;
   }
 
-  .mhacks-last-contact-header{
+  .mhacks-last-contact-header {
     font-size: 3.1em;
   }
 
-  .mhacks-last-contact-input, .mhacks-last-contact-textarea{
+  .mhacks-last-contact-input,
+  .mhacks-last-contact-textarea {
     font-size: 1em;
     padding: 8px;
   }
 
-  .mhacks-last-contact-btn{
+  .mhacks-last-contact-btn {
     height: 40px;
     font-size: 1.1em;
     padding: 8px;
     font-weight: bold;
   }
 
-  .mhacks-last-contact-btn:hover{
-    cursor:pointer;
+  .mhacks-last-contact-btn:hover {
+    cursor: pointer;
   }
 
-  .mhacks-last-contact-input-bg{
+  .mhacks-last-contact-input-bg {
     height: 450px;
   }
 
-  .mhacks-last-footer-bg{
+  .mhacks-last-footer-bg {
     height: 150px;
   }
 
@@ -934,12 +949,12 @@ select{
     width: 60%;
     margin-left: 0.6vw;
   }
-  
+
   .mhacks-last-contact-textarea {
     width: 60%;
     margin-left: 0.6vw;
   }
-  
+
   .mhacks-last-contact-btn {
     width: 60%;
     height: 40px;
@@ -947,45 +962,44 @@ select{
   }
 }
 
-@media only screen and (max-width: 1330px){
-  .mhacks-tn-right-item{
+@media only screen and (max-width: 1330px) {
+  .mhacks-tn-right-item {
     margin-left: -24vw;
     margin-right: 24vw;
   }
 
-  .mhacks-top-header{
+  .mhacks-top-header {
     font-size: 3.3em;
   }
 
-  .mhacks-top-para{
+  .mhacks-top-para {
     font-size: 1.6em;
   }
-
 }
 
-@media only screen and (max-width: 1290px){
-  .mhacks-tn-right-item{
+@media only screen and (max-width: 1290px) {
+  .mhacks-tn-right-item {
     margin-left: -28vw;
     margin-right: 28vw;
   }
 
-  .mhacks-top-bg{
+  .mhacks-top-bg {
     height: 660px;
   }
 
-  .mhacks-top-header{
+  .mhacks-top-header {
     font-size: 3.1em;
   }
 
-  .mhacks-top-para{
+  .mhacks-top-para {
     font-size: 1.5em;
   }
 
-  .mhacks-mid-team-header{
+  .mhacks-mid-team-header {
     font-size: 3em;
   }
 
-  .mhacks-mid-team-card-pic-quote{
+  .mhacks-mid-team-card-pic-quote {
     font-size: 1.5em;
   }
 
@@ -994,52 +1008,53 @@ select{
   } */
 }
 
-@media only screen and (max-width: 1220px){
-  .mhacks-top-header{
+@media only screen and (max-width: 1220px) {
+  .mhacks-top-header {
     font-size: 2.8em;
   }
 
-  .mhacks-top-para{
+  .mhacks-top-para {
     font-size: 1.4em;
   }
 
-  .mhacks-top-bg{
+  .mhacks-top-bg {
     height: 640px;
   }
 
-  .mhacks-mid-content, .mhacks-mid-content-business{
+  .mhacks-mid-content,
+  .mhacks-mid-content-business {
     font-size: 1.4em;
   }
 
-  .mhacks-mid-mission-text{
+  .mhacks-mid-mission-text {
     font-size: 3em;
   }
 
-  .mhacks-mid-mission-content{
+  .mhacks-mid-mission-content {
     font-size: 1.3em;
     margin-left: 12%;
   }
 
-  .mhacks-mid-mission-sec-bg{
+  .mhacks-mid-mission-sec-bg {
     width: 1000px;
   }
 
-  .mhacks-mid-ft-text{
+  .mhacks-mid-ft-text {
     font-size: 3em;
   }
 
-  .mhacks-mid-ft-content{
+  .mhacks-mid-ft-content {
     height: 120px;
   }
 
-  .mhacks-last-contact-bg{
+  .mhacks-last-contact-bg {
     height: 100px;
   }
 
-  .mhacks-last-contact-header{
+  .mhacks-last-contact-header {
     font-size: 3em;
   }
-  .logo{
+  .logo {
     margin-top: -9vw;
   }
 
@@ -1048,33 +1063,35 @@ select{
   } */
 }
 
-@media only screen and (max-width: 1200px){
-  .mhacks-tn-right-item{
+@media only screen and (max-width: 1200px) {
+  .mhacks-tn-right-item {
     margin-left: -30vw;
     margin-right: 30vw;
   }
 
-  .mhacks-top-bg{
+  .mhacks-top-bg {
     height: 620px;
   }
 
-  .mhacks-mid-header, .mhacks-mid-header-business{
+  .mhacks-mid-header,
+  .mhacks-mid-header-business {
     font-size: 2.9em;
   }
 
-  .mhacks-mid-bg, .mhacks-mid-bg-features{
+  .mhacks-mid-bg,
+  .mhacks-mid-bg-features {
     height: 120px;
   }
 
-  .mhacks-mid-ft{
+  .mhacks-mid-ft {
     height: 560px;
   }
 
-  .mhacks-mid-team-header{
+  .mhacks-mid-team-header {
     font-size: 2.9em;
   }
 
-  .mhacks-mid-team-card-pic-quote{
+  .mhacks-mid-team-card-pic-quote {
     font-size: 1.4em;
   }
 
@@ -1082,160 +1099,163 @@ select{
     margin-left: 8%;
   } */
 
-  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-name, .mhacks-mid-ft-list-two-para{
+  .mhacks-mid-ft-list-para,
+  .mhacks-mid-ft-list-name,
+  .mhacks-mid-ft-list-two-para {
     font-size: 1.3em;
   }
 
-  .mhacks-mid-mission-text{
+  .mhacks-mid-mission-text {
     font-size: 2.95em;
   }
 
-  .mhacks-mid-mission-content{
+  .mhacks-mid-mission-content {
     font-size: 1.25em;
   }
 
-  .mhacks-mid-mission-sec-bg{
+  .mhacks-mid-mission-sec-bg {
     width: 980px;
   }
 
-  .mhacks-mid-team-card-pic-quote{
+  .mhacks-mid-team-card-pic-quote {
     font-size: 1.4em;
   }
 
-  .mhacks-mid-team-card-pic-name{
+  .mhacks-mid-team-card-pic-name {
     font-size: 1.3em;
   }
 
-  .mhacks-mid-team-card-pic-position{
+  .mhacks-mid-team-card-pic-position {
     font-size: 1.3em;
   }
 }
 
-@media only screen and (max-width:1199px){
-  .mhacks-tn-right-item{
+@media only screen and (max-width: 1199px) {
+  .mhacks-tn-right-item {
     margin-left: -15vw;
     margin-right: 15vw;
   }
 
-  .mhacks-mid-content, .mhacks-mid-content-business{
+  .mhacks-mid-content,
+  .mhacks-mid-content-business {
     font-size: 1.3em;
   }
 }
 
-@media only screen and (max-width: 1150px){
-  .mhacks-tn-right-item{
+@media only screen and (max-width: 1150px) {
+  .mhacks-tn-right-item {
     margin-right: 17vw;
     margin-left: -17vw;
     font-size: 1.2em;
   }
 
-  .mhacks-tn-left-logo{
+  .mhacks-tn-left-logo {
     font-size: 1.2em;
   }
-  
-  .mhacks-top-bg{
+
+  .mhacks-top-bg {
     height: 560px;
     margin-left: 5vw;
-  } 
+  }
 
-  .mhacks-last-contact-bg{
+  .mhacks-last-contact-bg {
     height: 95px;
   }
 
-  .mhacks-last-contact-header{
+  .mhacks-last-contact-header {
     font-size: 2.95em;
   }
 }
 
-@media screen and (max-width: 1132px){
-  .logo{
+@media screen and (max-width: 1132px) {
+  .logo {
     margin-top: -11vw;
   }
 
-  .mhacks-mid-mission-sec-bg{
+  .mhacks-mid-mission-sec-bg {
     width: 960px;
   }
 
-  .mhacks-mid-mission-content{
+  .mhacks-mid-mission-content {
     width: 435px;
   }
 }
 
-@media screen and (max-width: 991px){
-  .mhacks-top-btn{
+@media screen and (max-width: 991px) {
+  .mhacks-top-btn {
     margin-top: 4%;
   }
-  .mhacks-top-para{
+  .mhacks-top-para {
     margin-top: -6%;
   }
-  .mhacks-top-header{
+  .mhacks-top-header {
     margin-top: -13%;
   }
-  .logo{
+  .logo {
     margin-top: -14vw;
   }
-  .mhacks-register-btn{
+  .mhacks-register-btn {
     width: 35%;
     font-size: 1em;
   }
-  .mhackss-hire-btn{
+  .mhackss-hire-btn {
     width: 45%;
     font-size: 1em;
   }
-  
 }
 
-@media only screen and (max-width: 1065px){
-  .mhacks-tn-left-logo{
+@media only screen and (max-width: 1065px) {
+  .mhacks-tn-left-logo {
     font-size: 1.1em;
   }
 
-  .mhacks-tn-right-item{
+  .mhacks-tn-right-item {
     font-size: 1.1em;
   }
 
-  .mhacks-top-bg{
+  .mhacks-top-bg {
     height: 520px;
   }
 
-  .mhacks-top-header{
+  .mhacks-top-header {
     font-size: 2.6em;
   }
 
-  .mhacks-top-para{
+  .mhacks-top-para {
     font-size: 1.3em;
     letter-spacing: 0.8px;
   }
 
-  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-two-para{
+  .mhacks-mid-ft-list-para,
+  .mhacks-mid-ft-list-two-para {
     font-size: 1.2em;
   }
 
-  .mhacks-mid-mission-text{
+  .mhacks-mid-mission-text {
     font-size: 2.9em;
   }
 
-  .mhacks-mid-mission-content{
+  .mhacks-mid-mission-content {
     font-size: 1.2em;
   }
 
-  .mhacks-mid-mission-sec-bg{
+  .mhacks-mid-mission-sec-bg {
     width: 960px;
   }
 
-  .mhacks-mid-team-header{
+  .mhacks-mid-team-header {
     font-size: 2.7em;
   }
 
-  .mhacks-mid-team-card-pic-quote{
+  .mhacks-mid-team-card-pic-quote {
     font-size: 1.3em;
   }
 
-  .mhacks-last-contact-bg{
+  .mhacks-last-contact-bg {
     height: 90px;
   }
 
-  .mhacks-last-contact-header{
+  .mhacks-last-contact-header {
     font-size: 2.8em;
   }
 
@@ -1244,32 +1264,32 @@ select{
   } */
 }
 
-@media only screen and (max-width: 1040px){
-  .mhacks-tn-right-item{
+@media only screen and (max-width: 1040px) {
+  .mhacks-tn-right-item {
     margin-left: -20vw;
     margin-right: 20vw;
   }
 }
 
-@media only screen and (max-width: 1020px){
-  .mhacks-tn-right-item{
+@media only screen and (max-width: 1020px) {
+  .mhacks-tn-right-item {
     margin-left: -24vw;
     margin-right: 24vw;
   }
 
-  .mhacks-mid-team-header{
+  .mhacks-mid-team-header {
     font-size: 2.5em;
   }
 
-  .mhacks-mid-team-card-pic-quote{
+  .mhacks-mid-team-card-pic-quote {
     font-size: 1.25em;
   }
 
-  .mhacks-mid-team-card-pic-name{
+  .mhacks-mid-team-card-pic-name {
     font-size: 1.2em;
   }
 
-  .mhacks-mid-team-card-pic-position{
+  .mhacks-mid-team-card-pic-position {
     font-size: 1.2em;
   }
 
@@ -1278,174 +1298,177 @@ select{
   } */
 }
 
-@media only screen and (max-width: 991px){
-  .mhacks-tn-right-item{
+@media only screen and (max-width: 991px) {
+  .mhacks-tn-right-item {
     margin-left: -2vw;
     margin-right: 2vw;
   }
 
-  .mhacks-top-bg{
+  .mhacks-top-bg {
     height: 480px;
   }
 
-  .mhacks-top-header{
+  .mhacks-top-header {
     font-size: 2.4em;
   }
 
-  .mhacks-top-para{
+  .mhacks-top-para {
     font-size: 1.2em;
   }
 
-  .mhacks-mid-header, .mhacks-mid-header-business{
+  .mhacks-mid-header,
+  .mhacks-mid-header-business {
     font-size: 2.7em;
   }
 
-  .mhacks-mid-bg, .mhacks-mid-bg-business{
+  .mhacks-mid-bg,
+  .mhacks-mid-bg-business {
     height: 130px;
     margin-top: 5vh;
   }
 
-  .mhacks-mid-content{
+  .mhacks-mid-content {
     font-size: 1.2em;
     margin-left: -1vw;
     margin-top: 12%;
   }
 
-  .mhacks-mid-content-business{
+  .mhacks-mid-content-business {
     font-size: 1.2em;
     margin-left: 8vw;
     margin-top: 12%;
   }
 
-  .mhacks-mid-content-pic{
+  .mhacks-mid-content-pic {
     height: 280px;
   }
 
-  .mhacks-features-section{
+  .mhacks-features-section {
     margin-top: 5%;
   }
 
-  .mhacks-mid-ft-list{
+  .mhacks-mid-ft-list {
     margin-top: 5%;
   }
 
-  .mhacks-mid-mission-bg{
+  .mhacks-mid-mission-bg {
     height: 120px;
   }
 
-  .mhacks-mid-ft-list-name{
+  .mhacks-mid-ft-list-name {
     font-size: 1.2em;
   }
 
-  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-two-para{
+  .mhacks-mid-ft-list-para,
+  .mhacks-mid-ft-list-two-para {
     font-size: 1.1em;
   }
 
-  .mhacks-mid-mission-text{
+  .mhacks-mid-mission-text {
     font-size: 2.8em;
   }
 
-  .mhacks-mid-mission-content{
+  .mhacks-mid-mission-content {
     font-size: 1.15em;
     width: 100%;
     margin-left: 12%;
   }
 
-  .mhacks-mid-team-card{
+  .mhacks-mid-team-card {
     margin-top: -20%;
     margin-bottom: -28%;
   }
 
-  .mhacks-mid-team-header{
+  .mhacks-mid-team-header {
     margin-top: -26%;
   }
 
-  .mhacks-mid-mission-sec-bg{
+  .mhacks-mid-mission-sec-bg {
     width: 920px;
     margin-top: -10%;
   }
 
-  .mhacks-last-contact-input-header{
+  .mhacks-last-contact-input-header {
     margin-top: 60%;
   }
 
   .mhacks-last-contact-input {
     width: 80%;
   }
-  
+
   .mhacks-last-contact-textarea {
     width: 80%;
   }
 
-  .mhacks-last-contact-btn{
+  .mhacks-last-contact-btn {
     width: 80%;
   }
 
-  .mhacks-last-contact-bg{
+  .mhacks-last-contact-bg {
     height: 80px;
     margin-top: 20%;
     margin-bottom: -10%;
   }
 
-  .mhacks-last-contact-input-bg{
+  .mhacks-last-contact-input-bg {
     margin-top: 62%;
   }
 
-  .mhacks-last-contact-header{
+  .mhacks-last-contact-header {
     font-size: 2.6em;
     padding-top: 2%;
   }
 }
 
-@media only screen and (max-width: 965px){
-  .mhacks-tn-right-item{
+@media only screen and (max-width: 965px) {
+  .mhacks-tn-right-item {
     margin-left: -8vw;
     margin-right: 8vw;
     font-size: 1em;
   }
 
-  .mhacks-tn-left-logo{
+  .mhacks-tn-left-logo {
     font-size: 1em;
   }
 
-  .mhacks-top-bg{
+  .mhacks-top-bg {
     height: 420px;
   }
 
-  .mhacks-top-header{
+  .mhacks-top-header {
     font-size: 2.3em;
   }
 
-  .mhacks-top-para{
+  .mhacks-top-para {
     font-size: 1.1em;
   }
 
-  .mhacks-top-btn{
+  .mhacks-top-btn {
     font-size: 1.1em;
     width: 160px;
     height: 45px;
   }
 
-  .mhacks-mid-ft-list{
+  .mhacks-mid-ft-list {
     margin-top: 2%;
   }
-  
-  .mhacks-mid-mission-sec-bg{
+
+  .mhacks-mid-mission-sec-bg {
     width: 820px;
     margin-top: -18%;
   }
 }
 
-@media only screen and (max-width: 894px){
-  .mhacks-top-header{
+@media only screen and (max-width: 894px) {
+  .mhacks-top-header {
     font-size: 2.2em;
   }
 
-  .mhacks-top-para{
+  .mhacks-top-para {
     font-size: 1em;
   }
 
-  .mhacks-top-btn{
+  .mhacks-top-btn {
     font-size: 1em;
     height: 45px;
     width: 140px;
@@ -1457,250 +1480,256 @@ select{
     padding: 0px;
   } */
 
-  .mhacks-top-bg{
+  .mhacks-top-bg {
     height: 400px;
   }
 
-  .mhacks-tn-left-logo{
+  .mhacks-tn-left-logo {
     font-size: 0.9em;
   }
 
-  .mhacks-tn-right-item{
+  .mhacks-tn-right-item {
     font-size: 0.9em;
     margin-left: -12vw;
     margin-right: 12vw;
   }
 
-  .mhacks-mid-header, .mhacks-mid-header-business{
+  .mhacks-mid-header,
+  .mhacks-mid-header-business {
     font-size: 2.3em;
   }
 
-  .mhacks-mid-bg, .mhacks-mid-bg-business{
+  .mhacks-mid-bg,
+  .mhacks-mid-bg-business {
     height: 110px;
   }
 
-  .mhacks-mid-content, .mhacks-mid-content-business{
+  .mhacks-mid-content,
+  .mhacks-mid-content-business {
     font-size: 1.1em;
     margin-top: 12%;
   }
 
-  .mhacks-mid-content-pic{
+  .mhacks-mid-content-pic {
     height: 260px;
   }
 
-  .mhacks-mid-ft-list-name{
+  .mhacks-mid-ft-list-name {
     font-size: 1em;
   }
 
-  .mhacks-mid-ft-list-para, .mhacks-mid-ft-list-two-para{
+  .mhacks-mid-ft-list-para,
+  .mhacks-mid-ft-list-two-para {
     font-size: 0.95em;
   }
 
-  .mhacks-mid-mission-text{
+  .mhacks-mid-mission-text {
     font-size: 2.5em;
   }
 
-  .mhacks-mid-mission-content{
+  .mhacks-mid-mission-content {
     font-size: 1.1em;
   }
 
-  .mhacks-mid-mission-sec-bg{
+  .mhacks-mid-mission-sec-bg {
     width: 760px;
     margin-top: -20%;
   }
 
-  .mhacks-last-contact-bg{
+  .mhacks-last-contact-bg {
     height: 75px;
   }
 
-  .mhacks-last-contact-header{
+  .mhacks-last-contact-header {
     font-size: 2.2em;
   }
 }
 
-@media only screen and (max-width: 850px){
-  .mhacks-top-header{
+@media only screen and (max-width: 850px) {
+  .mhacks-top-header {
     font-size: 2.1em;
   }
 
-  .mhacks-tn-right-item{
+  .mhacks-tn-right-item {
     margin-left: -18vw;
     margin-right: 18vw;
   }
 
-  .mhacks-mid-header-business{
+  .mhacks-mid-header-business {
     padding-top: 4%;
   }
 
-  .mhacks-mid-content{
+  .mhacks-mid-content {
     margin-left: 5%;
   }
 
-  .mhacks-mid-mission-bg{
+  .mhacks-mid-mission-bg {
     height: 100px;
   }
 
-  .mhacks-mid-mission-text{
+  .mhacks-mid-mission-text {
     font-size: 2.4em;
   }
 
-  .mhacks-mid-mission-content{
+  .mhacks-mid-mission-content {
     font-size: 1.05em;
   }
 
-  .mhacks-mid-mission-sec-bg{
+  .mhacks-mid-mission-sec-bg {
     width: 720px;
     margin-top: -25%;
   }
 
-  .mhacks-mid-team-header{
+  .mhacks-mid-team-header {
     font-size: 2.3em;
     margin-top: -40%;
   }
 
-  .mhacks-mid-team-card{
+  .mhacks-mid-team-card {
     margin-top: -30%;
     margin-bottom: -40%;
   }
 }
 
-@media only screen and (max-width: 810px){
-  .mhacks-tn-right-item{
+@media only screen and (max-width: 810px) {
+  .mhacks-tn-right-item {
     margin-left: -22vw;
     margin-right: 22vw;
   }
-  .mhacks-mid-team-card{
+  .mhacks-mid-team-card {
     margin-bottom: -22%;
   }
-  .mhacks-mid-header, .mhacks-mid-header-business{
+  .mhacks-mid-header,
+  .mhacks-mid-header-business {
     font-size: 2.1em;
   }
 
-  .mhacks-mid-header-business{
+  .mhacks-mid-header-business {
     padding-top: 3%;
   }
 
-  .mhacks-mid-bg, .mhacks-mid-bg-business{
+  .mhacks-mid-bg,
+  .mhacks-mid-bg-business {
     height: 90px;
   }
 
-  .mhacks-mid-content{
+  .mhacks-mid-content {
     margin-left: 8%;
   }
 
-  .mhacks-mid-content-pic{
+  .mhacks-mid-content-pic {
     height: 240px;
   }
 
-  .mhacks-mid-mission-text{
+  .mhacks-mid-mission-text {
     font-size: 2.2em;
   }
 
-  .mhacks-mid-mission-content{
+  .mhacks-mid-mission-content {
     font-size: 1em;
   }
 
-  .mhacks-mid-mission-sec-bg{
+  .mhacks-mid-mission-sec-bg {
     width: 660px;
     margin-top: -30%;
   }
 
-  .mhacks-register-btn{
-    font-size: .9em;
+  .mhacks-register-btn {
+    font-size: 0.9em;
     width: 40%;
   }
 }
 /* ToDo => Fix Navbar items for 769 and below resolutions. */
-@media only screen and (max-width: 769px){
-  .mhacks-tn-left-logo a{
+@media only screen and (max-width: 769px) {
+  .mhacks-tn-left-logo a {
     padding-left: 3px;
     font-size: 1em;
   }
 
-  .mhacks-tn-right-item a{
+  .mhacks-tn-right-item a {
     font-size: 1em;
     margin-left: 2vw;
     margin-right: 2vw;
   }
 
-  .mhacks-tn-right-item{
+  .mhacks-tn-right-item {
     margin-left: -2vw;
     margin-right: 6vw;
   }
 
-  .mhacks-top-bg{
+  .mhacks-top-bg {
     height: 370px;
   }
 
-  .mhacks-mid-content{
+  .mhacks-mid-content {
     margin-left: 10%;
   }
 
-  .mhacks-mid-mission-text{
+  .mhacks-mid-mission-text {
     font-size: 2em;
   }
 
-  .mhacks-mid-mission-sec-bg{
+  .mhacks-mid-mission-sec-bg {
     width: 600px;
   }
 
-  .mhacks-last-contact-bg{
+  .mhacks-last-contact-bg {
     height: 70px;
   }
 
-  .mhacks-last-contact-header{
+  .mhacks-last-contact-header {
     font-size: 2em;
   }
 }
-@media screen and (max-width: 770px){
-  .mhacks-tn-right-item{
+@media screen and (max-width: 770px) {
+  .mhacks-tn-right-item {
     display: none;
   }
 }
-@media screen and (max-width: 750px){
-  .mhacks-tn-right-item{
+@media screen and (max-width: 750px) {
+  .mhacks-tn-right-item {
     display: none;
   }
-  .mhacks-top-header{
+  .mhacks-top-header {
     color: #f73589;
     margin-left: 50%;
     width: 409px;
     margin-top: -30%;
   }
-  .mhacks-top-para{
+  .mhacks-top-para {
     margin-left: 30vw;
     width: 307px;
     margin-top: -19%;
   }
-  .mhacks-tp1{
+  .mhacks-tp1 {
     margin-left: -0.1vw;
   }
-  .mhacks-top-btn{
+  .mhacks-top-btn {
     margin-left: 39vw;
   }
 }
-@media screen and (max-width: 761px){
-  .mhacks-mid-team-card-other-pic{
+@media screen and (max-width: 761px) {
+  .mhacks-mid-team-card-other-pic {
     float: right;
   }
-  .alan{
+  .alan {
     margin-right: 1px;
   }
-  .dani{
+  .dani {
     margin-right: -19px;
   }
-  .james{
+  .james {
     margin-right: -34px;
   }
-  .kavi{
+  .kavi {
     margin-right: -45px;
   }
-  .andria{
+  .andria {
     margin-right: -7vw;
   }
 }
-@media screen and (max-width: 750px){
-  .mhacks-tn-right-item{
+@media screen and (max-width: 750px) {
+  .mhacks-tn-right-item {
     display: none;
   }
   /*.contactus-section{
@@ -1712,922 +1741,922 @@ select{
     height: 618px;
     margin-top: -7%;
   }*/
-  .mhacks-last-contact-btn{
+  .mhacks-last-contact-btn {
     width: 208%;
   }
-  .mhacks-last-contact-textarea{
+  .mhacks-last-contact-textarea {
     width: 209%;
   }
-  .mhacks-last-contact-input{
+  .mhacks-last-contact-input {
     width: 209%;
   }
-  .mhacks-last-contact-header{
+  .mhacks-last-contact-header {
     padding-top: 13%;
     color: #000;
   }
-  .mhacks-last-contact-input-header{
+  .mhacks-last-contact-input-header {
     color: #000;
   }
-  .mhacks-last-contact-input-bg{
+  .mhacks-last-contact-input-bg {
     display: none;
   }
-  .mhacks-last-footer-bg{
+  .mhacks-last-footer-bg {
     display: none;
   }
-  .mhacks-mid-content{
+  .mhacks-mid-content {
     width: 290px;
   }
-  .mhacks-mid-mission-content{
+  .mhacks-mid-mission-content {
     width: 535px;
     margin-bottom: 320px;
   }
-  .mhacks-mid-mission-text{
+  .mhacks-mid-mission-text {
     padding-left: 9%;
     padding-top: 11%;
   }
-  .mhacks-mid-ft-text{
+  .mhacks-mid-ft-text {
     padding-right: 20%;
   }
-  .mhacks-top-bg{
+  .mhacks-top-bg {
     display: none;
   }
-  .students-section{
+  .students-section {
     display: grid;
     margin: 0 auto;
   }
-  .mhacks-mid-content-business{
+  .mhacks-mid-content-business {
     margin-top: -79vw;
     width: 270px;
   }
-  .business-pic{
+  .business-pic {
     margin-top: 49vw;
   }
-  .mhacks-mid-header{
-    margin-left: 15%; 
+  .mhacks-mid-header {
+    margin-left: 15%;
   }
-  .students-container{
+  .students-container {
     margin-left: 26%;
   }
-  .business-section{
+  .business-section {
     display: grid;
     margin-left: 26%;
   }
-  .mhacks-mid-header-business{
+  .mhacks-mid-header-business {
     margin-right: 10%;
   }
-  .mhacks-mid-ft{
+  .mhacks-mid-ft {
     background-image: none;
   }
-  .mhacks-mid-ft-content{
+  .mhacks-mid-ft-content {
     margin-left: -60%;
   }
-  .mhacks-features-section{
+  .mhacks-features-section {
     display: none;
   }
-  .mhacks-mid-bg{
+  .mhacks-mid-bg {
     background-image: none;
   }
-  .mhacks-mid-bg-business{
+  .mhacks-mid-bg-business {
     background-image: none;
   }
-  .mhacks-mid-ft-content{
+  .mhacks-mid-ft-content {
     background-image: none;
   }
-  .mhacks-mid-mission-bg{
+  .mhacks-mid-mission-bg {
     background-image: none;
   }
-  .mhacks-last-contact-bg{
+  .mhacks-last-contact-bg {
     background-image: none;
   }
-  .mhacks-mid-mission-sec-bg{
+  .mhacks-mid-mission-sec-bg {
     display: none;
   }
 }
-@media screen and (max-width: 751px){
-  .mhacks-mid-mission-sec-bg{
+@media screen and (max-width: 751px) {
+  .mhacks-mid-mission-sec-bg {
     display: none;
   }
-  .mhacks-mid-ft-text{
+  .mhacks-mid-ft-text {
     color: #fff;
   }
-  .mhacks-mid-mission-content{
+  .mhacks-mid-mission-content {
     float: left;
     width: 500px;
   }
-  .mhacks-features-section{
+  .mhacks-features-section {
     display: none;
   }
 }
-@media screen and (max-width: 701px){
-  .mhacks-mid-content-business{
+@media screen and (max-width: 701px) {
+  .mhacks-mid-content-business {
     width: 270px;
   }
-  .mhacks-top-header{
+  .mhacks-top-header {
     width: 409px;
   }
-  .mhacks-top-para{
+  .mhacks-top-para {
     width: 306px;
   }
 }
-@media screen and (max-width: 695px){
-  .mhacks-mid-ft-text{
+@media screen and (max-width: 695px) {
+  .mhacks-mid-ft-text {
     padding-top: 18%;
   }
 }
-@media screen and (max-width: 680px){
-  .mhacks-mid-ft-text{
+@media screen and (max-width: 680px) {
+  .mhacks-mid-ft-text {
     margin-top: 49%;
   }
 }
-@media screen and (max-width: 651px){
-  .mhacks-mid-ft-text{
+@media screen and (max-width: 651px) {
+  .mhacks-mid-ft-text {
     margin-top: 60%;
   }
-  .mhacks-register-btn{
+  .mhacks-register-btn {
     height: 45%;
-    font-size: .8em;
+    font-size: 0.8em;
   }
-  .mhacks-hire-btn{
-    font-size: .8em;
+  .mhacks-hire-btn {
+    font-size: 0.8em;
   }
 }
-@media screen and (max-width: 610px){
-  .mhacks-mid-ft-text{
+@media screen and (max-width: 610px) {
+  .mhacks-mid-ft-text {
     margin-top: 25vw;
   }
 }
-@media screen and (max-width: 603px){
-  .mhacks-top-para{
+@media screen and (max-width: 603px) {
+  .mhacks-top-para {
     margin-top: -33%;
   }
-  .mhacks-top-header{
+  .mhacks-top-header {
     margin-top: -45%;
   }
-  .mhacks-register-btn{
+  .mhacks-register-btn {
     height: 34px;
-  } 
-}
-  @media screen and (max-width: 601px){
-    .mhacks-top-para{
-      width: 311px;
-      margin-top: -9vw;
-    }
-    .mhacks-top-header{
-      margin-left: 33%;
-    }
-    .mhacks-top-btn{
-      margin-left: 36vw;
-    }
-    .mhacks-mid-content-business{
-      margin-top: -108vw;
-    }
-    .business-pic{
-      margin-top: 72vw;
-    }
-    .mhacks-top-para{
-      margin-left: 25vw;
-    }
-    .business-pic{
-      margin-top: 61vw;
-    }
-    .mhacks-mid-content-business{
-      margin-top: -98vw;
-    }
-    .mhacks-top-header{
-      width: 409px;
-    }
-    .mhacks-mid-header{
-      margin-left: 5%;
-    }
-    .mhacks-mid-content{
-      width: 270px;
-      line-height: 2em;
-      margin-left: -12%;
-    }
-    .mhacks-mid-content-pic{
-      height: 239px;
-      width: 230px;
-      float: right;
-      margin-right: -35%;
-    }
-    .mhacks-mid-content-business{
-      width: 270px;
-      margin-left: 20%;
-    }
-    .mhacks-mid-mission-sec-bg{
-      display: none;
-    }
-    .mhacks-mid-mission-content{
-      width: 450px;
-      margin-bottom: 250px;
-    }
-    .contact-form{
-      width: 350px;
-    }
-    .mhacks-last-contact-input-bg{
-      display: none;
-    }
-    .mhacks-last-contact-input{
-      width: 175%;
-    }  
-    .mhacks-last-contact-textarea{
-      width: 175%;
-    }
-    .mhacks-last-contact-btn{
-      width: 175%;
-    }
-    .mhacks-mid-mission-text{
-      padding-left: 38vw;
-      width: 385px;
-    }
-    .mhacks-mid-mission-content{
-      margin-left: 10vw;
-    }
-    .mhacks-mid-team-header{
-      margin-top: -36%;
-    }
-    .alan{
-      margin-right: 14px;
-    }
-    .dani{
-      margin-right: -10px;
-    }
-    .kavi{
-      margin-right: -56px;
-    }
-    .andria{
-      margin-right: -71px;
-    }
-  }
-  @media screen and (max-width: 594px){
-    .mhacks-top-header{
-      margin-left: 43%;
-    }
-    .mhacks-top-para{
-      margin-left: 27vw;
-    }
-  }
-  @media screen and (max-width: 584px){
-    .mhacks-mid-ft-text{
-      margin-top: 28vw;
-    }
-  }
-  @media screen and (max-width: 571px){
-    .alan{
-      margin-right: 7px;
-    }
-    .dani{
-      margin-right: -8px;
-    }
-    .mhacks-mid-team-card-other-pic{
-      width: 40px;
-      height: 40px;
-    }
-    .james{
-      margin-right: -23px;
-    }
-    .kavi{
-      margin-right: -34px;
-    }
-    .andria{
-      margin-right: -7vw;
-    }
-  }
-  @media screen and (max-width: 566px){
-    .mhacks-mid-ft-text{
-      margin-top: 31vw;
-    }
-  }
-  
-  @media screen and (max-width: 557px){
-    .alan{
-      margin-right: 6px;
-    }
-    .dani{
-      margin-right: -18px;
-    }
-    .james{
-      margin-right: -39px;
-    }
-    .kavi{
-      margin-right: -60px;
-    }
-    .andria{
-      margin-right: -14vw;
-    }
-  }
-  @media screen and (max-width: 552px){
-    .mhacks-top-header{
-      margin-left: 30%;
-    }
-    .mhacks-top-para{
-      margin-left: 22vw;
-    }
-    .mhacks-top-btn{
-      margin-left: 34vw;
-    }
-    .mhacks-mid-ft-text{
-      margin-top: 33vw;
-    }
-  }
-  @media screen and (max-width: 544px){
-    .mhacks-mid-ft-text{
-      margin-top: 85%;
-    }
-  }
-  @media screen and (max-width: 542px){
-    .mhacks-mid-content-business{
-      margin-top: -100vw;
-    }
-  }
-  @media screen and (max-width: 530px){
-    .mhacks-mid-ft-text{
-      margin-top: 97%;
-    }
-  }
-  @media screen and (max-width: 510px){
-    .mhacks-mid-ft-text{
-      margin-top: 108%;
-    }
-  }
-  @media screen and (max-width: 496px){
-    .mhacks-mid-ft-text{
-      margin-top: 120%;
-    }
-  }
-  @media screen and (max-width: 484px){
-    .mhacks-top-header{
-      margin-left: 7vw;
-    }
-    .mhacks-top-para{
-      margin-left: 18vw;
-    }
-    .mhacks-top-btn{
-      margin-left: 30vw;
-    }
-  }
-  @media screen and (max-width: 482px){
-    .mhacks-mid-content-business{
-      margin-top: -107vw;
-    }
-  }
-  @media screen and (max-width: 450px){
-    .mhacks-mid-ft-text{
-      margin-top: 151%;
-    }
-  }
-  @media screen and (max-width: 466px){
-    .mhacks-top-header{
-      margin-left: 4vw;
-    }
-    .mhacks-top-para{
-      margin-left: 15vw;
-    }
-  }
-  @media screen and (max-width: 425px){
-    .dani{
-      margin-right: -7px;
-    }
-    .james{
-      margin-right: -24px;
-    }
-    .kavi{
-      margin-right: -44px;
-    }
-  }
-  @media screen and (max-width: 429px){
-    .mhacks-mid-mission-content{
-      width: 372px;
-    }
-    .mhacks-last-contact-input-header{
-      margin-top: 25%;
-    }
-    .mhacks-last-contact-input{
-      width: 120%;
-    }
-    .mhacks-last-contact-textarea{
-      width: 120%;
-    }
-    .mhacks-last-contact-btn{
-      width: 120%;
-    }
-    .mhacks-mid-ft-text{
-      color: #fff;
-      width: 100%;
-      margin: 0 auto;
-      margin-top: 7vw;
-    }
-  }
-  @media screen and (max-width: 426px){
-    .mhacks-mid-content-business{
-      margin-top: -117vw;
-    }
-    .mhacks-mid-mission-content{
-      margin-left: 3vw;
-    }
-    .mhacks-mid-mission-text{
-      padding-left: 31vw;
-    }
-    .mhacks-top-para{
-      margin-top: -2vw;
-      margin-left: 13vw;
-    }
-    .mhacks-top-btn{
-      margin-top: 30%;
-    }
-    .mhacks-mid-content{
-      margin-left: -23%;
-    }
-    .mhacks-mid-header{
-      margin-left: 2%;
-    }
-    .mhacks-mid-content-pic{
-      margin-right: -16vw;
-    }
-    .mhacks-mid-content-business{
-      margin-left: -1vw;
-    }
-    .dani{
-      margin-right: -12px;
-    }
-    .james{
-      margin-right: -29px;
-    }
-    .kavi{
-      margin-right: -47px;
-    }
-    .mhacks-footer-about{
-      margin-left: -5vw;
-    }
-    .community-side-footer{
-      margin-left: 5vw;
-    }
-    .mhacks-top-header{
-      margin-left: -1vw;
-    }
-    .mhacks-hire-btn{
-      margin-left: 4vw;
-      margin-top: 69vw;
-      margin-bottom: 15vw;
-    }
-    .mhacks-footer-title{
-      font-size: 1.3em;
-    }
-    .mhacks-footer-content{
-      font-size: 0.9em;
-    }
-    .mhacks-footer-policies{
-      font-size: 0.9em;
-      margin-left: 5vw;
-      margin-top: -0.9vw;
-    }
-    .mhacks-footer-community{
-      margin-left: 5vw;
-    }
-  }
-  @media screen and (max-width: 415px){
-    .mhacks-top-para{
-      width: 306px;
-      margin-left: 8vw;
-      margin-top: -14vw;
-    }
-    .logo{
-      margin-left: -20vw;
-    }
-    .mhacks-mid-team-card-pic{
-      width: 150px;
-      height: 150px;
-    }
-    .mhacks-mid-team-card-pic-quote{
-      font-size: 0.91em;
-    }
-    .mhacks-mid-team-card-pic-name{
-      font-size: 1.2em;
-    }
-    .mhacks-mid-team-card-pic-position{
-      font-size: 1em;
-    }
-    .mhacks-top-btn{
-      margin-top: 2vw;
-      margin-left: 25vw;
-    }
-    .mhacks-mid-header{
-      margin-left: -2%;
-    }
-    .mhacks-mid-content{
-      width: 270px;
-      line-height: 2em;
-      margin-left: -40%;
-    }
-    .mhacks-mid-content-pic{
-      height: 239px;
-      width: 230px;
-      float: right;
-      margin-right: -35%;
-    }
-    .mhacks-mid-content-business{
-      width: 270px;
-      margin-left: -5%;
-    }
-    .mhacks-mid-mission-sec-bg{
-      display: none;
-    }
-    .mhacks-mid-mission-content{
-      width: 320px;
-      margin-bottom: 195px;
-    }
-    .mhacks-last-contact-header{
-      margin-top: 10%;
-      margin-right: 8%;
-    }
-    .mhacks-last-contact-input-bg{
-      display: none;
-    }
-    .contact-form{
-      width: 350px;
-    }
-    .mhacks-last-contact-input-header{
-      margin-top: 20%;
-      margin-bottom: 10%;
-    }
-    .mhacks-top-header{
-      width: 409px;
-      font-size: 1.9em;
-      margin-left: 1vw;
-      margin-top: -30vw;
-    }
-    .mhacks-mid-ft-text{
-      margin-top: 24%;
-    }
-}
-@media screen and (max-width: 414px){
-  .mhacks-last-contact-input{
-    width: 115%;
-  }
-  .mhacks-last-contact-textarea{
-    width: 115%;
-  }
-  .mhacks-last-contact-btn{
-    width: 115%;
   }
 }
-@media screen and (max-width: 412px){
-  .mhacks-register-btn{
+@media screen and (max-width: 601px) {
+  .mhacks-top-para {
+    width: 311px;
+    margin-top: -9vw;
+  }
+  .mhacks-top-header {
+    margin-left: 33%;
+  }
+  .mhacks-top-btn {
+    margin-left: 36vw;
+  }
+  .mhacks-mid-content-business {
+    margin-top: -108vw;
+  }
+  .business-pic {
+    margin-top: 72vw;
+  }
+  .mhacks-top-para {
+    margin-left: 25vw;
+  }
+  .business-pic {
+    margin-top: 61vw;
+  }
+  .mhacks-mid-content-business {
+    margin-top: -98vw;
+  }
+  .mhacks-top-header {
+    width: 409px;
+  }
+  .mhacks-mid-header {
+    margin-left: 5%;
+  }
+  .mhacks-mid-content {
+    width: 270px;
+    line-height: 2em;
+    margin-left: -12%;
+  }
+  .mhacks-mid-content-pic {
+    height: 239px;
+    width: 230px;
+    float: right;
+    margin-right: -35%;
+  }
+  .mhacks-mid-content-business {
+    width: 270px;
+    margin-left: 20%;
+  }
+  .mhacks-mid-mission-sec-bg {
+    display: none;
+  }
+  .mhacks-mid-mission-content {
+    width: 450px;
+    margin-bottom: 250px;
+  }
+  .contact-form {
+    width: 350px;
+  }
+  .mhacks-last-contact-input-bg {
+    display: none;
+  }
+  .mhacks-last-contact-input {
+    width: 175%;
+  }
+  .mhacks-last-contact-textarea {
+    width: 175%;
+  }
+  .mhacks-last-contact-btn {
+    width: 175%;
+  }
+  .mhacks-mid-mission-text {
+    padding-left: 38vw;
+    width: 385px;
+  }
+  .mhacks-mid-mission-content {
+    margin-left: 10vw;
+  }
+  .mhacks-mid-team-header {
+    margin-top: -36%;
+  }
+  .alan {
+    margin-right: 14px;
+  }
+  .dani {
+    margin-right: -10px;
+  }
+  .kavi {
+    margin-right: -56px;
+  }
+  .andria {
+    margin-right: -71px;
+  }
+}
+@media screen and (max-width: 594px) {
+  .mhacks-top-header {
+    margin-left: 43%;
+  }
+  .mhacks-top-para {
+    margin-left: 27vw;
+  }
+}
+@media screen and (max-width: 584px) {
+  .mhacks-mid-ft-text {
+    margin-top: 28vw;
+  }
+}
+@media screen and (max-width: 571px) {
+  .alan {
+    margin-right: 7px;
+  }
+  .dani {
+    margin-right: -8px;
+  }
+  .mhacks-mid-team-card-other-pic {
+    width: 40px;
+    height: 40px;
+  }
+  .james {
+    margin-right: -23px;
+  }
+  .kavi {
+    margin-right: -34px;
+  }
+  .andria {
+    margin-right: -7vw;
+  }
+}
+@media screen and (max-width: 566px) {
+  .mhacks-mid-ft-text {
+    margin-top: 31vw;
+  }
+}
+
+@media screen and (max-width: 557px) {
+  .alan {
+    margin-right: 6px;
+  }
+  .dani {
+    margin-right: -18px;
+  }
+  .james {
+    margin-right: -39px;
+  }
+  .kavi {
+    margin-right: -60px;
+  }
+  .andria {
+    margin-right: -14vw;
+  }
+}
+@media screen and (max-width: 552px) {
+  .mhacks-top-header {
+    margin-left: 30%;
+  }
+  .mhacks-top-para {
+    margin-left: 22vw;
+  }
+  .mhacks-top-btn {
+    margin-left: 34vw;
+  }
+  .mhacks-mid-ft-text {
+    margin-top: 33vw;
+  }
+}
+@media screen and (max-width: 544px) {
+  .mhacks-mid-ft-text {
+    margin-top: 85%;
+  }
+}
+@media screen and (max-width: 542px) {
+  .mhacks-mid-content-business {
+    margin-top: -100vw;
+  }
+}
+@media screen and (max-width: 530px) {
+  .mhacks-mid-ft-text {
+    margin-top: 97%;
+  }
+}
+@media screen and (max-width: 510px) {
+  .mhacks-mid-ft-text {
+    margin-top: 108%;
+  }
+}
+@media screen and (max-width: 496px) {
+  .mhacks-mid-ft-text {
+    margin-top: 120%;
+  }
+}
+@media screen and (max-width: 484px) {
+  .mhacks-top-header {
+    margin-left: 7vw;
+  }
+  .mhacks-top-para {
+    margin-left: 18vw;
+  }
+  .mhacks-top-btn {
+    margin-left: 30vw;
+  }
+}
+@media screen and (max-width: 482px) {
+  .mhacks-mid-content-business {
+    margin-top: -107vw;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mhacks-mid-ft-text {
+    margin-top: 151%;
+  }
+}
+@media screen and (max-width: 466px) {
+  .mhacks-top-header {
+    margin-left: 4vw;
+  }
+  .mhacks-top-para {
+    margin-left: 15vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  .dani {
+    margin-right: -7px;
+  }
+  .james {
+    margin-right: -24px;
+  }
+  .kavi {
+    margin-right: -44px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .mhacks-mid-mission-content {
+    width: 372px;
+  }
+  .mhacks-last-contact-input-header {
+    margin-top: 25%;
+  }
+  .mhacks-last-contact-input {
+    width: 120%;
+  }
+  .mhacks-last-contact-textarea {
+    width: 120%;
+  }
+  .mhacks-last-contact-btn {
+    width: 120%;
+  }
+  .mhacks-mid-ft-text {
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 7vw;
+  }
+}
+@media screen and (max-width: 426px) {
+  .mhacks-mid-content-business {
+    margin-top: -117vw;
+  }
+  .mhacks-mid-mission-content {
+    margin-left: 3vw;
+  }
+  .mhacks-mid-mission-text {
+    padding-left: 31vw;
+  }
+  .mhacks-top-para {
+    margin-top: -2vw;
+    margin-left: 13vw;
+  }
+  .mhacks-top-btn {
+    margin-top: 30%;
+  }
+  .mhacks-mid-content {
+    margin-left: -23%;
+  }
+  .mhacks-mid-header {
+    margin-left: 2%;
+  }
+  .mhacks-mid-content-pic {
+    margin-right: -16vw;
+  }
+  .mhacks-mid-content-business {
+    margin-left: -1vw;
+  }
+  .dani {
+    margin-right: -12px;
+  }
+  .james {
+    margin-right: -29px;
+  }
+  .kavi {
+    margin-right: -47px;
+  }
+  .mhacks-footer-about {
+    margin-left: -5vw;
+  }
+  .community-side-footer {
+    margin-left: 5vw;
+  }
+  .mhacks-top-header {
+    margin-left: -1vw;
+  }
+  .mhacks-hire-btn {
+    margin-left: 4vw;
+    margin-top: 69vw;
+    margin-bottom: 15vw;
+  }
+  .mhacks-footer-title {
+    font-size: 1.3em;
+  }
+  .mhacks-footer-content {
+    font-size: 0.9em;
+  }
+  .mhacks-footer-policies {
+    font-size: 0.9em;
+    margin-left: 5vw;
+    margin-top: -0.9vw;
+  }
+  .mhacks-footer-community {
+    margin-left: 5vw;
+  }
+}
+@media screen and (max-width: 415px) {
+  .mhacks-top-para {
+    width: 306px;
+    margin-left: 8vw;
+    margin-top: -14vw;
+  }
+  .logo {
+    margin-left: -20vw;
+  }
+  .mhacks-mid-team-card-pic {
+    width: 150px;
+    height: 150px;
+  }
+  .mhacks-mid-team-card-pic-quote {
+    font-size: 0.91em;
+  }
+  .mhacks-mid-team-card-pic-name {
+    font-size: 1.2em;
+  }
+  .mhacks-mid-team-card-pic-position {
+    font-size: 1em;
+  }
+  .mhacks-top-btn {
+    margin-top: 2vw;
+    margin-left: 25vw;
+  }
+  .mhacks-mid-header {
+    margin-left: -2%;
+  }
+  .mhacks-mid-content {
+    width: 270px;
+    line-height: 2em;
+    margin-left: -40%;
+  }
+  .mhacks-mid-content-pic {
+    height: 239px;
+    width: 230px;
+    float: right;
+    margin-right: -35%;
+  }
+  .mhacks-mid-content-business {
+    width: 270px;
+    margin-left: -5%;
+  }
+  .mhacks-mid-mission-sec-bg {
+    display: none;
+  }
+  .mhacks-mid-mission-content {
+    width: 320px;
+    margin-bottom: 195px;
+  }
+  .mhacks-last-contact-header {
+    margin-top: 10%;
+    margin-right: 8%;
+  }
+  .mhacks-last-contact-input-bg {
+    display: none;
+  }
+  .contact-form {
+    width: 350px;
+  }
+  .mhacks-last-contact-input-header {
+    margin-top: 20%;
+    margin-bottom: 10%;
+  }
+  .mhacks-top-header {
+    width: 409px;
+    font-size: 1.9em;
+    margin-left: 1vw;
+    margin-top: -30vw;
+  }
+  .mhacks-mid-ft-text {
+    margin-top: 24%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .mhacks-last-contact-input {
+    width: 115%;
+  }
+  .mhacks-last-contact-textarea {
+    width: 115%;
+  }
+  .mhacks-last-contact-btn {
+    width: 115%;
+  }
+}
+@media screen and (max-width: 412px) {
+  .mhacks-register-btn {
     margin-left: 15%;
   }
-  .mhacks-hire-btn{
+  .mhacks-hire-btn {
     margin-top: 6vw;
   }
-  .business-pic{
+  .business-pic {
     margin-top: 73vw;
   }
-  .mhacks-mid-content-pic{
+  .mhacks-mid-content-pic {
     margin-right: -55%;
   }
-  .mhacks-top-btn{
+  .mhacks-top-btn {
     margin-left: 29vw;
     margin-top: 9vw;
   }
-  .mhacks-tp1{
+  .mhacks-tp1 {
     margin-left: -0.1vw;
   }
-  .mhacks-tp{
+  .mhacks-tp {
     margin-left: 1vw;
   }
-  .logo{
+  .logo {
     margin-top: -10vw;
   }
-  .mhacks-top-header{
+  .mhacks-top-header {
     margin-top: -28vw;
   }
-  .mhacks-top-para{
+  .mhacks-top-para {
     margin-top: -10vw;
   }
-  .mhacks-mid-header{
+  .mhacks-mid-header {
     padding-top: 30%;
   }
-  .mhacks-mid-content{
+  .mhacks-mid-content {
     margin-top: 27vw;
   }
-  .mhacks-mid-content-business{
+  .mhacks-mid-content-business {
     margin-top: -131vw;
   }
-  .mhacks-mid-mission-text{
+  .mhacks-mid-mission-text {
     margin-left: 25vw;
     width: 200px;
   }
-  .mhacks-mid-mission-content{
+  .mhacks-mid-mission-content {
     margin-left: 7vw;
   }
-  .alan{
+  .alan {
     margin-right: 20px;
   }
-  .dani{
+  .dani {
     margin-right: 2px;
   }
-  .james{
+  .james {
     margin-right: -15px;
   }
-  .kavi{
+  .kavi {
     margin-right: -34px;
   }
-  .andria{
+  .andria {
     margin-right: -12vw;
   }
-  .mhacks-last-contact-input-header{
+  .mhacks-last-contact-input-header {
     margin-top: 39%;
   }
-  .mhacks-last-contact-input{
+  .mhacks-last-contact-input {
     margin-top: -7vw;
   }
 }
-@media screen and (max-width: 401px){
-  .mhacks-mid-ft-text{
+@media screen and (max-width: 401px) {
+  .mhacks-mid-ft-text {
     margin-top: 45%;
   }
 }
-@media screen and (max-width: 397px){
-  .mhacks-last-contact-input{
+@media screen and (max-width: 397px) {
+  .mhacks-last-contact-input {
     width: 110%;
   }
-  .mhacks-last-contact-textarea{
+  .mhacks-last-contact-textarea {
     width: 110%;
   }
-  .mhacks-last-contact-btn{
+  .mhacks-last-contact-btn {
     width: 110%;
   }
 }
-@media screen and (max-width: 390px){
-  .mhacks-top-header{
+@media screen and (max-width: 390px) {
+  .mhacks-top-header {
     font-size: 1.8em;
   }
 }
-@media screen and (max-width: 386px){
-  .mhacks-last-contact-input{
+@media screen and (max-width: 386px) {
+  .mhacks-last-contact-input {
     width: 110%;
   }
-  .mhacks-mid-team-header{
+  .mhacks-mid-team-header {
     margin-top: -40%;
   }
-  .mhacks-mid-ft-text{
+  .mhacks-mid-ft-text {
     margin-top: 55%;
   }
 }
-@media screen and (max-width: 383px){
-  .mhacks-mid-content-business{
+@media screen and (max-width: 383px) {
+  .mhacks-mid-content-business {
     margin-top: -127vw;
   }
 }
-@media screen and (max-width: 381px){
-  .mhacks-last-contact-input{
+@media screen and (max-width: 381px) {
+  .mhacks-last-contact-input {
     width: 105%;
   }
-  .mhacks-last-contact-textarea{
+  .mhacks-last-contact-textarea {
     width: 105%;
   }
-  .mhacks-last-contact-btn{
+  .mhacks-last-contact-btn {
     width: 105%;
   }
-  .mhacks-last-contact-header{
+  .mhacks-last-contact-header {
     margin-top: 8%;
   }
 }
 
-@media screen and (max-width: 376px){
-  .mhacks-mid-team-header{
+@media screen and (max-width: 376px) {
+  .mhacks-mid-team-header {
     margin-top: -41%;
   }
-  .mhacks-last-contact-input{
+  .mhacks-last-contact-input {
     width: 97%;
   }
-  .mhacks-last-contact-textarea{
+  .mhacks-last-contact-textarea {
     width: 97%;
   }
-  .mhacks-last-contact-btn{
+  .mhacks-last-contact-btn {
     width: 97%;
   }
-  .mhacks-footer-title{
+  .mhacks-footer-title {
     font-size: 1.25em;
   }
-  .mhacks-footer-community{
+  .mhacks-footer-community {
     font-size: 1.25em;
   }
-  .mhacks-mid-content-business{
+  .mhacks-mid-content-business {
     margin-top: -152vw;
   }
-  .business-pic{
+  .business-pic {
     margin-top: 89vw;
   }
-  .mhacks-last-contact-input{
+  .mhacks-last-contact-input {
     margin-left: 5vw;
   }
-  .mhacks-last-contact-textarea{
+  .mhacks-last-contact-textarea {
     margin-left: 5vw;
   }
-  .mhacks-last-contact-btn{
+  .mhacks-last-contact-btn {
     margin-left: 5vw;
   }
-  .mhacks-top-btn{
+  .mhacks-top-btn {
     margin-left: 26vw;
   }
-  .mhacks-register-btn{
+  .mhacks-register-btn {
     margin-left: 10%;
   }
-  .mhacks-mid-content-pic{
+  .mhacks-mid-content-pic {
     margin-right: -46%;
   }
-  .mhacks-footer-about{
+  .mhacks-footer-about {
     margin-left: -5vw;
   }
-  .community-side-footer{
+  .community-side-footer {
     margin-left: 5vw;
   }
 }
-@media screen and (max-width: 370px){
-  .mhacks-top-header{
+@media screen and (max-width: 370px) {
+  .mhacks-top-header {
     font-size: 1.7em;
   }
 }
-@media screen and (max-width: 361px){
-  .mhacks-mid-ft-text{
+@media screen and (max-width: 361px) {
+  .mhacks-mid-ft-text {
     margin-top: 77%;
   }
-  .mhacks-mid-mission-text{
+  .mhacks-mid-mission-text {
     width: 297px;
     margin-left: -10vw;
   }
-  .mhacks-last-contact-textarea{
+  .mhacks-last-contact-textarea {
     margin-top: -3vw;
   }
-  .mhacks-mid-mission-content{
+  .mhacks-mid-mission-content {
     margin-left: 2vw;
   }
-  .mhacks-mid-content-business{
+  .mhacks-mid-content-business {
     margin-top: -156vw;
   }
-  .mhacks-hire-btn{
+  .mhacks-hire-btn {
     margin-top: 5vw;
   }
-  .business-pic{
+  .business-pic {
     margin-top: 87vw;
   }
-  .mhacks-top-header{
+  .mhacks-top-header {
     margin-left: 0vw;
   }
-  .mhacks-tp{
+  .mhacks-tp {
     margin-left: -3vw;
   }
-  .mhacks-tp1{
+  .mhacks-tp1 {
     margin-left: -4.1vw;
   }
-  .mhacks-top-btn{
+  .mhacks-top-btn {
     margin-left: 25vw;
   }
 }
-@media screen and (max-width: 354px){
-  .mhacks-mid-content-business{
+@media screen and (max-width: 354px) {
+  .mhacks-mid-content-business {
     margin-top: -134vw;
   }
-  .mhacks-top-header{
+  .mhacks-top-header {
     font-size: 1.6em;
   }
-  .mhacks-top-para{
+  .mhacks-top-para {
     margin-left: 4vw;
   }
-  .mhacks-top-btn{
+  .mhacks-top-btn {
     margin-left: 22vw;
   }
 }
-@media screen and (max-width: 350px){
-  .mhacks-mid-ft-text{
+@media screen and (max-width: 350px) {
+  .mhacks-mid-ft-text {
     margin-top: 91%;
   }
 }
-@media screen and (max-width: 336px){
-  .mhacks-mid-content-business{
+@media screen and (max-width: 336px) {
+  .mhacks-mid-content-business {
     margin-top: -144vw;
   }
-  .business-pic{
+  .business-pic {
     margin-top: 75vw;
   }
 }
-@media screen and (max-width: 334px){
-  .mhacks-mid-ft-text{
+@media screen and (max-width: 334px) {
+  .mhacks-mid-ft-text {
     margin-top: 55vw;
   }
-  .mhacks-top-header{
+  .mhacks-top-header {
     font-size: 1.5em;
   }
-  .mhacks-top-para{
+  .mhacks-top-para {
     margin-left: 2vw;
   }
 }
-@media screen and (max-width: 321px){
-  .mhacks-mid-mission-text{
+@media screen and (max-width: 321px) {
+  .mhacks-mid-mission-text {
     width: 281px;
     margin-left: -12vw;
   }
-  .mhacks-mid-mission-content{
+  .mhacks-mid-mission-content {
     width: 270px;
   }
-  .mhacks-top-header{
+  .mhacks-top-header {
     margin-top: -22vw;
     margin-left: 1vw;
   }
-  .mhacks-mid-header{
+  .mhacks-mid-header {
     padding-top: 54%;
   }
-  .mhacks-mid-content{
+  .mhacks-mid-content {
     margin-top: 50vw;
   }
-  .mhacks-top-btn{
+  .mhacks-top-btn {
     margin-left: 30vw;
     height: 34px;
     width: 100px;
     padding: 7px;
   }
-  .mhacks-register-btn{
+  .mhacks-register-btn {
     margin-left: 5vw;
   }
-  .mhacks-top-para{
+  .mhacks-top-para {
     margin-left: -1vw;
     margin-top: -3vw;
   }
-  .mhacks-top-btn{
+  .mhacks-top-btn {
     margin-top: 16vw;
   }
-  .mhacks-mid-content{
+  .mhacks-mid-content {
     margin-left: -50%;
   }
-  .mhacks-mid-content-pic{
+  .mhacks-mid-content-pic {
     margin-right: -37%;
   }
-  .logo{
+  .logo {
     margin-top: -35vw;
   }
-  .mhacks-last-contact-input{
+  .mhacks-last-contact-input {
     width: 88%;
   }
-  .alan{
+  .alan {
     margin-right: 30px;
   }
-  .dani{
+  .dani {
     margin-right: 5px;
   }
-  .james{
-    margin-right: -14px; 
+  .james {
+    margin-right: -14px;
   }
-  .kavi{
+  .kavi {
     margin-right: -31px;
   }
-  .mhacks-last-footer-bg{
+  .mhacks-last-footer-bg {
     margin-top: 13%;
   }
-  .mhacks-mid-header{
+  .mhacks-mid-header {
     margin-left: -8%;
   }
-  .mhacks-mid-header-business{
+  .mhacks-mid-header-business {
     margin-right: -2%;
   }
-  .mhacks-mid-content-business{
+  .mhacks-mid-content-business {
     margin-left: -14%;
     margin-top: -171vw;
   }
-  .mhacks-last-contact-textarea{
+  .mhacks-last-contact-textarea {
     width: 88%;
   }
-  .mhacks-last-contact-btn{
+  .mhacks-last-contact-btn {
     width: 88%;
   }
-  .mhacks-mid-ft-text{
+  .mhacks-mid-ft-text {
     margin-left: -7vw;
   }
-  .mhacks-footer-policies{
+  .mhacks-footer-policies {
     font-size: 0.8em;
   }
-  .mhacks-footer-content{
+  .mhacks-footer-content {
     font-size: 0.8em;
   }
-  .business-pic{
+  .business-pic {
     margin-top: 93vw;
   }
-  .mhacks-tp{
+  .mhacks-tp {
     margin-left: 0vw;
   }
-  .mhacks-tp1{
+  .mhacks-tp1 {
     margin-left: -1.1vw;
   }
 }
-@media screen and (max-width: 315px){
-  .mhacks-mid-content-business{
+@media screen and (max-width: 315px) {
+  .mhacks-mid-content-business {
     margin-top: -153vw;
   }
 }
-@media screen and (max-width: 305px){
-  .mhacks-mid-ft-text{
+@media screen and (max-width: 305px) {
+  .mhacks-mid-ft-text {
     margin-top: 62vw;
   }
-  .mhacks-mid-header{
+  .mhacks-mid-header {
     font-size: 1.9em;
   }
 }
