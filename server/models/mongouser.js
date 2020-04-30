@@ -1,6 +1,6 @@
-const mongoose = require('mongoose')
+const mongoose = require("mongoose");
 
-const Schema = mongoose.Schema
+const Schema = mongoose.Schema;
 
 const contactschema = new Schema({
   name: {
@@ -10,43 +10,43 @@ const contactschema = new Schema({
     type: String,
   },
   phoneno: {
-    type: Number
+    type: Number,
   },
   description: {
-    type: String
-  }
-})
+    type: String,
+  },
+});
 
 const registerschema = new Schema({
   student_name: {
-    type: String
+    type: String,
   },
   student_email: {
-    type: String
+    type: String,
   },
   college: {
-    type: String
+    type: String,
   },
   branch: {
-    type: String
+    type: String,
   },
   year: {
-    type: Number
+    type: Number,
   },
   mobno: {
-    type: Number
+    type: Number,
   },
   area_of_interest: {
-    type: String
+    type: String,
   },
   hobbies: {
-    type: String
-  }
-})
+    type: String,
+  },
+});
 
-const contact = mongoose.model('contactmodel', contactschema)
-const register = mongoose.model('registermodel', registerschema)
+const contact = mongoose.model("contactmodel", contactschema);
+const register = mongoose.model("registermodel", registerschema);
 module.exports = {
   contact,
-  register
-}
+  register,
+};
