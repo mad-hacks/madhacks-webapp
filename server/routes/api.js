@@ -7,7 +7,7 @@ const {
 
 const app = express()
 
-mail.setApiKey('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')
+mail.setApiKey(process.env.API_KEY)
 
 app.post('/contact', (req, res) => {
   contact.create(req.body).then(() => {
@@ -17,8 +17,8 @@ app.post('/contact', (req, res) => {
   })
 
   const msg = {
-    to: 'mathewalan84@gmail.com',
-    from: 'mathewalan84@gmail.com',
+    to: process.env.USER,
+    from: process.env.USER,
     subject: 'Contact Section',
     text: 'Name: ' + JSON.stringify(req.body.name) + ', Email: ' + JSON.stringify(req.body.email) + ', Phone No: ' + JSON.stringify(req.body.phoneno) + ', Description: ' + JSON.stringify(req.body.description)
   }
@@ -34,8 +34,8 @@ app.post('/register', (req, res) => {
   })
 
   const mesg = {
-    to: 'mathewalan84@gmail.com',
-    from: 'mathewalan84@gmail.com',
+    to: process.env.USER,
+    from: process.env.USER,
     subject: 'Register Section',
     text: 'Name: ' + JSON.stringify(req.body.student_name) + ', Email: ' + JSON.stringify(req.body.student_email) + ', College: ' + JSON.stringify(req.body.college) + ', Branch: ' + JSON.stringify(req.body.branch) + ', Year:' + JSON.stringify(req.body.year) + ', Mobile No: ' + JSON.stringify(req.body.mobno) + ', Interest: ' + JSON.stringify(req.body.area_of_interest) + ', Hobbies: ' + JSON.stringify(req.body.hobbies)
   }

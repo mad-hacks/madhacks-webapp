@@ -3,6 +3,7 @@ const bodyparser = require('body-parser')
 const mongoose = require('mongoose')
 const morgan = require('morgan')
 const cors = require('cors')
+const dotEnvConfig = require('dotenv').config()
 
 const app = express()
 
@@ -14,7 +15,7 @@ app.use(cors())
 app.use(morgan('combined'))
 
 
-mongoose.connect('mongodb://alan:alan123@ds111192.mlab.com:11192/madhacks')
+mongoose.connect(process.env.DB_URL)
   .catch((err) => {
     console.error('eror: ' + err.stack)
     process.exit(1)
