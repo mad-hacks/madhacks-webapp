@@ -1,7 +1,10 @@
 <template>
   <div>
     <!-- Individual member info -->
-    <div>
+    <div
+      :class="{ 'animated zoomIn': animate }"
+      @animationend="animate = false"
+    >
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <center>
@@ -60,7 +63,7 @@
             <img
               src="../../assets/images/alan.jpg"
               tabindex="0"
-              @click="selectedIdx = 2"
+              @click="showInfo(2)"
               class="mhacks-mid-team-card-other-pic alan"
             />
           </div>
@@ -68,7 +71,7 @@
             <img
               src="../../assets/images/dani.jpg"
               tabindex="0"
-              @click="selectedIdx = 3"
+              @click="showInfo(3)"
               class="mhacks-mid-team-card-other-pic dani"
             />
           </div>
@@ -76,7 +79,7 @@
             <img
               src="../../assets/images/james.jpg"
               tabindex="0"
-              @click="selectedIdx = 0"
+              @click="showInfo(0)"
               class="mhacks-mid-team-card-other-pic james"
             />
           </div>
@@ -84,7 +87,7 @@
             <img
               src="../../assets/images/kavi.jpg"
               tabindex="0"
-              @click="selectedIdx = 1"
+              @click="showInfo(1)"
               class="mhacks-mid-team-card-other-pic kavi"
             />
           </div>
@@ -92,7 +95,7 @@
             <img
               src="../../assets/images/andria.jpg"
               tabindex="0"
-              @click="selectedIdx = 4"
+              @click="showInfo(4)"
               class="mhacks-mid-team-card-other-pic andria"
             />
           </div>
@@ -109,6 +112,7 @@ export default {
     return {
       selectedIdx: 0,
       img: 'james.jpg',
+      animate: false,
       memberDetails: [
         {
           name: 'James George',
@@ -141,6 +145,13 @@ export default {
           pic: 'andria.jpg'
         }
       ]
+    }
+  },
+  methods: {
+    // prettier-ignore
+    showInfo (id) {
+      this.selectedIdx = id
+      this.animate = true
     }
   }
 }
