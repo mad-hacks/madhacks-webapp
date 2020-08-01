@@ -643,33 +643,7 @@ export default {
           window.location.reload()
         )
         .catch((err) => console.log(err))
-      console.log('Done')
     }
-    /* registerForm: function () {
-          let registerData = {
-          name: this.student_name,
-          email: this.student_email,
-          college: this.college,
-          branch: this.branch,
-          year: this.year,
-          mobno: this.mobno,
-          area_of_interest: this.area_of_interest,
-          hobbies: this.hobbies
-        }
-        console.log(registerData)
-        axios.post('http://localhost:4000/api/register',
-          registerData,
-          { headers: {
-            'Content-type': 'application/json'
-          }
-          })
-          .then(response =>
-            console.log(response),
-          alert('Stay alert!'),
-          window.location.reload()
-          )
-          .catch(err => console.log(err))
-      } */
   },
   components: {
     Team,
