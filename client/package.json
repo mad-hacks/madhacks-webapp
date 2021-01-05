@@ -15,7 +15,7 @@
     "format": "prettier src/**/*.{vue,css} *.md --write"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "vue": "^2.5.2",
     "vue-axios": "^2.1.2",
     "vue-in-viewport-directive": "^1.1.4",
